@@ -1,0 +1,26 @@
+# Frozen before Phase 1.5 analysis; Phase 1.4 scoring definitions are unchanged.
+phase14_config_sha256: 14e070fbdc40aff039bf9851577c16a9f430f018a00568d3d5252e6a9475f2cc
+subjects: [sub01, sub02]
+methods: [jaccard_k5, jaccard_k10, jaccard_k20, row_spearman, reciprocal_rank_weighted_jaccard]
+models: [dinov2, clip, mean_models]
+primary_exploratory_candidate: row_spearman/mean_models
+selection_budgets: [10, 20, 40, 60, 100]
+permutations: 1000
+brain_independent_seed: 2026101501
+brain_shared_seed: 2026101502
+score_label_seed: 2026101503
+repetition_split_seed: 20261011
+repetition_splits: 30
+brain_null_independent: independently permute each full Brain RDM's rows and columns together, recompute scores against fixed model RDMs
+brain_null_shared: apply the same row/column permutation to both full Brain RDMs, recompute scores against fixed model RDMs
+score_null: permute subject/half B scores, then reapply identical stable image-ID tie breaking; descriptive shortlist reference, not evidence of brain specificity
+chance_adjustment: (observed overlap fraction - median null overlap fraction) / (1 - median null overlap fraction)
+model_only_controls:
+  - dinov2_clip_row_disagreement
+  - dinov2_mean_nearest20_cosine_distance
+  - clip_mean_nearest20_cosine_distance
+  - dinov2_mean_nonself_cosine_distance
+  - clip_mean_nonself_cosine_distance
+partial_association: Pearson correlation of ranked EEG scores after OLS residualization on an intercept and the five ranked, standardized model-only covariates; compare against recomputed brain-permutation residual correlations
+uncertainty: empirical repetition-split and permutation quantiles, not population confidence intervals
+inference: exploratory, two subjects, conditional on shared official MVNN; no causal or predictive claim

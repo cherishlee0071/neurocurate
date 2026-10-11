@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "name": "sub-01/",
+      "flags": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "local_header_offset": 0
+    },
+    {
+      "name": "sub-01/preprocessed_eeg_test.npy",
+      "flags": 8,
+      "compression_method": 8,
+      "crc32": "8ef08aa5",
+      "compressed_bytes": 208634917,
+      "uncompressed_bytes": 217601432,
+      "local_header_offset": 69
+    },
+    {
+      "name": "sub-01/preprocessed_eeg_training.npy",
+      "flags": 8,
+      "compression_method": 8,
+      "crc32": "78b762a9",
+      "compressed_bytes": 863086926,
+      "uncompressed_bytes": 899777433,
+      "local_header_offset": 208635096
+    }
+  ],
+  "test_member": {
+    "name": "sub-01/preprocessed_eeg_test.npy",
+    "flags": 8,
+    "compression_method": 8,
+    "crc32": "8ef08aa5",
+    "compressed_bytes": 208634917,
+    "uncompressed_bytes": 217601432,
+    "local_header_offset": 69
+  },
+  "compressed_payload_range": {
+    "start": 163,
+    "end": 208635079,
+    "fetched": false
+  },
+  "metadata_bytes_read": 425,
+  "ranges": [
+    {
+      "start": 1071722445,
+      "end": 1071722466,
+      "bytes": 22,
+      "content_range": "bytes 1071722445-1071722466/1071722467",
+      "redirects": [
+        {
+          "host": "osf.io",
+          "status": 302
+        },
+        {
+          "host": "files.de-1.osf.io",
+          "status": 302
+        },
+        {
+          "host": "storage.googleapis.com",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "start": 1071722136,
+      "end": 1071722444,
+      "bytes": 309,
+      "content_range": "bytes 1071722136-1071722444/1071722467",
+      "redirects": [
+        {
+          "host": "osf.io",
+          "status": 302
+        },
+        {
+          "host": "files.de-1.osf.io",
+          "status": 302
+        },
+        {
+          "host": "storage.googleapis.com",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "start": 69,
+      "end": 98,
+      "bytes": 30,
+      "content_range": "bytes 69-98/1071722467",
+      "redirects": [
+        {
+          "host": "osf.io",
+          "status": 302
+        },
+        {
+          "host": "files.de-1.osf.io",
+          "status": 302
+        },
+        {
+          "host": "storage.googleapis.com",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "start": 99,
+      "end": 162,
+      "bytes": 64,
+      "content_range": "bytes 99-162/1071722467",
+      "redirects": [
+        {
+          "host": "osf.io",
+          "status": 302
+        },
+        {
+          "host": "files.de-1.osf.io",
+          "status": 302
+        },
+        {
+          "host": "storage.googleapis.com",
+          "status": 206
+        }
+      ]
+    }
+  ],
+  "etag": "\"09de4551754e18fec51e6500d64b4bb0\"",
+  "archive_sha256_verified": false,
+  "member_sha256_verified": false,
+  "member_crc32_verified": false,
+  "inspected_at_utc": "2026-10-11T10:10:39.787865+00:00",
+  "source_api": "https://api.osf.io/v2/files/62f6b4ff170d520c73c27c1e/",
+  "official_download_url": "https://osf.io/download/nb8wr/",
+  "osf_file_id": "62f6b4ff170d520c73c27c1e",
+  "archive_bytes": 1071722467,
+  "published_sha256": "f25d5ea30ba6811edd7ebd460d7b271edaf527b6920ab2d3d6e7950e9ee9639f",
+  "published_md5": "09de4551754e18fec51e6500d64b4bb0",
+  "source_version": null,
+  "osf_metadata_response_bytes": 2158,
+  "disk_free_bytes": 32034488320,
+  "host_memory_available_bytes": 34903105536,
+  "host_memory_total_bytes": 35743784960,
+  "cgroup_memory_max": 34359738368,
+  "cgroup_memory_current": 145272832,
+  "storage_estimates": {
+    "common": {
+      "stimulus_zip_bytes": 8129948,
+      "extracted_stimulus_bytes": 8084268,
+      "image_metadata_bytes": 656579,
+      "output_budget_bytes": 134217728,
+      "reserve_bytes": 1073741824
+    },
+    "full_zip_peak_bytes": 2514154246,
+    "range_staged_peak_bytes": 1651066696,
+    "range_streamed_peak_bytes": 1442431779,
+    "external_export_local_peak_bytes": 1442431779,
+    "external_source_peak_bytes": 2514154246,
+    "processing_memory_provisional_budget_bytes": 4294967296,
+    "memory_budget_verified_on_real_eeg": false
+  }
+}

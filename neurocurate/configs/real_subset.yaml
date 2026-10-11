@@ -1,0 +1,29 @@
+# Execute from the repository root. Requires explicit verified-pickle approval.
+acquisition_manifest: results/real_phase0/sub01/acquisition_manifest.json
+image_root: data/local/real_phase0/stimuli
+output_dir: results/phase1/smoke
+# Explicit original EEG-axis indices, never selected by sorted filenames.
+subset_eeg_indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+preprocessing:
+  time_window: [0.1, 0.5]
+  baseline: null  # Official arrays already baseline-corrected and whitened.
+  temporal_bins: null
+  min_repetitions: 80
+  standardize: false
+brain_metric: correlation
+vision_metric: cosine
+vision:
+  dinov2:
+    revision: f9e44c814b77203eaa57a6bdbbd535f21ede1415
+    cache_dir: /workspace/setup/neurocurate/model_cache
+    local_files_only: true
+    batch_size: 4
+    device: cpu
+    normalize: true
+  clip:
+    revision: 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268
+    cache_dir: /workspace/setup/neurocurate/model_cache
+    local_files_only: true
+    batch_size: 4
+    device: cpu
+    normalize: true

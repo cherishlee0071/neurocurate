@@ -1,0 +1,27 @@
+brain_metric: correlation
+conditional_on_shared_preprocessing: true
+k_values:
+- 5
+- 10
+- 20
+original_split: test
+permutation_seed: 1337
+permutations: 1000
+preprocessing:
+  baseline: null
+  channels: null
+  min_repetitions: 40
+  standardize: false
+  temporal_bins: null
+  time_window:
+  - 0.1
+  - 0.5
+primary_visualization_k: 10
+repetition_splits: 30
+repository_split: sanity
+session_independent: false
+split_seed: 20261011
+subject: sub-01
+uncertainty: "empirical 2.5\u201397.5% random-split variability interval, not a population\
+  \ confidence interval"
+vision_metric: cosine

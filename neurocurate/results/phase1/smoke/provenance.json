@@ -1,0 +1,39 @@
+{
+  "subject": "sub-01",
+  "split": "sanity",
+  "acquisition_manifest": "results/real_phase0/sub01/acquisition_manifest.json",
+  "original_split": "test",
+  "eeg_export_sha256": "08e52b18caf46b8504beb4edaadef025f114eaea25ab1f4eb8c5f9114c56ebff",
+  "metadata_sha256": "681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c",
+  "preprocessing": {
+    "time_window": [
+      0.1,
+      0.5
+    ],
+    "baseline": null,
+    "channels": null,
+    "temporal_bins": null,
+    "min_repetitions": 80,
+    "standardize": false
+  },
+  "shared_whitening_limitation": "official MVNN uses both training/test partitions and all repetitions",
+  "reliability": "not estimated in this small integration audit",
+  "training_performed": false,
+  "output_sha256": {
+    "clip_rdm.npy": "7b8ce4505701bf0e4e618e02727c4b3f4027b42d5d21a1e7ddcf5d7ee9c84211",
+    "eeg_features_200.npy": "920b6e4b6a4c87b1f70dd43044358a6637ca01c0faf4e65d7b8976ff43d30549",
+    "eeg_features.npy": "b3be7af38c6e96ef331dc5061dd54e21c5ec8d5774e917d0a6581223724b39de",
+    "clip_features.npz": "877ec76e3ca21eee672f0bcd5386da1d2c85d2cc818df2b14b0ad47d00beadf1",
+    "config.yaml": "d2bf2da45fc630aa4035531eca72b441c619220f6e935c172d3bb071b8b8b4bc",
+    "brain_rdm_200.npy": "a217fa18dc858d28c11408eb0700ccf12118eaa24c69411067f7d855bb0bc08c",
+    "all_split_metadata_manifest.csv": "f2d493e579d27ef37379345bcd4ebf00c7fce23a6f7521a988f1c72f2a33f11c",
+    "dinov2_rdm.npy": "aa0bc1881e8a728f5055948125d71d0c5305372980859122e9a086a10d2ccf8f",
+    "image_ids.npy": "7c36282e2a5b9a6784502fbe64a9bda9cf95076639cbb4d7b98952262f961489",
+    "image_alignment_report.json": "6f8b6cb6b9f07d70382a02d1015acdfbabb736722db82b6dcfa58b3032f2ff4c",
+    "test_image_mapping.csv": "9a262b7699ae954968fa1e102e1a37a36b9dd4b8fe00579b6309ad144705ffd9",
+    "dinov2_features.npz": "e82d64d8ffd6db420c00cb584463e8d54a9c2ec5508e40898bdf65fa3def8426",
+    "brain_rdm.npy": "e0c37db910996164cc76ac357ef766e27cdf1346ba1d50d445a7251352b031fb",
+    "all_image_ids.npy": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0",
+    "eeg_shape_report.json": "a7edee4fa33da86e125f4e5d93d742cbed9b0af21c914e0db5fb2ab12bff6a40"
+  }
+}

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=78", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurocurate"
+version = "0.1.0"
+description = "Image-level EEG and frozen-vision neighborhood disagreement research"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2.0,<3", "scipy>=1.13,<2", "pandas>=2.2,<4",
+  "PyYAML>=6,<7", "matplotlib>=3.9,<4", "Pillow>=10,<13",
+  "torch>=2.2,<3", "transformers>=4.45,<5", "mne>=1.8,<2", "requests>=2.32,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+data = ["eegdash>=0.9,<1"]
+
+[project.scripts]
+neurocurate = "neurocurate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

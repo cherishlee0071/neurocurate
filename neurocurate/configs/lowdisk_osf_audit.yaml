@@ -1,0 +1,33 @@
+# This is intentionally blocked: the official inventory lists subject archives,
+# not a standalone preprocessed_eeg_test.npy. Do not replace null sizes by guesses.
+manifest: ../data/local/sanity_images.csv
+work_dir: ../data/local/owned_downloads
+output_dir: ../outputs/osf-lowdisk-001
+reserve_bytes: 1073741824
+subject_output_budget_bytes: 67108864
+availability_blockers:
+  - Official test-only EEG array is not individually listed; stop before acquisition.
+source_inventory:
+  - name: official_subject_01_archive_alternative
+    url: https://osf.io/download/nb8wr/
+    bytes: 1071722467
+    sha256: f25d5ea30ba6811edd7ebd460d7b271edaf527b6920ab2d3d6e7950e9ee9639f
+    note: Includes train and test; extraction size unknown; alternative only, not a download declaration.
+  - name: official_test_stimuli_archive
+    url: https://osf.io/download/znu7b/
+    bytes: 8129948
+    sha256: 57ed472cd88f68ccf88e9ecbadf3da91ac222d8548684d5680be95bcf47ec14a
+  - name: official_image_metadata
+    url: https://osf.io/download/qkgtf/
+    bytes: 656579
+    sha256: 681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c
+subjects:
+  - id: sub-01
+    trusted_pickle: true
+    eeg:
+      path: ../data/local/owned_downloads/sub-01/preprocessed_eeg_test.npy
+      url: null
+      bytes: null
+      sha256: null
+      temporary: true
+vision_features: {}

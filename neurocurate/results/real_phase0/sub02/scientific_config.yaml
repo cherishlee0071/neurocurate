@@ -1,0 +1,42 @@
+subjects:
+- sub01
+- sub02
+preprocessing:
+  baseline: null
+  channels: null
+  min_repetitions: 40
+  standardize: false
+  temporal_bins: null
+  time_window:
+  - 0.1
+  - 0.5
+channel_policy: all 17 supplied posterior/occipital channels, identical names/order
+  required
+brain_metric: correlation
+vision_metric: cosine
+k_values:
+- 5
+- 10
+- 20
+split_seed: 20261011
+permutation_seed: 1337
+repetition_splits: 30
+permutations: 1000
+top_n: 20
+methods:
+  jaccard: 1 - set Jaccard of nearest-neighbor sets at K=5/10/20
+  reciprocal_rank_weighted_jaccard: All 199 nonself neighbors; assign weight 1/rank
+    normalized by H_199; disagreement = 1 - sum(min(brain_weight, model_weight))/sum(max(brain_weight,
+    model_weight)). Neighbor-distance ties break by stable image ID. No fitted bandwidth
+    or cutoff.
+  row_spearman: (1 - Spearman correlation of the two RDM rows excluding self) / 2
+aggregation: equal-weight mean of DINOv2 and CLIP per-image disagreements
+tie_policy: average score ranks for Spearman; stable image-ID tie-break for Top-20
+null: permute image labels, then reapply the identical ranking/tie rule; 1000 permutations
+inference: exploratory, conditional on shared official whitening; not session-independent
+selection_policy: no final metric selection from subject-02; report all methods and
+  models
+vision_revisions:
+  clip: 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268
+  dinov2: f9e44c814b77203eaa57a6bdbbd535f21ede1415
+subject: sub02

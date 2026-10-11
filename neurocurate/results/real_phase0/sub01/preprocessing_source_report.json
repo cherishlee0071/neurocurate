@@ -1,0 +1,55 @@
+{
+  "commit": "101997d4f14c41b615bcaf8c0907740106d260c5",
+  "author_repository": "https://github.com/gifale95/eeg_encoding",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/README.md",
+      "path": "outputs/real-phase0-source/README.md",
+      "bytes": 3594,
+      "sha256": "69b81d16d7a8cd040b566e9b339b5b4bdbdd21191f0ef77f6eee0501f9637cdc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/02_eeg_preprocessing/preprocessing.py",
+      "path": "outputs/real-phase0-source/preprocessing.py",
+      "bytes": 3087,
+      "sha256": "be6cc0e79d7370cff2565f5375e7fed86fa95f4c6458175de0c0f0e4bdf0b9d4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/02_eeg_preprocessing/preprocessing_utils.py",
+      "path": "outputs/real-phase0-source/preprocessing_utils.py",
+      "bytes": 9116,
+      "sha256": "aefb7b34c593798e07d1d41ea297e6ed06609da6727cc9b07d92de5f8a51ae8c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/03_dnn_feature_maps_extraction/extract_feature_maps_alexnet.py",
+      "path": "outputs/real-phase0-source/extract_feature_maps_alexnet.py",
+      "bytes": 4530,
+      "sha256": "8dcb281793e567e53ec891ae27ef13b0c0a7c60d4c46e6569a17156901eceaef"
+    }
+  ],
+  "source_scope": "author code evidence only; actual EEG tensor not deserialized",
+  "documented_axes": [
+    "image conditions",
+    "EEG repetitions",
+    "EEG channels",
+    "EEG time points"
+  ],
+  "documented_defaults": {
+    "sampling_rate_hz": 100,
+    "epoch_seconds": [
+      -0.2,
+      0.8
+    ],
+    "baseline_seconds": [
+      -0.2,
+      0
+    ],
+    "sessions": 4,
+    "repetitions_per_image_per_session": 20
+  },
+  "ordering": "epoching sorts np.unique numeric event conditions; exact event-to-image mapping still requires metadata verification",
+  "preprocessing": "session-wise MVNN uses covariance averaged across BOTH training and test partitions",
+  "repetition_provenance": "20 selected test repetitions/session, merged across four sessions and deterministically shuffled with seed 20200220; session labels not saved in test dictionary",
+  "reliability_limitation": "random halves share a whitening transform estimated using all repetitions; descriptive reliability cannot establish strictly independent preprocessing",
+  "training_evaluation_limitation": "official preprocessed test and training partitions share fitted covariance; avoid held-out claims with these arrays"
+}

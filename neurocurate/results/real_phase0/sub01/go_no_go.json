@@ -1,0 +1,10 @@
+{
+  "decision": "GO",
+  "scope": "subject-02 exploratory replication/reliability only",
+  "rdm_median_spearman": 0.7065068915453616,
+  "rdm_permutation_p": 0.000999000999000999,
+  "ranking_repeatability": "moderate; shortlist tied and unstable",
+  "conditional_on_shared_preprocessing": true,
+  "session_independent": false,
+  "subject02_downloaded": false
+}

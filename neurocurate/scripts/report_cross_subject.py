@@ -1,0 +1,53 @@
+"""Write the scientific report and output hashes from completed real analyses."""
+import json
+from pathlib import Path
+import pandas as pd
+from neurocurate.lowdisk import sha256
+
+root=Path('results/real_phase0/cross_subject_01_02')
+rdm=json.loads((root/'cross_subject_rdm.json').read_text())
+scores=json.loads((root/'cross_subject_disagreement.json').read_text())
+frame=pd.read_csv(root/'scoring_ablation.csv')
+reliability=rdm['within_subject_repetition_reliability']
+rows=[]
+for _,r in frame.iterrows():
+    rows.append(f"| {r['method']} | {r['model']} | {r['sub01_within_rank_median']:.3f} | {r['sub02_within_rank_median']:.3f} | {r['cross_subject_spearman']:.3f} | {int(r['cross_subject_top20_shared'])}/20 | {r['cross_subject_top20_null_median']:.2f} | {r['cross_subject_top20_p']:.4f} | {int(r['sub01_top20_boundary_ties'])}/{int(r['sub02_top20_boundary_ties'])} |")
+primary=scores['results']['jaccard_k10/mean_models']
+lines=['# Phase 1.4: real subject-01/02 replication','',
+       '**GO for a limited, prospectively specified expansion to additional subjects. NO-GO for treating the current Top-20 as a validated curation list or starting training/OOD evaluation.**',
+       '', '## Acquisition and frozen replication', '',
+       'Only the official standard subject-02 ZIP was downloaded. OSF API metadata, obtained separately over verified TLS, specified 1,071,516,660 bytes and SHA256 `e1eba2d74009c6dd41becf53d84b8d47532103b41110a5855e7e286bcca6fe41`. The complete downloaded archive matched both. This is complete archive verification, not a Range/metadata-only claim. Release file version 1, dated 2022-08-12.',
+       '', 'Only `sub-02/preprocessed_eeg_test.npy` was extracted: 217,601,432 bytes, ZIP-compressed size 208,591,064 bytes, SHA256 `e5ff0774a83beb49366a73c73fb04c9e692d5ab1f80c3d57c9fd1ff6e110d791`; ZIP CRC verification passed. The source ZIP and NPY are retained. The previously verified metadata and 200 stimulus JPEGs were reused; no training EEG, new images, new checkpoint, or additional subject was acquired.',
+       '', 'The object-array conversion ran as UID 1000 in the same descriptor-only, default-deny seccomp process as subject-01. Before deserialization, filesystem-open, network-socket, and process-creation probes were denied. Input hashes were checked both in the parent and confined child. Limits: 4 GiB address space, 120 CPU seconds, 512 MiB/output; parent timeout 150 seconds. All subsequent NumPy loads use `allow_pickle=False`.',
+       '', 'Both actual EEG tensors are float64 `(200,80,17,100)` with 80 repetitions/image, 17 identical posterior channel names in identical order, 100 Hz and identical times −0.20 to 0.79 s. All values are finite. Exact numeric condition order maps to 200 distinct stimulus files, identical across subjects, with no missing/duplicate IDs or metadata train/test overlap. This is protocol-derived mapping corroborated by pinned official event-sorting code; raw trial-to-event roundtrip and session labels are unavailable.',
+       '', 'Predeclared protocol: `configs/cross_subject_01_02.yaml`, SHA256 `14e070fbdc40aff039bf9851577c16a9f430f018a00568d3d5252e6a9475f2cc`, frozen before subject-02 acquisition. The subject-01 baseline was reproduced without tuning: all 17 supplied channels; [100,500) ms; no extra baseline, bins, or standardization; trial average; 680 features; correlation Brain RDM; cosine model RDM; pinned DINOv2/CLIP embeddings reused for all 200 identical images. K=5/10/20, 30 random disjoint 40/40 repetition splits, seeds 20261011/1337, 1,000 image-label permutations. Subject-01 numeric outputs and original report hashes remain intact.',
+       '', '## Brain RDM replication', '']
+for s,info in reliability.items():
+    lo,hi=info['statistics']['random_split_95_percentile_interval']
+    nl,nh=info['permutation']['null_95_percentile_interval']
+    lines.append(f"- {s}: median split-half Spearman **{info['statistics']['median']:.4f}**, empirical split interval [{lo:.4f}, {hi:.4f}]. Median-null interval [{nl:.4f}, {nh:.4f}], one-sided Monte Carlo p={info['permutation']['one_sided_monte_carlo_p']:.6f}.")
+p=rdm['image_label_permutation']
+lines += ['',f"Full 80-repetition subject-01 versus subject-02 Brain RDM Spearman **{rdm['cross_subject_spearman']:.4f}** across 19,900 unique image pairs; image-label null interval [{p['null_95_percentile_interval'][0]:.4f}, {p['null_95_percentile_interval'][1]:.4f}], p={p['one_sided_monte_carlo_p']:.6f}. Both 200×200 RDMs are finite, symmetric, zero-diagonal, and independently reproducible from saved numeric features.",
+          '', 'The between-subject correlation is numerically lower than both within-subject repetition-split correlations. These are different estimands, and full RDMs use 80 repetitions while halves use 40. Cross-subject correlation is not split-half reliability, a session-independent estimate, or a noise ceiling.',
+          '', '## Disagreement and predeclared ablation', '',
+          'All methods are reported separately for DINOv2, CLIP, and their equal-weight score mean. Row-rank disagreement is `(1−Spearman(nonself RDM rows))/2`. Reciprocal-rank weighted Jaccard uses all 199 nonself neighbors with normalized weights 1/rank and no fitted cutoff. No final metric was selected from subject-02.',
+          '', '| Method | Model | Within 01 ρ | Within 02 ρ | Cross ρ | Shared Top-20 | Tie-aware null overlap fraction | Top-20 p | Cutoff ties 01/02 |',
+          '|---|---|---:|---:|---:|---:|---:|---:|---:|',*rows,
+          '', 'Within columns are median score-ranking Spearman across the same 30 independent repetition halves. Exact per-split statistics, empirical intervals, full score distributions, tie counts, within-subject Top-20 overlap and nulls are in `cross_subject_disagreement.json`; all 6,000 image-level scores are in `image_level_scores.csv`. Average ranks are used for score ties. Top-20 uses stable image-ID tie-breaking; nulls permute scores and then reapply that same rule. Distance ties also use stable image IDs.',
+          '', f"The original K=10 mean-model baseline has within-subject ranking medians {primary['subjects']['sub01']['spearman']['median']:.3f}/{primary['subjects']['sub02']['spearman']['median']:.3f}, cross-subject ranking ρ={primary['cross_subject_spearman']:.3f}, and {primary['top20_shared_images']}/20 shared images (tie-aware Top-20 p={primary['tie_aware_top20_permutation']['one_sided_monte_carlo_p']:.4f}). Its cutoff tie sizes are 29/32. DINOv2 and CLIP baseline cross-ranking correlations are 0.233/0.505; their Top-20 overlaps (9/20 and 5/20) are not above their tie-aware nulls at the unadjusted 0.05 level.",
+          '', 'K=5 mean-model shares 10/20, but its tie-aware null median is also 10/20 (p=0.546): the apparent overlap is explained by massive score ties and the shared ID rule. K=20 mean-model ranking correlates across subjects (ρ=0.480), yet its Top-20 overlap is only 2/20 (p=0.651). Global ranking repeatability therefore does not guarantee shortlist repeatability.',
+          '', 'Row-rank mean-model disagreement is less tied and more stable in this two-subject experiment (within ρ=0.855/0.802, cross ρ=0.744; Top-20 6/20, p=0.006). Reciprocal-rank weighting gives within ρ=0.633/0.629 and cross ρ=0.554, but its mean-model Top-20 overlap of 4/20 is not distinguishable from its null (p=0.122). These are exploratory comparisons, not a post hoc selection of a winner. CLIP-based ranking is more stable than DINOv2 in the reported conditions; the shared fixed model geometry may contribute to cross-subject score correlation.',
+          '', '## Inference limits and decision', '',
+          'All p-values are exploratory, one-sided, unadjusted Monte Carlo values; minimum resolution is 1/1001. Repeated random splits overlap across reruns, so their 2.5–97.5% intervals measure split variability, not independent-subject population uncertainty. Image-label permutation preserves complete RDM geometry; score nulls preserve each observed score distribution and ties. Correlated RDM edges are not treated as independent samples.',
+          '', '**Every reliability and brain–model result is conditional on the supplied official shared MVNN whitening.** Its covariance estimation used training/test data and repetitions together. Disjoint halves have independent repetition assignments, but do not have independently fitted preprocessing and may share sessions. Metadata split identity is preserved, yet this release cannot support a claim of strict preprocessing leakage-free held-out training or session-independent reliability. Training image pixels were not downloaded, so cross-split pixel-hash aliases were not audited.',
+          '', 'GO: replicate the same frozen protocol on a small prospectively specified set of additional subjects before fitting or selecting any scoring method. The real Brain RDM signal and cross-subject ranking evidence justify this limited scientific expansion. Keep all predeclared methods and tie-aware nulls; assess shortlists separately from global rankings. NO-GO: train a classifier, claim OOD benefit, promote this two-subject Top-20 into a validated curation rule, or acquire all remaining subjects. Independently fitted/session-separated preprocessing requires raw data or an appropriate new official export.',
+          '', 'No remaining acquisition, exact-mapping, numeric-export, or Brain-RDM blocker was encountered. The remaining blockers concern session-independent inference, preprocessing leakage, generalization beyond two subjects, and stable shortlist selection. No further subject acquisition occurred in this task.', '']
+(root/'scientific_summary.md').write_text('\n'.join(lines))
+subject=root.parent/'sub02'
+(subject/'scientific_summary.md').write_text('# Subject-02 frozen replication\n\nSee ../cross_subject_01_02/scientific_summary.md for the complete report.\n\n'+f"Real EEG: (200,80,17,100), float64, 200 exactly aligned images. Median conditional split-half RDM Spearman {reliability['sub02']['statistics']['median']:.4f}; permutation p=0.000999. Cross-subject Brain RDM Spearman {rdm['cross_subject_spearman']:.4f}. No session-independent claim.\n")
+paths=[p for p in root.iterdir() if p.is_file() and p.name not in ['verified_outputs.json','analysis.log']]
+verified=dict(outputs={p.name:dict(bytes=p.stat().st_size,sha256=sha256(p)) for p in sorted(paths)},
+    subject02_outputs={p.name:dict(bytes=p.stat().st_size,sha256=sha256(p)) for p in subject.iterdir() if p.is_file()},
+    pickle_free_only=True)
+(root/'verified_outputs.json').write_text(json.dumps(verified,indent=2)+'\n')
+print(root/'scientific_summary.md')

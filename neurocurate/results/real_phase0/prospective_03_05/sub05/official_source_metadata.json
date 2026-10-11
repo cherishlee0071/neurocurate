@@ -1,0 +1,108 @@
+{
+  "data": {
+    "id": "62f6b7085775130b6bf252d5",
+    "type": "files",
+    "attributes": {
+      "guid": "2cn7v",
+      "checkout": null,
+      "name": "sub-05.zip",
+      "kind": "file",
+      "path": "/62f6b7085775130b6bf252d5",
+      "size": 1072655693,
+      "provider": "osfstorage",
+      "materialized_path": "/sub-05.zip",
+      "last_touched": null,
+      "date_modified": "2022-08-12T20:24:41.027671",
+      "date_created": "2022-08-12T20:24:41.027671Z",
+      "extra": {
+        "hashes": {
+          "md5": "b868caa76788197611672dea62b7c428",
+          "sha256": "d353e154e840ff9c07b2de19db2105626df4bc556313365cff392dd56d8df40e"
+        },
+        "downloads": 7353
+      },
+      "tags": [],
+      "current_user_can_comment": false,
+      "current_version": 1,
+      "show_as_unviewed": false
+    },
+    "relationships": {
+      "parent_folder": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/files/60d49277a7c0b000b18b38fe/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "60d49277a7c0b000b18b38fe",
+          "type": "files"
+        }
+      },
+      "versions": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/files/62f6b7085775130b6bf252d5/versions/",
+            "meta": {}
+          }
+        }
+      },
+      "comments": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/anp5v/comments/?filter%5Btarget%5D=2cn7v",
+            "meta": {}
+          }
+        }
+      },
+      "node": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/anp5v/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "anp5v",
+          "type": "nodes"
+        }
+      },
+      "target": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/anp5v/",
+            "meta": {
+              "type": "nodes"
+            }
+          }
+        },
+        "data": {
+          "type": "nodes",
+          "id": "anp5v"
+        }
+      },
+      "cedar_metadata_records": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/files/62f6b7085775130b6bf252d5/cedar_metadata_records/",
+            "meta": {}
+          }
+        }
+      }
+    },
+    "links": {
+      "info": "https://api.osf.io/v2/files/62f6b7085775130b6bf252d5/",
+      "move": "https://files.de-1.osf.io/v1/resources/anp5v/providers/osfstorage/62f6b7085775130b6bf252d5",
+      "upload": "https://files.de-1.osf.io/v1/resources/anp5v/providers/osfstorage/62f6b7085775130b6bf252d5",
+      "delete": "https://files.de-1.osf.io/v1/resources/anp5v/providers/osfstorage/62f6b7085775130b6bf252d5",
+      "download": "https://osf.io/download/2cn7v/",
+      "render": "https://mfr.de-1.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F2cn7v%2F%3Fdirect%26mode%3Drender",
+      "html": "https://osf.io/anp5v/files/osfstorage/62f6b7085775130b6bf252d5",
+      "self": "https://api.osf.io/v2/files/62f6b7085775130b6bf252d5/",
+      "iri": "https://osf.io/2cn7v"
+    }
+  },
+  "meta": {
+    "version": "2.0"
+  }
+}

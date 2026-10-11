@@ -1,0 +1,20 @@
+# Safe canonical NPZ input. Feature caches must carry image_ids, split,
+# model_name and JSON provenance; no inferred ordering is accepted.
+manifest: ../data/local/images.csv
+split: sanity
+subjects:
+  - {id: sub-01, eeg: ../data/local/sub-01.npz}
+  - {id: sub-02, eeg: ../data/local/sub-02.npz}
+preprocessing:
+  baseline: [-0.1, 0.0]
+  time_window: [0.0, 0.5]
+  temporal_bins: 20
+  min_repetitions: 2
+  standardize: false
+vision:
+  dinov2: {features: ../data/local/dinov2_features.npz}
+  clip: {features: ../data/local/clip_features.npz}
+rdm: {brain_metric: correlation, vision_metric: cosine}
+scoring: {k: 10, model_weights: {dinov2: 0.5, clip: 0.5}}
+visualization: {enabled: true, top_n: 10}
+output_dir: ../outputs/cached-sanity-001

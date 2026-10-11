@@ -1,0 +1,10 @@
+{
+  "subject": "sub-01",
+  "file_and_extraction_count": 204,
+  "all_sizes_sha256_rechecked": true,
+  "training_eeg_extracted": false,
+  "all_verified_inputs_preserved": true,
+  "alignment_verified": false,
+  "real_eeg_tensor_loaded": false,
+  "real_brain_rdm_computed": false
+}

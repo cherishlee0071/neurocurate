@@ -1,0 +1,46 @@
+# Paths are relative to this config file. Copy and customize before execution.
+manifest: ../data/local/images.csv
+split: sanity
+subjects:
+  - id: sub-01
+    eeg: ../data/local/sub-01/preprocessed_eeg_test.npy
+    trusted_pickle: true  # Only for official files obtained from a trusted source.
+  - id: sub-02
+    eeg: ../data/local/sub-02/preprocessed_eeg_test.npy
+    trusted_pickle: true
+preprocessing:
+  time_window: [0.0, 0.5]
+  baseline: [-0.1, 0.0]
+  channels: [O1, O2, Oz, PO3, PO4, PO7, PO8, POz]
+  temporal_bins: 20
+  min_repetitions: 2
+  standardize: false
+rdm:
+  brain_metric: correlation
+  vision_metric: cosine
+vision:
+  dinov2:
+    checkpoint: facebook/dinov2-base
+    revision: f9e44c814b77203eaa57a6bdbbd535f21ede1415
+    batch_size: 4
+    device: cpu
+    normalize: true
+    local_files_only: true  # Change only when intentionally fetching model weights.
+    cache_dir: /workspace/setup/neurocurate/model_cache
+  clip:
+    checkpoint: openai/clip-vit-base-patch32
+    revision: 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268
+    batch_size: 4
+    device: cpu
+    normalize: true
+    local_files_only: true
+    cache_dir: /workspace/setup/neurocurate/model_cache
+scoring:
+  k: 10
+  model_weights: {dinov2: 0.5, clip: 0.5}
+visualization:
+  enabled: true
+  top_n: 10
+# Selects only vision images; EEG files are already local, not downloaded.
+max_images: 100
+output_dir: ../outputs/things-sanity-001

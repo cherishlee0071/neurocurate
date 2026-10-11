@@ -1,0 +1,33 @@
+{
+  "sub01": {
+    "subject": "sub01",
+    "status": "discovery_verified",
+    "analysis_status": "verified"
+  },
+  "sub02": {
+    "subject": "sub02",
+    "status": "discovery_verified",
+    "analysis_status": "verified"
+  },
+  "sub03": {
+    "subject": "sub03",
+    "status": "verified_numeric_export",
+    "started_at_utc": "2026-10-11T13:10:32.831557+00:00",
+    "available_disk_after_bytes": 27501789184,
+    "analysis_status": "verified"
+  },
+  "sub04": {
+    "subject": "sub04",
+    "status": "verified_numeric_export",
+    "started_at_utc": "2026-10-11T13:10:32.866871+00:00",
+    "available_disk_after_bytes": 27720318976,
+    "analysis_status": "verified"
+  },
+  "sub05": {
+    "subject": "sub05",
+    "status": "verified_numeric_export",
+    "started_at_utc": "2026-10-11T13:10:32.508824+00:00",
+    "available_disk_after_bytes": 28255592448,
+    "analysis_status": "verified"
+  }
+}

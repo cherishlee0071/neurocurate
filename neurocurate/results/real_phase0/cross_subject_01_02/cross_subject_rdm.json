@@ -1,0 +1,132 @@
+{
+  "subjects": [
+    "sub01",
+    "sub02"
+  ],
+  "image_count": 200,
+  "image_order_sha256": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0",
+  "cross_subject_spearman": 0.5495432459821784,
+  "image_label_permutation": {
+    "observed": 0.5495432459821784,
+    "null_median": -0.00153419572858998,
+    "null_95_percentile_interval": [
+      -0.05081967261520493,
+      0.04813498163564549
+    ],
+    "one_sided_monte_carlo_p": 0.000999000999000999
+  },
+  "within_subject_repetition_reliability": {
+    "sub01": {
+      "statistics": {
+        "median": 0.7065068915453616,
+        "random_split_95_percentile_interval": [
+          0.6774594078606642,
+          0.7235964799660619
+        ]
+      },
+      "permutation": {
+        "observed": 0.7065068915453616,
+        "null_median": -7.733219423281379e-05,
+        "null_95_percentile_interval": [
+          -0.048927460524746454,
+          0.04692939411634127
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "repetition_splits": 30,
+      "repetitions_per_half": 40,
+      "split_spearman": [
+        0.7255303524234712,
+        0.7156162107789984,
+        0.686231097353386,
+        0.6886901161509338,
+        0.7050648137923002,
+        0.6974870754758604,
+        0.7067964516353705,
+        0.7084742372734149,
+        0.6895302926447155,
+        0.6957284116454847,
+        0.7062173314553528,
+        0.7220692641466946,
+        0.7078828790530858,
+        0.6997827366698492,
+        0.6988503332905429,
+        0.709872265927813,
+        0.7123438052254203,
+        0.7228629421373894,
+        0.7043423830067248,
+        0.7140777062594028,
+        0.6834779914893795,
+        0.7118587850783918,
+        0.7175806677441469,
+        0.6791660380500777,
+        0.6987853525877702,
+        0.7181675594014535,
+        0.7111898751524697,
+        0.6729601100885739,
+        0.7019749074451448,
+        0.7122712231232927
+      ],
+      "conditional_on_shared_preprocessing": true,
+      "session_independent": false,
+      "uncertainty": "empirical random-split variability interval; not a population confidence interval"
+    },
+    "sub02": {
+      "statistics": {
+        "median": 0.6465589058053229,
+        "random_split_95_percentile_interval": [
+          0.6251021147628921,
+          0.6693788634767152
+        ]
+      },
+      "permutation": {
+        "observed": 0.6465589058053229,
+        "null_median": -0.0016778910979216226,
+        "null_95_percentile_interval": [
+          -0.034956430652946936,
+          0.038974692223553854
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "repetition_splits": 30,
+      "repetitions_per_half": 40,
+      "split_spearman": [
+        0.6341380689837596,
+        0.6665285120113228,
+        0.6390743900489771,
+        0.6220879388594128,
+        0.6404704427977315,
+        0.6468253718972157,
+        0.6495937992945607,
+        0.6316748313327869,
+        0.6316328758412266,
+        0.6720190595361064,
+        0.6500309695975668,
+        0.6572692517022698,
+        0.6357041516984321,
+        0.6262454228642118,
+        0.668377409799015,
+        0.6505503717087944,
+        0.6476537266581269,
+        0.6431888361866221,
+        0.6495925654746413,
+        0.6462924397134303,
+        0.6400730132927017,
+        0.6450400741695267,
+        0.660773343290959,
+        0.6635768995530896,
+        0.6669217087314991,
+        0.6602312356452347,
+        0.6523165463058199,
+        0.6368206654053491,
+        0.6290031148420522,
+        0.6452196924588942
+      ],
+      "conditional_on_shared_preprocessing": true,
+      "session_independent": false,
+      "uncertainty": "empirical random-split variability interval; not a population confidence interval"
+    }
+  },
+  "interpretation": "Cross-subject correlation is distinct from split-half reliability; no session-independent inference.",
+  "conditional_on_shared_preprocessing": true
+}

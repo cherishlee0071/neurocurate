@@ -1,0 +1,19 @@
+{
+  "standard": {
+    "passed": 140,
+    "skipped": 15,
+    "seconds": 14.87,
+    "network_access": false
+  },
+  "phase15_real_numeric": {
+    "passed": 4,
+    "seconds": 2.33,
+    "network_access": false,
+    "pickle_deserialization": false
+  },
+  "new_synthetic_controls": {
+    "passed": 5,
+    "seconds": 0.64
+  },
+  "old_direct_pickle_tests_enabled": false
+}

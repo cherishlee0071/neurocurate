@@ -1,0 +1,23 @@
+{
+  "statistics": {
+    "primary_shared": {
+      "exceedances": 11,
+      "permutations": 1000,
+      "monte_carlo_p": 0.011988011988011988,
+      "binomial_tail_probability_95_interval": [
+        0.005503594192313587,
+        0.019596628222016514
+      ]
+    },
+    "partial_shared": {
+      "exceedances": 47,
+      "permutations": 1000,
+      "monte_carlo_p": 0.04795204795204795,
+      "binomial_tail_probability_95_interval": [
+        0.03473506226679596,
+        0.06201263069330515
+      ]
+    }
+  },
+  "interpretation": "Binomial uncertainty of sampled permutation tail probabilities, not effect/population confidence intervals; no extra permutations or decision-rule changes"
+}

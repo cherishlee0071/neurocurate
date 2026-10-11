@@ -1,0 +1,202 @@
+[
+  {
+    "timestamp": 1791714367.8266423,
+    "free_disk_bytes": 31890616320,
+    "cgroup_memory_current": 402759680
+  },
+  {
+    "timestamp": 1791714377.8271701,
+    "free_disk_bytes": 31864397824,
+    "cgroup_memory_current": 429674496
+  },
+  {
+    "timestamp": 1791714387.8277385,
+    "free_disk_bytes": 31840243712,
+    "cgroup_memory_current": 454504448
+  },
+  {
+    "timestamp": 1791714397.8283954,
+    "free_disk_bytes": 31816126464,
+    "cgroup_memory_current": 479334400
+  },
+  {
+    "timestamp": 1791714407.829005,
+    "free_disk_bytes": 31792009216,
+    "cgroup_memory_current": 504434688
+  },
+  {
+    "timestamp": 1791714417.8320622,
+    "free_disk_bytes": 31766806528,
+    "cgroup_memory_current": 860024832
+  },
+  {
+    "timestamp": 1791714427.832587,
+    "free_disk_bytes": 31741624320,
+    "cgroup_memory_current": 579158016
+  },
+  {
+    "timestamp": 1791714437.8331661,
+    "free_disk_bytes": 31716458496,
+    "cgroup_memory_current": 605478912
+  },
+  {
+    "timestamp": 1791714447.833738,
+    "free_disk_bytes": 31691292672,
+    "cgroup_memory_current": 631169024
+  },
+  {
+    "timestamp": 1791714457.8343387,
+    "free_disk_bytes": 31665078272,
+    "cgroup_memory_current": 658079744
+  },
+  {
+    "timestamp": 1791714467.8353927,
+    "free_disk_bytes": 31639912448,
+    "cgroup_memory_current": 683909120
+  },
+  {
+    "timestamp": 1791714477.836004,
+    "free_disk_bytes": 31614746624,
+    "cgroup_memory_current": 686145536
+  },
+  {
+    "timestamp": 1791714487.836609,
+    "free_disk_bytes": 31588532224,
+    "cgroup_memory_current": 713019392
+  },
+  {
+    "timestamp": 1791714497.8375762,
+    "free_disk_bytes": 31564414976,
+    "cgroup_memory_current": 738045952
+  },
+  {
+    "timestamp": 1791714507.8381338,
+    "free_disk_bytes": 31540297728,
+    "cgroup_memory_current": 762847232
+  },
+  {
+    "timestamp": 1791714517.8387341,
+    "free_disk_bytes": 31515131904,
+    "cgroup_memory_current": 788520960
+  },
+  {
+    "timestamp": 1791714527.8395703,
+    "free_disk_bytes": 31488913408,
+    "cgroup_memory_current": 815874048
+  },
+  {
+    "timestamp": 1791714537.8401732,
+    "free_disk_bytes": 31464796160,
+    "cgroup_memory_current": 840687616
+  },
+  {
+    "timestamp": 1791714547.84076,
+    "free_disk_bytes": 31438581760,
+    "cgroup_memory_current": 867594240
+  },
+  {
+    "timestamp": 1791714557.8413284,
+    "free_disk_bytes": 31413415936,
+    "cgroup_memory_current": 893394944
+  },
+  {
+    "timestamp": 1791714567.8419182,
+    "free_disk_bytes": 31388246016,
+    "cgroup_memory_current": 919244800
+  },
+  {
+    "timestamp": 1791714577.8429735,
+    "free_disk_bytes": 31364128768,
+    "cgroup_memory_current": 1232191488
+  },
+  {
+    "timestamp": 1791714587.8440783,
+    "free_disk_bytes": 31338962944,
+    "cgroup_memory_current": 1001054208
+  },
+  {
+    "timestamp": 1791714597.8446934,
+    "free_disk_bytes": 31314845696,
+    "cgroup_memory_current": 1018163200
+  },
+  {
+    "timestamp": 1791714607.8453805,
+    "free_disk_bytes": 31289679872,
+    "cgroup_memory_current": 1044119552
+  },
+  {
+    "timestamp": 1791714617.8460612,
+    "free_disk_bytes": 31265562624,
+    "cgroup_memory_current": 1068929024
+  },
+  {
+    "timestamp": 1791714627.8466933,
+    "free_disk_bytes": 31240396800,
+    "cgroup_memory_current": 1094799360
+  },
+  {
+    "timestamp": 1791714637.8473413,
+    "free_disk_bytes": 31215230976,
+    "cgroup_memory_current": 1120661504
+  },
+  {
+    "timestamp": 1791714647.8479276,
+    "free_disk_bytes": 31191113728,
+    "cgroup_memory_current": 1145466880
+  },
+  {
+    "timestamp": 1791714657.8486125,
+    "free_disk_bytes": 31165947904,
+    "cgroup_memory_current": 1171218432
+  },
+  {
+    "timestamp": 1791714667.849555,
+    "free_disk_bytes": 31140769792,
+    "cgroup_memory_current": 1196859392
+  },
+  {
+    "timestamp": 1791714677.8502536,
+    "free_disk_bytes": 31116652544,
+    "cgroup_memory_current": 1221337088
+  },
+  {
+    "timestamp": 1791714687.8509321,
+    "free_disk_bytes": 31091486720,
+    "cgroup_memory_current": 1247674368
+  },
+  {
+    "timestamp": 1791714697.851668,
+    "free_disk_bytes": 31066320896,
+    "cgroup_memory_current": 1273540608
+  },
+  {
+    "timestamp": 1791714707.8523774,
+    "free_disk_bytes": 31042199552,
+    "cgroup_memory_current": 1297731584
+  },
+  {
+    "timestamp": 1791714717.8530002,
+    "free_disk_bytes": 31017033728,
+    "cgroup_memory_current": 1323843584
+  },
+  {
+    "timestamp": 1791714727.85456,
+    "free_disk_bytes": 30991867904,
+    "cgroup_memory_current": 1350041600
+  },
+  {
+    "timestamp": 1791714737.8554077,
+    "free_disk_bytes": 30967750656,
+    "cgroup_memory_current": 1374310400
+  },
+  {
+    "timestamp": 1791714747.856062,
+    "free_disk_bytes": 30954299392,
+    "cgroup_memory_current": 1386549248
+  },
+  {
+    "timestamp": 1791714757.856748,
+    "free_disk_bytes": 30726610944,
+    "cgroup_memory_current": 1540730880
+  }
+]

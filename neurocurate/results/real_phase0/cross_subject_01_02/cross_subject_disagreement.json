@@ -1,0 +1,4616 @@
+{
+  "results": {
+    "jaccard_k5/dinov2": {
+      "cross_subject_spearman": 0.20119884817094602,
+      "top20_overlap_fraction": 0.75,
+      "top20_shared_images": 15,
+      "rank_permutation": {
+        "observed": 0.20119884817094602,
+        "null_median": -0.0027657475513066963,
+        "null_95_percentile_interval": [
+          -0.14066401295105094,
+          0.14576767318808356
+        ],
+        "one_sided_monte_carlo_p": 0.003996003996003996
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.75,
+        "null_median": 0.65,
+        "null_95_percentile_interval": [
+          0.45,
+          0.85
+        ],
+        "one_sided_monte_carlo_p": 0.2037962037962038
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.28456870250221944,
+            "random_split_95_percentile_interval": [
+              0.1772409243702632,
+              0.4475772095490962
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.75,
+            "random_split_95_percentile_interval": [
+              0.65,
+              0.8637499999999999
+            ]
+          },
+          "rank_null": {
+            "observed": 0.28456870250221944,
+            "null_median": -0.00252154375766758,
+            "null_95_percentile_interval": [
+              -0.06433772728783592,
+              0.06833133191162373
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.75,
+            "null_median": 0.7,
+            "null_95_percentile_interval": [
+              0.6,
+              0.75
+            ],
+            "one_sided_monte_carlo_p": 0.11688311688311688
+          },
+          "raw_splits": {
+            "spearman": [
+              0.23976557359840617,
+              0.21882307247019323,
+              0.36220413332210805,
+              0.210293820080147,
+              0.30406849194690544,
+              0.2366099962037424,
+              0.2509998492906086,
+              0.3342013604634986,
+              0.23958772433897121,
+              0.2983793964464574,
+              0.35422697408123505,
+              0.1899473470428649,
+              0.44697344734798633,
+              0.26544361536348837,
+              0.29883789981895875,
+              0.4491689462611132,
+              0.27717164409304706,
+              0.3034702513844564,
+              0.21277430675578132,
+              0.24165979446146763,
+              0.3853421322654265,
+              0.14374217368794961,
+              0.41701286700252316,
+              0.29354126288087246,
+              0.25001472756938325,
+              0.24013001137298645,
+              0.3231841484555179,
+              0.34057016922700517,
+              0.29196576091139187,
+              0.26459600877582573
+            ],
+            "top20_overlap_fraction": [
+              0.65,
+              0.65,
+              0.85,
+              0.7,
+              0.8,
+              0.75,
+              0.65,
+              0.8,
+              0.65,
+              0.85,
+              0.8,
+              0.75,
+              0.9,
+              0.7,
+              0.8,
+              0.8,
+              0.85,
+              0.8,
+              0.7,
+              0.7,
+              0.75,
+              0.75,
+              0.75,
+              0.7,
+              0.75,
+              0.7,
+              0.65,
+              0.75,
+              0.8,
+              0.75
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5714285714285714,
+            "max": 1.0,
+            "mean": 0.9553769841269841,
+            "standard_deviation": 0.08317113608655921,
+            "quantiles": [
+              0.5714285714285714,
+              0.8888888888888888,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "unique_values": 4,
+            "tied_images": 200,
+            "tie_groups": 4,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 142,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00007_basil/basil_05s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00011_batter/batter_01b.jpg",
+              "test_images/00012_beaver/beaver_04s.jpg",
+              "test_images/00013_bench/bench_01b.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+              "test_images/00016_blowtorch/blowtorch_08s.jpg",
+              "test_images/00017_boat/boat_01b.jpg",
+              "test_images/00018_bok_choy/bok_choy_03s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00020_bottle_opener/bottle_opener_13s.jpg",
+              "test_images/00021_brace/brace_08s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.3005549043518584,
+            "random_split_95_percentile_interval": [
+              0.09516543958471887,
+              0.42482801448650404
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.75,
+            "random_split_95_percentile_interval": [
+              0.65,
+              0.85
+            ]
+          },
+          "rank_null": {
+            "observed": 0.3005549043518584,
+            "null_median": -0.003854965285943769,
+            "null_95_percentile_interval": [
+              -0.06222954231035956,
+              0.05928562796967031
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.75,
+            "null_median": 0.7,
+            "null_95_percentile_interval": [
+              0.6,
+              0.75
+            ],
+            "one_sided_monte_carlo_p": 0.1028971028971029
+          },
+          "raw_splits": {
+            "spearman": [
+              0.33037874515809,
+              0.41153053028639325,
+              0.2084164018669215,
+              0.2900239061544913,
+              0.2574339426510866,
+              0.24911654305934436,
+              0.06321933039214349,
+              0.37403346046239544,
+              0.32794827920617503,
+              0.287847753655637,
+              0.3019255324881185,
+              0.302154898087895,
+              0.4598850182867963,
+              0.30766700834017907,
+              0.36965538530424624,
+              0.3022829449562294,
+              0.31916873303059273,
+              0.3311264082617994,
+              0.26410488080203703,
+              0.21084260000674448,
+              0.2974336751414061,
+              0.27755598632601025,
+              0.334541072709103,
+              0.10728292927845437,
+              0.2841500934161521,
+              0.28508648967196676,
+              0.38224347460690566,
+              0.29918427621559834,
+              0.22488724455349154,
+              0.328764924812867
+            ],
+            "top20_overlap_fraction": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.7,
+              0.85,
+              0.7,
+              0.7,
+              0.75,
+              0.8,
+              0.65,
+              0.85,
+              0.8,
+              0.7,
+              0.7,
+              0.65,
+              0.7,
+              0.7,
+              0.75,
+              0.8,
+              0.75,
+              0.8,
+              0.75,
+              0.8,
+              0.7,
+              0.75,
+              0.7,
+              0.85,
+              0.65,
+              0.75
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.75,
+            "max": 1.0,
+            "mean": 0.9518055555555556,
+            "standard_deviation": 0.07029904706693058,
+            "quantiles": [
+              0.75,
+              0.8888888888888888,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "unique_values": 3,
+            "tied_images": 200,
+            "tie_groups": 3,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 127,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00007_basil/basil_05s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00011_batter/batter_01b.jpg",
+              "test_images/00012_beaver/beaver_04s.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+              "test_images/00016_blowtorch/blowtorch_08s.jpg",
+              "test_images/00017_boat/boat_01b.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00023_breadbox/breadbox_01b.jpg",
+              "test_images/00026_bullet/bullet_01s.jpg",
+              "test_images/00028_bush/bush_07s.jpg",
+              "test_images/00030_candlestick/candlestick_04s.jpg",
+              "test_images/00033_cat/cat_01b.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k10/dinov2": {
+      "cross_subject_spearman": 0.23317537593803755,
+      "top20_overlap_fraction": 0.45,
+      "top20_shared_images": 9,
+      "rank_permutation": {
+        "observed": 0.23317537593803755,
+        "null_median": 0.0022870090966247603,
+        "null_95_percentile_interval": [
+          -0.13721520675791743,
+          0.1380487165484292
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.45,
+        "null_median": 0.35,
+        "null_95_percentile_interval": [
+          0.15,
+          0.5
+        ],
+        "one_sided_monte_carlo_p": 0.16783216783216784
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.41832280073950207,
+            "random_split_95_percentile_interval": [
+              0.3188124118036733,
+              0.5130634263870596
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.5,
+            "random_split_95_percentile_interval": [
+              0.4,
+              0.6137499999999999
+            ]
+          },
+          "rank_null": {
+            "observed": 0.41832280073950207,
+            "null_median": -0.00226919474568159,
+            "null_95_percentile_interval": [
+              -0.07637218796665872,
+              0.08065714529535208
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.5,
+            "null_median": 0.32499999999999996,
+            "null_95_percentile_interval": [
+              0.25,
+              0.4
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.4475614465659605,
+              0.31698675590900816,
+              0.31950490197061526,
+              0.35909964341075606,
+              0.44028010951898,
+              0.41632653874389386,
+              0.3979423736697065,
+              0.4191284659264952,
+              0.4867016627920857,
+              0.42408490475431226,
+              0.5114497098240648,
+              0.45082528177516323,
+              0.3588066087028601,
+              0.4175171355525089,
+              0.4383353455759591,
+              0.4121112482594818,
+              0.44553718407111365,
+              0.36456946241750426,
+              0.39734058852295073,
+              0.3725107004399924,
+              0.45040617009549067,
+              0.3423494181138878,
+              0.5173177700531368,
+              0.4134769282779544,
+              0.4649814927245557,
+              0.4498788198156344,
+              0.47408088108847,
+              0.34106572345435443,
+              0.4083310213314426,
+              0.4290504781934651
+            ],
+            "top20_overlap_fraction": [
+              0.5,
+              0.65,
+              0.45,
+              0.55,
+              0.5,
+              0.55,
+              0.4,
+              0.45,
+              0.5,
+              0.6,
+              0.45,
+              0.45,
+              0.5,
+              0.45,
+              0.6,
+              0.6,
+              0.6,
+              0.55,
+              0.45,
+              0.5,
+              0.6,
+              0.5,
+              0.45,
+              0.55,
+              0.55,
+              0.55,
+              0.4,
+              0.5,
+              0.4,
+              0.55
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.75,
+            "max": 1.0,
+            "mean": 0.9337865497076026,
+            "standard_deviation": 0.06271381559995545,
+            "quantiles": [
+              0.75,
+              0.8888888888888888,
+              0.9473684210526316,
+              1.0,
+              1.0
+            ],
+            "unique_values": 5,
+            "tied_images": 200,
+            "tie_groups": 5,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 62,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00018_bok_choy/bok_choy_03s.jpg",
+              "test_images/00020_bottle_opener/bottle_opener_13s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00028_bush/bush_07s.jpg",
+              "test_images/00031_cart/cart_09s.jpg",
+              "test_images/00033_cat/cat_01b.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00042_chopsticks/chopsticks_11s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00047_coconut/coconut_01b.jpg",
+              "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+              "test_images/00061_cupcake/cupcake_11s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.3810913876867631,
+            "random_split_95_percentile_interval": [
+              0.27060004996554465,
+              0.45570741351413474
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.55,
+            "random_split_95_percentile_interval": [
+              0.43625,
+              0.7137499999999999
+            ]
+          },
+          "rank_null": {
+            "observed": 0.3810913876867631,
+            "null_median": -0.0013551041706959953,
+            "null_95_percentile_interval": [
+              -0.07333681794845227,
+              0.07366508517890373
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.55,
+            "null_median": 0.35,
+            "null_95_percentile_interval": [
+              0.25,
+              0.45
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.3499401932457768,
+              0.3845874935138478,
+              0.2618258683772963,
+              0.3800235845454575,
+              0.4106614288103075,
+              0.3875779670060788,
+              0.35893511714859533,
+              0.40068929563476813,
+              0.4201206322634785,
+              0.39706336533135034,
+              0.28332555512047597,
+              0.28936776334445896,
+              0.2818879333840659,
+              0.3592931843430861,
+              0.3437675714956663,
+              0.3821591908280687,
+              0.3603492388442364,
+              0.4500824830473221,
+              0.4464568278184048,
+              0.3762907947139727,
+              0.37136625383399363,
+              0.273928187809363,
+              0.39254943486110644,
+              0.42854093750444683,
+              0.4184065481042677,
+              0.3844695236172759,
+              0.47053677565391355,
+              0.42376885402848213,
+              0.3703416657764039,
+              0.35538315457277025
+            ],
+            "top20_overlap_fraction": [
+              0.45,
+              0.6,
+              0.5,
+              0.6,
+              0.55,
+              0.55,
+              0.45,
+              0.65,
+              0.55,
+              0.5,
+              0.55,
+              0.5,
+              0.5,
+              0.4,
+              0.5,
+              0.45,
+              0.55,
+              0.75,
+              0.6,
+              0.65,
+              0.45,
+              0.45,
+              0.55,
+              0.55,
+              0.5,
+              0.5,
+              0.5,
+              0.7,
+              0.6,
+              0.55
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6666666666666667,
+            "max": 1.0,
+            "mean": 0.9397501719986241,
+            "standard_deviation": 0.06527581033329703,
+            "quantiles": [
+              0.6666666666666667,
+              0.8888888888888888,
+              0.9473684210526316,
+              1.0,
+              1.0
+            ],
+            "unique_values": 6,
+            "tied_images": 199,
+            "tie_groups": 5,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 71,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00012_beaver/beaver_04s.jpg",
+              "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+              "test_images/00017_boat/boat_01b.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00028_bush/bush_07s.jpg",
+              "test_images/00030_candlestick/candlestick_04s.jpg",
+              "test_images/00033_cat/cat_01b.jpg",
+              "test_images/00035_cd_player/cd_player_02s.jpg",
+              "test_images/00037_chaps/chaps_18s.jpg",
+              "test_images/00041_chime/chime_08s.jpg",
+              "test_images/00042_chopsticks/chopsticks_11s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00060_crumb/crumb_12s.jpg",
+              "test_images/00062_dagger/dagger_06s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k20/dinov2": {
+      "cross_subject_spearman": 0.35440468497892663,
+      "top20_overlap_fraction": 0.4,
+      "top20_shared_images": 8,
+      "rank_permutation": {
+        "observed": 0.35440468497892663,
+        "null_median": -0.0010481751215210226,
+        "null_95_percentile_interval": [
+          -0.1421289771111429,
+          0.13412012985926414
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.4,
+        "null_median": 0.15,
+        "null_95_percentile_interval": [
+          0.04875000000000007,
+          0.3
+        ],
+        "one_sided_monte_carlo_p": 0.002997002997002997
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.4577584734360005,
+            "random_split_95_percentile_interval": [
+              0.3836391824066449,
+              0.5499853475490031
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.275,
+            "random_split_95_percentile_interval": [
+              0.13625,
+              0.46374999999999994
+            ]
+          },
+          "rank_null": {
+            "observed": 0.4577584734360005,
+            "null_median": 0.0011794833850850908,
+            "null_95_percentile_interval": [
+              -0.08331396150793259,
+              0.09276911220052811
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.275,
+            "null_median": 0.15,
+            "null_95_percentile_interval": [
+              0.1,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.45754709273534855,
+              0.43260064148438476,
+              0.38160826230311684,
+              0.4245431736654447,
+              0.44531844248190594,
+              0.478633935917141,
+              0.42532182502097216,
+              0.39195705095953937,
+              0.5392659940436073,
+              0.45796985413665253,
+              0.5030376372020408,
+              0.5307330906995145,
+              0.47976783611868645,
+              0.5161150498586077,
+              0.5009385797493198,
+              0.44470909970636663,
+              0.4983326781550396,
+              0.548203114313803,
+              0.44181128386067375,
+              0.4170828569045991,
+              0.3844095314114314,
+              0.47992239631583267,
+              0.5119035927215638,
+              0.45345477320787614,
+              0.42367141359519084,
+              0.41820013047118054,
+              0.5157989180927276,
+              0.45717286784487343,
+              0.5546839624418035,
+              0.5404448599171334
+            ],
+            "top20_overlap_fraction": [
+              0.4,
+              0.25,
+              0.25,
+              0.25,
+              0.2,
+              0.4,
+              0.2,
+              0.25,
+              0.2,
+              0.35,
+              0.45,
+              0.3,
+              0.1,
+              0.25,
+              0.3,
+              0.25,
+              0.25,
+              0.45,
+              0.25,
+              0.35,
+              0.35,
+              0.2,
+              0.4,
+              0.2,
+              0.15,
+              0.3,
+              0.35,
+              0.45,
+              0.5,
+              0.45
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6666666666666667,
+            "max": 1.0,
+            "mean": 0.9088784963974719,
+            "standard_deviation": 0.05536700171091868,
+            "quantiles": [
+              0.6666666666666667,
+              0.8888888888888888,
+              0.9189189189189189,
+              0.9473684210526316,
+              1.0
+            ],
+            "unique_values": 11,
+            "tied_images": 198,
+            "tie_groups": 9,
+            "top20_boundary_score": 0.9743589743589743,
+            "top20_boundary_tie_size": 34,
+            "images_strictly_above_boundary": 3,
+            "top20_ids": [
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00188_treadmill/treadmill_11s.jpg",
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00026_bullet/bullet_01s.jpg",
+              "test_images/00028_bush/bush_07s.jpg",
+              "test_images/00033_cat/cat_01b.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00047_coconut/coconut_01b.jpg",
+              "test_images/00051_cordon_bleu/cordon_bleu_08s.jpg",
+              "test_images/00061_cupcake/cupcake_11s.jpg",
+              "test_images/00076_flamingo/flamingo_05s.jpg",
+              "test_images/00077_folder/folder_11s.jpg",
+              "test_images/00081_fruit/fruit_01b.jpg",
+              "test_images/00093_handbrake/handbrake_08s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00108_laundry_basket/laundry_basket_12s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.4143121093187597,
+            "random_split_95_percentile_interval": [
+              0.34392636151590567,
+              0.47416638729475125
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.3,
+            "random_split_95_percentile_interval": [
+              0.2,
+              0.41374999999999995
+            ]
+          },
+          "rank_null": {
+            "observed": 0.4143121093187597,
+            "null_median": 0.0003655324191556104,
+            "null_95_percentile_interval": [
+              -0.07958762084381232,
+              0.07692293925834835
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.3,
+            "null_median": 0.15,
+            "null_95_percentile_interval": [
+              0.1,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.4370324150675604,
+              0.42701227763777094,
+              0.36550568225447894,
+              0.45425973935357883,
+              0.34918370539368354,
+              0.4568087705514934,
+              0.3923413020187369,
+              0.3788128985826539,
+              0.4291250799399912,
+              0.47189057228076337,
+              0.3780741710055791,
+              0.3762080742521756,
+              0.33500582498558545,
+              0.37629381870459666,
+              0.43876175154723646,
+              0.4060774317570504,
+              0.35842798947979526,
+              0.4513303339751575,
+              0.4092147251092208,
+              0.4222542419119246,
+              0.37411908185241977,
+              0.3968678013030679,
+              0.4194094935282986,
+              0.47252725042761634,
+              0.3859622298627835,
+              0.4784877481262888,
+              0.4676775042240423,
+              0.41958456290932183,
+              0.4309209242302694,
+              0.3473100133032685
+            ],
+            "top20_overlap_fraction": [
+              0.3,
+              0.25,
+              0.2,
+              0.2,
+              0.4,
+              0.4,
+              0.35,
+              0.2,
+              0.2,
+              0.35,
+              0.25,
+              0.25,
+              0.3,
+              0.25,
+              0.3,
+              0.35,
+              0.3,
+              0.25,
+              0.25,
+              0.3,
+              0.4,
+              0.3,
+              0.35,
+              0.25,
+              0.3,
+              0.2,
+              0.35,
+              0.35,
+              0.45,
+              0.2
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.7096774193548387,
+            "max": 1.0,
+            "mean": 0.9098242360351619,
+            "standard_deviation": 0.05450385532519292,
+            "quantiles": [
+              0.7096774193548387,
+              0.8888888888888888,
+              0.9189189189189189,
+              0.9473684210526316,
+              1.0
+            ],
+            "unique_values": 10,
+            "tied_images": 199,
+            "tie_groups": 9,
+            "top20_boundary_score": 0.9743589743589743,
+            "top20_boundary_tie_size": 24,
+            "images_strictly_above_boundary": 9,
+            "top20_ids": [
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00030_candlestick/candlestick_04s.jpg",
+              "test_images/00062_dagger/dagger_06s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00098_ice_cube/ice_cube_11s.jpg",
+              "test_images/00172_station_wagon/station_wagon_04s.jpg",
+              "test_images/00183_tick/tick_06s.jpg",
+              "test_images/00017_boat/boat_01b.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00034_caterpillar/caterpillar_03s.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00047_coconut/coconut_01b.jpg",
+              "test_images/00065_dragonfly/dragonfly_01b.jpg",
+              "test_images/00066_dreidel/dreidel_01b.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00076_flamingo/flamingo_05s.jpg",
+              "test_images/00090_grenade/grenade_03s.jpg",
+              "test_images/00097_hummingbird/hummingbird_01b.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "row_spearman/dinov2": {
+      "cross_subject_spearman": 0.6025305632640817,
+      "top20_overlap_fraction": 0.3,
+      "top20_shared_images": 6,
+      "rank_permutation": {
+        "observed": 0.6025305632640817,
+        "null_median": 0.005618390459761494,
+        "null_95_percentile_interval": [
+          -0.13049913747843703,
+          0.14367857946448662
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.3,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.25
+        ],
+        "one_sided_monte_carlo_p": 0.012987012987012988
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.7029293302079883,
+            "random_split_95_percentile_interval": [
+              0.6499020100502513,
+              0.7544002475061878
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.475,
+            "random_split_95_percentile_interval": [
+              0.33625,
+              0.56375
+            ]
+          },
+          "rank_null": {
+            "observed": 0.7029293302079883,
+            "null_median": 0.0022545563639090917,
+            "null_95_percentile_interval": [
+              -0.11876661291532288,
+              0.11239552238805972
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.475,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.7198169954248856,
+              0.67846396159904,
+              0.6687167179179481,
+              0.7038651105772304,
+              0.6933458336458415,
+              0.7331268281707043,
+              0.7206105152628817,
+              0.6878751968799222,
+              0.6297142428560715,
+              0.6852981324533114,
+              0.7275436885922149,
+              0.7255396384909624,
+              0.6788329708242707,
+              0.6575594389859747,
+              0.6668566714167854,
+              0.6712487812195305,
+              0.6913432835820896,
+              0.7370204518940189,
+              0.7303722831967375,
+              0.7306547663691594,
+              0.6778759468986726,
+              0.7045241131028276,
+              0.7455921398034953,
+              0.7233420835520888,
+              0.7087617190429762,
+              0.7019935498387462,
+              0.750569264231606,
+              0.6957623940598515,
+              0.7645001125028127,
+              0.6849501237530939
+            ],
+            "top20_overlap_fraction": [
+              0.5,
+              0.5,
+              0.5,
+              0.45,
+              0.55,
+              0.35,
+              0.5,
+              0.5,
+              0.45,
+              0.3,
+              0.45,
+              0.5,
+              0.55,
+              0.55,
+              0.45,
+              0.4,
+              0.35,
+              0.45,
+              0.45,
+              0.35,
+              0.5,
+              0.5,
+              0.45,
+              0.5,
+              0.55,
+              0.45,
+              0.6,
+              0.35,
+              0.55,
+              0.4
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.3693916552459266,
+            "max": 0.5699078726968174,
+            "mean": 0.46993358458961476,
+            "standard_deviation": 0.03867429147997025,
+            "quantiles": [
+              0.3693916552459266,
+              0.4436222780569514,
+              0.4711953707933607,
+              0.49474798233592204,
+              0.5699078726968174
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.5214199786812852,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00196_wheat/wheat_05n.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00121_nightstand/nightstand_05s.jpg",
+              "test_images/00123_omelet/omelet_10s.jpg",
+              "test_images/00124_onion/onion_10s.jpg",
+              "test_images/00119_music_box/music_box_06s.jpg",
+              "test_images/00186_tool/tool_10s.jpg",
+              "test_images/00091_hamburger/hamburger_01s.jpg",
+              "test_images/00090_grenade/grenade_03s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00151_robot/robot_02s.jpg",
+              "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+              "test_images/00092_hammer/hammer_08s.jpg",
+              "test_images/00126_orchid/orchid_05s.jpg",
+              "test_images/00084_golf_cart/golf_cart_06s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00163_seed/seed_07s.jpg",
+              "test_images/00198_windshield/windshield_09s.jpg",
+              "test_images/00007_basil/basil_05s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.6680664516612916,
+            "random_split_95_percentile_interval": [
+              0.6233353333833345,
+              0.7385078751968799
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.4,
+            "random_split_95_percentile_interval": [
+              0.3225,
+              0.55
+            ]
+          },
+          "rank_null": {
+            "observed": 0.6680664516612916,
+            "null_median": 0.00172129303232581,
+            "null_95_percentile_interval": [
+              -0.11220087431047931,
+              0.11213370959273984
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.4,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.6400870021750544,
+              0.7276501912547815,
+              0.721205821049892,
+              0.6593474836870924,
+              0.6751101309196195,
+              0.6598934973374334,
+              0.6934120953319678,
+              0.6877476936923423,
+              0.6435145878646967,
+              0.6509922748068703,
+              0.6254301357533939,
+              0.638874971874297,
+              0.6236405910147753,
+              0.6873541916126605,
+              0.6631563275918594,
+              0.6325998022200259,
+              0.6670651766294159,
+              0.7005965276369381,
+              0.6671461786544665,
+              0.6589502208619007,
+              0.7019485487137177,
+              0.6225305632640814,
+              0.6873111827795695,
+              0.6689867246681168,
+              0.6854706367659191,
+              0.7671326783169579,
+              0.7174827251801733,
+              0.6967144291286881,
+              0.6565844146103654,
+              0.7101987549688742
+            ],
+            "top20_overlap_fraction": [
+              0.45,
+              0.55,
+              0.4,
+              0.45,
+              0.35,
+              0.25,
+              0.4,
+              0.45,
+              0.45,
+              0.45,
+              0.4,
+              0.45,
+              0.4,
+              0.45,
+              0.35,
+              0.35,
+              0.4,
+              0.4,
+              0.4,
+              0.45,
+              0.45,
+              0.55,
+              0.35,
+              0.4,
+              0.35,
+              0.5,
+              0.45,
+              0.35,
+              0.4,
+              0.45
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.368982031368966,
+            "max": 0.5597022993756662,
+            "mean": 0.4655798119384803,
+            "standard_deviation": 0.03898403090852927,
+            "quantiles": [
+              0.368982031368966,
+              0.4359715242881072,
+              0.4698096543322674,
+              0.49276305771280643,
+              0.5597022993756662
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.5203890665448454,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00091_hamburger/hamburger_01s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00048_coffee_bean/coffee_bean_01b.jpg",
+              "test_images/00097_hummingbird/hummingbird_01b.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00131_pear/pear_01b.jpg",
+              "test_images/00197_wheelchair/wheelchair_02s.jpg",
+              "test_images/00056_crib/crib_14n.jpg",
+              "test_images/00198_windshield/windshield_09s.jpg",
+              "test_images/00141_popsicle/popsicle_04s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00123_omelet/omelet_10s.jpg",
+              "test_images/00191_unicycle/unicycle_10s.jpg",
+              "test_images/00117_mosquito/mosquito_02s.jpg",
+              "test_images/00007_basil/basil_05s.jpg",
+              "test_images/00194_wallpaper/wallpaper_01b.jpg",
+              "test_images/00168_slingshot/slingshot_07s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "reciprocal_rank_weighted_jaccard/dinov2": {
+      "cross_subject_spearman": 0.34826820670516767,
+      "top20_overlap_fraction": 0.2,
+      "top20_shared_images": 4,
+      "rank_permutation": {
+        "observed": 0.34826820670516767,
+        "null_median": -0.002247806195154871,
+        "null_95_percentile_interval": [
+          -0.1311769294232356,
+          0.13522781819545493
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.2,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.25
+        ],
+        "one_sided_monte_carlo_p": 0.11288711288711288
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.5105752643816096,
+            "random_split_95_percentile_interval": [
+              0.4358852096302409,
+              0.5936839795994899
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.25,
+            "random_split_95_percentile_interval": [
+              0.18625,
+              0.4
+            ]
+          },
+          "rank_null": {
+            "observed": 0.5105752643816096,
+            "null_median": 0.0011482787069676706,
+            "null_95_percentile_interval": [
+              -0.09741117902947576,
+              0.09221793669841744
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.25,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.47825545638640976,
+              0.42568964224105615,
+              0.48479561989049735,
+              0.4553468836720919,
+              0.4788209705242631,
+              0.5509352733818347,
+              0.43975249381234544,
+              0.49270831770794277,
+              0.5261126528163205,
+              0.5034455861396536,
+              0.5897457436435911,
+              0.486795169879247,
+              0.6040666016650414,
+              0.4653026325658142,
+              0.551742293557339,
+              0.5160954023850597,
+              0.519518487962199,
+              0.5253476336908423,
+              0.5525538138453461,
+              0.4889732243306084,
+              0.5433945848646217,
+              0.4422950573764345,
+              0.5065536638415961,
+              0.5145968649216232,
+              0.5337493437335935,
+              0.5026355658891473,
+              0.5727728193204831,
+              0.5819155478886973,
+              0.5422260556513915,
+              0.4977544438610967
+            ],
+            "top20_overlap_fraction": [
+              0.2,
+              0.2,
+              0.25,
+              0.3,
+              0.3,
+              0.4,
+              0.3,
+              0.35,
+              0.2,
+              0.25,
+              0.3,
+              0.25,
+              0.25,
+              0.35,
+              0.3,
+              0.25,
+              0.3,
+              0.35,
+              0.2,
+              0.2,
+              0.25,
+              0.2,
+              0.3,
+              0.2,
+              0.15,
+              0.4,
+              0.25,
+              0.2,
+              0.3,
+              0.25
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5738275974581093,
+            "max": 0.8215433170300952,
+            "mean": 0.7718427883160068,
+            "standard_deviation": 0.03888002748353687,
+            "quantiles": [
+              0.5738275974581093,
+              0.7571371519798624,
+              0.7833787837240005,
+              0.7986134942542981,
+              0.8215433170300952
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.8061835931239886,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00149_recorder/recorder_14s.jpg",
+              "test_images/00188_treadmill/treadmill_11s.jpg",
+              "test_images/00124_onion/onion_10s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00121_nightstand/nightstand_05s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00126_orchid/orchid_05s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00157_sausage/sausage_04s.jpg",
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00198_windshield/windshield_09s.jpg",
+              "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+              "test_images/00115_minivan/minivan_17s.jpg",
+              "test_images/00155_sandal/sandal_03s.jpg",
+              "test_images/00114_metal_detector/metal_detector_02s.jpg",
+              "test_images/00122_okra/okra_14n.jpg",
+              "test_images/00076_flamingo/flamingo_05s.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.46255156378909473,
+            "random_split_95_percentile_interval": [
+              0.36780893272331816,
+              0.5231170029250732
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.3,
+            "random_split_95_percentile_interval": [
+              0.13625,
+              0.5
+            ]
+          },
+          "rank_null": {
+            "observed": 0.46255156378909473,
+            "null_median": 0.0011554038850971225,
+            "null_95_percentile_interval": [
+              -0.09145516762919073,
+              0.08393682967074174
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.3,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.43800645016125406,
+              0.48606165154128866,
+              0.3670291757293933,
+              0.45725343133578344,
+              0.476810920273007,
+              0.5035460886522165,
+              0.4091652291307283,
+              0.4812330308257707,
+              0.5199414985374635,
+              0.46409060226505655,
+              0.39815195379884505,
+              0.3681047026175655,
+              0.4014460361509038,
+              0.4610125253131329,
+              0.4922013050326259,
+              0.47542338558463965,
+              0.470204755118878,
+              0.5062491562289058,
+              0.49470486762169064,
+              0.3851031275781895,
+              0.4367644191104778,
+              0.38563114077851957,
+              0.4968019200480013,
+              0.44855621390534767,
+              0.48812720318007957,
+              0.5314887872196806,
+              0.45027675691892305,
+              0.44136653416335414,
+              0.48377409435235885,
+              0.45959798994974876
+            ],
+            "top20_overlap_fraction": [
+              0.35,
+              0.35,
+              0.1,
+              0.2,
+              0.35,
+              0.35,
+              0.3,
+              0.35,
+              0.3,
+              0.15,
+              0.2,
+              0.35,
+              0.2,
+              0.2,
+              0.5,
+              0.25,
+              0.25,
+              0.2,
+              0.25,
+              0.4,
+              0.25,
+              0.45,
+              0.5,
+              0.15,
+              0.35,
+              0.25,
+              0.3,
+              0.35,
+              0.35,
+              0.15
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6115044116089918,
+            "max": 0.8245380540261675,
+            "mean": 0.7712219342149754,
+            "standard_deviation": 0.039354540693961715,
+            "quantiles": [
+              0.6115044116089918,
+              0.76050537243762,
+              0.7838636129526378,
+              0.7967678069778975,
+              0.8245380540261675
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.8068983400777083,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00098_ice_cube/ice_cube_11s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00198_windshield/windshield_09s.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00131_pear/pear_01b.jpg",
+              "test_images/00030_candlestick/candlestick_04s.jpg",
+              "test_images/00160_scooter/scooter_07s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00117_mosquito/mosquito_02s.jpg",
+              "test_images/00097_hummingbird/hummingbird_01b.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00090_grenade/grenade_03s.jpg",
+              "test_images/00176_suit/suit_13s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00062_dagger/dagger_06s.jpg",
+              "test_images/00085_gondola/gondola_11s.jpg",
+              "test_images/00144_pug/pug_09s.jpg",
+              "test_images/00197_wheelchair/wheelchair_02s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k5/clip": {
+      "cross_subject_spearman": 0.35168337814273515,
+      "top20_overlap_fraction": 0.7,
+      "top20_shared_images": 14,
+      "rank_permutation": {
+        "observed": 0.35168337814273515,
+        "null_median": 0.0025541420290957862,
+        "null_95_percentile_interval": [
+          -0.14642774987902565,
+          0.1345381050477379
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.7,
+        "null_median": 0.6,
+        "null_95_percentile_interval": [
+          0.4,
+          0.75
+        ],
+        "one_sided_monte_carlo_p": 0.25574425574425574
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.3085369775498989,
+            "random_split_95_percentile_interval": [
+              0.24538251921523999,
+              0.40518195300744164
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.7,
+            "random_split_95_percentile_interval": [
+              0.53625,
+              0.8
+            ]
+          },
+          "rank_null": {
+            "observed": 0.3085369775498989,
+            "null_median": -0.0017376536794312446,
+            "null_95_percentile_interval": [
+              -0.06598778466632965,
+              0.06970155720041508
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.7,
+            "null_median": 0.65,
+            "null_95_percentile_interval": [
+              0.55,
+              0.7
+            ],
+            "one_sided_monte_carlo_p": 0.14085914085914086
+          },
+          "raw_splits": {
+            "spearman": [
+              0.37344959965836994,
+              0.36068701363668815,
+              0.2877913587568954,
+              0.2806090255853675,
+              0.35101940514825625,
+              0.28557589540992456,
+              0.38763915676693794,
+              0.2932514050307941,
+              0.26926953069662163,
+              0.2818286092531255,
+              0.4042430429638925,
+              0.20407473945926957,
+              0.3457547278569925,
+              0.28549317379293515,
+              0.3873316022809501,
+              0.3831550899343639,
+              0.2610509873985391,
+              0.30529570925568605,
+              0.3390328130009679,
+              0.32507639514316866,
+              0.3631707657595807,
+              0.28779951304714796,
+              0.3376642327185033,
+              0.28302862740189294,
+              0.31177824584411173,
+              0.2763761924264895,
+              0.34209199951394703,
+              0.2620377291783226,
+              0.40765726130407115,
+              0.2789038694246305
+            ],
+            "top20_overlap_fraction": [
+              0.65,
+              0.75,
+              0.65,
+              0.6,
+              0.8,
+              0.5,
+              0.6,
+              0.8,
+              0.7,
+              0.7,
+              0.7,
+              0.75,
+              0.7,
+              0.6,
+              0.65,
+              0.75,
+              0.65,
+              0.7,
+              0.7,
+              0.7,
+              0.6,
+              0.65,
+              0.75,
+              0.6,
+              0.65,
+              0.65,
+              0.55,
+              0.8,
+              0.8,
+              0.75
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5714285714285714,
+            "max": 1.0,
+            "mean": 0.9423809523809524,
+            "standard_deviation": 0.08497342966513226,
+            "quantiles": [
+              0.5714285714285714,
+              0.8888888888888888,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "unique_values": 4,
+            "tied_images": 200,
+            "tie_groups": 4,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 122,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00007_basil/basil_05s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00011_batter/batter_01b.jpg",
+              "test_images/00012_beaver/beaver_04s.jpg",
+              "test_images/00013_bench/bench_01b.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00018_bok_choy/bok_choy_03s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00020_bottle_opener/bottle_opener_13s.jpg",
+              "test_images/00023_breadbox/breadbox_01b.jpg",
+              "test_images/00025_buggy/buggy_07s.jpg",
+              "test_images/00026_bullet/bullet_01s.jpg",
+              "test_images/00027_bun/bun_01b.jpg",
+              "test_images/00030_candlestick/candlestick_04s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.3698126405784038,
+            "random_split_95_percentile_interval": [
+              0.26624549442627055,
+              0.49557725402347264
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.75,
+            "random_split_95_percentile_interval": [
+              0.58625,
+              0.81375
+            ]
+          },
+          "rank_null": {
+            "observed": 0.3698126405784038,
+            "null_median": -0.0023459583443372796,
+            "null_95_percentile_interval": [
+              -0.07392731398755557,
+              0.06844703504984262
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.75,
+            "null_median": 0.65,
+            "null_95_percentile_interval": [
+              0.55,
+              0.75
+            ],
+            "one_sided_monte_carlo_p": 0.04095904095904096
+          },
+          "raw_splits": {
+            "spearman": [
+              0.40525752444601226,
+              0.41530443787874705,
+              0.3098320840319525,
+              0.3983305719839377,
+              0.45855152107263253,
+              0.28404102282612287,
+              0.22188461354100072,
+              0.377786887251523,
+              0.33455857456964677,
+              0.43837592046997953,
+              0.2830720354517177,
+              0.33377398139823866,
+              0.42755949958583933,
+              0.39194221067254736,
+              0.3856712605334245,
+              0.37174070515175556,
+              0.47596019454417376,
+              0.32370329337633924,
+              0.32151067329073674,
+              0.3544426025311128,
+              0.32514648931849277,
+              0.34944478950846114,
+              0.3999748452432832,
+              0.367884576005052,
+              0.4123184919832015,
+              0.5472949562870791,
+              0.2929344558321283,
+              0.35281986496887413,
+              0.39035878645818833,
+              0.31469840437165875
+            ],
+            "top20_overlap_fraction": [
+              0.8,
+              0.8,
+              0.7,
+              0.7,
+              0.8,
+              0.8,
+              0.65,
+              0.7,
+              0.8,
+              0.8,
+              0.6,
+              0.75,
+              0.85,
+              0.7,
+              0.75,
+              0.75,
+              0.8,
+              0.8,
+              0.75,
+              0.7,
+              0.75,
+              0.7,
+              0.8,
+              0.8,
+              0.8,
+              0.75,
+              0.55,
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5714285714285714,
+            "max": 1.0,
+            "mean": 0.942996031746032,
+            "standard_deviation": 0.08404287640065722,
+            "quantiles": [
+              0.5714285714285714,
+              0.8888888888888888,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "unique_values": 4,
+            "tied_images": 199,
+            "tie_groups": 3,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 124,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00011_batter/batter_01b.jpg",
+              "test_images/00012_beaver/beaver_04s.jpg",
+              "test_images/00013_bench/bench_01b.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+              "test_images/00016_blowtorch/blowtorch_08s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00023_breadbox/breadbox_01b.jpg",
+              "test_images/00024_bug/bug_08s.jpg",
+              "test_images/00025_buggy/buggy_07s.jpg",
+              "test_images/00026_bullet/bullet_01s.jpg",
+              "test_images/00028_bush/bush_07s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k10/clip": {
+      "cross_subject_spearman": 0.5052299309795464,
+      "top20_overlap_fraction": 0.25,
+      "top20_shared_images": 5,
+      "rank_permutation": {
+        "observed": 0.5052299309795464,
+        "null_median": -0.00016436199495007808,
+        "null_95_percentile_interval": [
+          -0.1382978205634417,
+          0.1403735121182038
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.25,
+        "null_median": 0.2,
+        "null_95_percentile_interval": [
+          0.05,
+          0.35
+        ],
+        "one_sided_monte_carlo_p": 0.30569430569430567
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.5183668104532038,
+            "random_split_95_percentile_interval": [
+              0.4447960433434446,
+              0.584922872952245
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.45,
+            "random_split_95_percentile_interval": [
+              0.3,
+              0.55
+            ]
+          },
+          "rank_null": {
+            "observed": 0.5183668104532038,
+            "null_median": -0.002548775821036159,
+            "null_95_percentile_interval": [
+              -0.08533029663708476,
+              0.08013991703545942
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.45,
+            "null_median": 0.3,
+            "null_95_percentile_interval": [
+              0.2,
+              0.35
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.5206944966022753,
+              0.5277438773190127,
+              0.4631937813482641,
+              0.43828921083153716,
+              0.5483606945548395,
+              0.5281240837961934,
+              0.46096308042028616,
+              0.5467899932429696,
+              0.5309853589807921,
+              0.5036229918124201,
+              0.5272293113679565,
+              0.5176864282506507,
+              0.4776076435212866,
+              0.46173059179363035,
+              0.5503085870677984,
+              0.5230713542425163,
+              0.5991436617457795,
+              0.5795287806512491,
+              0.5190471926557567,
+              0.49909036011915314,
+              0.45729204731481,
+              0.49877532509049427,
+              0.5471221065435945,
+              0.4661536380634011,
+              0.4792447728081006,
+              0.44726415222727156,
+              0.48911152027439936,
+              0.5221786161604434,
+              0.573471818823169,
+              0.456612578689647
+            ],
+            "top20_overlap_fraction": [
+              0.45,
+              0.35,
+              0.4,
+              0.45,
+              0.55,
+              0.5,
+              0.3,
+              0.55,
+              0.5,
+              0.35,
+              0.55,
+              0.5,
+              0.55,
+              0.3,
+              0.55,
+              0.45,
+              0.45,
+              0.45,
+              0.5,
+              0.45,
+              0.5,
+              0.4,
+              0.4,
+              0.5,
+              0.5,
+              0.35,
+              0.35,
+              0.45,
+              0.45,
+              0.35
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6666666666666667,
+            "max": 1.0,
+            "mean": 0.9199436704506365,
+            "standard_deviation": 0.07879591700854267,
+            "quantiles": [
+              0.6666666666666667,
+              0.8888888888888888,
+              0.9473684210526316,
+              1.0,
+              1.0
+            ],
+            "unique_values": 6,
+            "tied_images": 200,
+            "tie_groups": 6,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 58,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00026_bullet/bullet_01s.jpg",
+              "test_images/00034_caterpillar/caterpillar_03s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg",
+              "test_images/00039_cheetah/cheetah_05s.jpg",
+              "test_images/00040_chest2/chest2_02s.jpg",
+              "test_images/00042_chopsticks/chopsticks_11s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00066_dreidel/dreidel_01b.jpg",
+              "test_images/00069_eagle/eagle_06s.jpg",
+              "test_images/00073_espresso/espresso_01b.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00082_garlic/garlic_12n.jpg",
+              "test_images/00083_glove/glove_11s.jpg",
+              "test_images/00085_gondola/gondola_11s.jpg",
+              "test_images/00090_grenade/grenade_03s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.49462384057511477,
+            "random_split_95_percentile_interval": [
+              0.40899270273308636,
+              0.572605573369196
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.5,
+            "random_split_95_percentile_interval": [
+              0.28625,
+              0.66375
+            ]
+          },
+          "rank_null": {
+            "observed": 0.49462384057511477,
+            "null_median": -0.0003235115472128552,
+            "null_95_percentile_interval": [
+              -0.08458875099093399,
+              0.08879495976895917
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.5,
+            "null_median": 0.3,
+            "null_95_percentile_interval": [
+              0.2,
+              0.35
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.5015483786930566,
+              0.5029341916725742,
+              0.4032372773589932,
+              0.533200098268655,
+              0.524426501068168,
+              0.5336583221965829,
+              0.4397095073323734,
+              0.5340339638352708,
+              0.4695522385482503,
+              0.5548187060169357,
+              0.4377845454903851,
+              0.43662446252852016,
+              0.44088444062751775,
+              0.4752257956853546,
+              0.5032945359463146,
+              0.5796916605037413,
+              0.4976632092997494,
+              0.4638411299223235,
+              0.4333547265068664,
+              0.4631950935252858,
+              0.5699177472147133,
+              0.4111757951163631,
+              0.5373437293482316,
+              0.4338567893579085,
+              0.5252415610555121,
+              0.49158447185048015,
+              0.4567272073902277,
+              0.44656275415314917,
+              0.5204968113894938,
+              0.5567323179060314
+            ],
+            "top20_overlap_fraction": [
+              0.5,
+              0.5,
+              0.5,
+              0.4,
+              0.55,
+              0.45,
+              0.4,
+              0.65,
+              0.55,
+              0.6,
+              0.45,
+              0.45,
+              0.65,
+              0.55,
+              0.45,
+              0.7,
+              0.45,
+              0.45,
+              0.6,
+              0.5,
+              0.55,
+              0.35,
+              0.65,
+              0.55,
+              0.4,
+              0.5,
+              0.25,
+              0.4,
+              0.3,
+              0.45
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5714285714285714,
+            "max": 1.0,
+            "mean": 0.9144795198781267,
+            "standard_deviation": 0.08518417004116056,
+            "quantiles": [
+              0.5714285714285714,
+              0.8888888888888888,
+              0.9473684210526316,
+              1.0,
+              1.0
+            ],
+            "unique_values": 7,
+            "tied_images": 199,
+            "tie_groups": 6,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 58,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00023_breadbox/breadbox_01b.jpg",
+              "test_images/00028_bush/bush_07s.jpg",
+              "test_images/00037_chaps/chaps_18s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg",
+              "test_images/00040_chest2/chest2_02s.jpg",
+              "test_images/00041_chime/chime_08s.jpg",
+              "test_images/00056_crib/crib_14n.jpg",
+              "test_images/00058_crow/crow_11s.jpg",
+              "test_images/00060_crumb/crumb_12s.jpg",
+              "test_images/00063_dalmatian/dalmatian_12s.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00069_eagle/eagle_06s.jpg",
+              "test_images/00078_fork/fork_07s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k20/clip": {
+      "cross_subject_spearman": 0.5214525124653869,
+      "top20_overlap_fraction": 0.2,
+      "top20_shared_images": 4,
+      "rank_permutation": {
+        "observed": 0.5214525124653869,
+        "null_median": -0.0035044698729715853,
+        "null_95_percentile_interval": [
+          -0.13539241479366595,
+          0.13521864274258058
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.2,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.25
+        ],
+        "one_sided_monte_carlo_p": 0.2007992007992008
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.6320832170231825,
+            "random_split_95_percentile_interval": [
+              0.583381033134566,
+              0.6904844489713097
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.4,
+            "random_split_95_percentile_interval": [
+              0.25,
+              0.5
+            ]
+          },
+          "rank_null": {
+            "observed": 0.6320832170231825,
+            "null_median": -0.0030854732350386175,
+            "null_95_percentile_interval": [
+              -0.10185136284484281,
+              0.09850143563331713
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.4,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.6450530123673237,
+              0.6490243071713587,
+              0.6491671384488238,
+              0.6797328663615944,
+              0.6593495511853041,
+              0.5861908403604201,
+              0.6100701247391692,
+              0.59734070159854,
+              0.6109006300368017,
+              0.6266906815807582,
+              0.6150204494179801,
+              0.6452691726644667,
+              0.5759733595391325,
+              0.6580617746561899,
+              0.6757552323973895,
+              0.607044994281732,
+              0.6618688587152864,
+              0.6583657970119694,
+              0.6435686999301468,
+              0.5978799715611358,
+              0.5942969690463615,
+              0.7188295303969231,
+              0.6154223339989311,
+              0.591998009914386,
+              0.6219691841225,
+              0.6186506683703793,
+              0.6138764804183992,
+              0.6374757524656066,
+              0.6566843921112618,
+              0.6418460228723004
+            ],
+            "top20_overlap_fraction": [
+              0.25,
+              0.45,
+              0.35,
+              0.45,
+              0.35,
+              0.25,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.35,
+              0.35,
+              0.25,
+              0.45,
+              0.25,
+              0.4,
+              0.45,
+              0.4,
+              0.4,
+              0.3,
+              0.35,
+              0.5,
+              0.35,
+              0.5,
+              0.3,
+              0.45,
+              0.35,
+              0.3,
+              0.45,
+              0.4
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5714285714285714,
+            "max": 1.0,
+            "mean": 0.8793465595414958,
+            "standard_deviation": 0.08510347282573913,
+            "quantiles": [
+              0.5714285714285714,
+              0.8235294117647058,
+              0.8888888888888888,
+              0.9473684210526316,
+              1.0
+            ],
+            "unique_values": 13,
+            "tied_images": 199,
+            "tie_groups": 12,
+            "top20_boundary_score": 0.9743589743589743,
+            "top20_boundary_tie_size": 27,
+            "images_strictly_above_boundary": 3,
+            "top20_ids": [
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00108_laundry_basket/laundry_basket_12s.jpg",
+              "test_images/00124_onion/onion_10s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00034_caterpillar/caterpillar_03s.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00040_chest2/chest2_02s.jpg",
+              "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00068_duffel_bag/duffel_bag_03s.jpg",
+              "test_images/00069_eagle/eagle_06s.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00081_fruit/fruit_01b.jpg",
+              "test_images/00099_ice_pack/ice_pack_01b.jpg",
+              "test_images/00121_nightstand/nightstand_05s.jpg",
+              "test_images/00126_orchid/orchid_05s.jpg",
+              "test_images/00130_paperweight/paperweight_07s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.5984031830391983,
+            "random_split_95_percentile_interval": [
+              0.5400454055739736,
+              0.6493339801556929
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.25,
+            "random_split_95_percentile_interval": [
+              0.08625000000000001,
+              0.45
+            ]
+          },
+          "rank_null": {
+            "observed": 0.5984031830391983,
+            "null_median": -0.0008481182507847065,
+            "null_95_percentile_interval": [
+              -0.09556875113999021,
+              0.10080605380544626
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.25,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.5083214426561081,
+              0.5919252506644263,
+              0.5919059352643604,
+              0.599361959696078,
+              0.6160427960286566,
+              0.6320043975807212,
+              0.6265756076477208,
+              0.6140300595211311,
+              0.6367210962198987,
+              0.6151284482376278,
+              0.5894984435363512,
+              0.5624682407862506,
+              0.5520786328876467,
+              0.5974444063823187,
+              0.6214680174818612,
+              0.5849122275865816,
+              0.5910638084682004,
+              0.6433989055176493,
+              0.6272873959831665,
+              0.5861984889856078,
+              0.6577409797606101,
+              0.5629729589599127,
+              0.5917901378742164,
+              0.5601515558418206,
+              0.6328975420437287,
+              0.5870156332316666,
+              0.5931558472392998,
+              0.6461451182365864,
+              0.6245000111023284,
+              0.6233232809865794
+            ],
+            "top20_overlap_fraction": [
+              0.05,
+              0.25,
+              0.25,
+              0.3,
+              0.45,
+              0.25,
+              0.3,
+              0.1,
+              0.3,
+              0.25,
+              0.25,
+              0.2,
+              0.25,
+              0.25,
+              0.3,
+              0.25,
+              0.3,
+              0.2,
+              0.3,
+              0.4,
+              0.3,
+              0.35,
+              0.1,
+              0.15,
+              0.25,
+              0.2,
+              0.4,
+              0.35,
+              0.45,
+              0.2
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5185185185185186,
+            "max": 1.0,
+            "mean": 0.876426867621104,
+            "standard_deviation": 0.09016577046838603,
+            "quantiles": [
+              0.5185185185185186,
+              0.8487394957983194,
+              0.8888888888888888,
+              0.9473684210526316,
+              1.0
+            ],
+            "unique_values": 14,
+            "tied_images": 198,
+            "tie_groups": 12,
+            "top20_boundary_score": 0.9743589743589743,
+            "top20_boundary_tie_size": 19,
+            "images_strictly_above_boundary": 5,
+            "top20_ids": [
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00104_kneepad/kneepad_12s.jpg",
+              "test_images/00156_sandpaper/sandpaper_08s.jpg",
+              "test_images/00197_wheelchair/wheelchair_02s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00054_creme_brulee/creme_brulee_01b.jpg",
+              "test_images/00056_crib/crib_14n.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00082_garlic/garlic_12n.jpg",
+              "test_images/00092_hammer/hammer_08s.jpg",
+              "test_images/00095_highchair/highchair_04s.jpg",
+              "test_images/00098_ice_cube/ice_cube_11s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00117_mosquito/mosquito_02s.jpg",
+              "test_images/00128_pajamas/pajamas_13s.jpg",
+              "test_images/00153_rug/rug_09s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "row_spearman/clip": {
+      "cross_subject_spearman": 0.7719762994074852,
+      "top20_overlap_fraction": 0.5,
+      "top20_shared_images": 10,
+      "rank_permutation": {
+        "observed": 0.7719762994074852,
+        "null_median": -0.005961149028725711,
+        "null_95_percentile_interval": [
+          -0.13828879471986802,
+          0.1441289657241431
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.5,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.20124999999999887
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.8904815120378011,
+            "random_split_95_percentile_interval": [
+              0.8609818870471764,
+              0.9122631440786022
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.6,
+            "random_split_95_percentile_interval": [
+              0.5,
+              0.7137499999999999
+            ]
+          },
+          "rank_null": {
+            "observed": 0.8904815120378011,
+            "null_median": -0.00191292282307058,
+            "null_95_percentile_interval": [
+              -0.12915780394509865,
+              0.13102827570689257
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.6,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.0,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.892967824195605,
+              0.8614715367884199,
+              0.9015360384009601,
+              0.8810185254631366,
+              0.8970764269106728,
+              0.8863106577664444,
+              0.8596909922748069,
+              0.9107207680192007,
+              0.8864531613290333,
+              0.8908392709817747,
+              0.9010575264381612,
+              0.8912337808445212,
+              0.8881872046801171,
+              0.8770719267981699,
+              0.8626310657766444,
+              0.8901237530938274,
+              0.9044952015658035,
+              0.8821285532138303,
+              0.8891562289057229,
+              0.8958133953348834,
+              0.8912866163979538,
+              0.8819331290532118,
+              0.8947562044387506,
+              0.8886162154053852,
+              0.8868281707042677,
+              0.8832880822020551,
+              0.9008670216755419,
+              0.896500412510313,
+              0.8986304657616443,
+              0.9163294082352061
+            ],
+            "top20_overlap_fraction": [
+              0.5,
+              0.6,
+              0.7,
+              0.55,
+              0.6,
+              0.65,
+              0.55,
+              0.6,
+              0.6,
+              0.55,
+              0.7,
+              0.6,
+              0.6,
+              0.55,
+              0.55,
+              0.6,
+              0.6,
+              0.65,
+              0.65,
+              0.5,
+              0.6,
+              0.6,
+              0.6,
+              0.7,
+              0.65,
+              0.5,
+              0.75,
+              0.5,
+              0.65,
+              0.65
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.29213263286127605,
+            "max": 0.623008984315517,
+            "mean": 0.43291885944875896,
+            "standard_deviation": 0.07219955505089697,
+            "quantiles": [
+              0.29213263286127605,
+              0.3818983173442972,
+              0.4296779351301965,
+              0.4887490482716613,
+              0.623008984315517
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.5238510735495661,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00102_jukebox/jukebox_01n.jpg",
+              "test_images/00099_ice_pack/ice_pack_01b.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00095_highchair/highchair_04s.jpg",
+              "test_images/00043_cleat/cleat_09s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00170_spatula/spatula_08s.jpg",
+              "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+              "test_images/00186_tool/tool_10s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00114_metal_detector/metal_detector_02s.jpg",
+              "test_images/00073_espresso/espresso_01b.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00196_wheat/wheat_05n.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.8546456161404037,
+            "random_split_95_percentile_interval": [
+              0.8060721518037951,
+              0.8805903772594313
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.6,
+            "random_split_95_percentile_interval": [
+              0.45,
+              0.75
+            ]
+          },
+          "rank_null": {
+            "observed": 0.8546456161404037,
+            "null_median": 0.00017287932198304778,
+            "null_95_percentile_interval": [
+              -0.12580328335717192,
+              0.12430124503112579
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.6,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.025,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.8680372009300231,
+              0.8385419635490887,
+              0.8741993549838745,
+              0.7888022200555013,
+              0.8532783319582992,
+              0.8684902122553065,
+              0.8443846096152405,
+              0.8457796444911123,
+              0.8510432760819021,
+              0.8665250630206165,
+              0.8477536938423461,
+              0.863411085277132,
+              0.8126228155703893,
+              0.872774319357984,
+              0.8669481737043426,
+              0.8560129003225083,
+              0.8462611565289134,
+              0.8651961299032478,
+              0.8578234455861398,
+              0.8627285682142054,
+              0.87092777319433,
+              0.8298387459686494,
+              0.8526598862446734,
+              0.8432610815270384,
+              0.8421420535513388,
+              0.8509772744318609,
+              0.8974394359858996,
+              0.8606475889326297,
+              0.833086327158179,
+              0.8632550813770343
+            ],
+            "top20_overlap_fraction": [
+              0.65,
+              0.6,
+              0.55,
+              0.55,
+              0.6,
+              0.5,
+              0.45,
+              0.5,
+              0.65,
+              0.55,
+              0.6,
+              0.55,
+              0.6,
+              0.55,
+              0.55,
+              0.6,
+              0.6,
+              0.65,
+              0.75,
+              0.5,
+              0.5,
+              0.45,
+              0.65,
+              0.7,
+              0.55,
+              0.65,
+              0.65,
+              0.75,
+              0.55,
+              0.75
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.28228490939546214,
+            "max": 0.6063697274250038,
+            "mean": 0.42077466879853814,
+            "standard_deviation": 0.06933821815581144,
+            "quantiles": [
+              0.28228490939546214,
+              0.3624194837825491,
+              0.41479747220953256,
+              0.47382156997106745,
+              0.6063697274250038
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.5189942134917009,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00197_wheelchair/wheelchair_02s.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg",
+              "test_images/00102_jukebox/jukebox_01n.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00095_highchair/highchair_04s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00071_egg/egg_12s.jpg",
+              "test_images/00186_tool/tool_10s.jpg",
+              "test_images/00128_pajamas/pajamas_13s.jpg",
+              "test_images/00025_buggy/buggy_07s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00073_espresso/espresso_01b.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00047_coconut/coconut_01b.jpg",
+              "test_images/00104_kneepad/kneepad_12s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00177_t-shirt/t-shirt_15s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "reciprocal_rank_weighted_jaccard/clip": {
+      "cross_subject_spearman": 0.6321953048826222,
+      "top20_overlap_fraction": 0.35,
+      "top20_shared_images": 7,
+      "rank_permutation": {
+        "observed": 0.6321953048826222,
+        "null_median": -0.0016455411385284625,
+        "null_95_percentile_interval": [
+          -0.1455092252306307,
+          0.1427165679141979
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.35,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.25
+        ],
+        "one_sided_monte_carlo_p": 0.002997002997002997
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.6943343583589591,
+            "random_split_95_percentile_interval": [
+              0.6213903472586816,
+              0.7504544363609091
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.45,
+            "random_split_95_percentile_interval": [
+              0.3,
+              0.56375
+            ]
+          },
+          "rank_null": {
+            "observed": 0.6943343583589591,
+            "null_median": -0.0025519387984699595,
+            "null_95_percentile_interval": [
+              -0.1167155741393535,
+              0.11050958148953721
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.45,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.175
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.6884872121803045,
+              0.7182839570989277,
+              0.6684437110927776,
+              0.6589004725118129,
+              0.7001815045376136,
+              0.6558598964974126,
+              0.6304552613815346,
+              0.6877941948548715,
+              0.6851556288907223,
+              0.7237365934148354,
+              0.7472211805295134,
+              0.7157098927473188,
+              0.6824045601140031,
+              0.677932948323708,
+              0.7589784744618615,
+              0.7147723693092328,
+              0.7008715217880447,
+              0.7375834395859898,
+              0.7150318757968949,
+              0.6518337958448961,
+              0.7092657316432912,
+              0.7203105077626943,
+              0.6639750993774846,
+              0.5974919372984325,
+              0.655750393759844,
+              0.6739098477461938,
+              0.7160759018975477,
+              0.7231155778894472,
+              0.7083372084302111,
+              0.6839735993399836
+            ],
+            "top20_overlap_fraction": [
+              0.3,
+              0.45,
+              0.35,
+              0.55,
+              0.4,
+              0.55,
+              0.35,
+              0.55,
+              0.55,
+              0.55,
+              0.5,
+              0.4,
+              0.5,
+              0.45,
+              0.45,
+              0.6,
+              0.5,
+              0.5,
+              0.4,
+              0.45,
+              0.5,
+              0.35,
+              0.4,
+              0.35,
+              0.5,
+              0.45,
+              0.4,
+              0.3,
+              0.55,
+              0.5
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5978508751849436,
+            "max": 0.836068656253981,
+            "mean": 0.7557037329665016,
+            "standard_deviation": 0.05008919570240579,
+            "quantiles": [
+              0.5978508751849436,
+              0.7269867329604122,
+              0.768490723435871,
+              0.792902582249604,
+              0.836068656253981
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.8088454660493911,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00099_ice_pack/ice_pack_01b.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00124_onion/onion_10s.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00130_paperweight/paperweight_07s.jpg",
+              "test_images/00196_wheat/wheat_05n.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00191_unicycle/unicycle_10s.jpg",
+              "test_images/00108_laundry_basket/laundry_basket_12s.jpg",
+              "test_images/00102_jukebox/jukebox_01n.jpg",
+              "test_images/00138_pocket/pocket_04s.jpg",
+              "test_images/00155_sandal/sandal_03s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00095_highchair/highchair_04s.jpg",
+              "test_images/00126_orchid/orchid_05s.jpg",
+              "test_images/00043_cleat/cleat_09s.jpg",
+              "test_images/00170_spatula/spatula_08s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.6883094577364435,
+            "random_split_95_percentile_interval": [
+              0.6533745593639841,
+              0.7457914572864321
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.45,
+            "random_split_95_percentile_interval": [
+              0.35,
+              0.6
+            ]
+          },
+          "rank_null": {
+            "observed": 0.6883094577364435,
+            "null_median": -0.0017921698042451008,
+            "null_95_percentile_interval": [
+              -0.11752145053626344,
+              0.11288772219305482
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.45,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.6950153753843846,
+              0.6724248106202656,
+              0.661854046351159,
+              0.6488787219680493,
+              0.7103472586814671,
+              0.7265191629790743,
+              0.6550798769969249,
+              0.6901762544063604,
+              0.6766444161104029,
+              0.7417715442886073,
+              0.6676666916672918,
+              0.6799639990999776,
+              0.6772129303232582,
+              0.696714917872947,
+              0.6749073726843173,
+              0.7136473411835297,
+              0.7248481212030301,
+              0.6781024525613141,
+              0.6847836195904897,
+              0.682878571964299,
+              0.7563894097352435,
+              0.6983139578489461,
+              0.692970824270607,
+              0.6730968274206856,
+              0.7378549463736594,
+              0.684827120678017,
+              0.7344978624465612,
+              0.7016650416260406,
+              0.7143733593339834,
+              0.6864426610665265
+            ],
+            "top20_overlap_fraction": [
+              0.55,
+              0.45,
+              0.35,
+              0.35,
+              0.6,
+              0.55,
+              0.5,
+              0.45,
+              0.45,
+              0.4,
+              0.4,
+              0.45,
+              0.45,
+              0.45,
+              0.4,
+              0.5,
+              0.45,
+              0.35,
+              0.45,
+              0.6,
+              0.45,
+              0.5,
+              0.5,
+              0.4,
+              0.35,
+              0.5,
+              0.55,
+              0.45,
+              0.45,
+              0.55
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.5517779101537356,
+            "max": 0.8255803879864897,
+            "mean": 0.7520541605862828,
+            "standard_deviation": 0.05583063645020993,
+            "quantiles": [
+              0.5517779101537356,
+              0.7285879653961608,
+              0.7716778665943559,
+              0.7919857794941582,
+              0.8255803879864897
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.8021934186267129,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00197_wheelchair/wheelchair_02s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00095_highchair/highchair_04s.jpg",
+              "test_images/00102_jukebox/jukebox_01n.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00128_pajamas/pajamas_13s.jpg",
+              "test_images/00082_garlic/garlic_12n.jpg",
+              "test_images/00193_volleyball/volleyball_10s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00104_kneepad/kneepad_12s.jpg",
+              "test_images/00187_top_hat/top_hat_13s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00138_pocket/pocket_04s.jpg",
+              "test_images/00158_scallion/scallion_04s.jpg",
+              "test_images/00117_mosquito/mosquito_02s.jpg",
+              "test_images/00168_slingshot/slingshot_07s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k5/mean_models": {
+      "cross_subject_spearman": 0.28138323279232086,
+      "top20_overlap_fraction": 0.5,
+      "top20_shared_images": 10,
+      "rank_permutation": {
+        "observed": 0.28138323279232086,
+        "null_median": 0.0044551013504213945,
+        "null_95_percentile_interval": [
+          -0.14316483597538315,
+          0.13609020546729902
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.5,
+        "null_median": 0.5,
+        "null_95_percentile_interval": [
+          0.3,
+          0.7
+        ],
+        "one_sided_monte_carlo_p": 0.5464535464535465
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.31952250985886554,
+            "random_split_95_percentile_interval": [
+              0.2091866504148417,
+              0.4425839191041858
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.6,
+            "random_split_95_percentile_interval": [
+              0.43625,
+              0.7637499999999999
+            ]
+          },
+          "rank_null": {
+            "observed": 0.31952250985886554,
+            "null_median": 0.0007028344576175093,
+            "null_95_percentile_interval": [
+              -0.07065872849960579,
+              0.06847060471927396
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.6,
+            "null_median": 0.55,
+            "null_95_percentile_interval": [
+              0.45,
+              0.6
+            ],
+            "one_sided_monte_carlo_p": 0.12787212787212787
+          },
+          "raw_splits": {
+            "spearman": [
+              0.3541050159251264,
+              0.32134288383174336,
+              0.3101668170396021,
+              0.26728644777436084,
+              0.3496596266590285,
+              0.3138093863233318,
+              0.2761564544748938,
+              0.32546534263069377,
+              0.3000769388968434,
+              0.26180319534680613,
+              0.4417138408571885,
+              0.18932109305416145,
+              0.4142608463109585,
+              0.2776242945838531,
+              0.3243565677773909,
+              0.4416422076983742,
+              0.352808617400254,
+              0.32202559214755494,
+              0.33448115694379155,
+              0.25841475668934194,
+              0.4448777617553606,
+              0.2167218618275135,
+              0.38677916764726167,
+              0.3041975470021139,
+              0.2970903246755412,
+              0.29551997463840735,
+              0.3396818900247151,
+              0.30321829179395493,
+              0.3723491203475084,
+              0.3177021358859877
+            ],
+            "top20_overlap_fraction": [
+              0.55,
+              0.55,
+              0.6,
+              0.5,
+              0.75,
+              0.6,
+              0.55,
+              0.7,
+              0.45,
+              0.7,
+              0.75,
+              0.65,
+              0.75,
+              0.45,
+              0.55,
+              0.6,
+              0.65,
+              0.65,
+              0.6,
+              0.5,
+              0.6,
+              0.55,
+              0.8,
+              0.45,
+              0.6,
+              0.55,
+              0.4,
+              0.65,
+              0.75,
+              0.65
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6607142857142857,
+            "max": 1.0,
+            "mean": 0.9488789682539682,
+            "standard_deviation": 0.07179140032825809,
+            "quantiles": [
+              0.6607142857142857,
+              0.9444444444444444,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "unique_values": 9,
+            "tied_images": 198,
+            "tie_groups": 7,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 105,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00007_basil/basil_05s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00011_batter/batter_01b.jpg",
+              "test_images/00012_beaver/beaver_04s.jpg",
+              "test_images/00013_bench/bench_01b.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00018_bok_choy/bok_choy_03s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00020_bottle_opener/bottle_opener_13s.jpg",
+              "test_images/00023_breadbox/breadbox_01b.jpg",
+              "test_images/00025_buggy/buggy_07s.jpg",
+              "test_images/00026_bullet/bullet_01s.jpg",
+              "test_images/00027_bun/bun_01b.jpg",
+              "test_images/00034_caterpillar/caterpillar_03s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.3666387624446119,
+            "random_split_95_percentile_interval": [
+              0.24985678517129117,
+              0.48882090611703927
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.65,
+            "random_split_95_percentile_interval": [
+              0.45,
+              0.7637499999999999
+            ]
+          },
+          "rank_null": {
+            "observed": 0.3666387624446119,
+            "null_median": -0.002420118671430747,
+            "null_95_percentile_interval": [
+              -0.06841993090614978,
+              0.06536164291196742
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.65,
+            "null_median": 0.55,
+            "null_95_percentile_interval": [
+              0.45,
+              0.6
+            ],
+            "one_sided_monte_carlo_p": 0.008991008991008992
+          },
+          "raw_splits": {
+            "spearman": [
+              0.38200218264905555,
+              0.48591000912908405,
+              0.27473521977377374,
+              0.34289199463590303,
+              0.3755037949861342,
+              0.30229853410936525,
+              0.18426818485565527,
+              0.422552306319151,
+              0.2886217761345582,
+              0.3862782195568971,
+              0.3796202249962615,
+              0.4064319122909423,
+              0.4657888578108229,
+              0.34099653130735447,
+              0.3875707792141533,
+              0.3001846526295609,
+              0.4188323199822035,
+              0.3638315833053214,
+              0.2984365498635977,
+              0.30251249890190846,
+              0.3599541449729272,
+              0.28351564736149126,
+              0.36944594158390237,
+              0.30432317268170156,
+              0.3966983553417841,
+              0.49649508908528484,
+              0.3729552474599831,
+              0.34614498034242663,
+              0.327662417219584,
+              0.395827709391689
+            ],
+            "top20_overlap_fraction": [
+              0.7,
+              0.75,
+              0.65,
+              0.5,
+              0.65,
+              0.8,
+              0.45,
+              0.7,
+              0.65,
+              0.65,
+              0.55,
+              0.75,
+              0.75,
+              0.55,
+              0.6,
+              0.6,
+              0.55,
+              0.65,
+              0.7,
+              0.7,
+              0.65,
+              0.5,
+              0.65,
+              0.6,
+              0.7,
+              0.6,
+              0.45,
+              0.7,
+              0.5,
+              0.7
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6607142857142857,
+            "max": 1.0,
+            "mean": 0.9474007936507937,
+            "standard_deviation": 0.0666613488761547,
+            "quantiles": [
+              0.6607142857142857,
+              0.8888888888888888,
+              0.9444444444444444,
+              1.0,
+              1.0
+            ],
+            "unique_values": 7,
+            "tied_images": 199,
+            "tie_groups": 6,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 98,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00003_backscratcher/backscratcher_01b.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00011_batter/batter_01b.jpg",
+              "test_images/00012_beaver/beaver_04s.jpg",
+              "test_images/00014_bike/bike_22s.jpg",
+              "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+              "test_images/00016_blowtorch/blowtorch_08s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00023_breadbox/breadbox_01b.jpg",
+              "test_images/00026_bullet/bullet_01s.jpg",
+              "test_images/00028_bush/bush_07s.jpg",
+              "test_images/00030_candlestick/candlestick_04s.jpg",
+              "test_images/00033_cat/cat_01b.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00037_chaps/chaps_18s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k10/mean_models": {
+      "cross_subject_spearman": 0.41845069489018866,
+      "top20_overlap_fraction": 0.3,
+      "top20_shared_images": 6,
+      "rank_permutation": {
+        "observed": 0.41845069489018866,
+        "null_median": -0.004216767774109913,
+        "null_95_percentile_interval": [
+          -0.13952258326998343,
+          0.14311781694450254
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.3,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.2
+        ],
+        "one_sided_monte_carlo_p": 0.002997002997002997
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.4846402450854651,
+            "random_split_95_percentile_interval": [
+              0.40198882886527465,
+              0.5611493114807623
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.25,
+            "random_split_95_percentile_interval": [
+              0.08625000000000001,
+              0.4
+            ]
+          },
+          "rank_null": {
+            "observed": 0.4846402450854651,
+            "null_median": 0.0012830946248364602,
+            "null_95_percentile_interval": [
+              -0.09119641593041236,
+              0.08109489361056152
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.25,
+            "null_median": 0.15,
+            "null_95_percentile_interval": [
+              0.1,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.5235044856983444,
+              0.47160084383465223,
+              0.40635132832217413,
+              0.4484752177123016,
+              0.5309898843568305,
+              0.5142028559904988,
+              0.44893000952126916,
+              0.5020442536886459,
+              0.5575790733735788,
+              0.48092398156761196,
+              0.5651836717305003,
+              0.5180197010326419,
+              0.39048769393344873,
+              0.41581799757602284,
+              0.5232823383533094,
+              0.46336603647345065,
+              0.5462714228821713,
+              0.4817580718522143,
+              0.5127028859785907,
+              0.4834656365173743,
+              0.4613954275604963,
+              0.506952218023603,
+              0.5596190369032754,
+              0.4696596311320859,
+              0.485814853653556,
+              0.4337943292390059,
+              0.5406117300765526,
+              0.44931096827210965,
+              0.5456416607087794,
+              0.4662171100645264
+            ],
+            "top20_overlap_fraction": [
+              0.2,
+              0.15,
+              0.1,
+              0.25,
+              0.4,
+              0.3,
+              0.25,
+              0.3,
+              0.15,
+              0.25,
+              0.25,
+              0.05,
+              0.25,
+              0.25,
+              0.4,
+              0.25,
+              0.25,
+              0.25,
+              0.15,
+              0.15,
+              0.25,
+              0.35,
+              0.15,
+              0.35,
+              0.15,
+              0.4,
+              0.2,
+              0.2,
+              0.25,
+              0.25
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.7083333333333334,
+            "max": 1.0,
+            "mean": 0.9268651100791193,
+            "standard_deviation": 0.06065431359393826,
+            "quantiles": [
+              0.7083333333333334,
+              0.8854489164086687,
+              0.9444444444444444,
+              0.9736842105263158,
+              1.0
+            ],
+            "unique_values": 19,
+            "tied_images": 194,
+            "tie_groups": 13,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 29,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00042_chopsticks/chopsticks_11s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00082_garlic/garlic_12n.jpg",
+              "test_images/00102_jukebox/jukebox_01n.jpg",
+              "test_images/00103_kettle/kettle_03n.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00108_laundry_basket/laundry_basket_12s.jpg",
+              "test_images/00121_nightstand/nightstand_05s.jpg",
+              "test_images/00126_orchid/orchid_05s.jpg",
+              "test_images/00130_paperweight/paperweight_07s.jpg",
+              "test_images/00131_pear/pear_01b.jpg",
+              "test_images/00152_rooster/rooster_03s.jpg",
+              "test_images/00155_sandal/sandal_03s.jpg",
+              "test_images/00158_scallion/scallion_04s.jpg",
+              "test_images/00162_seaweed/seaweed_07s.jpg",
+              "test_images/00165_sled/sled_10s.jpg",
+              "test_images/00168_slingshot/slingshot_07s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.4637410359278882,
+            "random_split_95_percentile_interval": [
+              0.357705497118839,
+              0.5196078732935981
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.35,
+            "random_split_95_percentile_interval": [
+              0.20875000000000002,
+              0.5
+            ]
+          },
+          "rank_null": {
+            "observed": 0.4637410359278882,
+            "null_median": -0.0016792977874637463,
+            "null_95_percentile_interval": [
+              -0.07633612782094838,
+              0.0834453823694944
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.35,
+            "null_median": 0.15,
+            "null_95_percentile_interval": [
+              0.1,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.47638938440133627,
+              0.4849082779109331,
+              0.3394002571661879,
+              0.4682169691572237,
+              0.5196516151867586,
+              0.4551440681859979,
+              0.4256412844202076,
+              0.47380661714446376,
+              0.46156802195165014,
+              0.5180697643264611,
+              0.4156283860949012,
+              0.3646488639974308,
+              0.40817279968465764,
+              0.4191746098790824,
+              0.4604772922686115,
+              0.48345327091106527,
+              0.46245107159575066,
+              0.4735149930226239,
+              0.4273856920594105,
+              0.42262479325715574,
+              0.5195912815410201,
+              0.4141809749562348,
+              0.47813239977405475,
+              0.43405889411194376,
+              0.49525665637713373,
+              0.46503100026002564,
+              0.4509444646748928,
+              0.4863137088002484,
+              0.46938553402096334,
+              0.499841602262709
+            ],
+            "top20_overlap_fraction": [
+              0.45,
+              0.3,
+              0.35,
+              0.35,
+              0.4,
+              0.4,
+              0.3,
+              0.4,
+              0.35,
+              0.3,
+              0.1,
+              0.4,
+              0.45,
+              0.5,
+              0.3,
+              0.35,
+              0.4,
+              0.5,
+              0.45,
+              0.5,
+              0.3,
+              0.45,
+              0.5,
+              0.35,
+              0.3,
+              0.35,
+              0.25,
+              0.35,
+              0.4,
+              0.3
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6666666666666667,
+            "max": 1.0,
+            "mean": 0.9271148459383752,
+            "standard_deviation": 0.06499443840887861,
+            "quantiles": [
+              0.6666666666666667,
+              0.8888888888888888,
+              0.9444444444444444,
+              0.9736842105263158,
+              1.0
+            ],
+            "unique_values": 20,
+            "tied_images": 193,
+            "tie_groups": 13,
+            "top20_boundary_score": 1.0,
+            "top20_boundary_tie_size": 32,
+            "images_strictly_above_boundary": 0,
+            "top20_ids": [
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00028_bush/bush_07s.jpg",
+              "test_images/00037_chaps/chaps_18s.jpg",
+              "test_images/00041_chime/chime_08s.jpg",
+              "test_images/00060_crumb/crumb_12s.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00082_garlic/garlic_12n.jpg",
+              "test_images/00092_hammer/hammer_08s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00095_highchair/highchair_04s.jpg",
+              "test_images/00098_ice_cube/ice_cube_11s.jpg",
+              "test_images/00102_jukebox/jukebox_01n.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00117_mosquito/mosquito_02s.jpg",
+              "test_images/00125_orange/orange_07s.jpg",
+              "test_images/00131_pear/pear_01b.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "jaccard_k20/mean_models": {
+      "cross_subject_spearman": 0.48011935864012495,
+      "top20_overlap_fraction": 0.1,
+      "top20_shared_images": 2,
+      "rank_permutation": {
+        "observed": 0.48011935864012495,
+        "null_median": -0.0026792584692183416,
+        "null_95_percentile_interval": [
+          -0.13042320107041275,
+          0.1331760428220372
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.1,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.25
+        ],
+        "one_sided_monte_carlo_p": 0.6513486513486514
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.6043587824951948,
+            "random_split_95_percentile_interval": [
+              0.5538954513492591,
+              0.6576194773981995
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.3,
+            "random_split_95_percentile_interval": [
+              0.13625,
+              0.45
+            ]
+          },
+          "rank_null": {
+            "observed": 0.6043587824951948,
+            "null_median": -0.0023673350489830363,
+            "null_95_percentile_interval": [
+              -0.0959961082946777,
+              0.09969503388588725
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.3,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.6065297033642097,
+              0.5952135900045112,
+              0.5878963613129929,
+              0.6250729289265371,
+              0.6043947470378932,
+              0.5418274024263878,
+              0.6002370347596729,
+              0.5585925366296118,
+              0.5750307671324024,
+              0.619495552054904,
+              0.6239082661919464,
+              0.6415083007740895,
+              0.5678624930377267,
+              0.6244990686032318,
+              0.6560549784476539,
+              0.5584729871475896,
+              0.6232551267864603,
+              0.6296875459094361,
+              0.6043228179524963,
+              0.5922207661236873,
+              0.5912095224638071,
+              0.661744065540547,
+              0.629613732384209,
+              0.5980906711398948,
+              0.5802880396450698,
+              0.5641138292416042,
+              0.5954956410667225,
+              0.6321513948674468,
+              0.633130677374457,
+              0.6315544393377881
+            ],
+            "top20_overlap_fraction": [
+              0.35,
+              0.35,
+              0.3,
+              0.25,
+              0.25,
+              0.3,
+              0.3,
+              0.2,
+              0.2,
+              0.3,
+              0.35,
+              0.15,
+              0.25,
+              0.25,
+              0.25,
+              0.2,
+              0.35,
+              0.3,
+              0.3,
+              0.2,
+              0.1,
+              0.45,
+              0.35,
+              0.4,
+              0.2,
+              0.3,
+              0.3,
+              0.2,
+              0.45,
+              0.4
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6666666666666667,
+            "max": 0.9871794871794872,
+            "mean": 0.8941125279694839,
+            "standard_deviation": 0.06172889187925436,
+            "quantiles": [
+              0.6666666666666667,
+              0.8562091503267973,
+              0.9039039039039038,
+              0.9365174891490681,
+              0.9871794871794872
+            ],
+            "unique_values": 43,
+            "tied_images": 186,
+            "tie_groups": 29,
+            "top20_boundary_score": 0.9608636977058029,
+            "top20_boundary_tie_size": 15,
+            "images_strictly_above_boundary": 10,
+            "top20_ids": [
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00108_laundry_basket/laundry_basket_12s.jpg",
+              "test_images/00124_onion/onion_10s.jpg",
+              "test_images/00188_treadmill/treadmill_11s.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00081_fruit/fruit_01b.jpg",
+              "test_images/00156_sandpaper/sandpaper_08s.jpg",
+              "test_images/00160_scooter/scooter_07s.jpg",
+              "test_images/00168_slingshot/slingshot_07s.jpg",
+              "test_images/00182_tiara/tiara_07s.jpg",
+              "test_images/00002_antelope/antelope_01b.jpg",
+              "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+              "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+              "test_images/00068_duffel_bag/duffel_bag_03s.jpg",
+              "test_images/00069_eagle/eagle_06s.jpg",
+              "test_images/00093_handbrake/handbrake_08s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00121_nightstand/nightstand_05s.jpg",
+              "test_images/00126_orchid/orchid_05s.jpg",
+              "test_images/00155_sandal/sandal_03s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.5477247922871531,
+            "random_split_95_percentile_interval": [
+              0.48742587076745675,
+              0.5977264202462311
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.25,
+            "random_split_95_percentile_interval": [
+              0.1,
+              0.45
+            ]
+          },
+          "rank_null": {
+            "observed": 0.5477247922871531,
+            "null_median": 0.0008681866965937366,
+            "null_95_percentile_interval": [
+              -0.09059478528446802,
+              0.09135478315157139
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.25,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.46777131537153255,
+              0.540412202904904,
+              0.53634057765377,
+              0.5075783206383844,
+              0.5603761780985345,
+              0.5554568852617053,
+              0.525728763227138,
+              0.5459559089223285,
+              0.5894343773335113,
+              0.5648578417706273,
+              0.5221196008665422,
+              0.5090546058960227,
+              0.552485310493141,
+              0.5526804640883559,
+              0.5734399493338295,
+              0.5057821002721338,
+              0.5492631553323443,
+              0.5975695627267223,
+              0.5360405244876445,
+              0.5364637085010516,
+              0.5981399537067541,
+              0.5370201976707019,
+              0.5734397441091225,
+              0.49488104695211765,
+              0.5697718962558764,
+              0.5761203870490292,
+              0.546186429241962,
+              0.5668435520076822,
+              0.5923647139447739,
+              0.5439448515051652
+            ],
+            "top20_overlap_fraction": [
+              0.2,
+              0.25,
+              0.1,
+              0.2,
+              0.25,
+              0.2,
+              0.25,
+              0.2,
+              0.3,
+              0.25,
+              0.3,
+              0.25,
+              0.25,
+              0.2,
+              0.3,
+              0.25,
+              0.35,
+              0.1,
+              0.3,
+              0.35,
+              0.45,
+              0.35,
+              0.45,
+              0.15,
+              0.3,
+              0.35,
+              0.25,
+              0.4,
+              0.4,
+              0.25
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6531986531986532,
+            "max": 0.9871794871794872,
+            "mean": 0.893125551828133,
+            "standard_deviation": 0.0621722614939925,
+            "quantiles": [
+              0.6531986531986532,
+              0.8703240251227867,
+              0.9039039039039038,
+              0.9331436699857752,
+              0.9871794871794872
+            ],
+            "unique_values": 50,
+            "tied_images": 179,
+            "tie_groups": 29,
+            "top20_boundary_score": 0.9608636977058029,
+            "top20_boundary_tie_size": 10,
+            "images_strictly_above_boundary": 13,
+            "top20_ids": [
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00098_ice_cube/ice_cube_11s.jpg",
+              "test_images/00172_station_wagon/station_wagon_04s.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00117_mosquito/mosquito_02s.jpg",
+              "test_images/00153_rug/rug_09s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00193_volleyball/volleyball_10s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg",
+              "test_images/00062_dagger/dagger_06s.jpg",
+              "test_images/00197_wheelchair/wheelchair_02s.jpg",
+              "test_images/00021_brace/brace_08s.jpg",
+              "test_images/00034_caterpillar/caterpillar_03s.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00054_creme_brulee/creme_brulee_01b.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00082_garlic/garlic_12n.jpg",
+              "test_images/00090_grenade/grenade_03s.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "row_spearman/mean_models": {
+      "cross_subject_spearman": 0.7435085877146931,
+      "top20_overlap_fraction": 0.3,
+      "top20_shared_images": 6,
+      "rank_permutation": {
+        "observed": 0.7435085877146931,
+        "null_median": -0.0031035775894397363,
+        "null_95_percentile_interval": [
+          -0.12863331583289583,
+          0.15003161329033227
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.3,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.25
+        ],
+        "one_sided_monte_carlo_p": 0.005994005994005994
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.854830120753019,
+            "random_split_95_percentile_interval": [
+              0.8182010425260633,
+              0.877766294157354
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.55,
+            "random_split_95_percentile_interval": [
+              0.4,
+              0.65
+            ]
+          },
+          "rank_null": {
+            "observed": 0.854830120753019,
+            "null_median": -0.0022800572137795256,
+            "null_95_percentile_interval": [
+              -0.1271480912022801,
+              0.13836638415960398
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.55,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.025,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.8658591464786619,
+              0.8164599114977874,
+              0.8469136728418212,
+              0.8593399834995876,
+              0.8473831845796144,
+              0.8540864224430293,
+              0.8266451661291534,
+              0.8663927347157042,
+              0.8188614715367886,
+              0.8451931298282459,
+              0.8753753843846097,
+              0.8706082652066303,
+              0.8545893647341184,
+              0.8287197179929499,
+              0.8296707417685443,
+              0.8481452036300908,
+              0.8637320933023328,
+              0.8528283207080178,
+              0.8516672916822922,
+              0.8637320933023326,
+              0.8329948248706218,
+              0.8584129603240082,
+              0.8671221780544516,
+              0.8550708767719196,
+              0.852369309232731,
+              0.8606675166879173,
+              0.8840696017400435,
+              0.8596324908122704,
+              0.868598214955374,
+              0.8723348083702094
+            ],
+            "top20_overlap_fraction": [
+              0.55,
+              0.6,
+              0.65,
+              0.6,
+              0.65,
+              0.5,
+              0.4,
+              0.55,
+              0.5,
+              0.4,
+              0.55,
+              0.6,
+              0.65,
+              0.55,
+              0.5,
+              0.55,
+              0.5,
+              0.4,
+              0.6,
+              0.5,
+              0.65,
+              0.55,
+              0.65,
+              0.55,
+              0.5,
+              0.5,
+              0.65,
+              0.5,
+              0.55,
+              0.6
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.33754644434292674,
+            "max": 0.579163621135983,
+            "mean": 0.45142622201918686,
+            "standard_deviation": 0.04694491689469632,
+            "quantiles": [
+              0.33754644434292674,
+              0.41948682807979293,
+              0.45077908481802953,
+              0.48278371021775546,
+              0.579163621135983
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.513414039896452,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00196_wheat/wheat_05n.jpg",
+              "test_images/00004_balance_beam/balance_beam_04s.jpg",
+              "test_images/00186_tool/tool_10s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00124_onion/onion_10s.jpg",
+              "test_images/00099_ice_pack/ice_pack_01b.jpg",
+              "test_images/00090_grenade/grenade_03s.jpg",
+              "test_images/00119_music_box/music_box_06s.jpg",
+              "test_images/00170_spatula/spatula_08s.jpg",
+              "test_images/00084_golf_cart/golf_cart_06s.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00073_espresso/espresso_01b.jpg",
+              "test_images/00092_hammer/hammer_08s.jpg",
+              "test_images/00128_pajamas/pajamas_13s.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00021_brace/brace_08s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.8020603015075378,
+            "random_split_95_percentile_interval": [
+              0.7476362409060228,
+              0.8468579839495989
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.55,
+            "random_split_95_percentile_interval": [
+              0.4,
+              0.65
+            ]
+          },
+          "rank_null": {
+            "observed": 0.8020603015075378,
+            "null_median": -0.0004128848470777765,
+            "null_95_percentile_interval": [
+              -0.11613340958523964,
+              0.127811145278632
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.55,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.025,
+              0.2
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.7808460211505288,
+              0.804566114152854,
+              0.8442241056026403,
+              0.7343553588839723,
+              0.8157143928598215,
+              0.7820100502512565,
+              0.8130353258831473,
+              0.8029625740643517,
+              0.7717017925448136,
+              0.8036510912772822,
+              0.7702407560189006,
+              0.8011580289507239,
+              0.7738333458336462,
+              0.8061246531163281,
+              0.8010215255381385,
+              0.7964074101852548,
+              0.7916023369093548,
+              0.8198934973374333,
+              0.8062866571664292,
+              0.7940878999805179,
+              0.8239071566441579,
+              0.7526738168454212,
+              0.8119642991074778,
+              0.7758808970224256,
+              0.7966534163354086,
+              0.8448016200405012,
+              0.8522793069826747,
+              0.8124443111077777,
+              0.7643066076651918,
+              0.8043456086402161
+            ],
+            "top20_overlap_fraction": [
+              0.6,
+              0.55,
+              0.55,
+              0.55,
+              0.45,
+              0.5,
+              0.4,
+              0.5,
+              0.6,
+              0.6,
+              0.6,
+              0.55,
+              0.45,
+              0.65,
+              0.6,
+              0.5,
+              0.55,
+              0.55,
+              0.45,
+              0.5,
+              0.6,
+              0.4,
+              0.6,
+              0.65,
+              0.5,
+              0.5,
+              0.55,
+              0.55,
+              0.55,
+              0.65
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.3548663773412517,
+            "max": 0.5675799451804477,
+            "mean": 0.4431772403685092,
+            "standard_deviation": 0.04333979306742131,
+            "quantiles": [
+              0.3548663773412517,
+              0.4091741853205421,
+              0.44081696360590833,
+              0.4753191145119537,
+              0.5675799451804477
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.5018513019643673,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00197_wheelchair/wheelchair_02s.jpg",
+              "test_images/00074_face_mask/face_mask_12s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00019_bonnet/bonnet_08s.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00186_tool/tool_10s.jpg",
+              "test_images/00128_pajamas/pajamas_13s.jpg",
+              "test_images/00025_buggy/buggy_07s.jpg",
+              "test_images/00098_ice_cube/ice_cube_11s.jpg",
+              "test_images/00104_kneepad/kneepad_12s.jpg",
+              "test_images/00177_t-shirt/t-shirt_15s.jpg",
+              "test_images/00118_muff/muff_12s.jpg",
+              "test_images/00191_unicycle/unicycle_10s.jpg",
+              "test_images/00168_slingshot/slingshot_07s.jpg",
+              "test_images/00073_espresso/espresso_01b.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "reciprocal_rank_weighted_jaccard/mean_models": {
+      "cross_subject_spearman": 0.5542593564839122,
+      "top20_overlap_fraction": 0.2,
+      "top20_shared_images": 4,
+      "rank_permutation": {
+        "observed": 0.5542593564839122,
+        "null_median": -0.0020303007575189435,
+        "null_95_percentile_interval": [
+          -0.14270794269856749,
+          0.14422556813920348
+        ],
+        "one_sided_monte_carlo_p": 0.000999000999000999
+      },
+      "tie_aware_top20_permutation": {
+        "observed": 0.2,
+        "null_median": 0.1,
+        "null_95_percentile_interval": [
+          0.0,
+          0.25
+        ],
+        "one_sided_monte_carlo_p": 0.12187812187812187
+      },
+      "subjects": {
+        "sub01": {
+          "spearman": {
+            "median": 0.6327945698642468,
+            "random_split_95_percentile_interval": [
+              0.5782667066676668,
+              0.7112772819320485
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.4,
+            "random_split_95_percentile_interval": [
+              0.2,
+              0.5137499999999999
+            ]
+          },
+          "rank_null": {
+            "observed": 0.6327945698642468,
+            "null_median": 0.00015450386259657084,
+            "null_95_percentile_interval": [
+              -0.11046938048451213,
+              0.10502735693392339
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.4,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.6356693917347934,
+              0.5979299482487063,
+              0.6082997074926875,
+              0.5928328208205207,
+              0.6182359558988976,
+              0.6113252831320785,
+              0.562497562439061,
+              0.6326063151578791,
+              0.6336083402085052,
+              0.6329828245706145,
+              0.7109142728568216,
+              0.6449711242781069,
+              0.65371184279607,
+              0.5842481062026551,
+              0.7122343058576466,
+              0.6298987474686868,
+              0.6585314632865823,
+              0.6618120453011327,
+              0.6967479186979676,
+              0.6120108002700068,
+              0.6739728493212331,
+              0.6346178654466361,
+              0.6164554113852847,
+              0.5852126303157579,
+              0.6206225155628893,
+              0.6142803570089254,
+              0.6504372609315234,
+              0.6911137778444462,
+              0.6655561389034728,
+              0.6314737868446713
+            ],
+            "top20_overlap_fraction": [
+              0.3,
+              0.25,
+              0.35,
+              0.4,
+              0.3,
+              0.45,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.5,
+              0.25,
+              0.3,
+              0.4,
+              0.3,
+              0.55,
+              0.4,
+              0.3,
+              0.35,
+              0.2,
+              0.4,
+              0.4,
+              0.4,
+              0.35,
+              0.2,
+              0.4,
+              0.35,
+              0.25,
+              0.5,
+              0.45
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6043825624014693,
+            "max": 0.8211261246889847,
+            "mean": 0.7637732606412542,
+            "standard_deviation": 0.04100244458582423,
+            "quantiles": [
+              0.6043825624014693,
+              0.7445371417368013,
+              0.775606065891075,
+              0.7933614546709516,
+              0.8211261246889847
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.8038792310733661,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00046_cobra/cobra_01b.jpg",
+              "test_images/00124_onion/onion_10s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00005_banana/banana_09s.jpg",
+              "test_images/00188_treadmill/treadmill_11s.jpg",
+              "test_images/00130_paperweight/paperweight_07s.jpg",
+              "test_images/00196_wheat/wheat_05n.jpg",
+              "test_images/00155_sandal/sandal_03s.jpg",
+              "test_images/00126_orchid/orchid_05s.jpg",
+              "test_images/00108_laundry_basket/laundry_basket_12s.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00191_unicycle/unicycle_10s.jpg",
+              "test_images/00168_slingshot/slingshot_07s.jpg",
+              "test_images/00036_chain/chain_01b.jpg",
+              "test_images/00121_nightstand/nightstand_05s.jpg",
+              "test_images/00170_spatula/spatula_08s.jpg",
+              "test_images/00169_snowshoe/snowshoe_04s.jpg",
+              "test_images/00010_baton4/baton4_05s.jpg"
+            ]
+          }
+        },
+        "sub02": {
+          "spearman": {
+            "median": 0.6286004650116255,
+            "random_split_95_percentile_interval": [
+              0.5669694367359185,
+              0.681351833795845
+            ]
+          },
+          "top20_overlap_fraction": {
+            "median": 0.4,
+            "random_split_95_percentile_interval": [
+              0.23625000000000002,
+              0.55
+            ]
+          },
+          "rank_null": {
+            "observed": 0.6286004650116255,
+            "null_median": -0.0009120228005700228,
+            "null_95_percentile_interval": [
+              -0.1074311295282382,
+              0.10330460136503408
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "tie_aware_top20_null": {
+            "observed": 0.4,
+            "null_median": 0.1,
+            "null_95_percentile_interval": [
+              0.05,
+              0.15
+            ],
+            "one_sided_monte_carlo_p": 0.000999000999000999
+          },
+          "raw_splits": {
+            "spearman": [
+              0.6284002100052501,
+              0.6527458186454663,
+              0.5920513012825321,
+              0.5801125028125702,
+              0.6377754443861098,
+              0.6758028950723769,
+              0.5673666841671042,
+              0.6485187129678244,
+              0.6020700517512939,
+              0.6653776344408611,
+              0.5823235580889522,
+              0.6075106877671943,
+              0.6111992799819996,
+              0.6122643066076652,
+              0.609412735318383,
+              0.6280552013800346,
+              0.6694922373059327,
+              0.6260601515037877,
+              0.6288007200180007,
+              0.5659221480537016,
+              0.6760519012975326,
+              0.5982164554113852,
+              0.6652111302782571,
+              0.6002880072001802,
+              0.6953243831095779,
+              0.652553813845346,
+              0.6441356033900847,
+              0.6288532213305336,
+              0.631719792994825,
+              0.6318547963699094
+            ],
+            "top20_overlap_fraction": [
+              0.4,
+              0.45,
+              0.2,
+              0.5,
+              0.5,
+              0.35,
+              0.55,
+              0.4,
+              0.35,
+              0.45,
+              0.4,
+              0.45,
+              0.35,
+              0.4,
+              0.45,
+              0.35,
+              0.4,
+              0.3,
+              0.25,
+              0.55,
+              0.4,
+              0.45,
+              0.35,
+              0.35,
+              0.4,
+              0.4,
+              0.45,
+              0.55,
+              0.4,
+              0.5
+            ]
+          },
+          "full_score_distribution": {
+            "min": 0.6227631980659301,
+            "max": 0.817232776888245,
+            "mean": 0.7616380474006291,
+            "standard_deviation": 0.042084141764214,
+            "quantiles": [
+              0.6227631980659301,
+              0.7465927489488728,
+              0.7738905270688393,
+              0.7916603167347459,
+              0.817232776888245
+            ],
+            "unique_values": 200,
+            "tied_images": 0,
+            "tie_groups": 0,
+            "top20_boundary_score": 0.8019266321480956,
+            "top20_boundary_tie_size": 1,
+            "images_strictly_above_boundary": 19,
+            "top20_ids": [
+              "test_images/00107_lampshade/lampshade_05s.jpg",
+              "test_images/00009_bassoon/bassoon_01b.jpg",
+              "test_images/00197_wheelchair/wheelchair_02s.jpg",
+              "test_images/00192_vise/vise_11s.jpg",
+              "test_images/00098_ice_cube/ice_cube_11s.jpg",
+              "test_images/00052_coverall/coverall_06s.jpg",
+              "test_images/00094_headscarf/headscarf_03s.jpg",
+              "test_images/00067_drum/drum_01b.jpg",
+              "test_images/00193_volleyball/volleyball_10s.jpg",
+              "test_images/00095_highchair/highchair_04s.jpg",
+              "test_images/00117_mosquito/mosquito_02s.jpg",
+              "test_images/00038_cheese/cheese_06s.jpg",
+              "test_images/00131_pear/pear_01b.jpg",
+              "test_images/00080_french_horn/french_horn_03s.jpg",
+              "test_images/00102_jukebox/jukebox_01n.jpg",
+              "test_images/00138_pocket/pocket_04s.jpg",
+              "test_images/00198_windshield/windshield_09s.jpg",
+              "test_images/00008_basketball/basketball_05s.jpg",
+              "test_images/00042_chopsticks/chopsticks_11s.jpg",
+              "test_images/00082_garlic/garlic_12n.jpg"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tie_policy": "average score ranks for Spearman; stable image-ID tie-break for Top-20",
+  "null": "permute image labels, then reapply the identical ranking/tie rule; 1000 permutations",
+  "permutations": 1000,
+  "intervals": "Random-split variability; splits overlap across reruns.",
+  "p_values": "Exploratory one-sided Monte Carlo, unadjusted; all predeclared methods reported.",
+  "conditional_on_shared_preprocessing": true,
+  "metric_selection": "No final scoring method selected from subject-02."
+}

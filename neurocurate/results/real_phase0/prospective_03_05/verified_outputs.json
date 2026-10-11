@@ -1,0 +1,95 @@
+{
+  "outputs": {
+    "analysis_provenance.json": {
+      "bytes": 1258,
+      "sha256": "0f316f86dcefa8196214203e00062df8007cf1bfcde2b3ba904cd98b08fd56cb"
+    },
+    "brain_specific_nulls.json": {
+      "bytes": 165532,
+      "sha256": "90d7a07a17b75fa4754c48f0079db6db2adafbded5bf6216ee18b02974283b9a"
+    },
+    "cross_subject_disagreement.csv": {
+      "bytes": 31721,
+      "sha256": "1b117cf805ec3521ce28a57d64feb526e8047e07e0c36c76a9127948b1b90830"
+    },
+    "cross_subject_rdm.csv": {
+      "bytes": 475,
+      "sha256": "f15eaad8620552c8d92df124cae04dc50a28c89edd6e041cd50a0d1cacdf59f3"
+    },
+    "environment_versions.json": {
+      "bytes": 3189,
+      "sha256": "025d66fd05e8efe64d946e8f9cfa21b05a2919836ba6d3c0b8a05c0dbd60c8b1"
+    },
+    "frozen_protocol.json": {
+      "bytes": 9827,
+      "sha256": "01c9748c0a35339f99495080f8e516bead53aa861fd715add00d2d362e54e59d"
+    },
+    "monte_carlo_uncertainty.json": {
+      "bytes": 690,
+      "sha256": "1e0a6897837505838d968059ffe28c7540a1665a69b425ee720d093dc43ccf01"
+    },
+    "null_statistics.npz": {
+      "bytes": 8031913,
+      "sha256": "a2ba7e1a494f48bbbc31c252e0af6cd84861742411d19e8faa5b383d48528cab"
+    },
+    "observed_scores.npz": {
+      "bytes": 3146709,
+      "sha256": "d4df1e12e6c586ca0de5c530ff7548c217e0fa4b07f4e1d54dbbc166200bdc73"
+    },
+    "protocol_snapshot.tar": {
+      "bytes": 389120,
+      "sha256": "20840d3661ce9c75e39c1290887b8e8f0b83eebe18150d93b79c268c6654be6e"
+    },
+    "replication_figures.png": {
+      "bytes": 277394,
+      "sha256": "50047f1796774e0845f0b0ba595558c0662afe30b0275afd3bb803df48814c1c"
+    },
+    "reproducibility_checks.json": {
+      "bytes": 787,
+      "sha256": "298bab1e6291f324951a9ead88dea2286d51799c82b26066aee5c9488bc8bb3e"
+    },
+    "scientific_interpretation.md": {
+      "bytes": 2423,
+      "sha256": "b56adb6720bb8f1fd874ad22c035135ab2eb5065f0f4e95bd9b9e0efd72e548b"
+    },
+    "scientific_summary.md": {
+      "bytes": 13557,
+      "sha256": "2f0584aad53745ff741af8c56da989f6296efac04f65f447340cf3a0901da832"
+    },
+    "selection_budget_replication.csv": {
+      "bytes": 434457,
+      "sha256": "ae88dfcbab22c7b3b4e3cdb4be69151c8d0c63a29d8b171cd3453ff3fd44c395"
+    },
+    "sub03_acquisition.log": {
+      "bytes": 102,
+      "sha256": "1240652f4d3f496aadd9a2def3ae71c08f94e61fd007167b65044ecbc43509cc"
+    },
+    "sub04_acquisition.log": {
+      "bytes": 102,
+      "sha256": "7633d82866f59915727441841609ee39c47ce434b645e59f5210c2ee1bf8d193"
+    },
+    "sub05_acquisition.log": {
+      "bytes": 102,
+      "sha256": "87722afe9648ad0655c99a3639b3384c757b761c36ce43b745982b76d263727c"
+    },
+    "subject_reliability.csv": {
+      "bytes": 842,
+      "sha256": "2d32ecc363fa1a84be7fa9682d89144f93b16d2842372f37b6b6b01004becc3c"
+    },
+    "subject_status.json": {
+      "bytes": 893,
+      "sha256": "5ee061411452a20476e74cad9ef0fe24d3b850c8267c4f7c7a5239e9c463e911"
+    },
+    "test_results.json": {
+      "bytes": 498,
+      "sha256": "f5970881b24e218fc37a0a82d069b03cee636d1314259e32ead9ccc5de8812c6"
+    },
+    "within_rank_stability.csv": {
+      "bytes": 6590,
+      "sha256": "af6d3da98fbaf18337af625bfea8c57a5eaaedd627080ee8bf47e24ad484d897"
+    }
+  },
+  "frozen_analysis_source_unchanged": true,
+  "post_result_editorial_file": "scientific_interpretation.md",
+  "post_result_diagnostic_file": "monte_carlo_uncertainty.json"
+}

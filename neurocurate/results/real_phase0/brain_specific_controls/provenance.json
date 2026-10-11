@@ -1,0 +1,39 @@
+{
+  "input_sha256": {
+    "results/real_phase0/sub01/brain_rdm.npy": "a217fa18dc858d28c11408eb0700ccf12118eaa24c69411067f7d855bb0bc08c",
+    "results/real_phase0/sub01/image_ids.npy": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0",
+    "results/real_phase0/sub01/pickle_free/export_manifest.json": "a83592aebaa0fdaf61bc2341e6e847c8af6a5aa766512361d43b38a9a0fb8f72",
+    "results/real_phase0/cross_subject_01_02/sub01_half_rdms.npz": "60a23bfd71fa364312dd3a0bc4e690b079972ebd58bd67d265bb7d578cc36320",
+    "results/real_phase0/sub02/brain_rdm.npy": "659038e03d757f0821c78205480ecab5a559cfe6b4ad34a915cd0af6d28c74c5",
+    "results/real_phase0/sub02/image_ids.npy": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0",
+    "results/real_phase0/sub02/pickle_free/export_manifest.json": "b345c9fb0d5a8dcb00a3cb7f48f857cff18ed532668eceff7ee717d746f6b7b9",
+    "results/real_phase0/cross_subject_01_02/sub02_half_rdms.npz": "4198aea5d9bc0f4e1ffb9641c9767c6a8abccbfe4f376f97ab2f41f1086e19e3",
+    "results/real_phase0/sub01/dinov2_features.npz": "eb4f89a8490752cc718f729c4ac80bee50178701f773dabcb5f7a3d819f700c9",
+    "results/real_phase0/sub01/clip_features.npz": "edec2d8016b8c81c34686fdc53ff117aa7721ab6a808ee7383e887cfeebdd748"
+  },
+  "phase14_manifest_sha256": "8262d27b19e7723bc4bc2b06eb202e4a20206535ea974a4db33747549cc95959",
+  "phase14_provenance_sha256": "008504151b5e429a12e7d16bd0f52e1247e83740dee71b9ebc4c056e1c6ed4db",
+  "frozen_config_sha256": "61d17efe3eb0842080757a396ddf0b3c1ea0afcfc91e3b4e780edb3eafc9888d",
+  "code_sha256": {
+    "scripts/brain_specific_controls.py": "35d2e649306787750ec750ae3199fc9a17e1987b2018b2386e25c69a85561aa0",
+    "src/neurocurate/brain_controls.py": "a89a4757a29229aca1d67be69d521fd59ef9c578743cdf1b8a98dbfe82787eb0",
+    "src/neurocurate/ablation.py": "69ff1ae7735541bca84b0fbd92362ec8981a3d8ab19708096ae345a46f57c3f6"
+  },
+  "all_numpy_loads_allow_pickle_false": true,
+  "no_downloads": true,
+  "no_classifier_training": true,
+  "completed_at_utc": "2026-10-11T12:47:29.987620+00:00",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  },
+  "checks": [
+    "all Phase 1.4 output/input hashes",
+    "original subject-01 scientific output hashes",
+    "exact 200 image order",
+    "Brain RDM recomputation from numeric EEG",
+    "cached model RDM recomputation",
+    "identical frozen split assignments",
+    "observed cross-subject scores reproduce Phase 1.4"
+  ]
+}

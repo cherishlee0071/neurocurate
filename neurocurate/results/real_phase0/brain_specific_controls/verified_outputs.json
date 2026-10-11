@@ -1,0 +1,53 @@
+{
+  "outputs": {
+    "brain_specific_nulls.json": {
+      "bytes": 45317,
+      "sha256": "b37ea452f936507276b90d81fc56ae165175054329e22890a1d8118791e796e2"
+    },
+    "frozen_protocol.json": {
+      "bytes": 2074,
+      "sha256": "6a6fafca93ed34ba5a5e6299a3068af4118d5a5ba4f6fb6bab4dc393b6ddff9c"
+    },
+    "model_only_associations.json": {
+      "bytes": 142605,
+      "sha256": "f778e4138e47c345867281522d331d44e9d4f910205336592c5a814ccc41de62"
+    },
+    "model_only_controls.csv": {
+      "bytes": 125206,
+      "sha256": "82cac6f36315e9044520f933a7771d1fcc8e3a5bab6b5a9f50e0864cf44683cf"
+    },
+    "null_statistics.npz": {
+      "bytes": 4970128,
+      "sha256": "a7791ffd583e5a6bd778fec82ddfd8da0abdc1367879ee8d869ce063237faa5e"
+    },
+    "observed_scores.npz": {
+      "bytes": 1262790,
+      "sha256": "3adc132ad5751501451707a01560e1312ee84784e46b9dc3414581e74483adf0"
+    },
+    "provenance.json": {
+      "bytes": 2452,
+      "sha256": "fed929f466817b571a8d13463ae12f20b664847f226a02ed866a1c48ee88092e"
+    },
+    "scientific_summary.md": {
+      "bytes": 13226,
+      "sha256": "8819d32a90132177af702957b753317a9c42f7f515d24acf7b126f52a49e0849"
+    },
+    "selection_budget_curves.csv": {
+      "bytes": 94715,
+      "sha256": "d452f8e8ff0b978c2fc7778fb770d487e010f735ceec19f2a7b4bc4610cfd25c"
+    },
+    "selection_budget_curves.png": {
+      "bytes": 652368,
+      "sha256": "f45092d7b61a2a869aa2380f8f96034730d05f1259d85d37530ef7ac4fd9e95f"
+    },
+    "selection_split_statistics.json": {
+      "bytes": 170975,
+      "sha256": "67ef8c393b87197b2c86fdbe7daeac402fecda479e52ad0e20af74da426cb624"
+    },
+    "test_results.json": {
+      "bytes": 364,
+      "sha256": "1301bd9cac34619746638f1ad4f49e3e1962804969658aff3bc741d6893f34e8"
+    }
+  },
+  "report_code_sha256": "df04330bb4768a1b5e12caa1869a8c73ed64755d75ee68d831715264538200b9"
+}

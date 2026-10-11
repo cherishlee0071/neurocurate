@@ -1,0 +1,45 @@
+acquisition_manifest: results/real_phase0/sub01/acquisition_manifest.json
+brain_metric: correlation
+image_root: data/local/real_phase0/stimuli
+output_dir: results/phase1/smoke
+preprocessing:
+  baseline: null
+  min_repetitions: 80
+  standardize: false
+  temporal_bins: null
+  time_window:
+  - 0.1
+  - 0.5
+subset_eeg_indices:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+vision:
+  clip:
+    batch_size: 4
+    cache_dir: /workspace/setup/neurocurate/model_cache
+    device: cpu
+    local_files_only: true
+    normalize: true
+    revision: 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268
+  dinov2:
+    batch_size: 4
+    cache_dir: /workspace/setup/neurocurate/model_cache
+    device: cpu
+    local_files_only: true
+    normalize: true
+    revision: f9e44c814b77203eaa57a6bdbbd535f21ede1415
+vision_metric: cosine

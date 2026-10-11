@@ -1,0 +1,25 @@
+{
+  "standard": {
+    "passed": 143,
+    "skipped": 18,
+    "seconds": 9.62,
+    "network_access": false
+  },
+  "new_synthetic": {
+    "passed": 3,
+    "seconds": 0.7
+  },
+  "prospective_real_numeric": {
+    "passed": 3,
+    "seconds": 1.83,
+    "network_access": false,
+    "pickle_deserialization": false
+  },
+  "discovery_real_regression": {
+    "passed": 11,
+    "seconds": 6.2,
+    "network_access": false,
+    "pickle_deserialization": false
+  },
+  "old_direct_pickle_tests_enabled": false
+}

@@ -1,0 +1,2183 @@
+{
+  "audited_at_utc": "2026-10-11T11:19:47.995124+00:00",
+  "subject": "sub-01",
+  "dataset": {
+    "name": "THINGS-EEG2",
+    "official_osf_project": "3jk45",
+    "preprocessed_osf_node": "anp5v",
+    "archive_file_id": "62f6b4ff170d520c73c27c1e",
+    "archive_version": 1,
+    "archive_release_date": "2022-08-12",
+    "version_evidence": "outputs/lowdisk-audit/osf-preprocessed-complete.json: attributes.current_version",
+    "original_split": "test",
+    "repository_split": "sanity",
+    "training_use_prohibited": true
+  },
+  "source_manifest": "/workspace/neurocurate/neurocurate/results/real_phase0/sub01/acquisition_manifest.json",
+  "files": [
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/sub-01.zip",
+      "url": "https://osf.io/download/nb8wr/",
+      "bytes": 1071722467,
+      "sha256": "f25d5ea30ba6811edd7ebd460d7b271edaf527b6920ab2d3d6e7950e9ee9639f",
+      "verified": true,
+      "actual_sha256": "f25d5ea30ba6811edd7ebd460d7b271edaf527b6920ab2d3d6e7950e9ee9639f"
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/test_images.zip",
+      "url": "https://osf.io/download/znu7b/",
+      "bytes": 8129948,
+      "sha256": "57ed472cd88f68ccf88e9ecbadf3da91ac222d8548684d5680be95bcf47ec14a",
+      "verified": true,
+      "actual_sha256": "57ed472cd88f68ccf88e9ecbadf3da91ac222d8548684d5680be95bcf47ec14a"
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/image_metadata.npy",
+      "url": "https://osf.io/download/qkgtf/",
+      "bytes": 656579,
+      "sha256": "681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c",
+      "verified": true,
+      "actual_sha256": "681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c"
+    }
+  ],
+  "eeg_export": {
+    "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/eeg/sub-01/preprocessed_eeg_test.npy",
+    "archive": "sub-01.zip",
+    "member": "sub-01/preprocessed_eeg_test.npy",
+    "bytes": 217601432,
+    "sha256": "08e52b18caf46b8504beb4edaadef025f114eaea25ab1f4eb8c5f9114c56ebff",
+    "crc32_verified": true
+  },
+  "image_files": [
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00001_aircraft_carrier/aircraft_carrier_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00001_aircraft_carrier/aircraft_carrier_06s.jpg",
+      "bytes": 37098,
+      "sha256": "53678dcbe326b4e70682c14475eba597cf60025dea1dd7497e75b36bd872162e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00002_antelope/antelope_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00002_antelope/antelope_01b.jpg",
+      "bytes": 46682,
+      "sha256": "1a37945a9aa48ce23bfc87a64a7e29e9665f7d4bf3dfd32a648b64ed3555773c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00003_backscratcher/backscratcher_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00003_backscratcher/backscratcher_01b.jpg",
+      "bytes": 42226,
+      "sha256": "f703dcddd8ca0c14eaa97e46df16d02754b40d9817eaaff3e80de2baf7881477",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00004_balance_beam/balance_beam_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00004_balance_beam/balance_beam_04s.jpg",
+      "bytes": 60080,
+      "sha256": "aec4712e848f686b027abc6fd0f7a9baef36c153c9d56ad8c703b17bcf328907",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00005_banana/banana_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00005_banana/banana_09s.jpg",
+      "bytes": 24116,
+      "sha256": "0bfb9988c8c578ed51b621230f6610dcacaad34ed45842d1de4f70422b84095a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+      "bytes": 80313,
+      "sha256": "d20da1f68c0f1f2a44d29d7ae33c672283b9efb55ed0bab657a50e8b388c1b14",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00007_basil/basil_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00007_basil/basil_05s.jpg",
+      "bytes": 33455,
+      "sha256": "743d3b9e86c28cf7446e94017ffa117601d52e98c4e2e6bd6c70dca5b528116f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00008_basketball/basketball_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00008_basketball/basketball_05s.jpg",
+      "bytes": 25226,
+      "sha256": "29f8b37c6e569e36c5f4edb5f59929c7a77e8c8166202e25b08b740cfdb4d9d1",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00009_bassoon/bassoon_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00009_bassoon/bassoon_01b.jpg",
+      "bytes": 40275,
+      "sha256": "beea90e3a83e9a6229d1c72783e45e653e389eb0e6f5d0bed7c7d6baf68e4f1b",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00010_baton4/baton4_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00010_baton4/baton4_05s.jpg",
+      "bytes": 16106,
+      "sha256": "cee75414faa0b7fd60b0f937cb682a2a3ab4a4794ce1b912aff42a7e02a62279",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00011_batter/batter_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00011_batter/batter_01b.jpg",
+      "bytes": 37670,
+      "sha256": "bd5f5c44b94d85b872b3639923e77219fa3eea5cebda1fe79f612a9df2c3df61",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00012_beaver/beaver_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00012_beaver/beaver_04s.jpg",
+      "bytes": 69681,
+      "sha256": "d82a7a2df621232d78a22c4a51c9a6b00f93088a3691015a9755db658cb06ee1",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00013_bench/bench_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00013_bench/bench_01b.jpg",
+      "bytes": 81881,
+      "sha256": "2ecf18ff7072b0e8077046a7247162496ccd53d4349a866c91726144c91bfaea",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00014_bike/bike_22s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00014_bike/bike_22s.jpg",
+      "bytes": 62942,
+      "sha256": "ab90af55d5624d39b50beded1bbc8b6cc935ccb18013397558e7026e06bcc0dc",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+      "bytes": 33809,
+      "sha256": "46e3df2898396e8b01d31d51f880f9a580e3c833b36add2278c56bff21c2cd74",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00016_blowtorch/blowtorch_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00016_blowtorch/blowtorch_08s.jpg",
+      "bytes": 35655,
+      "sha256": "d919c4cb9b4d77a9383d016b39bf025833c450ba0c700d50fccc2709f4273a62",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00017_boat/boat_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00017_boat/boat_01b.jpg",
+      "bytes": 55037,
+      "sha256": "2446981553539c0316d51484de4c38ec0ed279a7012d76c27e2595ef1c70a973",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00018_bok_choy/bok_choy_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00018_bok_choy/bok_choy_03s.jpg",
+      "bytes": 37247,
+      "sha256": "b91ba6fb41bb6335a6cceebff194593fda5a7bc14767187f52a6410d85510f29",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00019_bonnet/bonnet_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00019_bonnet/bonnet_08s.jpg",
+      "bytes": 29834,
+      "sha256": "766b4d9a36550d922f2a42f990a424ace2c3af1cd40482e87f14afca219d59f2",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00020_bottle_opener/bottle_opener_13s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00020_bottle_opener/bottle_opener_13s.jpg",
+      "bytes": 38153,
+      "sha256": "c1d6baa29c83039817144458e7f048e2789aa749552b8a2f68a6ede094cce09e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00021_brace/brace_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00021_brace/brace_08s.jpg",
+      "bytes": 33808,
+      "sha256": "600c921a2d3acb7dc54ab7f7f28aef55a272f390cbdcfa0f3efce954f6316daa",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00022_bread/bread_19s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00022_bread/bread_19s.jpg",
+      "bytes": 44371,
+      "sha256": "888f1b9f9d99a51eae63ee8d4a92edaac3d99b64630e6d8cd68890646691b40b",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00023_breadbox/breadbox_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00023_breadbox/breadbox_01b.jpg",
+      "bytes": 43019,
+      "sha256": "c9eb8d97bff7e00e3ad837f5149899f2f7d17a0eb00b44c578b43844df644c67",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00024_bug/bug_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00024_bug/bug_08s.jpg",
+      "bytes": 30251,
+      "sha256": "5efe2d20d5085f0223717c0362acd99f5565a79966567f9c741f69ab06293c6b",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00025_buggy/buggy_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00025_buggy/buggy_07s.jpg",
+      "bytes": 60771,
+      "sha256": "be252911b4dfd3af10c41a585e9bda74e84f0e217af852ca7ceb859f618a0301",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00026_bullet/bullet_01s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00026_bullet/bullet_01s.jpg",
+      "bytes": 53225,
+      "sha256": "2adb89e7f00d5bd5f5fad266a334cc2bd76ce084fbae1e2b05517cf09302fe5a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00027_bun/bun_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00027_bun/bun_01b.jpg",
+      "bytes": 41175,
+      "sha256": "cd0eae62f3798daaf05148535631c5017975cf7964d5f7474883c9966b28f1e9",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00028_bush/bush_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00028_bush/bush_07s.jpg",
+      "bytes": 47268,
+      "sha256": "7b4b5ad27f9a22298dbfde53e746d32b85500b5b9886a80ca6a83db58da9ff46",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00029_calamari/calamari_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00029_calamari/calamari_01b.jpg",
+      "bytes": 48827,
+      "sha256": "f81eca3391d56d8436fee51824fad2d13215fb2d7e276ea007d4c208e9e61605",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00030_candlestick/candlestick_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00030_candlestick/candlestick_04s.jpg",
+      "bytes": 20621,
+      "sha256": "3de0a13a5a10546e5f94304c393c626b2c6e3f9551af3a2abd72f6dbe0c99b60",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00031_cart/cart_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00031_cart/cart_09s.jpg",
+      "bytes": 54068,
+      "sha256": "c5058717df75a00660860cf63f560daea3214f7a0dc147585dee10601f1712cc",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00032_cashew/cashew_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00032_cashew/cashew_01b.jpg",
+      "bytes": 49823,
+      "sha256": "f53f0a62d941cbdc385091f655c4fd23e3da8ffb81904243dd6fd98351b2076f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00033_cat/cat_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00033_cat/cat_01b.jpg",
+      "bytes": 46569,
+      "sha256": "1a5a9ec18c8b0043d74e0a4481ee4dd7ee2536bc4300e0e1e01841072bf41956",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00034_caterpillar/caterpillar_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00034_caterpillar/caterpillar_03s.jpg",
+      "bytes": 25238,
+      "sha256": "6b39fde235000dc13a6a20aa93339cddd28491934b6f391cf288502233f153ee",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00035_cd_player/cd_player_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00035_cd_player/cd_player_02s.jpg",
+      "bytes": 24161,
+      "sha256": "30dbe9d5f9feacd55448b5a5a80b3a5fc4bcd0ed6df0a8b64663e1e313be0077",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00036_chain/chain_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00036_chain/chain_01b.jpg",
+      "bytes": 42807,
+      "sha256": "115bddc00d8a9bd92570c18c7ec74ec945043f599b5079504fb2cec20a2d469d",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00037_chaps/chaps_18s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00037_chaps/chaps_18s.jpg",
+      "bytes": 28741,
+      "sha256": "e095da13922b1855d79bdaf0ffee13e5de74130cf07f80a90194c0a4f658ad9e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00038_cheese/cheese_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00038_cheese/cheese_06s.jpg",
+      "bytes": 32582,
+      "sha256": "93dc347377c2efa9a40df18b751135532e97db3a0b40a7b6282963c06a60c7a9",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00039_cheetah/cheetah_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00039_cheetah/cheetah_05s.jpg",
+      "bytes": 58304,
+      "sha256": "d3bcae2d4dfbc7a15f87d8c6d159f50106a3ec1769c16490c23d4ea85a822a68",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00040_chest2/chest2_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00040_chest2/chest2_02s.jpg",
+      "bytes": 37808,
+      "sha256": "1003d486c67e50b4e3317bbbf3fa487de768334b2cab0ce587c30a3167119990",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00041_chime/chime_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00041_chime/chime_08s.jpg",
+      "bytes": 44124,
+      "sha256": "394d27f754e8d4ff522ee55f01a903f27502921f9226615d7d582ce576db9a3e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00042_chopsticks/chopsticks_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00042_chopsticks/chopsticks_11s.jpg",
+      "bytes": 57961,
+      "sha256": "cb9b68f5dfbf775925ba26a4bc9c52fc6cb899f2cd3016cae78a378132fbc0fa",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00043_cleat/cleat_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00043_cleat/cleat_09s.jpg",
+      "bytes": 39142,
+      "sha256": "3d050f7b8c71b5d9a41fd6db67982dc1db8d1d36e25a7fa5993668149da58733",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00044_cleaver/cleaver_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00044_cleaver/cleaver_07s.jpg",
+      "bytes": 32820,
+      "sha256": "21a356df5d5e9ad4a5f80b9a1464b772ff3aa2c55d0eca8cdba4e8834a5fb591",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00045_coat/coat_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00045_coat/coat_01b.jpg",
+      "bytes": 23132,
+      "sha256": "b22b4cd3bf9f8b7f21a62a724df10fd0be28db5c6097205fb22b63a60476bee2",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00046_cobra/cobra_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00046_cobra/cobra_01b.jpg",
+      "bytes": 53318,
+      "sha256": "49e7b0e9140acd4690994d509c9cee17cd15187b5ce88a2e3b5163a08a662715",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00047_coconut/coconut_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00047_coconut/coconut_01b.jpg",
+      "bytes": 35803,
+      "sha256": "9fcfea899b1b4389826089b3bf2cc3a0913af2912f8cbe6b97ec47a755362f90",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00048_coffee_bean/coffee_bean_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00048_coffee_bean/coffee_bean_01b.jpg",
+      "bytes": 36755,
+      "sha256": "a3899fb3b67d774f7f549f5f9d27a0d6c895da8b28f6cd7a2db97b6bcbb46779",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+      "bytes": 32081,
+      "sha256": "5bde8750bd968872074f654aacfa59c4e31719625bd13de15c1204ccc407e5fa",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00050_cookie/cookie_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00050_cookie/cookie_09s.jpg",
+      "bytes": 40695,
+      "sha256": "f5c0aa17ee3a1b87c5194e232afcf6ee6607ea520d0c04425e0a68cd589c96e6",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00051_cordon_bleu/cordon_bleu_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00051_cordon_bleu/cordon_bleu_08s.jpg",
+      "bytes": 35391,
+      "sha256": "69a7f213bd37690ad0c5ad39cfd01b7a4ca115c5df2361261e16549d13426218",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00052_coverall/coverall_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00052_coverall/coverall_06s.jpg",
+      "bytes": 37907,
+      "sha256": "a12efc4b2fb23201150632d219c4ca7e30d3e3068f9185e03399a6bbf8bf26cc",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00053_crab/crab_17s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00053_crab/crab_17s.jpg",
+      "bytes": 30796,
+      "sha256": "84cc79ec3a323f8c5f0c930832f44cbcd25b28bda5cca548e66430c140b67408",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00054_creme_brulee/creme_brulee_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00054_creme_brulee/creme_brulee_01b.jpg",
+      "bytes": 28580,
+      "sha256": "be9a5cd2d44f85c27d07b98cb54cc5c22d05ad6db07bb83186d6e99e29193cb2",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00055_crepe/crepe_18s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00055_crepe/crepe_18s.jpg",
+      "bytes": 52891,
+      "sha256": "f2262ed17d633681e62bf04ac1024c898383b2acf375231967061b4e6a921141",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00056_crib/crib_14n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00056_crib/crib_14n.jpg",
+      "bytes": 39294,
+      "sha256": "d8af76f8282e0ee22f5fbf4748e41be3ccce59100c6fd87a3492744f9b2172b2",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00057_croissant/croissant_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00057_croissant/croissant_06s.jpg",
+      "bytes": 42918,
+      "sha256": "4a21689cf9b7458b3ce3bddcb699fa9ada12b74a6495ddf0936ce74ef3f2f043",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00058_crow/crow_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00058_crow/crow_11s.jpg",
+      "bytes": 33651,
+      "sha256": "e9ab457cf18d3c9e622c717f96899e5a480ea1d8fa5af8748a4e5f04f38fc361",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00059_cruise_ship/cruise_ship_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00059_cruise_ship/cruise_ship_03s.jpg",
+      "bytes": 33237,
+      "sha256": "1f5c9a7d723d9d76823e47859ed3269269544aa93dc4d6c46f6c0ca78c1e8c56",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00060_crumb/crumb_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00060_crumb/crumb_12s.jpg",
+      "bytes": 26521,
+      "sha256": "17b574b5504c008216b0bf372b044a2cace42df3b65e046548acede82c632958",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00061_cupcake/cupcake_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00061_cupcake/cupcake_11s.jpg",
+      "bytes": 35325,
+      "sha256": "5750c0a27ad396ad7a695b3b39d2eac4aa441a72f0af7b034a81d87a13328010",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00062_dagger/dagger_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00062_dagger/dagger_06s.jpg",
+      "bytes": 34865,
+      "sha256": "0a3638813a9c75d4f8768ebffbe29846782b01d29ddc8b3ec5935c30fc5c23e7",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00063_dalmatian/dalmatian_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00063_dalmatian/dalmatian_12s.jpg",
+      "bytes": 48503,
+      "sha256": "449a3971b986cceda2bdc1d2caaa954c07cf3d4b8399ec92ed6ee052e41e6bd1",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00064_dessert/dessert_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00064_dessert/dessert_01b.jpg",
+      "bytes": 32186,
+      "sha256": "72f78266abd0afe8e89b55fe3da27d784f921f1c3890f17e2d01738fbc776a6c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00065_dragonfly/dragonfly_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00065_dragonfly/dragonfly_01b.jpg",
+      "bytes": 32562,
+      "sha256": "120536187b0632eebc9bbebde9873f48356d5d13e82c36a6d4b8b5e74dfd2a68",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00066_dreidel/dreidel_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00066_dreidel/dreidel_01b.jpg",
+      "bytes": 27655,
+      "sha256": "9aded5cfb0e5e71050226f0ea82cad575d837cf72cbec8bc4214c149fe308752",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00067_drum/drum_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00067_drum/drum_01b.jpg",
+      "bytes": 36993,
+      "sha256": "20ef0a04a30ac85bb0b569477730296fd6bcdd00200966b1b5ed6a82484999eb",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00068_duffel_bag/duffel_bag_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00068_duffel_bag/duffel_bag_03s.jpg",
+      "bytes": 29771,
+      "sha256": "af65f36df32d5d17c4289ce73a1650c142f2a3a2414bc7315fa2e5f9e010c63a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00069_eagle/eagle_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00069_eagle/eagle_06s.jpg",
+      "bytes": 18211,
+      "sha256": "1fee0699e59f5be9309ce71c487e74f26b0c13d94c42a627547754e9bca3eff5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00070_eel/eel_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00070_eel/eel_02s.jpg",
+      "bytes": 27390,
+      "sha256": "16e37771ec524397b67d6402d794ea5dc1470897bf876158d5f7614e4095ec7e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00071_egg/egg_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00071_egg/egg_12s.jpg",
+      "bytes": 16535,
+      "sha256": "e7ee2a5e519370b2bc5100e4126d3f016b1faeaffb4df0617d8b3cc1bad7dd61",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00072_elephant/elephant_11n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00072_elephant/elephant_11n.jpg",
+      "bytes": 38701,
+      "sha256": "64cb9d4bc850c005eff3e0f442908667ce17568c69ad49c45ddf532aa140c357",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00073_espresso/espresso_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00073_espresso/espresso_01b.jpg",
+      "bytes": 24114,
+      "sha256": "dca1e3b9b7ffed41e9d3402999540263fa88211b4bbc5d06dabaf68018a88451",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00074_face_mask/face_mask_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00074_face_mask/face_mask_12s.jpg",
+      "bytes": 43795,
+      "sha256": "20dab950712fda1cc9efad22ae7b0580cb167ad051f758426013e87e610e66f4",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00075_ferry/ferry_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00075_ferry/ferry_06s.jpg",
+      "bytes": 25969,
+      "sha256": "e48074fdb4d3327fa2f40f64e633740f533e442534d4f5dc150a09fa52ffe84a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00076_flamingo/flamingo_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00076_flamingo/flamingo_05s.jpg",
+      "bytes": 34328,
+      "sha256": "31e385908f9b4da30bfe63ef45a2a17483c3af97ec3175377ee47e99d32cdfd5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00077_folder/folder_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00077_folder/folder_11s.jpg",
+      "bytes": 26083,
+      "sha256": "5df62a59f98da7dbf03fecc62f581f1e3e366e7b6a8215e4666be8bec9ac20cf",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00078_fork/fork_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00078_fork/fork_07s.jpg",
+      "bytes": 27325,
+      "sha256": "023c9521ee8a7bf6dddf660905253c8212f5f35c3e493d81152c669a20d9ef14",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00079_freezer/freezer_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00079_freezer/freezer_04s.jpg",
+      "bytes": 25263,
+      "sha256": "953af6be79c325277fbba1759804c0f724529de53f40b4d54f21d6ee9fe101af",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00080_french_horn/french_horn_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00080_french_horn/french_horn_03s.jpg",
+      "bytes": 47008,
+      "sha256": "7628d725b93c62f5e67e266666ba0fc67ccce665a9abcda07aa17f431834e2db",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00081_fruit/fruit_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00081_fruit/fruit_01b.jpg",
+      "bytes": 44727,
+      "sha256": "713921e8229731ebfad9a36a00d1a6975461350a9064ee7242278ded2fb26500",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00082_garlic/garlic_12n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00082_garlic/garlic_12n.jpg",
+      "bytes": 25751,
+      "sha256": "514d80fa9f5912f835d18e672e4f4281a01aae36f0470e38e46514097f1cda3c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00083_glove/glove_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00083_glove/glove_11s.jpg",
+      "bytes": 58988,
+      "sha256": "e35327b70305031c1c861fa7034a21c9ce93deef80bc41891643ce525b721f01",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00084_golf_cart/golf_cart_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00084_golf_cart/golf_cart_06s.jpg",
+      "bytes": 58491,
+      "sha256": "bd05ffc093228a5492009b5625642bb57347298ae5bc51e7220c0393b7fd63d7",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00085_gondola/gondola_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00085_gondola/gondola_11s.jpg",
+      "bytes": 49517,
+      "sha256": "886e40b03726d8464b5e639b5fc27553ae3442d571bc6cdaa134ae0af59a6706",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00086_goose/goose_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00086_goose/goose_02s.jpg",
+      "bytes": 30119,
+      "sha256": "43655ef8c599a5e15a7f9c2197c288055dd4bb5ab36db2110743c63ab620cecc",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00087_gopher/gopher_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00087_gopher/gopher_09s.jpg",
+      "bytes": 46740,
+      "sha256": "785a72b725084388bd2fd36c8a9f2acedc8000a74ce9ddfd7e79308736be7c07",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00088_gorilla/gorilla_18s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00088_gorilla/gorilla_18s.jpg",
+      "bytes": 39432,
+      "sha256": "f0b9a5cb740ac42b743f6f684c444f3a0e9e90be485e772268096b0b7b69bc6c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00089_grasshopper/grasshopper_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00089_grasshopper/grasshopper_06s.jpg",
+      "bytes": 28410,
+      "sha256": "5aa6aab0861980a8f89789f15816f8aef53f95eafa4447f41d2282293454a956",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00090_grenade/grenade_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00090_grenade/grenade_03s.jpg",
+      "bytes": 25784,
+      "sha256": "3a2b311720f6e88bc9154aabc7e652ec934d33eb412e572607388cec787d1003",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00091_hamburger/hamburger_01s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00091_hamburger/hamburger_01s.jpg",
+      "bytes": 44400,
+      "sha256": "a467e18efd90426c33599e35de41df34d4dfd5b632f7458976bfccbba5dac2a9",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00092_hammer/hammer_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00092_hammer/hammer_08s.jpg",
+      "bytes": 36516,
+      "sha256": "76414e7e92bf9f788649e34b895267f8978c608c8f35d96f8fc068719bdbbc06",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00093_handbrake/handbrake_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00093_handbrake/handbrake_08s.jpg",
+      "bytes": 29167,
+      "sha256": "1d51c5332c4dec4b7f4cd8b89953117cddf4d164f9bbafd4d700ec5b65a4b4e8",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00094_headscarf/headscarf_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00094_headscarf/headscarf_03s.jpg",
+      "bytes": 22636,
+      "sha256": "22a13ac32d4ef32246f1609c4e806b08ae6d46a85294779ff4c470b6b989cdc8",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00095_highchair/highchair_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00095_highchair/highchair_04s.jpg",
+      "bytes": 36760,
+      "sha256": "af28cf48522ff8dde55593569f61d67f0e528f80c7242174c0b90e3cbb91ef61",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00096_hoodie/hoodie_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00096_hoodie/hoodie_08s.jpg",
+      "bytes": 32573,
+      "sha256": "3ed36356f44f22ab2a03d3ea9d2d5db44adc49bff4ff23ae46e54177b1b167f5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00097_hummingbird/hummingbird_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00097_hummingbird/hummingbird_01b.jpg",
+      "bytes": 26673,
+      "sha256": "91a70517b05c290c69a1180ad33e7e656b0e9adae3ee39ea779160045e6241e2",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00098_ice_cube/ice_cube_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00098_ice_cube/ice_cube_11s.jpg",
+      "bytes": 26424,
+      "sha256": "9cd06899531615bd813e767352e6566f7c04307a20836fb17bd8183e9079071d",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00099_ice_pack/ice_pack_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00099_ice_pack/ice_pack_01b.jpg",
+      "bytes": 44799,
+      "sha256": "06698d154d0609204b3545647aee6bafcacde06bab7d88ae16c7bb351ff651bc",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00100_jeep/jeep_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00100_jeep/jeep_05s.jpg",
+      "bytes": 43196,
+      "sha256": "2140d43a1ef54e5817cbc66294d0610e97426cca8f2114f807bab952586a52a9",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00101_jelly_bean/jelly_bean_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00101_jelly_bean/jelly_bean_06s.jpg",
+      "bytes": 41657,
+      "sha256": "b54e0f1aa7a8510588c07ce6c7cfc767c3e123bf723055d3480b5fd06976e2d6",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00102_jukebox/jukebox_01n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00102_jukebox/jukebox_01n.jpg",
+      "bytes": 52155,
+      "sha256": "a279199ab6d2fa44147810a6818e7b76cf0a8119307b84b24326d4a48770f82c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00103_kettle/kettle_03n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00103_kettle/kettle_03n.jpg",
+      "bytes": 26540,
+      "sha256": "6140632528eb0f2208cd138dc69e4fa2332aee578266f98d644622e4aec68077",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00104_kneepad/kneepad_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00104_kneepad/kneepad_12s.jpg",
+      "bytes": 34788,
+      "sha256": "dacefe90de749234368be744be9e9406c6b4c5a10a56c73d4ee2221f8822e9f5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00105_ladle/ladle_13s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00105_ladle/ladle_13s.jpg",
+      "bytes": 30020,
+      "sha256": "a01b1704726614405e70faeb38b2de0b4a7d651e3d8d31a570ce276c33ec019a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00106_lamb/lamb_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00106_lamb/lamb_01b.jpg",
+      "bytes": 46323,
+      "sha256": "8ab9859e3e23ab4b25dafb0aadb7cdbe15854300acee8e374834f49ccffc7454",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00107_lampshade/lampshade_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00107_lampshade/lampshade_05s.jpg",
+      "bytes": 39734,
+      "sha256": "78d90e944dbb60db8b7c5ce0033458b47be8fc5c20f68b2e1132918c90cf2797",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00108_laundry_basket/laundry_basket_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00108_laundry_basket/laundry_basket_12s.jpg",
+      "bytes": 36565,
+      "sha256": "6300d8496f15278acbdee0d06be9144e80c8645dab1cda03ea84f52f6f96d310",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00109_lettuce/lettuce_05n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00109_lettuce/lettuce_05n.jpg",
+      "bytes": 34646,
+      "sha256": "a0d32135f6a9e0f2ec2858c2cb2f58bbeac39051f9847bebe1835deb3b1384a5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00110_lightning_bug/lightning_bug_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00110_lightning_bug/lightning_bug_11s.jpg",
+      "bytes": 21776,
+      "sha256": "03571728753f92bf0e205fb694a93f640912707db250716aaa8f3f5e5adafa64",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00111_manatee/manatee_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00111_manatee/manatee_05s.jpg",
+      "bytes": 40429,
+      "sha256": "48e58c4348be8fa05f14cb46b75ea00486932a820109e649f455a8e54a79ab29",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00112_marijuana/marijuana_13s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00112_marijuana/marijuana_13s.jpg",
+      "bytes": 41807,
+      "sha256": "16b3f929963545d51e089f6835be17b26a7363dfb42baded40e0840cb38934f8",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00113_meatloaf/meatloaf_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00113_meatloaf/meatloaf_12s.jpg",
+      "bytes": 70285,
+      "sha256": "ac9e3ce54a4b885070c0bcfdc7b761128fc4955b984a63801851382cdfb61eeb",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00114_metal_detector/metal_detector_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00114_metal_detector/metal_detector_02s.jpg",
+      "bytes": 61654,
+      "sha256": "4c1cdfed97371924a3a76b03680faa39b53d3328be42256ea5077eb7dca922ca",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00115_minivan/minivan_17s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00115_minivan/minivan_17s.jpg",
+      "bytes": 49353,
+      "sha256": "233ceb4553ff50864306b404ebbc8b0660a42ed7fd201414b20b84fdedb8411a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00116_modem/modem_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00116_modem/modem_04s.jpg",
+      "bytes": 29781,
+      "sha256": "a5beda19bd7bf22e688287a2486d96fa86676ab2993d6a0d5342e9fd1d0c3e40",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00117_mosquito/mosquito_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00117_mosquito/mosquito_02s.jpg",
+      "bytes": 21483,
+      "sha256": "edd5dc33d1db816466f103e4d34267baf8bacee0c017e0f3d6d16e8685ef068b",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00118_muff/muff_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00118_muff/muff_12s.jpg",
+      "bytes": 34010,
+      "sha256": "7cd858c35d3683b8e47925b1fe019a33770dce0aa7c29d4156d5e3f3857cef14",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00119_music_box/music_box_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00119_music_box/music_box_06s.jpg",
+      "bytes": 46743,
+      "sha256": "529570e09a91ef3835ab94e293fc1aee16d6bb54b0cd8f4e1f04f2cc5102849a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00120_mussel/mussel_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00120_mussel/mussel_11s.jpg",
+      "bytes": 53843,
+      "sha256": "4512393b7375b58504aa7db265b7b0e716cf3a09b1053b4aff25d534f0fc3687",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00121_nightstand/nightstand_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00121_nightstand/nightstand_05s.jpg",
+      "bytes": 35058,
+      "sha256": "528eb4ab52ba6e7bf13e3a704a9ca134752768732e992b59329ad76c539db8da",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00122_okra/okra_14n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00122_okra/okra_14n.jpg",
+      "bytes": 32929,
+      "sha256": "b26806fbf770092a7b99d1bbb68234735772e771c60adea66cac6091272dea26",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00123_omelet/omelet_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00123_omelet/omelet_10s.jpg",
+      "bytes": 53357,
+      "sha256": "f8e917829d219dec20b6b4a9171e76a684b72387ef070e6a684f179d05903591",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00124_onion/onion_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00124_onion/onion_10s.jpg",
+      "bytes": 32919,
+      "sha256": "e7126968b950574228be6e317d3e00133dec99a1e56ed07776e2a8c7a9551f0a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00125_orange/orange_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00125_orange/orange_07s.jpg",
+      "bytes": 34970,
+      "sha256": "ee98bf1c3fc78d6f0657f693e2909b484e45246eaab108f49612c76e43142454",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00126_orchid/orchid_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00126_orchid/orchid_05s.jpg",
+      "bytes": 24428,
+      "sha256": "e13834756c0991243f34f122d05a840aa803c03bfa0fe09733a82fd9358d9fca",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00127_ostrich/ostrich_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00127_ostrich/ostrich_03s.jpg",
+      "bytes": 35431,
+      "sha256": "fba2bd91cd982f0725d06c7a8f2bc4d39522d139b1083de2c9e2edff29c6738d",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00128_pajamas/pajamas_13s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00128_pajamas/pajamas_13s.jpg",
+      "bytes": 56104,
+      "sha256": "c1c7fadf5e0a6feb4175c096b94d013d0101fc91db3bbe570683d53589f86455",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00129_panther/panther_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00129_panther/panther_01b.jpg",
+      "bytes": 48037,
+      "sha256": "f78afaed8dab34fe43f3dbe267b9f694c698b1cb6f17611fde059dfd4b98fc32",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00130_paperweight/paperweight_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00130_paperweight/paperweight_07s.jpg",
+      "bytes": 39631,
+      "sha256": "3f315e6bcbf779dff9a73283256c716e8f1ff766afb08c98764683fdb9d497ca",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00131_pear/pear_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00131_pear/pear_01b.jpg",
+      "bytes": 39690,
+      "sha256": "12dab02a366481510d0608c7e41fb5bcf3f8db5faab4f196873d26896f4986d5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00132_pepper1/pepper1_14s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00132_pepper1/pepper1_14s.jpg",
+      "bytes": 57321,
+      "sha256": "5ea4ec421a22f624cb46c33a541f82b2efb8540460329c1d0fa17d7dffab5223",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00133_pheasant/pheasant_20s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00133_pheasant/pheasant_20s.jpg",
+      "bytes": 48582,
+      "sha256": "b3bdab62369d710f85bdff741f80ddbc23fb3ced044aee9939a31e2c7b32e12d",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00134_pickax/pickax_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00134_pickax/pickax_05s.jpg",
+      "bytes": 31998,
+      "sha256": "06eb20514f6a6e06967cdcfd93a326daaac0c159df10db3374b64ef38c316ea8",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00135_pie/pie_18s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00135_pie/pie_18s.jpg",
+      "bytes": 60515,
+      "sha256": "307edd79a4488d9bc993e89c82d04f127aa35b9d3d6b17270ad85e8f20fa6d42",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00136_pigeon/pigeon_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00136_pigeon/pigeon_05s.jpg",
+      "bytes": 22908,
+      "sha256": "20149d1ab8f5f409258354c48d4c0d7290c4751806844bd11b314b9ce77fdc2c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00137_piglet/piglet_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00137_piglet/piglet_02s.jpg",
+      "bytes": 47354,
+      "sha256": "a6d338753a2805b16522515964d2911c5755e64592a61ef2ab8c0eae7f878ff6",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00138_pocket/pocket_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00138_pocket/pocket_04s.jpg",
+      "bytes": 94884,
+      "sha256": "5f86e3bf13d9aeaae9abb49ee88a484aa52271dc01c60ffbb294baf455a5f106",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00139_pocketknife/pocketknife_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00139_pocketknife/pocketknife_01b.jpg",
+      "bytes": 58481,
+      "sha256": "6dcc64136c2f6e5b080d18532df22fb7354b6b3e8f38d9cf1ba00426dc70818b",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00140_popcorn/popcorn_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00140_popcorn/popcorn_07s.jpg",
+      "bytes": 52418,
+      "sha256": "96c9668bf59889f662dc8e47ea33f2898999b77389d50c8df81254ae397c4f6c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00141_popsicle/popsicle_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00141_popsicle/popsicle_04s.jpg",
+      "bytes": 61522,
+      "sha256": "aa22a4a22aa33db823487b54790b2030f78d2bc2f784e1e9f9cc7ce9bfbe7da1",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00142_possum/possum_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00142_possum/possum_05s.jpg",
+      "bytes": 36527,
+      "sha256": "f086729434112fc88d2864d8b2ef5b7e480446c91ae4bd08d300f5c14d7986b5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00143_pretzel/pretzel_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00143_pretzel/pretzel_01b.jpg",
+      "bytes": 55570,
+      "sha256": "cd67cf186c7204078ac0bb7b843c92193631963a9c5b68d021293be9318bb291",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00144_pug/pug_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00144_pug/pug_09s.jpg",
+      "bytes": 32969,
+      "sha256": "172bafb2e193d8239af8d9e5a6e288b3505e71a5629ff03ec13f9c16b85cba91",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00145_punch2/punch2_14s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00145_punch2/punch2_14s.jpg",
+      "bytes": 25055,
+      "sha256": "43fa60a1d25e4d2444c24f013658cfa6b6508a693e7a081089471d49ab31f445",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00146_purse/purse_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00146_purse/purse_06s.jpg",
+      "bytes": 28081,
+      "sha256": "f2be1a8e315dd3863d7b9d5d2d805bdb5632332879087dba3049c829fb07d2ee",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00147_radish/radish_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00147_radish/radish_10s.jpg",
+      "bytes": 42864,
+      "sha256": "e16695249bbe410b3cff9e945acdfd3b02cb48b6f29615ffe613db355757dc87",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00148_raspberry/raspberry_10n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00148_raspberry/raspberry_10n.jpg",
+      "bytes": 32327,
+      "sha256": "b5f05afc9f7f606491631962f005dfa0ac2e8aff2af87858a807681ac24b9e7f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00149_recorder/recorder_14s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00149_recorder/recorder_14s.jpg",
+      "bytes": 40620,
+      "sha256": "919e5b5b5aa297c7b577c14285409d378fdca2968e5d0dde16a626e1a0196878",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00150_rhinoceros/rhinoceros_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00150_rhinoceros/rhinoceros_09s.jpg",
+      "bytes": 31837,
+      "sha256": "5120f25e57e4b1da7065cb00188821f428147b11a57ce8fa985a23798a49cb67",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00151_robot/robot_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00151_robot/robot_02s.jpg",
+      "bytes": 44028,
+      "sha256": "747cde1b60f96583067cf216a1b3bea945341ed83c69d04a2c95f31d98e08196",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00152_rooster/rooster_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00152_rooster/rooster_03s.jpg",
+      "bytes": 34877,
+      "sha256": "7391f78eb9981c513ae7e72524a8bcdce6a6eea83e5671472b42eff8cbb66183",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00153_rug/rug_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00153_rug/rug_09s.jpg",
+      "bytes": 73558,
+      "sha256": "241fc367fc4892e0e857ee585decc3d5ae76c6d4501cc51a8c68b14ce2054a79",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00154_sailboat/sailboat_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00154_sailboat/sailboat_05s.jpg",
+      "bytes": 23124,
+      "sha256": "5b590c0f4485ec9f8b24320ed0a74183e6dee644007bc590f1a28b94fc57b209",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00155_sandal/sandal_03s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00155_sandal/sandal_03s.jpg",
+      "bytes": 51148,
+      "sha256": "bb5f0969660d00d9f98b9c3f390b8aba7dc5e2b0b00a1cdcc04fcaf7c7ffc469",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00156_sandpaper/sandpaper_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00156_sandpaper/sandpaper_08s.jpg",
+      "bytes": 61170,
+      "sha256": "9a50701e3e8e04ecbf989e334c4c6f95e8a6c94240c674db59b05506b72d5341",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00157_sausage/sausage_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00157_sausage/sausage_04s.jpg",
+      "bytes": 37668,
+      "sha256": "c6e7fb367a9ac7f04a766cc00c818f7749b8064f9fe2cd363cb2ec5e69d915fa",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00158_scallion/scallion_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00158_scallion/scallion_04s.jpg",
+      "bytes": 45723,
+      "sha256": "f9939a28708e24ca2c2fdd1bff3cbde73a8106ac7a7b93c3dbb4a9f7f6c79878",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00159_scallop/scallop_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00159_scallop/scallop_02s.jpg",
+      "bytes": 30919,
+      "sha256": "82a7d33c17fb3c70a42746bd04817c9b250c3c95e94f4789ea81bedd78b6cd8f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00160_scooter/scooter_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00160_scooter/scooter_07s.jpg",
+      "bytes": 32732,
+      "sha256": "b6490311a3cdda5535e0c8100359760aa17e73c02bd92afa106616a9b57b0f0a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00161_seagull/seagull_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00161_seagull/seagull_09s.jpg",
+      "bytes": 36631,
+      "sha256": "a07aafea005bd873465ad583e2a06d74f7c7ccc97fb2f3bd1ec5373bea545fc1",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00162_seaweed/seaweed_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00162_seaweed/seaweed_07s.jpg",
+      "bytes": 37291,
+      "sha256": "115b3f2222c70af723e1b875c1545ffdff2bf96cf1715e428084ea911fe8ac3f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00163_seed/seed_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00163_seed/seed_07s.jpg",
+      "bytes": 60455,
+      "sha256": "814cb4ce37c211c159d9fe11b2e2bf5cd6663ddb657d731c9f792184754e0d78",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00164_skateboard/skateboard_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00164_skateboard/skateboard_01b.jpg",
+      "bytes": 61588,
+      "sha256": "f8dd5ccf9fa108f2f9473ab004abf39e0580c499770bcc8d3c57eb9cab1e10bc",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00165_sled/sled_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00165_sled/sled_10s.jpg",
+      "bytes": 46247,
+      "sha256": "43b4c107db649f98eba3c628bfb7f18b34ee10024ddc4763cb06f7ba25e25ad6",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00166_sleeping_bag/sleeping_bag_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00166_sleeping_bag/sleeping_bag_01b.jpg",
+      "bytes": 66317,
+      "sha256": "54b53ff0e4ddc4da5f94b993f8e079f69a364a6240ec849f3bc8d2701164337a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00167_slide/slide_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00167_slide/slide_04s.jpg",
+      "bytes": 58006,
+      "sha256": "2b486f1d530c80f60b385bc9d0bd354d9f4389d5f85aa076b8bb12c6d79fdf6f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00168_slingshot/slingshot_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00168_slingshot/slingshot_07s.jpg",
+      "bytes": 37951,
+      "sha256": "abb3692bc3fb7c2ca4c837e6e9650b1a0d3ced0ec3636822fdc18bbc59dc19ce",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00169_snowshoe/snowshoe_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00169_snowshoe/snowshoe_04s.jpg",
+      "bytes": 41798,
+      "sha256": "4ce77f8aab01fe37d5c405a4c5260d031644faca398e50a4f08bc25468663dae",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00170_spatula/spatula_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00170_spatula/spatula_08s.jpg",
+      "bytes": 53794,
+      "sha256": "60d44b04f61c9cd5d917b57f70930827960df2c098821b39e93d444d9805631e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00171_spoon/spoon_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00171_spoon/spoon_04s.jpg",
+      "bytes": 36336,
+      "sha256": "16833211bd693a593280af56a5132da54717cf63338a2f1c73d15d4910c75cf6",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00172_station_wagon/station_wagon_04s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00172_station_wagon/station_wagon_04s.jpg",
+      "bytes": 37566,
+      "sha256": "beee276c50ce50db65aa17a3d9e4c0a195cd077ee72fea682ed0b604ab25d23c",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00173_stethoscope/stethoscope_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00173_stethoscope/stethoscope_11s.jpg",
+      "bytes": 17933,
+      "sha256": "8fc12da97026a039bc48bc5e05a29b5af31c20a6e32b74ae54fb1533ec8e510a",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00174_strawberry/strawberry_09n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00174_strawberry/strawberry_09n.jpg",
+      "bytes": 33782,
+      "sha256": "afe8c4d11451f62e7c40c2b935ccdc2eee45f02635acd0a3686185568a24525f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00175_submarine/submarine_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00175_submarine/submarine_09s.jpg",
+      "bytes": 24222,
+      "sha256": "61276381f03f7d7a82686a0a45c540ff2b23632fa44020c822ce73f951b7d9db",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00176_suit/suit_13s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00176_suit/suit_13s.jpg",
+      "bytes": 30184,
+      "sha256": "b4cd3f108a09f7d17902b2dfc162a4d3df19e5e76c289c3b1e9051a4950e9673",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00177_t-shirt/t-shirt_15s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00177_t-shirt/t-shirt_15s.jpg",
+      "bytes": 35615,
+      "sha256": "6820460a3dcb86db665cdc3e0f704de93951ed1a724ab59e4ec1976b3d44503f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00178_table/table_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00178_table/table_07s.jpg",
+      "bytes": 26997,
+      "sha256": "366da687d794b4415249cec4e3ac2b3e1a8d4e69353fbc0d45b6eb4e7f3d83ae",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00179_taillight/taillight_08s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00179_taillight/taillight_08s.jpg",
+      "bytes": 30252,
+      "sha256": "66bf48e6b98ce042c1ab9ed3af8290d97dae650c5676d2d1936bcdb01fc736f0",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00180_tape_recorder/tape_recorder_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00180_tape_recorder/tape_recorder_01b.jpg",
+      "bytes": 54060,
+      "sha256": "271d1279cf688b934dea15fc4bfee789aa2045624e537f6ad7d2ea7d7ee2957e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00181_television/television_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00181_television/television_12s.jpg",
+      "bytes": 19247,
+      "sha256": "e733388dd381d496a15c6dc33f77cd66f6a993f051c4f877975671397da421dc",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00182_tiara/tiara_07s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00182_tiara/tiara_07s.jpg",
+      "bytes": 47864,
+      "sha256": "d435b4036bb0a19ac1bde6c7369d8769967b5ba96cb1fa62a805c1b09e604066",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00183_tick/tick_06s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00183_tick/tick_06s.jpg",
+      "bytes": 42625,
+      "sha256": "e0a530647b8839edec5ab7206668ac014f26af7c4f4eb1c3bd10b2a7def68520",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00184_tomato_sauce/tomato_sauce_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00184_tomato_sauce/tomato_sauce_02s.jpg",
+      "bytes": 43679,
+      "sha256": "36bbf3f913274fb9894d1f057428ff815ee380236c6a51abad6f294f8a9e41d7",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00185_tongs/tongs_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00185_tongs/tongs_12s.jpg",
+      "bytes": 25211,
+      "sha256": "76d8abd6a48c4762858d1d5c02db55ef04e1e8add340a30d92044e0fd7ad9de5",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00186_tool/tool_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00186_tool/tool_10s.jpg",
+      "bytes": 35160,
+      "sha256": "c80398c6c3fcc18c8e2cbf7f8679dced0c8d6b3a3bef0a84117cbd3318273056",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00187_top_hat/top_hat_13s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00187_top_hat/top_hat_13s.jpg",
+      "bytes": 37581,
+      "sha256": "1bd38794c0370365ae9cbbca10414baae0fdfb7210e0f94d2c5735af980ed967",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00188_treadmill/treadmill_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00188_treadmill/treadmill_11s.jpg",
+      "bytes": 43958,
+      "sha256": "2d1f775ec02bdaac409a0e4e2789c5a2719c4b10fb5c384c0ccc7f0c2b174cbe",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00189_tube_top/tube_top_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00189_tube_top/tube_top_11s.jpg",
+      "bytes": 59089,
+      "sha256": "515532919f94d16e65b700e6432c658c36cd43a6ef421f883dbf2073b570fde4",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00190_turkey/turkey_01s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00190_turkey/turkey_01s.jpg",
+      "bytes": 59425,
+      "sha256": "04449fc750e9c2fe49b2a367a07980f3bf4635274205ef234c07a066f728a2de",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00191_unicycle/unicycle_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00191_unicycle/unicycle_10s.jpg",
+      "bytes": 85925,
+      "sha256": "5c5309e6ebec4ce70de160e14f5c22b2315303e63d1e55818a947ea231a10026",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00192_vise/vise_11s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00192_vise/vise_11s.jpg",
+      "bytes": 46186,
+      "sha256": "7b53a823f42a4ec90c6e0ff047f88600e20ec2750efd00b9f155cfe4c73de132",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00193_volleyball/volleyball_10s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00193_volleyball/volleyball_10s.jpg",
+      "bytes": 47415,
+      "sha256": "71cc69cdb669ef5dfcd757ba3c1945d7061fb939e9efa88516e527b1108a1dc8",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00194_wallpaper/wallpaper_01b.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00194_wallpaper/wallpaper_01b.jpg",
+      "bytes": 50734,
+      "sha256": "e3c85e5dc011ab057c1116368793fb80ab861e16d7ee0502a2a50c595026ee18",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00195_walnut/walnut_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00195_walnut/walnut_02s.jpg",
+      "bytes": 34708,
+      "sha256": "bf921fa9a916cd275967d3f18595f7f6bf764b00c9d1057775b57e38ffd359b7",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00196_wheat/wheat_05n.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00196_wheat/wheat_05n.jpg",
+      "bytes": 42588,
+      "sha256": "119fa622e003e1caf7c15f3ba9d94f7e5d075dfe007129ec7d7433427f540547",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00197_wheelchair/wheelchair_02s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00197_wheelchair/wheelchair_02s.jpg",
+      "bytes": 47829,
+      "sha256": "8d00305ddef23e7e02b197cf163d21016a42ba108b658e6250efc5c5369bbe0e",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00198_windshield/windshield_09s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00198_windshield/windshield_09s.jpg",
+      "bytes": 31855,
+      "sha256": "d045b26c1878a2164826f152f161892fc6c76dba7676f2f8c0704edc0fe5dea1",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00199_wine/wine_05s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00199_wine/wine_05s.jpg",
+      "bytes": 37480,
+      "sha256": "be9b0ad7a6728b166e445287bc2c6540a91ad40cfa123eea0e548236de74b08f",
+      "crc32_verified": true
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/stimuli/test_images/00200_wok/wok_12s.jpg",
+      "archive": "test_images.zip",
+      "member": "test_images/00200_wok/wok_12s.jpg",
+      "bytes": 24133,
+      "sha256": "a30c17db424358cc5f091708a3c52c0c35033b32e3d4e9d049d82ed1bf163bee",
+      "crc32_verified": true
+    }
+  ],
+  "all_file_sizes_sha256_verified": true,
+  "verified_file_count": 204,
+  "real_data_operations": [
+    "rehashed retained official EEG/metadata/image payloads",
+    "checked local ZIP member inventory",
+    "decoded 200 original stimulus images",
+    "inspected real NPY headers",
+    "attempted NPY loading with allow_pickle=False",
+    "loaded two explicitly approved official NPY objects",
+    "validated numeric condition metadata and all 200 image mappings",
+    "loaded actual EEG through repository loader",
+    "averaged 80 repetitions/image using repository preprocessing",
+    "computed full 200-image and small-subset real EEG RDMs"
+  ],
+  "access": {
+    "network_requests_this_run": 0,
+    "downloaded_bytes_this_run": 0,
+    "eeg_file_access": true,
+    "eeg_tensor_loaded": true,
+    "stimulus_files_access": true,
+    "metadata_file_access": true,
+    "metadata_object_loaded": true
+  },
+  "npy_headers": [
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/eeg/sub-01/preprocessed_eeg_test.npy",
+      "npy_version": [
+        1,
+        0
+      ],
+      "serialized_shape": [],
+      "serialized_dtype": "object",
+      "fortran_order": false,
+      "object_dtype": true,
+      "header_bytes": 128,
+      "pickle_loaded": false,
+      "allow_pickle_false_result": "Object arrays cannot be loaded when allow_pickle=False"
+    },
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/image_metadata.npy",
+      "npy_version": [
+        1,
+        0
+      ],
+      "serialized_shape": [],
+      "serialized_dtype": "object",
+      "fortran_order": false,
+      "object_dtype": true,
+      "header_bytes": 128,
+      "pickle_loaded": false,
+      "allow_pickle_false_result": "Object arrays cannot be loaded when allow_pickle=False"
+    }
+  ],
+  "eeg_tensor_shape": [
+    200,
+    80,
+    17,
+    100
+  ],
+  "eeg_dtype": "float64",
+  "sampling_rate_hz": 99.99999999999991,
+  "channel_count": 17,
+  "trial_count": 16000,
+  "image_axis_count": 200,
+  "alignment": {
+    "matched_images": 200,
+    "numeric_condition_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "axis_mapping": "eeg_index = numeric condition ID - 1",
+    "metadata_order_valid": true,
+    "missing_images": 0,
+    "duplicate_test_ids": 0,
+    "extra_images": 0,
+    "train_test_metadata_identity_overlap": 0,
+    "train_test_filename_overlap": 0,
+    "alphabetical_order_assumed": false,
+    "original_split": "test",
+    "repository_split": "sanity",
+    "raw_trial_event_roundtrip_verified": false,
+    "evidence_basis": "official collection/conversion/preprocessing code plus explicit ordered numeric metadata",
+    "limitation": "session/repetition event IDs absent from released array; training-image content hashes unavailable",
+    "source_code_provenance": [
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/README.md",
+        "path": "outputs/real-phase0-source/README.md",
+        "bytes": 3594,
+        "sha256": "69b81d16d7a8cd040b566e9b339b5b4bdbdd21191f0ef77f6eee0501f9637cdc"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/02_eeg_preprocessing/preprocessing.py",
+        "path": "outputs/real-phase0-source/preprocessing.py",
+        "bytes": 3087,
+        "sha256": "be6cc0e79d7370cff2565f5375e7fed86fa95f4c6458175de0c0f0e4bdf0b9d4"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/02_eeg_preprocessing/preprocessing_utils.py",
+        "path": "outputs/real-phase0-source/preprocessing_utils.py",
+        "bytes": 9116,
+        "sha256": "aefb7b34c593798e07d1d41ea297e6ed06609da6727cc9b07d92de5f8a51ae8c"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/03_dnn_feature_maps_extraction/extract_feature_maps_alexnet.py",
+        "path": "outputs/real-phase0-source/extract_feature_maps_alexnet.py",
+        "bytes": 4530,
+        "sha256": "8dcb281793e567e53ec891ae27ef13b0c0a7c60d4c46e6569a17156901eceaef"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/00_data_collection/test/data_collection_test.m",
+        "path": "outputs/real-phase0-source/data_collection_test.m",
+        "bytes": 12057,
+        "sha256": "d5adaad0901554a11071f444ecdfb06a70c2620955a9b8eea95a682a60982ccc"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/00_data_collection/test/utils/get_stimuli_test.m",
+        "path": "outputs/real-phase0-source/get_stimuli_test.m",
+        "bytes": 781,
+        "sha256": "e4db9b2967d4af11aed852e7178bb8af6ee09acd0586ec17144637715350d2c6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/00_data_collection/test/utils/defineStimuliOrder.m",
+        "path": "outputs/real-phase0-source/defineStimuliOrder.m",
+        "bytes": 1751,
+        "sha256": "05b1d912112bff069884a583ee21e5df0b6b1eafea55d9b955bef39e04f25e31"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gifale95/eeg_encoding/101997d4f14c41b615bcaf8c0907740106d260c5/01_data_preparation/source_to_raw.py",
+        "path": "outputs/real-phase0-source/source_to_raw.py",
+        "bytes": 4559,
+        "sha256": "986b86eadcc1d58e96441bf4f43f7c772efd25655ea18e85c1311ed562b4f3a6"
+      }
+    ]
+  },
+  "brain_rdm": {
+    "status": "verified",
+    "full_shape": [
+      200,
+      200
+    ],
+    "subset_shape": [
+      16,
+      16
+    ],
+    "feature_shape": [
+      200,
+      680
+    ],
+    "subset_feature_shape": [
+      16,
+      680
+    ],
+    "metric": "correlation",
+    "symmetric": true,
+    "finite": true,
+    "diagonal_zero": true,
+    "image_order_verified": true
+  },
+  "vision": {
+    "dinov2": {
+      "status": "verified_real_subset",
+      "feature_shape": [
+        16,
+        768
+      ],
+      "rdm_shape": [
+        16,
+        16
+      ],
+      "metric": "cosine",
+      "provenance": {
+        "kind": "dinov2",
+        "checkpoint": "facebook/dinov2-base",
+        "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+        "resolved_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+        "pooling": "cls",
+        "processor_class": "BitImageProcessor",
+        "normalize": true,
+        "frozen": true,
+        "image_sha256": {
+          "test_images/00001_aircraft_carrier/aircraft_carrier_06s.jpg": "53678dcbe326b4e70682c14475eba597cf60025dea1dd7497e75b36bd872162e",
+          "test_images/00002_antelope/antelope_01b.jpg": "1a37945a9aa48ce23bfc87a64a7e29e9665f7d4bf3dfd32a648b64ed3555773c",
+          "test_images/00003_backscratcher/backscratcher_01b.jpg": "f703dcddd8ca0c14eaa97e46df16d02754b40d9817eaaff3e80de2baf7881477",
+          "test_images/00004_balance_beam/balance_beam_04s.jpg": "aec4712e848f686b027abc6fd0f7a9baef36c153c9d56ad8c703b17bcf328907",
+          "test_images/00005_banana/banana_09s.jpg": "0bfb9988c8c578ed51b621230f6610dcacaad34ed45842d1de4f70422b84095a",
+          "test_images/00006_baseball_bat/baseball_bat_10s.jpg": "d20da1f68c0f1f2a44d29d7ae33c672283b9efb55ed0bab657a50e8b388c1b14",
+          "test_images/00007_basil/basil_05s.jpg": "743d3b9e86c28cf7446e94017ffa117601d52e98c4e2e6bd6c70dca5b528116f",
+          "test_images/00008_basketball/basketball_05s.jpg": "29f8b37c6e569e36c5f4edb5f59929c7a77e8c8166202e25b08b740cfdb4d9d1",
+          "test_images/00009_bassoon/bassoon_01b.jpg": "beea90e3a83e9a6229d1c72783e45e653e389eb0e6f5d0bed7c7d6baf68e4f1b",
+          "test_images/00010_baton4/baton4_05s.jpg": "cee75414faa0b7fd60b0f937cb682a2a3ab4a4794ce1b912aff42a7e02a62279",
+          "test_images/00011_batter/batter_01b.jpg": "bd5f5c44b94d85b872b3639923e77219fa3eea5cebda1fe79f612a9df2c3df61",
+          "test_images/00012_beaver/beaver_04s.jpg": "d82a7a2df621232d78a22c4a51c9a6b00f93088a3691015a9755db658cb06ee1",
+          "test_images/00013_bench/bench_01b.jpg": "2ecf18ff7072b0e8077046a7247162496ccd53d4349a866c91726144c91bfaea",
+          "test_images/00014_bike/bike_22s.jpg": "ab90af55d5624d39b50beded1bbc8b6cc935ccb18013397558e7026e06bcc0dc",
+          "test_images/00015_birthday_cake/birthday_cake_01b.jpg": "46e3df2898396e8b01d31d51f880f9a580e3c833b36add2278c56bff21c2cd74",
+          "test_images/00016_blowtorch/blowtorch_08s.jpg": "d919c4cb9b4d77a9383d016b39bf025833c450ba0c700d50fccc2709f4273a62"
+        }
+      }
+    },
+    "clip": {
+      "status": "verified_real_subset",
+      "feature_shape": [
+        16,
+        512
+      ],
+      "rdm_shape": [
+        16,
+        16
+      ],
+      "metric": "cosine",
+      "provenance": {
+        "kind": "clip",
+        "checkpoint": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+        "resolved_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+        "pooling": "projected_image_embedding",
+        "processor_class": "CLIPImageProcessor",
+        "normalize": true,
+        "frozen": true,
+        "image_sha256": {
+          "test_images/00001_aircraft_carrier/aircraft_carrier_06s.jpg": "53678dcbe326b4e70682c14475eba597cf60025dea1dd7497e75b36bd872162e",
+          "test_images/00002_antelope/antelope_01b.jpg": "1a37945a9aa48ce23bfc87a64a7e29e9665f7d4bf3dfd32a648b64ed3555773c",
+          "test_images/00003_backscratcher/backscratcher_01b.jpg": "f703dcddd8ca0c14eaa97e46df16d02754b40d9817eaaff3e80de2baf7881477",
+          "test_images/00004_balance_beam/balance_beam_04s.jpg": "aec4712e848f686b027abc6fd0f7a9baef36c153c9d56ad8c703b17bcf328907",
+          "test_images/00005_banana/banana_09s.jpg": "0bfb9988c8c578ed51b621230f6610dcacaad34ed45842d1de4f70422b84095a",
+          "test_images/00006_baseball_bat/baseball_bat_10s.jpg": "d20da1f68c0f1f2a44d29d7ae33c672283b9efb55ed0bab657a50e8b388c1b14",
+          "test_images/00007_basil/basil_05s.jpg": "743d3b9e86c28cf7446e94017ffa117601d52e98c4e2e6bd6c70dca5b528116f",
+          "test_images/00008_basketball/basketball_05s.jpg": "29f8b37c6e569e36c5f4edb5f59929c7a77e8c8166202e25b08b740cfdb4d9d1",
+          "test_images/00009_bassoon/bassoon_01b.jpg": "beea90e3a83e9a6229d1c72783e45e653e389eb0e6f5d0bed7c7d6baf68e4f1b",
+          "test_images/00010_baton4/baton4_05s.jpg": "cee75414faa0b7fd60b0f937cb682a2a3ab4a4794ce1b912aff42a7e02a62279",
+          "test_images/00011_batter/batter_01b.jpg": "bd5f5c44b94d85b872b3639923e77219fa3eea5cebda1fe79f612a9df2c3df61",
+          "test_images/00012_beaver/beaver_04s.jpg": "d82a7a2df621232d78a22c4a51c9a6b00f93088a3691015a9755db658cb06ee1",
+          "test_images/00013_bench/bench_01b.jpg": "2ecf18ff7072b0e8077046a7247162496ccd53d4349a866c91726144c91bfaea",
+          "test_images/00014_bike/bike_22s.jpg": "ab90af55d5624d39b50beded1bbc8b6cc935ccb18013397558e7026e06bcc0dc",
+          "test_images/00015_birthday_cake/birthday_cake_01b.jpg": "46e3df2898396e8b01d31d51f880f9a580e3c833b36add2278c56bff21c2cd74",
+          "test_images/00016_blowtorch/blowtorch_08s.jpg": "d919c4cb9b4d77a9383d016b39bf025833c450ba0c700d50fccc2709f4273a62"
+        }
+      }
+    }
+  },
+  "available_disk_bytes": 30726578176,
+  "memory_cgroup_limit": "34359738368",
+  "status": "PASS_REAL_INTEGRATION",
+  "blockers": [],
+  "next_experiment": "Estimate repeated-image RDM split-half reliability with label-permutation controls, conditional on supplied whitening; then compare a second subject.",
+  "approval": {
+    "explicit_user_approval": true,
+    "scope": "two SHA256-verified official NPY files only"
+  },
+  "continued_at_utc": "2026-10-11T11:24:37.536362+00:00",
+  "eeg_shape_report": {
+    "released_tensor_shape": [
+      200,
+      80,
+      17,
+      100
+    ],
+    "released_tensor_axes": [
+      "images",
+      "repetitions",
+      "channels",
+      "time"
+    ],
+    "loader_trial_shape": [
+      16000,
+      17,
+      100
+    ],
+    "dtype": "float64",
+    "sampling_rate_hz": 99.99999999999991,
+    "channel_count": 17,
+    "channel_names": [
+      "Pz",
+      "P3",
+      "P7",
+      "O1",
+      "Oz",
+      "O2",
+      "P4",
+      "P8",
+      "P1",
+      "P5",
+      "PO7",
+      "PO3",
+      "POz",
+      "PO4",
+      "PO8",
+      "P6",
+      "P2"
+    ],
+    "trial_count": 16000,
+    "image_count": 200,
+    "repetitions_per_image": 80,
+    "first_time_seconds": -0.2,
+    "last_time_seconds": 0.79,
+    "finite_eeg": true,
+    "per_trial_ids": "generated by image-axis/repetition expansion using validated numeric condition mapping",
+    "original_split": "test",
+    "repository_split": "sanity",
+    "subject": "sub-01"
+  },
+  "output_dir": "/workspace/neurocurate/neurocurate/results/phase1/smoke",
+  "output_verification": {
+    "all_saved_brain_rdms_recomputed": true,
+    "safe_numeric_reload": true,
+    "all_saved_vision_rdms_recomputed": true
+  },
+  "limitations": [
+    "Single subject; no cross-subject conclusion or reliability estimate.",
+    "Official session whitening uses training and test repetitions; held-out training preprocessing independence is not established.",
+    "Raw per-trial events and original session IDs were not independently roundtripped.",
+    "Train/test metadata identities are disjoint; training image content hashes were not checked."
+  ],
+  "current_free_disk_bytes": 30721724416,
+  "new_downloads_in_phase1": {
+    "eeg": 0,
+    "stimulus": 0,
+    "model_weights": 0,
+    "author_code_text_only": true
+  },
+  "tests": {
+    "standard": {
+      "passed": 127,
+      "skipped": 4,
+      "seconds": 7.16
+    },
+    "optional_real": {
+      "passed": 4,
+      "skipped": 0,
+      "seconds": 3.02
+    }
+  }
+}

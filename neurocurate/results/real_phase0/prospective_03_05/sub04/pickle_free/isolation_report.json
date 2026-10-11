@@ -1,0 +1,69 @@
+{
+  "uid": 1000,
+  "root": false,
+  "single_threaded": true,
+  "network_access": false,
+  "confinement": "kernel seccomp default-deny syscall allowlist, pre-opened descriptors only",
+  "filesystem_access": "two readonly approved inputs; five designated writable outputs; stdio only",
+  "probes": {
+    "filesystem_open": "denied",
+    "network_socket": "denied",
+    "process_creation": "denied"
+  },
+  "allowed_syscalls": [
+    "read",
+    "write",
+    "readv",
+    "writev",
+    "close",
+    "fstat",
+    "lseek",
+    "pread64",
+    "pwrite64",
+    "mmap",
+    "mprotect",
+    "munmap",
+    "brk",
+    "rt_sigaction",
+    "rt_sigprocmask",
+    "rt_sigreturn",
+    "futex",
+    "clock_gettime",
+    "getpid",
+    "gettid",
+    "exit",
+    "exit_group",
+    "madvise",
+    "sched_yield",
+    "getrandom",
+    "restart_syscall",
+    "dup",
+    "dup2",
+    "dup3",
+    "fcntl"
+  ],
+  "address_space_limit_bytes": 4294967296,
+  "cpu_limit_seconds": 120,
+  "file_size_limit_bytes": 536870912,
+  "core_dumps": false,
+  "approved_sha256": [
+    "9632bbd3361a3b9cf62cb8ac3535810c51e012aa6cbe6d149a36a8f7d35e629b",
+    "681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c"
+  ],
+  "numeric_eeg_shape": [
+    200,
+    80,
+    17,
+    100
+  ],
+  "dtype": "float64",
+  "metadata_keys": [
+    "test_img_concepts",
+    "test_img_concepts_THINGS",
+    "test_img_files",
+    "train_img_concepts",
+    "train_img_concepts_THINGS",
+    "train_img_files"
+  ],
+  "all_exports_pickle_free": true
+}

@@ -1,0 +1,11 @@
+subject_a,subject_b,group,brain_spearman
+sub01,sub02,discovery_pair,0.5495432459821785
+sub01,sub03,discovery_new,0.5930862065056749
+sub01,sub04,discovery_new,0.5047972666221775
+sub01,sub05,discovery_new,0.5595655706632648
+sub02,sub03,discovery_new,0.4611835569973237
+sub02,sub04,discovery_new,0.41886228247869983
+sub02,sub05,discovery_new,0.5739641640365011
+sub03,sub04,new_new,0.5675567787954163
+sub03,sub05,new_new,0.6009973980896436
+sub04,sub05,new_new,0.4551275438540951

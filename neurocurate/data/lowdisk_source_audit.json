@@ -1,0 +1,179 @@
+{
+  "disk_free_bytes_at_audit": 32033169408,
+  "pretrained_checkpoint_cache_bytes_approx": 1610612736,
+  "eeg_cache_observation": "No EEG cache directories found in readable /workspace and /home/agent/.cache; inaccessible daemon directory excluded.",
+  "nemar_commit": "c9865f3022082dd53832d6adb69f0af787eb9bcc",
+  "nemar_tree_truncated": false,
+  "official_preprocessed_listing_complete": true,
+  "preprocessed_files": [
+    {
+      "name": "sub-01.zip",
+      "bytes": 1071722467,
+      "url": "https://osf.io/download/nb8wr/",
+      "sha256": "f25d5ea30ba6811edd7ebd460d7b271edaf527b6920ab2d3d6e7950e9ee9639f"
+    },
+    {
+      "name": "sub-02.zip",
+      "bytes": 1071516660,
+      "url": "https://osf.io/download/u43p5/",
+      "sha256": "e1eba2d74009c6dd41becf53d84b8d47532103b41110a5855e7e286bcca6fe41"
+    },
+    {
+      "name": "sub-03.zip",
+      "bytes": 1071567672,
+      "url": "https://osf.io/download/fy4n6/",
+      "sha256": "ec12b31410b8161f5b274b4c61890a615e5fdbb5e58e6e9325a0188272daa936"
+    },
+    {
+      "name": "sub-04.zip",
+      "bytes": 1071421033,
+      "url": "https://osf.io/download/py8jz/",
+      "sha256": "eec31590d21248d9cc8caf3b93f5711b2c24540f080eab4f83f152155f5a6eb5"
+    },
+    {
+      "name": "sub-05.zip",
+      "bytes": 1072655693,
+      "url": "https://osf.io/download/2cn7v/",
+      "sha256": "d353e154e840ff9c07b2de19db2105626df4bc556313365cff392dd56d8df40e"
+    },
+    {
+      "name": "sub-06.zip",
+      "bytes": 1072667739,
+      "url": "https://osf.io/download/bd83f/",
+      "sha256": "2aa40414e495b44e57ab98c345b19085c769d14b4ba3704ba6fdf99dfc40060f"
+    },
+    {
+      "name": "sub-07.zip",
+      "bytes": 1071671310,
+      "url": "https://osf.io/download/mw8hr/",
+      "sha256": "729cf0136b1c4e0cdfecd79a7a0c25fb2a741a7baed9d775cfb8ed1507bb8ff4"
+    },
+    {
+      "name": "sub-08.zip",
+      "bytes": 1071848309,
+      "url": "https://osf.io/download/n9bzm/",
+      "sha256": "8198700e52ae0cde35bde7cd8b7f574573e0d76040b65d50191e41a607f02b33"
+    },
+    {
+      "name": "sub-10.zip",
+      "bytes": 1071595380,
+      "url": "https://osf.io/download/8fyu9/",
+      "sha256": "6cd7111bbd8d62d29b05abe0533fa6bca8f634ef85ce9c19ae8ab0a853681094"
+    },
+    {
+      "name": "sub-09.zip",
+      "bytes": 1071469818,
+      "url": "https://osf.io/download/fv6jz/",
+      "sha256": "7c5a67083e5c5b73f2d2ede03d7e76f082f6d61ae4f74ec08783ce5841b0604b"
+    },
+    {
+      "name": "sub-01__63_channels.zip",
+      "bytes": 4034673327,
+      "url": "https://osf.io/download/7gxvj/",
+      "sha256": "d71a3a4ddd6b8219b4636491152293cb032249f7acbc1d7384705d0d4a35f44f"
+    },
+    {
+      "name": "sub-02__63_channels.zip",
+      "bytes": 4036588917,
+      "url": "https://osf.io/download/ycfq3/",
+      "sha256": "c019e8b69ec0831d0cfde3f4cd0b13501547146834e207790cab6226b95d7e66"
+    },
+    {
+      "name": "sub-03__63_channels.zip",
+      "bytes": 4034844567,
+      "url": "https://osf.io/download/eqjbv/",
+      "sha256": "fadffa5acaca01d9238f1f6b8c864df97b91b708af8a3043635cbe1b25fbd222"
+    },
+    {
+      "name": "sub-04__63_channels.zip",
+      "bytes": 4035726020,
+      "url": "https://osf.io/download/y3ghr/",
+      "sha256": "c646452e3c83534c4f7b09afc75851555cbe7ace9cb4c060b3f796a5b4571ed5"
+    },
+    {
+      "name": "sub-05__63_channels.zip",
+      "bytes": 4039314543,
+      "url": "https://osf.io/download/2we8r/",
+      "sha256": "3b09d77f223a8dfd539b9034bc748d4d048e638bc12ebb87a61ba02501627c5e"
+    },
+    {
+      "name": "sub-06__63_channels.zip",
+      "bytes": 4041755283,
+      "url": "https://osf.io/download/3c7hm/",
+      "sha256": "7ff37bc0663289918d09e849bf169df2245fa102db9e3dedc19f12cf5ad649a6"
+    },
+    {
+      "name": "sub-07__63_channels.zip",
+      "bytes": 4034989037,
+      "url": "https://osf.io/download/k3xm7/",
+      "sha256": "ef1615a297eea4bbc9c32f926aa72742400d957b068938b63f7edec6fd0cc86e"
+    },
+    {
+      "name": "sub-08__63_channels.zip",
+      "bytes": 4037323395,
+      "url": "https://osf.io/download/hr3p5/",
+      "sha256": "46b0d5b910fdeae88774c67b975e7bfc93b41274b28bbd90f40df6d6a32373db"
+    },
+    {
+      "name": "sub-09__63_channels.zip",
+      "bytes": 4033808769,
+      "url": "https://osf.io/download/jgh8q/",
+      "sha256": "f72084a426053f083ed829675a9d4092624b569a4cc977511287c81d62e0c26b"
+    },
+    {
+      "name": "sub-10__63_channels.zip",
+      "bytes": 4036410872,
+      "url": "https://osf.io/download/d6pmy/",
+      "sha256": "d6af1bb5e03585b0c25d42098aacea71b69fdbf8cc132243755df38fe6787e73"
+    }
+  ],
+  "image_files": [
+    {
+      "name": "LICENSE.txt",
+      "bytes": 3159,
+      "url": "https://osf.io/download/3765v/",
+      "sha256": "ea94c104d2319aa65d82f4b179531141d3ec1483547826c3a72cfd45015673dc"
+    },
+    {
+      "name": "test_images.zip",
+      "bytes": 8129948,
+      "url": "https://osf.io/download/znu7b/",
+      "sha256": "57ed472cd88f68ccf88e9ecbadf3da91ac222d8548684d5680be95bcf47ec14a"
+    },
+    {
+      "name": "training_images.zip",
+      "bytes": 655039265,
+      "url": "https://osf.io/download/3v527/",
+      "sha256": "dc9cc627141ba230641f729f84b80eb01f0a963d288c971eefcf76b4a7581f3a"
+    },
+    {
+      "name": "image_metadata.npy",
+      "bytes": 656579,
+      "url": "https://osf.io/download/qkgtf/",
+      "sha256": "681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c"
+    }
+  ],
+  "individually_listed_preprocessed_test_file": false,
+  "smallest_subject_archive_bytes": 1071421033,
+  "subject01_archive_bytes": 1071722467,
+  "original_200_test_stimulus_bytes_git_inventory": 8084268,
+  "raw_subject01_four_session_source_companions_bytes": 1312140127,
+  "desired_minimum_subset": [
+    "one subject preprocessed_eeg_test.npy",
+    "exact test image metadata/order",
+    "200 original stimulus JPEGs"
+  ],
+  "peak_disk_estimate": {
+    "direct_test_only_bytes": null,
+    "reason": "individual EEG test array and its uncompressed size unavailable",
+    "archive_alternative_known_bytes_before_extraction_and_reserve": 1080508994,
+    "archive_test_extraction_bytes": null,
+    "download_decision": "STOP; no EEG or stimulus payloads acquired"
+  },
+  "sources": [
+    "https://api.osf.io/v2/nodes/anp5v/files/osfstorage/?page[size]=100",
+    "https://api.osf.io/v2/nodes/y63gw/files/osfstorage/?page[size]=100",
+    "https://api.github.com/repos/nemarDatasets/nm000232/git/trees/c9865f3022082dd53832d6adb69f0af787eb9bcc?recursive=1",
+    "https://data.eegdash.org/api/eegdash/records?filter=%7B%22dataset%22%3A%22nm000232%22%2C%22task%22%3A%22test%22%7D&limit=100"
+  ]
+}

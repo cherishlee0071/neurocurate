@@ -1,0 +1,43 @@
+{
+  "frozen_protocol": {
+    "frozen_at_utc": "2026-10-11T12:12:07.851501+00:00",
+    "config_sha256": "14e070fbdc40aff039bf9851577c16a9f430f018a00568d3d5252e6a9475f2cc",
+    "config_text": "# Predeclared before subject-02 acquisition or inspection; no outcome-based tuning.\nsubjects: [sub01, sub02]\npreprocessing:\n  time_window: [0.1, 0.5]\n  baseline: null\n  channels: null\n  temporal_bins: null\n  min_repetitions: 40\n  standardize: false\nchannel_policy: all 17 supplied posterior/occipital channels, identical names/order required\nbrain_metric: correlation\nvision_metric: cosine\nk_values: [5, 10, 20]\nsplit_seed: 20261011\npermutation_seed: 1337\nrepetition_splits: 30\npermutations: 1000\ntop_n: 20\nmethods:\n  jaccard: 1 - set Jaccard of nearest-neighbor sets at K=5/10/20\n  row_spearman: (1 - Spearman correlation of the two RDM rows excluding self) / 2\n  reciprocal_rank_weighted_jaccard: >-\n    All 199 nonself neighbors; assign weight 1/rank normalized by H_199;\n    disagreement = 1 - sum(min(brain_weight, model_weight))/sum(max(brain_weight, model_weight)).\n    Neighbor-distance ties break by stable image ID. No fitted bandwidth or cutoff.\naggregation: equal-weight mean of DINOv2 and CLIP per-image disagreements\ntie_policy: average score ranks for Spearman; stable image-ID tie-break for Top-20\nnull: permute image labels, then reapply the identical ranking/tie rule; 1000 permutations\ninference: exploratory, conditional on shared official whitening; not session-independent\nselection_policy: no final metric selection from subject-02; report all methods and models\nvision_revisions:\n  dinov2: f9e44c814b77203eaa57a6bdbbd535f21ede1415\n  clip: 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268\n",
+    "subject01_config_sha256": "34886630a34bc73e39ce21e80144998bba17a7e7a0bda3389bd342270dbaea70",
+    "status": "predeclared before subject-02 acquisition"
+  },
+  "vision": {
+    "dinov2": {
+      "cache": "results/real_phase0/sub01/dinov2_features.npz",
+      "sha256": "eb4f89a8490752cc718f729c4ac80bee50178701f773dabcb5f7a3d819f700c9",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "reused_for_both_subjects": true
+    },
+    "clip": {
+      "cache": "results/real_phase0/sub01/clip_features.npz",
+      "sha256": "edec2d8016b8c81c34686fdc53ff117aa7721ab6a808ee7383e887cfeebdd748",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "reused_for_both_subjects": true
+    }
+  },
+  "exports": {
+    "sub01": {
+      "manifest": "results/real_phase0/sub01/pickle_free/export_manifest.json",
+      "sha256": "a83592aebaa0fdaf61bc2341e6e847c8af6a5aa766512361d43b38a9a0fb8f72"
+    },
+    "sub02": {
+      "manifest": "results/real_phase0/sub02/pickle_free/export_manifest.json",
+      "sha256": "b345c9fb0d5a8dcb00a3cb7f48f857cff18ed532668eceff7ee717d746f6b7b9"
+    }
+  },
+  "all_downstream_numpy_allow_pickle": false,
+  "same_repetition_indices_both_subjects": true,
+  "split_and_null_seeds": {
+    "split_seed": 20261011,
+    "permutation_seed": 1337
+  },
+  "code_sha256": {
+    "scripts/cross_subject_analysis.py": "78b0bca487a4b8a5c2b422ddb9c5a8cddf538dd083d4709320dbcde04e7df6fd",
+    "src/neurocurate/ablation.py": "69ff1ae7735541bca84b0fbd92362ec8981a3d8ab19708096ae345a46f57c3f6"
+  }
+}

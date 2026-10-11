@@ -1,0 +1,25 @@
+# Supply local test-only arrays and the exact image mapping/stimuli first.
+# No downloads are enabled by this template. Use a NEW output_dir for each run.
+manifest: ../data/local/sanity_images.csv
+work_dir: ../data/local/owned_downloads
+output_dir: ../outputs/lowdisk-real-001
+reserve_bytes: 1073741824
+subject_output_budget_bytes: 67108864
+preprocessing:
+  baseline: [-0.1, 0.0]
+  time_window: [0.0, 0.5]
+  temporal_bins: 20
+  min_repetitions: 2
+  standardize: false
+brain_metric: correlation
+subjects:
+  - id: sub-01
+    eeg:
+      path: ../data/local/sub-01/preprocessed_eeg_test.npy
+      temporary: false  # Local/pre-existing files are NEVER removed, even if true.
+    trusted_pickle: true  # Only for integrity-checked official files you trust.
+# After obtaining exact real stimuli, extract each vision embedding cache ONCE.
+# Then uncomment these entries; all subjects reuse the same aligned caches.
+vision_features: {}
+#  dinov2: ../data/local/dinov2_sanity_features.npz
+#  clip: ../data/local/clip_sanity_features.npz

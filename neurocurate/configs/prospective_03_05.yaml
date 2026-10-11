@@ -1,0 +1,22 @@
+designation: prospective replication of exploratory candidate discovered on subjects 01-02; not original preregistration
+discovery_subjects: [sub01, sub02]
+replication_subjects: [sub03, sub04, sub05]
+phase15_config_sha256: 61d17efe3eb0842080757a396ddf0b3c1ea0afcfc91e3b4e780edb3eafc9888d
+primary: row_spearman/mean_models
+secondary: all other Phase 1.5 method/model combinations
+budgets: [10, 20, 40, 60, 100]
+permutations: 1000
+brain_independent_seed: 2026101501
+brain_shared_seed: 2026101502
+score_label_seed: 2026101503
+repetition_split_seed: 20261011
+repetition_splits: 30
+joint_null: independent draws for all five subjects per permutation; shared mode uses one identical permutation for all subjects; recompute scores against fixed models
+cohort_statistic: median of the three new-new pair correlations or overlaps per draw; pairwise results are dependent, not independent replicates
+primary_tests: [new-new median row-rank correlation versus shared-brain null, new-new median partial rank correlation versus shared-brain null]
+primary_multiplicity: Holm correction across these two prospective tests
+budget_multiplicity: Holm correction across the five new-new cohort shared-brain overlap tests
+failure_policy: retain all subjects in subject_status.json and reliability table; fail closed on identity/schema/isolation/mapping problems; continue other subjects; no replacement or synthetic substitution; cohort success decision requires all three subjects; report incomplete analyses as incomplete
+decision_A: GO only if all three subjects verified, all reliability permutation p <= 0.05, all new-new primary score correlations positive, and both primary Holm p <= 0.05; otherwise NO-GO or incomplete
+decision_B: GO for a separate exploratory reliability-aware investigation if all three numeric datasets are verified and all within-subject reliability p <= 0.05; do not implement or tune it here
+decision_C: GO for design only if A is GO and at least one of the five budget cohort Holm p <= 0.05; preserve all budgets, require independent stimulus pool and independently fitted preprocessing; no data-efficiency claim or execution

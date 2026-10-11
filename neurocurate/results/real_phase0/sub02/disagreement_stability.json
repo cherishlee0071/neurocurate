@@ -1,0 +1,2117 @@
+{
+  "jaccard_k5/dinov2": {
+    "spearman": {
+      "median": 0.3005549043518584,
+      "random_split_95_percentile_interval": [
+        0.09516543958471887,
+        0.42482801448650404
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.75,
+      "random_split_95_percentile_interval": [
+        0.65,
+        0.85
+      ]
+    },
+    "rank_null": {
+      "observed": 0.3005549043518584,
+      "null_median": -0.003854965285943769,
+      "null_95_percentile_interval": [
+        -0.06222954231035956,
+        0.05928562796967031
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.75,
+      "null_median": 0.7,
+      "null_95_percentile_interval": [
+        0.6,
+        0.75
+      ],
+      "one_sided_monte_carlo_p": 0.1028971028971029
+    },
+    "raw_splits": {
+      "spearman": [
+        0.33037874515809,
+        0.41153053028639325,
+        0.2084164018669215,
+        0.2900239061544913,
+        0.2574339426510866,
+        0.24911654305934436,
+        0.06321933039214349,
+        0.37403346046239544,
+        0.32794827920617503,
+        0.287847753655637,
+        0.3019255324881185,
+        0.302154898087895,
+        0.4598850182867963,
+        0.30766700834017907,
+        0.36965538530424624,
+        0.3022829449562294,
+        0.31916873303059273,
+        0.3311264082617994,
+        0.26410488080203703,
+        0.21084260000674448,
+        0.2974336751414061,
+        0.27755598632601025,
+        0.334541072709103,
+        0.10728292927845437,
+        0.2841500934161521,
+        0.28508648967196676,
+        0.38224347460690566,
+        0.29918427621559834,
+        0.22488724455349154,
+        0.328764924812867
+      ],
+      "top20_overlap_fraction": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.7,
+        0.85,
+        0.7,
+        0.7,
+        0.75,
+        0.8,
+        0.65,
+        0.85,
+        0.8,
+        0.7,
+        0.7,
+        0.65,
+        0.7,
+        0.7,
+        0.75,
+        0.8,
+        0.75,
+        0.8,
+        0.75,
+        0.8,
+        0.7,
+        0.75,
+        0.7,
+        0.85,
+        0.65,
+        0.75
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.75,
+      "max": 1.0,
+      "mean": 0.9518055555555556,
+      "standard_deviation": 0.07029904706693058,
+      "quantiles": [
+        0.75,
+        0.8888888888888888,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unique_values": 3,
+      "tied_images": 200,
+      "tie_groups": 3,
+      "top20_boundary_score": 1.0,
+      "top20_boundary_tie_size": 127,
+      "images_strictly_above_boundary": 0,
+      "top20_ids": [
+        "test_images/00002_antelope/antelope_01b.jpg",
+        "test_images/00003_backscratcher/backscratcher_01b.jpg",
+        "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+        "test_images/00007_basil/basil_05s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00011_batter/batter_01b.jpg",
+        "test_images/00012_beaver/beaver_04s.jpg",
+        "test_images/00014_bike/bike_22s.jpg",
+        "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+        "test_images/00016_blowtorch/blowtorch_08s.jpg",
+        "test_images/00017_boat/boat_01b.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00023_breadbox/breadbox_01b.jpg",
+        "test_images/00026_bullet/bullet_01s.jpg",
+        "test_images/00028_bush/bush_07s.jpg",
+        "test_images/00030_candlestick/candlestick_04s.jpg",
+        "test_images/00033_cat/cat_01b.jpg"
+      ]
+    }
+  },
+  "jaccard_k10/dinov2": {
+    "spearman": {
+      "median": 0.3810913876867631,
+      "random_split_95_percentile_interval": [
+        0.27060004996554465,
+        0.45570741351413474
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.55,
+      "random_split_95_percentile_interval": [
+        0.43625,
+        0.7137499999999999
+      ]
+    },
+    "rank_null": {
+      "observed": 0.3810913876867631,
+      "null_median": -0.0013551041706959953,
+      "null_95_percentile_interval": [
+        -0.07333681794845227,
+        0.07366508517890373
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.55,
+      "null_median": 0.35,
+      "null_95_percentile_interval": [
+        0.25,
+        0.45
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.3499401932457768,
+        0.3845874935138478,
+        0.2618258683772963,
+        0.3800235845454575,
+        0.4106614288103075,
+        0.3875779670060788,
+        0.35893511714859533,
+        0.40068929563476813,
+        0.4201206322634785,
+        0.39706336533135034,
+        0.28332555512047597,
+        0.28936776334445896,
+        0.2818879333840659,
+        0.3592931843430861,
+        0.3437675714956663,
+        0.3821591908280687,
+        0.3603492388442364,
+        0.4500824830473221,
+        0.4464568278184048,
+        0.3762907947139727,
+        0.37136625383399363,
+        0.273928187809363,
+        0.39254943486110644,
+        0.42854093750444683,
+        0.4184065481042677,
+        0.3844695236172759,
+        0.47053677565391355,
+        0.42376885402848213,
+        0.3703416657764039,
+        0.35538315457277025
+      ],
+      "top20_overlap_fraction": [
+        0.45,
+        0.6,
+        0.5,
+        0.6,
+        0.55,
+        0.55,
+        0.45,
+        0.65,
+        0.55,
+        0.5,
+        0.55,
+        0.5,
+        0.5,
+        0.4,
+        0.5,
+        0.45,
+        0.55,
+        0.75,
+        0.6,
+        0.65,
+        0.45,
+        0.45,
+        0.55,
+        0.55,
+        0.5,
+        0.5,
+        0.5,
+        0.7,
+        0.6,
+        0.55
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.6666666666666667,
+      "max": 1.0,
+      "mean": 0.9397501719986241,
+      "standard_deviation": 0.06527581033329703,
+      "quantiles": [
+        0.6666666666666667,
+        0.8888888888888888,
+        0.9473684210526316,
+        1.0,
+        1.0
+      ],
+      "unique_values": 6,
+      "tied_images": 199,
+      "tie_groups": 5,
+      "top20_boundary_score": 1.0,
+      "top20_boundary_tie_size": 71,
+      "images_strictly_above_boundary": 0,
+      "top20_ids": [
+        "test_images/00002_antelope/antelope_01b.jpg",
+        "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00012_beaver/beaver_04s.jpg",
+        "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+        "test_images/00017_boat/boat_01b.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00028_bush/bush_07s.jpg",
+        "test_images/00030_candlestick/candlestick_04s.jpg",
+        "test_images/00033_cat/cat_01b.jpg",
+        "test_images/00035_cd_player/cd_player_02s.jpg",
+        "test_images/00037_chaps/chaps_18s.jpg",
+        "test_images/00041_chime/chime_08s.jpg",
+        "test_images/00042_chopsticks/chopsticks_11s.jpg",
+        "test_images/00046_cobra/cobra_01b.jpg",
+        "test_images/00052_coverall/coverall_06s.jpg",
+        "test_images/00060_crumb/crumb_12s.jpg",
+        "test_images/00062_dagger/dagger_06s.jpg"
+      ]
+    }
+  },
+  "jaccard_k20/dinov2": {
+    "spearman": {
+      "median": 0.4143121093187597,
+      "random_split_95_percentile_interval": [
+        0.34392636151590567,
+        0.47416638729475125
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.3,
+      "random_split_95_percentile_interval": [
+        0.2,
+        0.41374999999999995
+      ]
+    },
+    "rank_null": {
+      "observed": 0.4143121093187597,
+      "null_median": 0.0003655324191556104,
+      "null_95_percentile_interval": [
+        -0.07958762084381232,
+        0.07692293925834835
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.3,
+      "null_median": 0.15,
+      "null_95_percentile_interval": [
+        0.1,
+        0.2
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.4370324150675604,
+        0.42701227763777094,
+        0.36550568225447894,
+        0.45425973935357883,
+        0.34918370539368354,
+        0.4568087705514934,
+        0.3923413020187369,
+        0.3788128985826539,
+        0.4291250799399912,
+        0.47189057228076337,
+        0.3780741710055791,
+        0.3762080742521756,
+        0.33500582498558545,
+        0.37629381870459666,
+        0.43876175154723646,
+        0.4060774317570504,
+        0.35842798947979526,
+        0.4513303339751575,
+        0.4092147251092208,
+        0.4222542419119246,
+        0.37411908185241977,
+        0.3968678013030679,
+        0.4194094935282986,
+        0.47252725042761634,
+        0.3859622298627835,
+        0.4784877481262888,
+        0.4676775042240423,
+        0.41958456290932183,
+        0.4309209242302694,
+        0.3473100133032685
+      ],
+      "top20_overlap_fraction": [
+        0.3,
+        0.25,
+        0.2,
+        0.2,
+        0.4,
+        0.4,
+        0.35,
+        0.2,
+        0.2,
+        0.35,
+        0.25,
+        0.25,
+        0.3,
+        0.25,
+        0.3,
+        0.35,
+        0.3,
+        0.25,
+        0.25,
+        0.3,
+        0.4,
+        0.3,
+        0.35,
+        0.25,
+        0.3,
+        0.2,
+        0.35,
+        0.35,
+        0.45,
+        0.2
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.7096774193548387,
+      "max": 1.0,
+      "mean": 0.9098242360351619,
+      "standard_deviation": 0.05450385532519292,
+      "quantiles": [
+        0.7096774193548387,
+        0.8888888888888888,
+        0.9189189189189189,
+        0.9473684210526316,
+        1.0
+      ],
+      "unique_values": 10,
+      "tied_images": 199,
+      "tie_groups": 9,
+      "top20_boundary_score": 0.9743589743589743,
+      "top20_boundary_tie_size": 24,
+      "images_strictly_above_boundary": 9,
+      "top20_ids": [
+        "test_images/00002_antelope/antelope_01b.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00030_candlestick/candlestick_04s.jpg",
+        "test_images/00062_dagger/dagger_06s.jpg",
+        "test_images/00094_headscarf/headscarf_03s.jpg",
+        "test_images/00098_ice_cube/ice_cube_11s.jpg",
+        "test_images/00172_station_wagon/station_wagon_04s.jpg",
+        "test_images/00183_tick/tick_06s.jpg",
+        "test_images/00017_boat/boat_01b.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00034_caterpillar/caterpillar_03s.jpg",
+        "test_images/00036_chain/chain_01b.jpg",
+        "test_images/00047_coconut/coconut_01b.jpg",
+        "test_images/00065_dragonfly/dragonfly_01b.jpg",
+        "test_images/00066_dreidel/dreidel_01b.jpg",
+        "test_images/00067_drum/drum_01b.jpg",
+        "test_images/00076_flamingo/flamingo_05s.jpg",
+        "test_images/00090_grenade/grenade_03s.jpg",
+        "test_images/00097_hummingbird/hummingbird_01b.jpg"
+      ]
+    }
+  },
+  "row_spearman/dinov2": {
+    "spearman": {
+      "median": 0.6680664516612916,
+      "random_split_95_percentile_interval": [
+        0.6233353333833345,
+        0.7385078751968799
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.4,
+      "random_split_95_percentile_interval": [
+        0.3225,
+        0.55
+      ]
+    },
+    "rank_null": {
+      "observed": 0.6680664516612916,
+      "null_median": 0.00172129303232581,
+      "null_95_percentile_interval": [
+        -0.11220087431047931,
+        0.11213370959273984
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.4,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.05,
+        0.15
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.6400870021750544,
+        0.7276501912547815,
+        0.721205821049892,
+        0.6593474836870924,
+        0.6751101309196195,
+        0.6598934973374334,
+        0.6934120953319678,
+        0.6877476936923423,
+        0.6435145878646967,
+        0.6509922748068703,
+        0.6254301357533939,
+        0.638874971874297,
+        0.6236405910147753,
+        0.6873541916126605,
+        0.6631563275918594,
+        0.6325998022200259,
+        0.6670651766294159,
+        0.7005965276369381,
+        0.6671461786544665,
+        0.6589502208619007,
+        0.7019485487137177,
+        0.6225305632640814,
+        0.6873111827795695,
+        0.6689867246681168,
+        0.6854706367659191,
+        0.7671326783169579,
+        0.7174827251801733,
+        0.6967144291286881,
+        0.6565844146103654,
+        0.7101987549688742
+      ],
+      "top20_overlap_fraction": [
+        0.45,
+        0.55,
+        0.4,
+        0.45,
+        0.35,
+        0.25,
+        0.4,
+        0.45,
+        0.45,
+        0.45,
+        0.4,
+        0.45,
+        0.4,
+        0.45,
+        0.35,
+        0.35,
+        0.4,
+        0.4,
+        0.4,
+        0.45,
+        0.45,
+        0.55,
+        0.35,
+        0.4,
+        0.35,
+        0.5,
+        0.45,
+        0.35,
+        0.4,
+        0.45
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.368982031368966,
+      "max": 0.5597022993756662,
+      "mean": 0.4655798119384803,
+      "standard_deviation": 0.03898403090852927,
+      "quantiles": [
+        0.368982031368966,
+        0.4359715242881072,
+        0.4698096543322674,
+        0.49276305771280643,
+        0.5597022993756662
+      ],
+      "unique_values": 200,
+      "tied_images": 0,
+      "tie_groups": 0,
+      "top20_boundary_score": 0.5203890665448454,
+      "top20_boundary_tie_size": 1,
+      "images_strictly_above_boundary": 19,
+      "top20_ids": [
+        "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+        "test_images/00074_face_mask/face_mask_12s.jpg",
+        "test_images/00091_hamburger/hamburger_01s.jpg",
+        "test_images/00094_headscarf/headscarf_03s.jpg",
+        "test_images/00048_coffee_bean/coffee_bean_01b.jpg",
+        "test_images/00097_hummingbird/hummingbird_01b.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00131_pear/pear_01b.jpg",
+        "test_images/00197_wheelchair/wheelchair_02s.jpg",
+        "test_images/00056_crib/crib_14n.jpg",
+        "test_images/00198_windshield/windshield_09s.jpg",
+        "test_images/00141_popsicle/popsicle_04s.jpg",
+        "test_images/00192_vise/vise_11s.jpg",
+        "test_images/00123_omelet/omelet_10s.jpg",
+        "test_images/00191_unicycle/unicycle_10s.jpg",
+        "test_images/00117_mosquito/mosquito_02s.jpg",
+        "test_images/00007_basil/basil_05s.jpg",
+        "test_images/00194_wallpaper/wallpaper_01b.jpg",
+        "test_images/00168_slingshot/slingshot_07s.jpg",
+        "test_images/00046_cobra/cobra_01b.jpg"
+      ]
+    }
+  },
+  "reciprocal_rank_weighted_jaccard/dinov2": {
+    "spearman": {
+      "median": 0.46255156378909473,
+      "random_split_95_percentile_interval": [
+        0.36780893272331816,
+        0.5231170029250732
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.3,
+      "random_split_95_percentile_interval": [
+        0.13625,
+        0.5
+      ]
+    },
+    "rank_null": {
+      "observed": 0.46255156378909473,
+      "null_median": 0.0011554038850971225,
+      "null_95_percentile_interval": [
+        -0.09145516762919073,
+        0.08393682967074174
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.3,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.05,
+        0.15
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.43800645016125406,
+        0.48606165154128866,
+        0.3670291757293933,
+        0.45725343133578344,
+        0.476810920273007,
+        0.5035460886522165,
+        0.4091652291307283,
+        0.4812330308257707,
+        0.5199414985374635,
+        0.46409060226505655,
+        0.39815195379884505,
+        0.3681047026175655,
+        0.4014460361509038,
+        0.4610125253131329,
+        0.4922013050326259,
+        0.47542338558463965,
+        0.470204755118878,
+        0.5062491562289058,
+        0.49470486762169064,
+        0.3851031275781895,
+        0.4367644191104778,
+        0.38563114077851957,
+        0.4968019200480013,
+        0.44855621390534767,
+        0.48812720318007957,
+        0.5314887872196806,
+        0.45027675691892305,
+        0.44136653416335414,
+        0.48377409435235885,
+        0.45959798994974876
+      ],
+      "top20_overlap_fraction": [
+        0.35,
+        0.35,
+        0.1,
+        0.2,
+        0.35,
+        0.35,
+        0.3,
+        0.35,
+        0.3,
+        0.15,
+        0.2,
+        0.35,
+        0.2,
+        0.2,
+        0.5,
+        0.25,
+        0.25,
+        0.2,
+        0.25,
+        0.4,
+        0.25,
+        0.45,
+        0.5,
+        0.15,
+        0.35,
+        0.25,
+        0.3,
+        0.35,
+        0.35,
+        0.15
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.6115044116089918,
+      "max": 0.8245380540261675,
+      "mean": 0.7712219342149754,
+      "standard_deviation": 0.039354540693961715,
+      "quantiles": [
+        0.6115044116089918,
+        0.76050537243762,
+        0.7838636129526378,
+        0.7967678069778975,
+        0.8245380540261675
+      ],
+      "unique_values": 200,
+      "tied_images": 0,
+      "tie_groups": 0,
+      "top20_boundary_score": 0.8068983400777083,
+      "top20_boundary_tie_size": 1,
+      "images_strictly_above_boundary": 19,
+      "top20_ids": [
+        "test_images/00098_ice_cube/ice_cube_11s.jpg",
+        "test_images/00094_headscarf/headscarf_03s.jpg",
+        "test_images/00067_drum/drum_01b.jpg",
+        "test_images/00198_windshield/windshield_09s.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00131_pear/pear_01b.jpg",
+        "test_images/00030_candlestick/candlestick_04s.jpg",
+        "test_images/00160_scooter/scooter_07s.jpg",
+        "test_images/00192_vise/vise_11s.jpg",
+        "test_images/00117_mosquito/mosquito_02s.jpg",
+        "test_images/00097_hummingbird/hummingbird_01b.jpg",
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00090_grenade/grenade_03s.jpg",
+        "test_images/00176_suit/suit_13s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00062_dagger/dagger_06s.jpg",
+        "test_images/00085_gondola/gondola_11s.jpg",
+        "test_images/00144_pug/pug_09s.jpg",
+        "test_images/00197_wheelchair/wheelchair_02s.jpg"
+      ]
+    }
+  },
+  "jaccard_k5/clip": {
+    "spearman": {
+      "median": 0.3698126405784038,
+      "random_split_95_percentile_interval": [
+        0.26624549442627055,
+        0.49557725402347264
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.75,
+      "random_split_95_percentile_interval": [
+        0.58625,
+        0.81375
+      ]
+    },
+    "rank_null": {
+      "observed": 0.3698126405784038,
+      "null_median": -0.0023459583443372796,
+      "null_95_percentile_interval": [
+        -0.07392731398755557,
+        0.06844703504984262
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.75,
+      "null_median": 0.65,
+      "null_95_percentile_interval": [
+        0.55,
+        0.75
+      ],
+      "one_sided_monte_carlo_p": 0.04095904095904096
+    },
+    "raw_splits": {
+      "spearman": [
+        0.40525752444601226,
+        0.41530443787874705,
+        0.3098320840319525,
+        0.3983305719839377,
+        0.45855152107263253,
+        0.28404102282612287,
+        0.22188461354100072,
+        0.377786887251523,
+        0.33455857456964677,
+        0.43837592046997953,
+        0.2830720354517177,
+        0.33377398139823866,
+        0.42755949958583933,
+        0.39194221067254736,
+        0.3856712605334245,
+        0.37174070515175556,
+        0.47596019454417376,
+        0.32370329337633924,
+        0.32151067329073674,
+        0.3544426025311128,
+        0.32514648931849277,
+        0.34944478950846114,
+        0.3999748452432832,
+        0.367884576005052,
+        0.4123184919832015,
+        0.5472949562870791,
+        0.2929344558321283,
+        0.35281986496887413,
+        0.39035878645818833,
+        0.31469840437165875
+      ],
+      "top20_overlap_fraction": [
+        0.8,
+        0.8,
+        0.7,
+        0.7,
+        0.8,
+        0.8,
+        0.65,
+        0.7,
+        0.8,
+        0.8,
+        0.6,
+        0.75,
+        0.85,
+        0.7,
+        0.75,
+        0.75,
+        0.8,
+        0.8,
+        0.75,
+        0.7,
+        0.75,
+        0.7,
+        0.8,
+        0.8,
+        0.8,
+        0.75,
+        0.55,
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.5714285714285714,
+      "max": 1.0,
+      "mean": 0.942996031746032,
+      "standard_deviation": 0.08404287640065722,
+      "quantiles": [
+        0.5714285714285714,
+        0.8888888888888888,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unique_values": 4,
+      "tied_images": 199,
+      "tie_groups": 3,
+      "top20_boundary_score": 1.0,
+      "top20_boundary_tie_size": 124,
+      "images_strictly_above_boundary": 0,
+      "top20_ids": [
+        "test_images/00003_backscratcher/backscratcher_01b.jpg",
+        "test_images/00004_balance_beam/balance_beam_04s.jpg",
+        "test_images/00005_banana/banana_09s.jpg",
+        "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00011_batter/batter_01b.jpg",
+        "test_images/00012_beaver/beaver_04s.jpg",
+        "test_images/00013_bench/bench_01b.jpg",
+        "test_images/00014_bike/bike_22s.jpg",
+        "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+        "test_images/00016_blowtorch/blowtorch_08s.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00023_breadbox/breadbox_01b.jpg",
+        "test_images/00024_bug/bug_08s.jpg",
+        "test_images/00025_buggy/buggy_07s.jpg",
+        "test_images/00026_bullet/bullet_01s.jpg",
+        "test_images/00028_bush/bush_07s.jpg"
+      ]
+    }
+  },
+  "jaccard_k10/clip": {
+    "spearman": {
+      "median": 0.49462384057511477,
+      "random_split_95_percentile_interval": [
+        0.40899270273308636,
+        0.572605573369196
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.5,
+      "random_split_95_percentile_interval": [
+        0.28625,
+        0.66375
+      ]
+    },
+    "rank_null": {
+      "observed": 0.49462384057511477,
+      "null_median": -0.0003235115472128552,
+      "null_95_percentile_interval": [
+        -0.08458875099093399,
+        0.08879495976895917
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.5,
+      "null_median": 0.3,
+      "null_95_percentile_interval": [
+        0.2,
+        0.35
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.5015483786930566,
+        0.5029341916725742,
+        0.4032372773589932,
+        0.533200098268655,
+        0.524426501068168,
+        0.5336583221965829,
+        0.4397095073323734,
+        0.5340339638352708,
+        0.4695522385482503,
+        0.5548187060169357,
+        0.4377845454903851,
+        0.43662446252852016,
+        0.44088444062751775,
+        0.4752257956853546,
+        0.5032945359463146,
+        0.5796916605037413,
+        0.4976632092997494,
+        0.4638411299223235,
+        0.4333547265068664,
+        0.4631950935252858,
+        0.5699177472147133,
+        0.4111757951163631,
+        0.5373437293482316,
+        0.4338567893579085,
+        0.5252415610555121,
+        0.49158447185048015,
+        0.4567272073902277,
+        0.44656275415314917,
+        0.5204968113894938,
+        0.5567323179060314
+      ],
+      "top20_overlap_fraction": [
+        0.5,
+        0.5,
+        0.5,
+        0.4,
+        0.55,
+        0.45,
+        0.4,
+        0.65,
+        0.55,
+        0.6,
+        0.45,
+        0.45,
+        0.65,
+        0.55,
+        0.45,
+        0.7,
+        0.45,
+        0.45,
+        0.6,
+        0.5,
+        0.55,
+        0.35,
+        0.65,
+        0.55,
+        0.4,
+        0.5,
+        0.25,
+        0.4,
+        0.3,
+        0.45
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.5714285714285714,
+      "max": 1.0,
+      "mean": 0.9144795198781267,
+      "standard_deviation": 0.08518417004116056,
+      "quantiles": [
+        0.5714285714285714,
+        0.8888888888888888,
+        0.9473684210526316,
+        1.0,
+        1.0
+      ],
+      "unique_values": 7,
+      "tied_images": 199,
+      "tie_groups": 6,
+      "top20_boundary_score": 1.0,
+      "top20_boundary_tie_size": 58,
+      "images_strictly_above_boundary": 0,
+      "top20_ids": [
+        "test_images/00003_backscratcher/backscratcher_01b.jpg",
+        "test_images/00005_banana/banana_09s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00023_breadbox/breadbox_01b.jpg",
+        "test_images/00028_bush/bush_07s.jpg",
+        "test_images/00037_chaps/chaps_18s.jpg",
+        "test_images/00038_cheese/cheese_06s.jpg",
+        "test_images/00040_chest2/chest2_02s.jpg",
+        "test_images/00041_chime/chime_08s.jpg",
+        "test_images/00056_crib/crib_14n.jpg",
+        "test_images/00058_crow/crow_11s.jpg",
+        "test_images/00060_crumb/crumb_12s.jpg",
+        "test_images/00063_dalmatian/dalmatian_12s.jpg",
+        "test_images/00067_drum/drum_01b.jpg",
+        "test_images/00069_eagle/eagle_06s.jpg",
+        "test_images/00078_fork/fork_07s.jpg"
+      ]
+    }
+  },
+  "jaccard_k20/clip": {
+    "spearman": {
+      "median": 0.5984031830391983,
+      "random_split_95_percentile_interval": [
+        0.5400454055739736,
+        0.6493339801556929
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.25,
+      "random_split_95_percentile_interval": [
+        0.08625000000000001,
+        0.45
+      ]
+    },
+    "rank_null": {
+      "observed": 0.5984031830391983,
+      "null_median": -0.0008481182507847065,
+      "null_95_percentile_interval": [
+        -0.09556875113999021,
+        0.10080605380544626
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.25,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.05,
+        0.15
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.5083214426561081,
+        0.5919252506644263,
+        0.5919059352643604,
+        0.599361959696078,
+        0.6160427960286566,
+        0.6320043975807212,
+        0.6265756076477208,
+        0.6140300595211311,
+        0.6367210962198987,
+        0.6151284482376278,
+        0.5894984435363512,
+        0.5624682407862506,
+        0.5520786328876467,
+        0.5974444063823187,
+        0.6214680174818612,
+        0.5849122275865816,
+        0.5910638084682004,
+        0.6433989055176493,
+        0.6272873959831665,
+        0.5861984889856078,
+        0.6577409797606101,
+        0.5629729589599127,
+        0.5917901378742164,
+        0.5601515558418206,
+        0.6328975420437287,
+        0.5870156332316666,
+        0.5931558472392998,
+        0.6461451182365864,
+        0.6245000111023284,
+        0.6233232809865794
+      ],
+      "top20_overlap_fraction": [
+        0.05,
+        0.25,
+        0.25,
+        0.3,
+        0.45,
+        0.25,
+        0.3,
+        0.1,
+        0.3,
+        0.25,
+        0.25,
+        0.2,
+        0.25,
+        0.25,
+        0.3,
+        0.25,
+        0.3,
+        0.2,
+        0.3,
+        0.4,
+        0.3,
+        0.35,
+        0.1,
+        0.15,
+        0.25,
+        0.2,
+        0.4,
+        0.35,
+        0.45,
+        0.2
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.5185185185185186,
+      "max": 1.0,
+      "mean": 0.876426867621104,
+      "standard_deviation": 0.09016577046838603,
+      "quantiles": [
+        0.5185185185185186,
+        0.8487394957983194,
+        0.8888888888888888,
+        0.9473684210526316,
+        1.0
+      ],
+      "unique_values": 14,
+      "tied_images": 198,
+      "tie_groups": 12,
+      "top20_boundary_score": 0.9743589743589743,
+      "top20_boundary_tie_size": 19,
+      "images_strictly_above_boundary": 5,
+      "top20_ids": [
+        "test_images/00005_banana/banana_09s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00104_kneepad/kneepad_12s.jpg",
+        "test_images/00156_sandpaper/sandpaper_08s.jpg",
+        "test_images/00197_wheelchair/wheelchair_02s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00038_cheese/cheese_06s.jpg",
+        "test_images/00052_coverall/coverall_06s.jpg",
+        "test_images/00054_creme_brulee/creme_brulee_01b.jpg",
+        "test_images/00056_crib/crib_14n.jpg",
+        "test_images/00067_drum/drum_01b.jpg",
+        "test_images/00080_french_horn/french_horn_03s.jpg",
+        "test_images/00082_garlic/garlic_12n.jpg",
+        "test_images/00092_hammer/hammer_08s.jpg",
+        "test_images/00095_highchair/highchair_04s.jpg",
+        "test_images/00098_ice_cube/ice_cube_11s.jpg",
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00117_mosquito/mosquito_02s.jpg",
+        "test_images/00128_pajamas/pajamas_13s.jpg",
+        "test_images/00153_rug/rug_09s.jpg"
+      ]
+    }
+  },
+  "row_spearman/clip": {
+    "spearman": {
+      "median": 0.8546456161404037,
+      "random_split_95_percentile_interval": [
+        0.8060721518037951,
+        0.8805903772594313
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.6,
+      "random_split_95_percentile_interval": [
+        0.45,
+        0.75
+      ]
+    },
+    "rank_null": {
+      "observed": 0.8546456161404037,
+      "null_median": 0.00017287932198304778,
+      "null_95_percentile_interval": [
+        -0.12580328335717192,
+        0.12430124503112579
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.6,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.025,
+        0.2
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.8680372009300231,
+        0.8385419635490887,
+        0.8741993549838745,
+        0.7888022200555013,
+        0.8532783319582992,
+        0.8684902122553065,
+        0.8443846096152405,
+        0.8457796444911123,
+        0.8510432760819021,
+        0.8665250630206165,
+        0.8477536938423461,
+        0.863411085277132,
+        0.8126228155703893,
+        0.872774319357984,
+        0.8669481737043426,
+        0.8560129003225083,
+        0.8462611565289134,
+        0.8651961299032478,
+        0.8578234455861398,
+        0.8627285682142054,
+        0.87092777319433,
+        0.8298387459686494,
+        0.8526598862446734,
+        0.8432610815270384,
+        0.8421420535513388,
+        0.8509772744318609,
+        0.8974394359858996,
+        0.8606475889326297,
+        0.833086327158179,
+        0.8632550813770343
+      ],
+      "top20_overlap_fraction": [
+        0.65,
+        0.6,
+        0.55,
+        0.55,
+        0.6,
+        0.5,
+        0.45,
+        0.5,
+        0.65,
+        0.55,
+        0.6,
+        0.55,
+        0.6,
+        0.55,
+        0.55,
+        0.6,
+        0.6,
+        0.65,
+        0.75,
+        0.5,
+        0.5,
+        0.45,
+        0.65,
+        0.7,
+        0.55,
+        0.65,
+        0.65,
+        0.75,
+        0.55,
+        0.75
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.28228490939546214,
+      "max": 0.6063697274250038,
+      "mean": 0.42077466879853814,
+      "standard_deviation": 0.06933821815581144,
+      "quantiles": [
+        0.28228490939546214,
+        0.3624194837825491,
+        0.41479747220953256,
+        0.47382156997106745,
+        0.6063697274250038
+      ],
+      "unique_values": 200,
+      "tied_images": 0,
+      "tie_groups": 0,
+      "top20_boundary_score": 0.5189942134917009,
+      "top20_boundary_tie_size": 1,
+      "images_strictly_above_boundary": 19,
+      "top20_ids": [
+        "test_images/00197_wheelchair/wheelchair_02s.jpg",
+        "test_images/00052_coverall/coverall_06s.jpg",
+        "test_images/00038_cheese/cheese_06s.jpg",
+        "test_images/00102_jukebox/jukebox_01n.jpg",
+        "test_images/00074_face_mask/face_mask_12s.jpg",
+        "test_images/00095_highchair/highchair_04s.jpg",
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00071_egg/egg_12s.jpg",
+        "test_images/00186_tool/tool_10s.jpg",
+        "test_images/00128_pajamas/pajamas_13s.jpg",
+        "test_images/00025_buggy/buggy_07s.jpg",
+        "test_images/00192_vise/vise_11s.jpg",
+        "test_images/00073_espresso/espresso_01b.jpg",
+        "test_images/00094_headscarf/headscarf_03s.jpg",
+        "test_images/00047_coconut/coconut_01b.jpg",
+        "test_images/00104_kneepad/kneepad_12s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00005_banana/banana_09s.jpg",
+        "test_images/00177_t-shirt/t-shirt_15s.jpg"
+      ]
+    }
+  },
+  "reciprocal_rank_weighted_jaccard/clip": {
+    "spearman": {
+      "median": 0.6883094577364435,
+      "random_split_95_percentile_interval": [
+        0.6533745593639841,
+        0.7457914572864321
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.45,
+      "random_split_95_percentile_interval": [
+        0.35,
+        0.6
+      ]
+    },
+    "rank_null": {
+      "observed": 0.6883094577364435,
+      "null_median": -0.0017921698042451008,
+      "null_95_percentile_interval": [
+        -0.11752145053626344,
+        0.11288772219305482
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.45,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.05,
+        0.15
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.6950153753843846,
+        0.6724248106202656,
+        0.661854046351159,
+        0.6488787219680493,
+        0.7103472586814671,
+        0.7265191629790743,
+        0.6550798769969249,
+        0.6901762544063604,
+        0.6766444161104029,
+        0.7417715442886073,
+        0.6676666916672918,
+        0.6799639990999776,
+        0.6772129303232582,
+        0.696714917872947,
+        0.6749073726843173,
+        0.7136473411835297,
+        0.7248481212030301,
+        0.6781024525613141,
+        0.6847836195904897,
+        0.682878571964299,
+        0.7563894097352435,
+        0.6983139578489461,
+        0.692970824270607,
+        0.6730968274206856,
+        0.7378549463736594,
+        0.684827120678017,
+        0.7344978624465612,
+        0.7016650416260406,
+        0.7143733593339834,
+        0.6864426610665265
+      ],
+      "top20_overlap_fraction": [
+        0.55,
+        0.45,
+        0.35,
+        0.35,
+        0.6,
+        0.55,
+        0.5,
+        0.45,
+        0.45,
+        0.4,
+        0.4,
+        0.45,
+        0.45,
+        0.45,
+        0.4,
+        0.5,
+        0.45,
+        0.35,
+        0.45,
+        0.6,
+        0.45,
+        0.5,
+        0.5,
+        0.4,
+        0.35,
+        0.5,
+        0.55,
+        0.45,
+        0.45,
+        0.55
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.5517779101537356,
+      "max": 0.8255803879864897,
+      "mean": 0.7520541605862828,
+      "standard_deviation": 0.05583063645020993,
+      "quantiles": [
+        0.5517779101537356,
+        0.7285879653961608,
+        0.7716778665943559,
+        0.7919857794941582,
+        0.8255803879864897
+      ],
+      "unique_values": 200,
+      "tied_images": 0,
+      "tie_groups": 0,
+      "top20_boundary_score": 0.8021934186267129,
+      "top20_boundary_tie_size": 1,
+      "images_strictly_above_boundary": 19,
+      "top20_ids": [
+        "test_images/00197_wheelchair/wheelchair_02s.jpg",
+        "test_images/00038_cheese/cheese_06s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00052_coverall/coverall_06s.jpg",
+        "test_images/00095_highchair/highchair_04s.jpg",
+        "test_images/00102_jukebox/jukebox_01n.jpg",
+        "test_images/00080_french_horn/french_horn_03s.jpg",
+        "test_images/00192_vise/vise_11s.jpg",
+        "test_images/00128_pajamas/pajamas_13s.jpg",
+        "test_images/00082_garlic/garlic_12n.jpg",
+        "test_images/00193_volleyball/volleyball_10s.jpg",
+        "test_images/00005_banana/banana_09s.jpg",
+        "test_images/00104_kneepad/kneepad_12s.jpg",
+        "test_images/00187_top_hat/top_hat_13s.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00138_pocket/pocket_04s.jpg",
+        "test_images/00158_scallion/scallion_04s.jpg",
+        "test_images/00117_mosquito/mosquito_02s.jpg",
+        "test_images/00168_slingshot/slingshot_07s.jpg"
+      ]
+    }
+  },
+  "jaccard_k5/mean_models": {
+    "spearman": {
+      "median": 0.3666387624446119,
+      "random_split_95_percentile_interval": [
+        0.24985678517129117,
+        0.48882090611703927
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.65,
+      "random_split_95_percentile_interval": [
+        0.45,
+        0.7637499999999999
+      ]
+    },
+    "rank_null": {
+      "observed": 0.3666387624446119,
+      "null_median": -0.002420118671430747,
+      "null_95_percentile_interval": [
+        -0.06841993090614978,
+        0.06536164291196742
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.65,
+      "null_median": 0.55,
+      "null_95_percentile_interval": [
+        0.45,
+        0.6
+      ],
+      "one_sided_monte_carlo_p": 0.008991008991008992
+    },
+    "raw_splits": {
+      "spearman": [
+        0.38200218264905555,
+        0.48591000912908405,
+        0.27473521977377374,
+        0.34289199463590303,
+        0.3755037949861342,
+        0.30229853410936525,
+        0.18426818485565527,
+        0.422552306319151,
+        0.2886217761345582,
+        0.3862782195568971,
+        0.3796202249962615,
+        0.4064319122909423,
+        0.4657888578108229,
+        0.34099653130735447,
+        0.3875707792141533,
+        0.3001846526295609,
+        0.4188323199822035,
+        0.3638315833053214,
+        0.2984365498635977,
+        0.30251249890190846,
+        0.3599541449729272,
+        0.28351564736149126,
+        0.36944594158390237,
+        0.30432317268170156,
+        0.3966983553417841,
+        0.49649508908528484,
+        0.3729552474599831,
+        0.34614498034242663,
+        0.327662417219584,
+        0.395827709391689
+      ],
+      "top20_overlap_fraction": [
+        0.7,
+        0.75,
+        0.65,
+        0.5,
+        0.65,
+        0.8,
+        0.45,
+        0.7,
+        0.65,
+        0.65,
+        0.55,
+        0.75,
+        0.75,
+        0.55,
+        0.6,
+        0.6,
+        0.55,
+        0.65,
+        0.7,
+        0.7,
+        0.65,
+        0.5,
+        0.65,
+        0.6,
+        0.7,
+        0.6,
+        0.45,
+        0.7,
+        0.5,
+        0.7
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.6607142857142857,
+      "max": 1.0,
+      "mean": 0.9474007936507937,
+      "standard_deviation": 0.0666613488761547,
+      "quantiles": [
+        0.6607142857142857,
+        0.8888888888888888,
+        0.9444444444444444,
+        1.0,
+        1.0
+      ],
+      "unique_values": 7,
+      "tied_images": 199,
+      "tie_groups": 6,
+      "top20_boundary_score": 1.0,
+      "top20_boundary_tie_size": 98,
+      "images_strictly_above_boundary": 0,
+      "top20_ids": [
+        "test_images/00003_backscratcher/backscratcher_01b.jpg",
+        "test_images/00006_baseball_bat/baseball_bat_10s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00011_batter/batter_01b.jpg",
+        "test_images/00012_beaver/beaver_04s.jpg",
+        "test_images/00014_bike/bike_22s.jpg",
+        "test_images/00015_birthday_cake/birthday_cake_01b.jpg",
+        "test_images/00016_blowtorch/blowtorch_08s.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00023_breadbox/breadbox_01b.jpg",
+        "test_images/00026_bullet/bullet_01s.jpg",
+        "test_images/00028_bush/bush_07s.jpg",
+        "test_images/00030_candlestick/candlestick_04s.jpg",
+        "test_images/00033_cat/cat_01b.jpg",
+        "test_images/00036_chain/chain_01b.jpg",
+        "test_images/00037_chaps/chaps_18s.jpg",
+        "test_images/00038_cheese/cheese_06s.jpg"
+      ]
+    }
+  },
+  "jaccard_k10/mean_models": {
+    "spearman": {
+      "median": 0.4637410359278882,
+      "random_split_95_percentile_interval": [
+        0.357705497118839,
+        0.5196078732935981
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.35,
+      "random_split_95_percentile_interval": [
+        0.20875000000000002,
+        0.5
+      ]
+    },
+    "rank_null": {
+      "observed": 0.4637410359278882,
+      "null_median": -0.0016792977874637463,
+      "null_95_percentile_interval": [
+        -0.07633612782094838,
+        0.0834453823694944
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.35,
+      "null_median": 0.15,
+      "null_95_percentile_interval": [
+        0.1,
+        0.2
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.47638938440133627,
+        0.4849082779109331,
+        0.3394002571661879,
+        0.4682169691572237,
+        0.5196516151867586,
+        0.4551440681859979,
+        0.4256412844202076,
+        0.47380661714446376,
+        0.46156802195165014,
+        0.5180697643264611,
+        0.4156283860949012,
+        0.3646488639974308,
+        0.40817279968465764,
+        0.4191746098790824,
+        0.4604772922686115,
+        0.48345327091106527,
+        0.46245107159575066,
+        0.4735149930226239,
+        0.4273856920594105,
+        0.42262479325715574,
+        0.5195912815410201,
+        0.4141809749562348,
+        0.47813239977405475,
+        0.43405889411194376,
+        0.49525665637713373,
+        0.46503100026002564,
+        0.4509444646748928,
+        0.4863137088002484,
+        0.46938553402096334,
+        0.499841602262709
+      ],
+      "top20_overlap_fraction": [
+        0.45,
+        0.3,
+        0.35,
+        0.35,
+        0.4,
+        0.4,
+        0.3,
+        0.4,
+        0.35,
+        0.3,
+        0.1,
+        0.4,
+        0.45,
+        0.5,
+        0.3,
+        0.35,
+        0.4,
+        0.5,
+        0.45,
+        0.5,
+        0.3,
+        0.45,
+        0.5,
+        0.35,
+        0.3,
+        0.35,
+        0.25,
+        0.35,
+        0.4,
+        0.3
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.6666666666666667,
+      "max": 1.0,
+      "mean": 0.9271148459383752,
+      "standard_deviation": 0.06499443840887861,
+      "quantiles": [
+        0.6666666666666667,
+        0.8888888888888888,
+        0.9444444444444444,
+        0.9736842105263158,
+        1.0
+      ],
+      "unique_values": 20,
+      "tied_images": 193,
+      "tie_groups": 13,
+      "top20_boundary_score": 1.0,
+      "top20_boundary_tie_size": 32,
+      "images_strictly_above_boundary": 0,
+      "top20_ids": [
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00028_bush/bush_07s.jpg",
+        "test_images/00037_chaps/chaps_18s.jpg",
+        "test_images/00041_chime/chime_08s.jpg",
+        "test_images/00060_crumb/crumb_12s.jpg",
+        "test_images/00067_drum/drum_01b.jpg",
+        "test_images/00080_french_horn/french_horn_03s.jpg",
+        "test_images/00082_garlic/garlic_12n.jpg",
+        "test_images/00092_hammer/hammer_08s.jpg",
+        "test_images/00094_headscarf/headscarf_03s.jpg",
+        "test_images/00095_highchair/highchair_04s.jpg",
+        "test_images/00098_ice_cube/ice_cube_11s.jpg",
+        "test_images/00102_jukebox/jukebox_01n.jpg",
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00117_mosquito/mosquito_02s.jpg",
+        "test_images/00125_orange/orange_07s.jpg",
+        "test_images/00131_pear/pear_01b.jpg"
+      ]
+    }
+  },
+  "jaccard_k20/mean_models": {
+    "spearman": {
+      "median": 0.5477247922871531,
+      "random_split_95_percentile_interval": [
+        0.48742587076745675,
+        0.5977264202462311
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.25,
+      "random_split_95_percentile_interval": [
+        0.1,
+        0.45
+      ]
+    },
+    "rank_null": {
+      "observed": 0.5477247922871531,
+      "null_median": 0.0008681866965937366,
+      "null_95_percentile_interval": [
+        -0.09059478528446802,
+        0.09135478315157139
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.25,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.05,
+        0.15
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.46777131537153255,
+        0.540412202904904,
+        0.53634057765377,
+        0.5075783206383844,
+        0.5603761780985345,
+        0.5554568852617053,
+        0.525728763227138,
+        0.5459559089223285,
+        0.5894343773335113,
+        0.5648578417706273,
+        0.5221196008665422,
+        0.5090546058960227,
+        0.552485310493141,
+        0.5526804640883559,
+        0.5734399493338295,
+        0.5057821002721338,
+        0.5492631553323443,
+        0.5975695627267223,
+        0.5360405244876445,
+        0.5364637085010516,
+        0.5981399537067541,
+        0.5370201976707019,
+        0.5734397441091225,
+        0.49488104695211765,
+        0.5697718962558764,
+        0.5761203870490292,
+        0.546186429241962,
+        0.5668435520076822,
+        0.5923647139447739,
+        0.5439448515051652
+      ],
+      "top20_overlap_fraction": [
+        0.2,
+        0.25,
+        0.1,
+        0.2,
+        0.25,
+        0.2,
+        0.25,
+        0.2,
+        0.3,
+        0.25,
+        0.3,
+        0.25,
+        0.25,
+        0.2,
+        0.3,
+        0.25,
+        0.35,
+        0.1,
+        0.3,
+        0.35,
+        0.45,
+        0.35,
+        0.45,
+        0.15,
+        0.3,
+        0.35,
+        0.25,
+        0.4,
+        0.4,
+        0.25
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.6531986531986532,
+      "max": 0.9871794871794872,
+      "mean": 0.893125551828133,
+      "standard_deviation": 0.0621722614939925,
+      "quantiles": [
+        0.6531986531986532,
+        0.8703240251227867,
+        0.9039039039039038,
+        0.9331436699857752,
+        0.9871794871794872
+      ],
+      "unique_values": 50,
+      "tied_images": 179,
+      "tie_groups": 29,
+      "top20_boundary_score": 0.9608636977058029,
+      "top20_boundary_tie_size": 10,
+      "images_strictly_above_boundary": 13,
+      "top20_ids": [
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00098_ice_cube/ice_cube_11s.jpg",
+        "test_images/00172_station_wagon/station_wagon_04s.jpg",
+        "test_images/00067_drum/drum_01b.jpg",
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00117_mosquito/mosquito_02s.jpg",
+        "test_images/00153_rug/rug_09s.jpg",
+        "test_images/00192_vise/vise_11s.jpg",
+        "test_images/00193_volleyball/volleyball_10s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00010_baton4/baton4_05s.jpg",
+        "test_images/00062_dagger/dagger_06s.jpg",
+        "test_images/00197_wheelchair/wheelchair_02s.jpg",
+        "test_images/00021_brace/brace_08s.jpg",
+        "test_images/00034_caterpillar/caterpillar_03s.jpg",
+        "test_images/00036_chain/chain_01b.jpg",
+        "test_images/00054_creme_brulee/creme_brulee_01b.jpg",
+        "test_images/00080_french_horn/french_horn_03s.jpg",
+        "test_images/00082_garlic/garlic_12n.jpg",
+        "test_images/00090_grenade/grenade_03s.jpg"
+      ]
+    }
+  },
+  "row_spearman/mean_models": {
+    "spearman": {
+      "median": 0.8020603015075378,
+      "random_split_95_percentile_interval": [
+        0.7476362409060228,
+        0.8468579839495989
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.55,
+      "random_split_95_percentile_interval": [
+        0.4,
+        0.65
+      ]
+    },
+    "rank_null": {
+      "observed": 0.8020603015075378,
+      "null_median": -0.0004128848470777765,
+      "null_95_percentile_interval": [
+        -0.11613340958523964,
+        0.127811145278632
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.55,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.025,
+        0.2
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.7808460211505288,
+        0.804566114152854,
+        0.8442241056026403,
+        0.7343553588839723,
+        0.8157143928598215,
+        0.7820100502512565,
+        0.8130353258831473,
+        0.8029625740643517,
+        0.7717017925448136,
+        0.8036510912772822,
+        0.7702407560189006,
+        0.8011580289507239,
+        0.7738333458336462,
+        0.8061246531163281,
+        0.8010215255381385,
+        0.7964074101852548,
+        0.7916023369093548,
+        0.8198934973374333,
+        0.8062866571664292,
+        0.7940878999805179,
+        0.8239071566441579,
+        0.7526738168454212,
+        0.8119642991074778,
+        0.7758808970224256,
+        0.7966534163354086,
+        0.8448016200405012,
+        0.8522793069826747,
+        0.8124443111077777,
+        0.7643066076651918,
+        0.8043456086402161
+      ],
+      "top20_overlap_fraction": [
+        0.6,
+        0.55,
+        0.55,
+        0.55,
+        0.45,
+        0.5,
+        0.4,
+        0.5,
+        0.6,
+        0.6,
+        0.6,
+        0.55,
+        0.45,
+        0.65,
+        0.6,
+        0.5,
+        0.55,
+        0.55,
+        0.45,
+        0.5,
+        0.6,
+        0.4,
+        0.6,
+        0.65,
+        0.5,
+        0.5,
+        0.55,
+        0.55,
+        0.55,
+        0.65
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.3548663773412517,
+      "max": 0.5675799451804477,
+      "mean": 0.4431772403685092,
+      "standard_deviation": 0.04333979306742131,
+      "quantiles": [
+        0.3548663773412517,
+        0.4091741853205421,
+        0.44081696360590833,
+        0.4753191145119537,
+        0.5675799451804477
+      ],
+      "unique_values": 200,
+      "tied_images": 0,
+      "tie_groups": 0,
+      "top20_boundary_score": 0.5018513019643673,
+      "top20_boundary_tie_size": 1,
+      "images_strictly_above_boundary": 19,
+      "top20_ids": [
+        "test_images/00197_wheelchair/wheelchair_02s.jpg",
+        "test_images/00074_face_mask/face_mask_12s.jpg",
+        "test_images/00038_cheese/cheese_06s.jpg",
+        "test_images/00094_headscarf/headscarf_03s.jpg",
+        "test_images/00049_coffeemaker/coffeemaker_13s.jpg",
+        "test_images/00192_vise/vise_11s.jpg",
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00019_bonnet/bonnet_08s.jpg",
+        "test_images/00052_coverall/coverall_06s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00186_tool/tool_10s.jpg",
+        "test_images/00128_pajamas/pajamas_13s.jpg",
+        "test_images/00025_buggy/buggy_07s.jpg",
+        "test_images/00098_ice_cube/ice_cube_11s.jpg",
+        "test_images/00104_kneepad/kneepad_12s.jpg",
+        "test_images/00177_t-shirt/t-shirt_15s.jpg",
+        "test_images/00118_muff/muff_12s.jpg",
+        "test_images/00191_unicycle/unicycle_10s.jpg",
+        "test_images/00168_slingshot/slingshot_07s.jpg",
+        "test_images/00073_espresso/espresso_01b.jpg"
+      ]
+    }
+  },
+  "reciprocal_rank_weighted_jaccard/mean_models": {
+    "spearman": {
+      "median": 0.6286004650116255,
+      "random_split_95_percentile_interval": [
+        0.5669694367359185,
+        0.681351833795845
+      ]
+    },
+    "top20_overlap_fraction": {
+      "median": 0.4,
+      "random_split_95_percentile_interval": [
+        0.23625000000000002,
+        0.55
+      ]
+    },
+    "rank_null": {
+      "observed": 0.6286004650116255,
+      "null_median": -0.0009120228005700228,
+      "null_95_percentile_interval": [
+        -0.1074311295282382,
+        0.10330460136503408
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "tie_aware_top20_null": {
+      "observed": 0.4,
+      "null_median": 0.1,
+      "null_95_percentile_interval": [
+        0.05,
+        0.15
+      ],
+      "one_sided_monte_carlo_p": 0.000999000999000999
+    },
+    "raw_splits": {
+      "spearman": [
+        0.6284002100052501,
+        0.6527458186454663,
+        0.5920513012825321,
+        0.5801125028125702,
+        0.6377754443861098,
+        0.6758028950723769,
+        0.5673666841671042,
+        0.6485187129678244,
+        0.6020700517512939,
+        0.6653776344408611,
+        0.5823235580889522,
+        0.6075106877671943,
+        0.6111992799819996,
+        0.6122643066076652,
+        0.609412735318383,
+        0.6280552013800346,
+        0.6694922373059327,
+        0.6260601515037877,
+        0.6288007200180007,
+        0.5659221480537016,
+        0.6760519012975326,
+        0.5982164554113852,
+        0.6652111302782571,
+        0.6002880072001802,
+        0.6953243831095779,
+        0.652553813845346,
+        0.6441356033900847,
+        0.6288532213305336,
+        0.631719792994825,
+        0.6318547963699094
+      ],
+      "top20_overlap_fraction": [
+        0.4,
+        0.45,
+        0.2,
+        0.5,
+        0.5,
+        0.35,
+        0.55,
+        0.4,
+        0.35,
+        0.45,
+        0.4,
+        0.45,
+        0.35,
+        0.4,
+        0.45,
+        0.35,
+        0.4,
+        0.3,
+        0.25,
+        0.55,
+        0.4,
+        0.45,
+        0.35,
+        0.35,
+        0.4,
+        0.4,
+        0.45,
+        0.55,
+        0.4,
+        0.5
+      ]
+    },
+    "full_score_distribution": {
+      "min": 0.6227631980659301,
+      "max": 0.817232776888245,
+      "mean": 0.7616380474006291,
+      "standard_deviation": 0.042084141764214,
+      "quantiles": [
+        0.6227631980659301,
+        0.7465927489488728,
+        0.7738905270688393,
+        0.7916603167347459,
+        0.817232776888245
+      ],
+      "unique_values": 200,
+      "tied_images": 0,
+      "tie_groups": 0,
+      "top20_boundary_score": 0.8019266321480956,
+      "top20_boundary_tie_size": 1,
+      "images_strictly_above_boundary": 19,
+      "top20_ids": [
+        "test_images/00107_lampshade/lampshade_05s.jpg",
+        "test_images/00009_bassoon/bassoon_01b.jpg",
+        "test_images/00197_wheelchair/wheelchair_02s.jpg",
+        "test_images/00192_vise/vise_11s.jpg",
+        "test_images/00098_ice_cube/ice_cube_11s.jpg",
+        "test_images/00052_coverall/coverall_06s.jpg",
+        "test_images/00094_headscarf/headscarf_03s.jpg",
+        "test_images/00067_drum/drum_01b.jpg",
+        "test_images/00193_volleyball/volleyball_10s.jpg",
+        "test_images/00095_highchair/highchair_04s.jpg",
+        "test_images/00117_mosquito/mosquito_02s.jpg",
+        "test_images/00038_cheese/cheese_06s.jpg",
+        "test_images/00131_pear/pear_01b.jpg",
+        "test_images/00080_french_horn/french_horn_03s.jpg",
+        "test_images/00102_jukebox/jukebox_01n.jpg",
+        "test_images/00138_pocket/pocket_04s.jpg",
+        "test_images/00198_windshield/windshield_09s.jpg",
+        "test_images/00008_basketball/basketball_05s.jpg",
+        "test_images/00042_chopsticks/chopsticks_11s.jpg",
+        "test_images/00082_garlic/garlic_12n.jpg"
+      ]
+    }
+  }
+}

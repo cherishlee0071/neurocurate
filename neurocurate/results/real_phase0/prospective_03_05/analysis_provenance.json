@@ -1,0 +1,22 @@
+{
+  "input_sha256": {
+    "results/real_phase0/sub01/pickle_free/export_manifest.json": "a83592aebaa0fdaf61bc2341e6e847c8af6a5aa766512361d43b38a9a0fb8f72",
+    "results/real_phase0/sub02/pickle_free/export_manifest.json": "b345c9fb0d5a8dcb00a3cb7f48f857cff18ed532668eceff7ee717d746f6b7b9",
+    "results/real_phase0/prospective_03_05/sub03/pickle_free/export_manifest.json": "1e70a2d83d5ac547d1c61ef8ddbb9c73384c9bde80d6ac108c8979690b5188d0",
+    "results/real_phase0/prospective_03_05/sub04/pickle_free/export_manifest.json": "c90a15e412fa408c2488f92a2feddeac29732d76a5f33b5d4430a8ff588a382e",
+    "results/real_phase0/prospective_03_05/sub05/pickle_free/export_manifest.json": "3e0f309544aae519124a57d9062f68f40324ebf9c5a60d802792cfd40779e147",
+    "results/real_phase0/sub01/dinov2_features.npz": "eb4f89a8490752cc718f729c4ac80bee50178701f773dabcb5f7a3d819f700c9",
+    "results/real_phase0/sub01/clip_features.npz": "edec2d8016b8c81c34686fdc53ff117aa7721ab6a808ee7383e887cfeebdd748"
+  },
+  "frozen_protocol_sha256": "01c9748c0a35339f99495080f8e516bead53aa861fd715add00d2d362e54e59d",
+  "no_training": true,
+  "pickle_free_downstream": true,
+  "complete": true,
+  "verified_subjects": [
+    "sub01",
+    "sub02",
+    "sub03",
+    "sub04",
+    "sub05"
+  ]
+}

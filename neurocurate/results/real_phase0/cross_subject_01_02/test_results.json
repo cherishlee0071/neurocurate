@@ -1,0 +1,15 @@
+{
+  "standard": {
+    "passed": 135,
+    "skipped": 11,
+    "seconds": 7.41,
+    "network_access": false
+  },
+  "optional_real_numeric": {
+    "passed": 7,
+    "seconds": 1.73,
+    "network_access": false,
+    "pickle_deserialization": false
+  },
+  "old_direct_pickle_tests_enabled": false
+}

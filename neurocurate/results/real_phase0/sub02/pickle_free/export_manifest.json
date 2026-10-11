@@ -1,0 +1,83 @@
+{
+  "source_acquisition_manifest": "results/real_phase0/sub02/acquisition_manifest.json",
+  "original_input_sha256": [
+    "e5ff0774a83beb49366a73c73fb04c9e692d5ab1f80c3d57c9fd1ff6e110d791",
+    "681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c"
+  ],
+  "isolation": {
+    "uid": 1000,
+    "root": false,
+    "single_threaded": true,
+    "network_access": false,
+    "confinement": "kernel seccomp default-deny syscall allowlist, pre-opened descriptors only",
+    "filesystem_access": "two readonly approved inputs; five designated writable outputs; stdio only",
+    "probes": {
+      "filesystem_open": "denied",
+      "network_socket": "denied",
+      "process_creation": "denied"
+    },
+    "allowed_syscalls": [
+      "read",
+      "write",
+      "readv",
+      "writev",
+      "close",
+      "fstat",
+      "lseek",
+      "pread64",
+      "pwrite64",
+      "mmap",
+      "mprotect",
+      "munmap",
+      "brk",
+      "rt_sigaction",
+      "rt_sigprocmask",
+      "rt_sigreturn",
+      "futex",
+      "clock_gettime",
+      "getpid",
+      "gettid",
+      "exit",
+      "exit_group",
+      "madvise",
+      "sched_yield",
+      "getrandom",
+      "restart_syscall",
+      "dup",
+      "dup2",
+      "dup3",
+      "fcntl"
+    ],
+    "address_space_limit_bytes": 4294967296,
+    "cpu_limit_seconds": 120,
+    "file_size_limit_bytes": 536870912,
+    "core_dumps": false,
+    "approved_sha256": [
+      "e5ff0774a83beb49366a73c73fb04c9e692d5ab1f80c3d57c9fd1ff6e110d791",
+      "681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c"
+    ],
+    "numeric_eeg_shape": [
+      200,
+      80,
+      17,
+      100
+    ],
+    "dtype": "float64",
+    "metadata_keys": [
+      "test_img_concepts",
+      "test_img_concepts_THINGS",
+      "test_img_files",
+      "train_img_concepts",
+      "train_img_concepts_THINGS",
+      "train_img_files"
+    ],
+    "all_exports_pickle_free": true
+  },
+  "exports": {
+    "eeg.npy": "05454fe06dbf46a72042a7cc95e95536a8e36e9a43b577ad3df9085323b10904",
+    "times.npy": "a35304ac9d65e28dca4ebd0bc7a29ca24344dff2ee528242e8c1fd0d6bef92a5",
+    "channels.npy": "3b79d527868d7728f4da89af8ab1c6e420ed8fa87814bb15a7c1e6660de87878",
+    "metadata.json": "41bdf834ace662556198e2c0463200833be0bf8bba69524c581737ed937853f9",
+    "isolation_report.json": "32276279addf0c0f36ec0310f611db9824973bc8421cda6b3b974187ca1dfa32"
+  }
+}

@@ -1,0 +1,1148 @@
+{
+  "config": {
+    "frozen_at_utc": "2026-10-11T12:41:31.339908+00:00",
+    "config_sha256": "61d17efe3eb0842080757a396ddf0b3c1ea0afcfc91e3b4e780edb3eafc9888d",
+    "config_text": "# Frozen before Phase 1.5 analysis; Phase 1.4 scoring definitions are unchanged.\nphase14_config_sha256: 14e070fbdc40aff039bf9851577c16a9f430f018a00568d3d5252e6a9475f2cc\nsubjects: [sub01, sub02]\nmethods: [jaccard_k5, jaccard_k10, jaccard_k20, row_spearman, reciprocal_rank_weighted_jaccard]\nmodels: [dinov2, clip, mean_models]\nprimary_exploratory_candidate: row_spearman/mean_models\nselection_budgets: [10, 20, 40, 60, 100]\npermutations: 1000\nbrain_independent_seed: 2026101501\nbrain_shared_seed: 2026101502\nscore_label_seed: 2026101503\nrepetition_split_seed: 20261011\nrepetition_splits: 30\nbrain_null_independent: independently permute each full Brain RDM's rows and columns together, recompute scores against fixed model RDMs\nbrain_null_shared: apply the same row/column permutation to both full Brain RDMs, recompute scores against fixed model RDMs\nscore_null: permute subject/half B scores, then reapply identical stable image-ID tie breaking; descriptive shortlist reference, not evidence of brain specificity\nchance_adjustment: (observed overlap fraction - median null overlap fraction) / (1 - median null overlap fraction)\nmodel_only_controls:\n  - dinov2_clip_row_disagreement\n  - dinov2_mean_nearest20_cosine_distance\n  - clip_mean_nearest20_cosine_distance\n  - dinov2_mean_nonself_cosine_distance\n  - clip_mean_nonself_cosine_distance\npartial_association: Pearson correlation of ranked EEG scores after OLS residualization on an intercept and the five ranked, standardized model-only covariates; compare against recomputed brain-permutation residual correlations\nuncertainty: empirical repetition-split and permutation quantiles, not population confidence intervals\ninference: exploratory, two subjects, conditional on shared official MVNN; no causal or predictive claim\n",
+    "status": "Frozen before Phase 1.5 computation; exploratory extension after Phase 1.4 observations"
+  },
+  "counts": {
+    "images": 200,
+    "subjects": 2,
+    "brain_permutations_each": 1000,
+    "repetition_splits": 30
+  },
+  "null_definitions": {
+    "independent": "independently permute each full Brain RDM's rows and columns together, recompute scores against fixed model RDMs",
+    "shared": "apply the same row/column permutation to both full Brain RDMs, recompute scores against fixed model RDMs",
+    "score": "permute subject/half B scores, then reapply identical stable image-ID tie breaking; descriptive shortlist reference, not evidence of brain specificity"
+  },
+  "conditional_on_shared_preprocessing": true,
+  "session_independent": false,
+  "model_control_design": {
+    "rank": 6,
+    "columns": 6,
+    "condition_number": 3.4781115753910794,
+    "controls": [
+      "dinov2_clip_row_disagreement",
+      "dinov2_mean_nearest20_cosine_distance",
+      "clip_mean_nearest20_cosine_distance",
+      "dinov2_mean_nonself_cosine_distance",
+      "clip_mean_nonself_cosine_distance"
+    ],
+    "residual_degrees_of_freedom": 194,
+    "definition": "Pearson correlation of ranked EEG scores after OLS residualization on an intercept and the five ranked, standardized model-only covariates; compare against recomputed brain-permutation residual correlations",
+    "in_sample_only": true
+  },
+  "results": {
+    "jaccard_k5/dinov2": {
+      "observed_cross_subject_spearman": 0.20119884817094602,
+      "independent_brain_null": {
+        "observed": 0.20119884817094602,
+        "null_median": -0.006875118076460591,
+        "null_95_percentile_interval": [
+          -0.1268265785063752,
+          0.1588240596625683
+        ],
+        "excess_above_null_median": 0.20807396624740662,
+        "exploratory_one_sided_p": 0.007992007992007992
+      },
+      "shared_brain_null": {
+        "observed": 0.20119884817094602,
+        "null_median": 0.09430084587414991,
+        "null_95_percentile_interval": [
+          -0.06570642155784787,
+          0.2655895905102537
+        ],
+        "excess_above_null_median": 0.10689800229679611,
+        "exploratory_one_sided_p": 0.11188811188811189
+      },
+      "observed_partial_rank_correlation": 0.20463455428277294,
+      "partial_independent_brain_null": {
+        "observed": 0.20463455428277294,
+        "null_median": -0.008126345798314057,
+        "null_95_percentile_interval": [
+          -0.12720981465398154,
+          0.15565924414522903
+        ],
+        "excess_above_null_median": 0.212760900081087,
+        "exploratory_one_sided_p": 0.006993006993006993
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.20463455428277294,
+        "null_median": 0.09415436859389084,
+        "null_95_percentile_interval": [
+          -0.0602318500566486,
+          0.26429799266274573
+        ],
+        "excess_above_null_median": 0.1104801856888821,
+        "exploratory_one_sided_p": 0.1038961038961039
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.05975116180123985,
+          "observed_mean_disagreement": 0.9553769841269841,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9859722222222218,
+            "quantile_025": 0.9795798611111106,
+            "quantile_975": 0.9915277777777776
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.003955010957984987,
+            "quantile_025": -0.13957887656824197,
+            "quantile_975": 0.14417675004867664
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.04919783171139713,
+          "observed_mean_disagreement": 0.9518055555555556,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.985972222222222,
+            "quantile_025": 0.9793055555555551,
+            "quantile_975": 0.9916666666666665
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.003089965321288496,
+            "quantile_025": -0.1435329671891153,
+            "quantile_975": 0.1400405331567507
+          }
+        }
+      }
+    },
+    "jaccard_k5/clip": {
+      "observed_cross_subject_spearman": 0.3516833781427352,
+      "independent_brain_null": {
+        "observed": 0.3516833781427352,
+        "null_median": -0.008669810999727148,
+        "null_95_percentile_interval": [
+          -0.12357340638182743,
+          0.148385137168855
+        ],
+        "excess_above_null_median": 0.36035318914246234,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.3516833781427352,
+        "null_median": 0.09445864280134468,
+        "null_95_percentile_interval": [
+          -0.06453696480109151,
+          0.28513531112393947
+        ],
+        "excess_above_null_median": 0.2572247353413905,
+        "exploratory_one_sided_p": 0.004995004995004995
+      },
+      "observed_partial_rank_correlation": 0.3328347746334685,
+      "partial_independent_brain_null": {
+        "observed": 0.3328347746334685,
+        "null_median": -0.007368602883660866,
+        "null_95_percentile_interval": [
+          -0.13001877283501553,
+          0.14598330003488022
+        ],
+        "excess_above_null_median": 0.34020337751712937,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.3328347746334685,
+        "null_median": 0.09546650523703698,
+        "null_95_percentile_interval": [
+          -0.06852544114070562,
+          0.2837173926368655
+        ],
+        "excess_above_null_median": 0.23736826939643152,
+        "exploratory_one_sided_p": 0.008991008991008992
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.07531891903008991,
+          "observed_mean_disagreement": 0.9423809523809524,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9859722222222218,
+            "quantile_025": 0.9797222222222218,
+            "quantile_975": 0.9916666666666665
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.0037071311268451774,
+            "quantile_025": -0.14074135780348726,
+            "quantile_975": 0.15108171913670929
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.0508922152280491,
+          "observed_mean_disagreement": 0.942996031746032,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9861111111111108,
+            "quantile_025": 0.9793055555555553,
+            "quantile_975": 0.9911180555555555
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.00025001945072081156,
+            "quantile_025": -0.1498781417712354,
+            "quantile_975": 0.14979918019645097
+          }
+        }
+      }
+    },
+    "jaccard_k5/mean_models": {
+      "observed_cross_subject_spearman": 0.2813832327923207,
+      "independent_brain_null": {
+        "observed": 0.2813832327923207,
+        "null_median": -0.004574145487928226,
+        "null_95_percentile_interval": [
+          -0.12535013595267416,
+          0.14807956646935172
+        ],
+        "excess_above_null_median": 0.2859573782802489,
+        "exploratory_one_sided_p": 0.001998001998001998
+      },
+      "shared_brain_null": {
+        "observed": 0.2813832327923207,
+        "null_median": 0.09295190266635123,
+        "null_95_percentile_interval": [
+          -0.045085767537964005,
+          0.2554212072468668
+        ],
+        "excess_above_null_median": 0.18843133012596947,
+        "exploratory_one_sided_p": 0.014985014985014986
+      },
+      "observed_partial_rank_correlation": 0.2648272048832283,
+      "partial_independent_brain_null": {
+        "observed": 0.2648272048832283,
+        "null_median": -0.005046699366433861,
+        "null_95_percentile_interval": [
+          -0.13305604370350405,
+          0.14527885999480444
+        ],
+        "excess_above_null_median": 0.2698739042496622,
+        "exploratory_one_sided_p": 0.001998001998001998
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.2648272048832283,
+        "null_median": 0.09270388477571795,
+        "null_95_percentile_interval": [
+          -0.04500198431657997,
+          0.2571662063215103
+        ],
+        "excess_above_null_median": 0.17212332010751036,
+        "exploratory_one_sided_p": 0.023976023976023976
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.05594310821093307,
+          "observed_mean_disagreement": 0.9488789682539682,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9860416666666667,
+            "quantile_025": 0.9807621527777779,
+            "quantile_975": 0.9902083333333337
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0014056500919523603,
+            "quantile_025": -0.14047292149796495,
+            "quantile_975": 0.15113244186361188
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.051200316794611345,
+          "observed_mean_disagreement": 0.9474007936507937,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9859722222222225,
+            "quantile_025": 0.9807331349206356,
+            "quantile_975": 0.9902812500000007
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.006045478364628036,
+            "quantile_025": -0.15000874300800832,
+            "quantile_975": 0.1439587757206727
+          }
+        }
+      }
+    },
+    "jaccard_k10/dinov2": {
+      "observed_cross_subject_spearman": 0.23317537593803758,
+      "independent_brain_null": {
+        "observed": 0.23317537593803758,
+        "null_median": 0.0037940000943193063,
+        "null_95_percentile_interval": [
+          -0.13262374283309739,
+          0.13779060628417092
+        ],
+        "excess_above_null_median": 0.2293813758437183,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.23317537593803758,
+        "null_median": 0.13742724140591556,
+        "null_95_percentile_interval": [
+          -0.013600225704289088,
+          0.27331794134254694
+        ],
+        "excess_above_null_median": 0.09574813453212203,
+        "exploratory_one_sided_p": 0.09490509490509491
+      },
+      "observed_partial_rank_correlation": 0.21609241626662898,
+      "partial_independent_brain_null": {
+        "observed": 0.21609241626662898,
+        "null_median": 0.0019058884401363064,
+        "null_95_percentile_interval": [
+          -0.13501406878744687,
+          0.13936730565916652
+        ],
+        "excess_above_null_median": 0.21418652782649267,
+        "exploratory_one_sided_p": 0.001998001998001998
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.21609241626662898,
+        "null_median": 0.13647991513080535,
+        "null_95_percentile_interval": [
+          -0.016833606258780387,
+          0.2779956455284857
+        ],
+        "excess_above_null_median": 0.07961250113582363,
+        "exploratory_one_sided_p": 0.13486513486513488
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.06088832479894568,
+          "observed_mean_disagreement": 0.9337865497076026,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9729110767113858,
+            "quantile_025": 0.9667560952012376,
+            "quantile_975": 0.9790598985208114
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.005754114362757468,
+            "quantile_025": -0.14150457255383553,
+            "quantile_975": 0.13528911732197843
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.08635809252635951,
+          "observed_mean_disagreement": 0.9397501719986241,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9729282765737868,
+            "quantile_025": 0.9667352511179903,
+            "quantile_975": 0.9785622205022354
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0025402948995097777,
+            "quantile_025": -0.14834705257352515,
+            "quantile_975": 0.14147055068833958
+          }
+        }
+      }
+    },
+    "jaccard_k10/clip": {
+      "observed_cross_subject_spearman": 0.5052299309795463,
+      "independent_brain_null": {
+        "observed": 0.5052299309795463,
+        "null_median": 0.0021550749285851167,
+        "null_95_percentile_interval": [
+          -0.145416710640819,
+          0.13278327098484935
+        ],
+        "excess_above_null_median": 0.5030748560509611,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.5052299309795463,
+        "null_median": 0.13488976912833173,
+        "null_95_percentile_interval": [
+          -0.014937057175808548,
+          0.27163378749614464
+        ],
+        "excess_above_null_median": 0.37034016185121454,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "observed_partial_rank_correlation": 0.46064562680155874,
+      "partial_independent_brain_null": {
+        "observed": 0.46064562680155874,
+        "null_median": 0.0014764848008285594,
+        "null_95_percentile_interval": [
+          -0.14387960119246557,
+          0.13271995349028265
+        ],
+        "excess_above_null_median": 0.45916914200073017,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.46064562680155874,
+        "null_median": 0.13446140202905343,
+        "null_95_percentile_interval": [
+          -0.015129754308491755,
+          0.27737479681755833
+        ],
+        "excess_above_null_median": 0.3261842247725053,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.12385871563391215,
+          "observed_mean_disagreement": 0.9199436704506365,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9729757911936698,
+            "quantile_025": 0.9665629192466453,
+            "quantile_975": 0.9787332301341584
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.0034081170504878322,
+            "quantile_025": -0.15477444429335557,
+            "quantile_975": 0.14074266670963329
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.09993346548451965,
+          "observed_mean_disagreement": 0.9144795198781267,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9730968352253175,
+            "quantile_025": 0.9669458204334357,
+            "quantile_975": 0.9786539710182314
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.004662075803059237,
+            "quantile_025": -0.14868336079072494,
+            "quantile_975": 0.14891454690074962
+          }
+        }
+      }
+    },
+    "jaccard_k10/mean_models": {
+      "observed_cross_subject_spearman": 0.4184506948901885,
+      "independent_brain_null": {
+        "observed": 0.4184506948901885,
+        "null_median": 0.004108798981470254,
+        "null_95_percentile_interval": [
+          -0.14075332722335862,
+          0.1388632153769469
+        ],
+        "excess_above_null_median": 0.4143418959087182,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.4184506948901885,
+        "null_median": 0.13729961137616037,
+        "null_95_percentile_interval": [
+          -0.019166977158979037,
+          0.273816809094244
+        ],
+        "excess_above_null_median": 0.2811510835140281,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "observed_partial_rank_correlation": 0.37973774397725557,
+      "partial_independent_brain_null": {
+        "observed": 0.37973774397725557,
+        "null_median": 0.005698321401583383,
+        "null_95_percentile_interval": [
+          -0.14066179351879318,
+          0.1378805314868799
+        ],
+        "excess_above_null_median": 0.3740394225756722,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.37973774397725557,
+        "null_median": 0.135116712610019,
+        "null_95_percentile_interval": [
+          -0.019443976093424152,
+          0.2753141696698631
+        ],
+        "excess_above_null_median": 0.24462103136723656,
+        "exploratory_one_sided_p": 0.001998001998001998
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.13495266945577677,
+          "observed_mean_disagreement": 0.9268651100791193,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9729416064671499,
+            "quantile_025": 0.9679126246990042,
+            "quantile_975": 0.9774129364465097
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.00047292696289792657,
+            "quantile_025": -0.13965372611305774,
+            "quantile_975": 0.14489540180759172
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.10259964380242426,
+          "observed_mean_disagreement": 0.9271148459383752,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9729639662882708,
+            "quantile_025": 0.9678633470932246,
+            "quantile_975": 0.9775295407636747
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.008493117826913197,
+            "quantile_025": -0.14951565343878373,
+            "quantile_975": 0.1282032044029181
+          }
+        }
+      }
+    },
+    "jaccard_k20/dinov2": {
+      "observed_cross_subject_spearman": 0.35440468497892663,
+      "independent_brain_null": {
+        "observed": 0.35440468497892663,
+        "null_median": -0.0027650160045497724,
+        "null_95_percentile_interval": [
+          -0.12815789301046582,
+          0.1463172510934814
+        ],
+        "excess_above_null_median": 0.3571697009834764,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.35440468497892663,
+        "null_median": 0.19300217474896528,
+        "null_95_percentile_interval": [
+          0.057647280603213724,
+          0.3236706394522828
+        ],
+        "excess_above_null_median": 0.16140251022996135,
+        "exploratory_one_sided_p": 0.011988011988011988
+      },
+      "observed_partial_rank_correlation": 0.3220795542384414,
+      "partial_independent_brain_null": {
+        "observed": 0.3220795542384414,
+        "null_median": -0.0010951110708334382,
+        "null_95_percentile_interval": [
+          -0.1305649918921442,
+          0.14291313281710089
+        ],
+        "excess_above_null_median": 0.32317466530927486,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.3220795542384414,
+        "null_median": 0.19280941792578904,
+        "null_95_percentile_interval": [
+          0.05461872700302896,
+          0.32216874844565724
+        ],
+        "excess_above_null_median": 0.12927013631265238,
+        "exploratory_one_sided_p": 0.026973026973026972
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.05488063768957585,
+          "observed_mean_disagreement": 0.9088784963974719,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9459828617955544,
+            "quantile_025": 0.939693920517836,
+            "quantile_975": 0.9516946084507997
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0020111647817423195,
+            "quantile_025": -0.14585966072880147,
+            "quantile_975": 0.1465261385840593
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.2138901526431013,
+          "observed_mean_disagreement": 0.9098242360351619,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9459559644698952,
+            "quantile_025": 0.93970427417283,
+            "quantile_975": 0.9516588831588821
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0049650269896659716,
+            "quantile_025": -0.14567232761408191,
+            "quantile_975": 0.14241911600089693
+          }
+        }
+      }
+    },
+    "jaccard_k20/clip": {
+      "observed_cross_subject_spearman": 0.5214525124653868,
+      "independent_brain_null": {
+        "observed": 0.5214525124653868,
+        "null_median": 0.00011427072175967251,
+        "null_95_percentile_interval": [
+          -0.13039885322144326,
+          0.14019526575620694
+        ],
+        "excess_above_null_median": 0.5213382417436272,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.5214525124653868,
+        "null_median": 0.19569408520670806,
+        "null_95_percentile_interval": [
+          0.046686556992907614,
+          0.3280159374240881
+        ],
+        "excess_above_null_median": 0.32575842725867876,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "observed_partial_rank_correlation": 0.45430917771399904,
+      "partial_independent_brain_null": {
+        "observed": 0.45430917771399904,
+        "null_median": -0.0017309303444382935,
+        "null_95_percentile_interval": [
+          -0.13449067770988404,
+          0.14363531221957498
+        ],
+        "excess_above_null_median": 0.4560401080584373,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.45430917771399904,
+        "null_median": 0.19587695134962907,
+        "null_95_percentile_interval": [
+          0.04086247622088454,
+          0.3257324673435609
+        ],
+        "excess_above_null_median": 0.25843222636436997,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.15513488047786672,
+          "observed_mean_disagreement": 0.8793465595414958,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9461602066710418,
+            "quantile_025": 0.9394053729789017,
+            "quantile_975": 0.9524344169936266
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.004178922596829263,
+            "quantile_025": -0.16159366596658528,
+            "quantile_975": 0.16061942953095698
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.21507902014978875,
+          "observed_mean_disagreement": 0.876426867621104,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9459962694637606,
+            "quantile_025": 0.9391762711066105,
+            "quantile_975": 0.9523512589154994
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0005269583593349092,
+            "quantile_025": -0.15636466101537252,
+            "quantile_975": 0.15509920158567211
+          }
+        }
+      }
+    },
+    "jaccard_k20/mean_models": {
+      "observed_cross_subject_spearman": 0.4801193586401249,
+      "independent_brain_null": {
+        "observed": 0.4801193586401249,
+        "null_median": -0.0016868921164857609,
+        "null_95_percentile_interval": [
+          -0.1485856825216654,
+          0.14463848012264371
+        ],
+        "excess_above_null_median": 0.48180625075661065,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.4801193586401249,
+        "null_median": 0.1913064179366864,
+        "null_95_percentile_interval": [
+          0.05387852993689183,
+          0.32670139942898563
+        ],
+        "excess_above_null_median": 0.2888129407034385,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "observed_partial_rank_correlation": 0.41954288387310945,
+      "partial_independent_brain_null": {
+        "observed": 0.41954288387310945,
+        "null_median": -0.0023623817081004635,
+        "null_95_percentile_interval": [
+          -0.15060385823299102,
+          0.14421820196372884
+        ],
+        "excess_above_null_median": 0.4219052655812099,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.41954288387310945,
+        "null_median": 0.1916563337735734,
+        "null_95_percentile_interval": [
+          0.052337986958628055,
+          0.3304781207304188
+        ],
+        "excess_above_null_median": 0.22788655009953604,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.13100768080277958,
+          "observed_mean_disagreement": 0.8941125279694839,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.9459712259634864,
+            "quantile_025": 0.9408233638572266,
+            "quantile_975": 0.950790841774395
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.002332898591947149,
+            "quantile_025": -0.14114902327426845,
+            "quantile_975": 0.1559241904548308
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.265545245923437,
+          "observed_mean_disagreement": 0.893125551828133,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.945948354667395,
+            "quantile_025": 0.9410054634565089,
+            "quantile_975": 0.9508246989729195
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.008113527520378503,
+            "quantile_025": -0.15956158538368487,
+            "quantile_975": 0.14805393452359755
+          }
+        }
+      }
+    },
+    "row_spearman/dinov2": {
+      "observed_cross_subject_spearman": 0.6025305632640816,
+      "independent_brain_null": {
+        "observed": 0.6025305632640816,
+        "null_median": -0.0015750393759844002,
+        "null_95_percentile_interval": [
+          -0.14050772519312985,
+          0.13860033506319194
+        ],
+        "excess_above_null_median": 0.604105602640066,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.6025305632640816,
+        "null_median": 0.5113507837695943,
+        "null_95_percentile_interval": [
+          0.38752846321158035,
+          0.6138593209941636
+        ],
+        "excess_above_null_median": 0.0911797794944873,
+        "exploratory_one_sided_p": 0.04895104895104895
+      },
+      "observed_partial_rank_correlation": 0.5920164226557851,
+      "partial_independent_brain_null": {
+        "observed": 0.5920164226557851,
+        "null_median": -0.0021572305192223105,
+        "null_95_percentile_interval": [
+          -0.14530283120455542,
+          0.13972618952222043
+        ],
+        "excess_above_null_median": 0.5941736531750075,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.5920164226557851,
+        "null_median": 0.511543724887102,
+        "null_95_percentile_interval": [
+          0.38811768975453725,
+          0.6145047667168322
+        ],
+        "excess_above_null_median": 0.08047269776868315,
+        "exploratory_one_sided_p": 0.06693306693306693
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.05352747144747072,
+          "observed_mean_disagreement": 0.46993358458961476,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.4999609258413279,
+            "quantile_025": 0.4921243409281255,
+            "quantile_975": 0.5075758193429267
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.0002595064876622054,
+            "quantile_025": -0.15084873879726227,
+            "quantile_975": 0.14566489162229057
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.07818673855495162,
+          "observed_mean_disagreement": 0.4655798119384803,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.5003947045835238,
+            "quantile_025": 0.4930175992652658,
+            "quantile_975": 0.507123138704888
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0007845196129903156,
+            "quantile_025": -0.15212506562664063,
+            "quantile_975": 0.14053536471145484
+          }
+        }
+      }
+    },
+    "row_spearman/clip": {
+      "observed_cross_subject_spearman": 0.7719762994074852,
+      "independent_brain_null": {
+        "observed": 0.7719762994074852,
+        "null_median": -0.003843846096152407,
+        "null_95_percentile_interval": [
+          -0.21983905133704545,
+          0.20036312157803932
+        ],
+        "excess_above_null_median": 0.7758201455036376,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.7719762994074852,
+        "null_median": 0.5163736593414836,
+        "null_95_percentile_interval": [
+          0.2701098802160779,
+          0.699742293557339
+        ],
+        "excess_above_null_median": 0.25560264006600164,
+        "exploratory_one_sided_p": 0.001998001998001998
+      },
+      "observed_partial_rank_correlation": 0.7084632584355514,
+      "partial_independent_brain_null": {
+        "observed": 0.7084632584355514,
+        "null_median": -0.004589156449233862,
+        "null_95_percentile_interval": [
+          -0.19241668976123066,
+          0.17690114605323917
+        ],
+        "excess_above_null_median": 0.7130524148847852,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.7084632584355514,
+        "null_median": 0.5167995462720864,
+        "null_95_percentile_interval": [
+          0.2949309813259831,
+          0.6924396896735692
+        ],
+        "excess_above_null_median": 0.191663712163465,
+        "exploratory_one_sided_p": 0.015984015984015984
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.22275198664026952,
+          "observed_mean_disagreement": 0.43291885944875896,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.5002369403837368,
+            "quantile_025": 0.4825716745660119,
+            "quantile_975": 0.5172050458733055
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.00163129078226955,
+            "quantile_025": -0.25922519312982834,
+            "quantile_975": 0.26371428035700895
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.225291376652888,
+          "observed_mean_disagreement": 0.42077466879853814,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.5003052345058626,
+            "quantile_025": 0.484072083142988,
+            "quantile_975": 0.5174976243908939
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.004512862821570526,
+            "quantile_025": -0.24018881722043053,
+            "quantile_975": 0.2684374322231462
+          }
+        }
+      }
+    },
+    "row_spearman/mean_models": {
+      "observed_cross_subject_spearman": 0.743508587714693,
+      "independent_brain_null": {
+        "observed": 0.743508587714693,
+        "null_median": -0.005400135003375081,
+        "null_95_percentile_interval": [
+          -0.19564115352883824,
+          0.1707524938123453
+        ],
+        "excess_above_null_median": 0.7489087227180681,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.743508587714693,
+        "null_median": 0.5113020325508139,
+        "null_95_percentile_interval": [
+          0.34025886897172436,
+          0.6619768244206107
+        ],
+        "excess_above_null_median": 0.2322065551638791,
+        "exploratory_one_sided_p": 0.001998001998001998
+      },
+      "observed_partial_rank_correlation": 0.6926669633578854,
+      "partial_independent_brain_null": {
+        "observed": 0.6926669633578854,
+        "null_median": -0.003509205053099026,
+        "null_95_percentile_interval": [
+          -0.1725189052518103,
+          0.15002739435681078
+        ],
+        "excess_above_null_median": 0.6961761684109844,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.6926669633578854,
+        "null_median": 0.5138917378967551,
+        "null_95_percentile_interval": [
+          0.3551855316822199,
+          0.6590730867032921
+        ],
+        "excess_above_null_median": 0.17877522546113023,
+        "exploratory_one_sided_p": 0.007992007992007992
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.1782913636569965,
+          "observed_mean_disagreement": 0.45142622201918686,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.499981801050708,
+            "quantile_025": 0.4895073490558858,
+            "quantile_975": 0.5104057889352062
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.005406135153378822,
+            "quantile_025": -0.23566042901072526,
+            "quantile_975": 0.2380735393384834
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.1947507436631516,
+          "observed_mean_disagreement": 0.4431772403685092,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.5003533243870868,
+            "quantile_025": 0.49061561448340185,
+            "quantile_975": 0.5102512394358153
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0022313057826445597,
+            "quantile_025": -0.21444854871371785,
+            "quantile_975": 0.20764134103352583
+          }
+        }
+      }
+    },
+    "reciprocal_rank_weighted_jaccard/dinov2": {
+      "observed_cross_subject_spearman": 0.3482682067051676,
+      "independent_brain_null": {
+        "observed": 0.3482682067051676,
+        "null_median": -0.0014085352133803367,
+        "null_95_percentile_interval": [
+          -0.1301585539638491,
+          0.14556386409660238
+        ],
+        "excess_above_null_median": 0.349676741918548,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.3482682067051676,
+        "null_median": 0.28210530263256584,
+        "null_95_percentile_interval": [
+          0.14211906547663694,
+          0.41090842271056777
+        ],
+        "excess_above_null_median": 0.06616290407260178,
+        "exploratory_one_sided_p": 0.16583416583416583
+      },
+      "observed_partial_rank_correlation": 0.340030011693776,
+      "partial_independent_brain_null": {
+        "observed": 0.340030011693776,
+        "null_median": 0.0006453738953740454,
+        "null_95_percentile_interval": [
+          -0.12960292088918607,
+          0.14406031819844728
+        ],
+        "excess_above_null_median": 0.33938463779840194,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.340030011693776,
+        "null_median": 0.28386599871124224,
+        "null_95_percentile_interval": [
+          0.1417954348065753,
+          0.4105670818043233
+        ],
+        "excess_above_null_median": 0.05616401298253376,
+        "exploratory_one_sided_p": 0.2017982017982018
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.09095955409296663,
+          "observed_mean_disagreement": 0.7718427883160068,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.7981287565233517,
+            "quantile_025": 0.7947284933818676,
+            "quantile_975": 0.8012412606656463
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0007905197629940724,
+            "quantile_025": -0.15329599489987253,
+            "quantile_975": 0.143536750918773
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.11579909954706624,
+          "observed_mean_disagreement": 0.7712219342149754,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.7982279906208796,
+            "quantile_025": 0.7945871831214695,
+            "quantile_975": 0.8014068213085541
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.00016800420010499965,
+            "quantile_025": -0.1417437935948399,
+            "quantile_975": 0.13085618390459758
+          }
+        }
+      }
+    },
+    "reciprocal_rank_weighted_jaccard/clip": {
+      "observed_cross_subject_spearman": 0.6321953048826222,
+      "independent_brain_null": {
+        "observed": 0.6321953048826222,
+        "null_median": 0.000415510387759695,
+        "null_95_percentile_interval": [
+          -0.1399302107552689,
+          0.1432859446486162
+        ],
+        "excess_above_null_median": 0.6317797944948625,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.6321953048826222,
+        "null_median": 0.2790234755868897,
+        "null_95_percentile_interval": [
+          0.12984448361209033,
+          0.44850078751968797
+        ],
+        "excess_above_null_median": 0.3531718292957325,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "observed_partial_rank_correlation": 0.5745293965893599,
+      "partial_independent_brain_null": {
+        "observed": 0.5745293965893599,
+        "null_median": 0.00021034169684574513,
+        "null_95_percentile_interval": [
+          -0.13571006587453235,
+          0.14457431980632413
+        ],
+        "excess_above_null_median": 0.5743190548925141,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.5745293965893599,
+        "null_median": 0.27865079744391374,
+        "null_95_percentile_interval": [
+          0.1260830469655535,
+          0.4445714372994745
+        ],
+        "excess_above_null_median": 0.2958785991454461,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.16175609780512412,
+          "observed_mean_disagreement": 0.7557037329665016,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.798209162542876,
+            "quantile_025": 0.7938365660416505,
+            "quantile_975": 0.8020371029519616
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.0001665041626040583,
+            "quantile_025": -0.1971113027825696,
+            "quantile_975": 0.16924011850296256
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.16654627730215832,
+          "observed_mean_disagreement": 0.7520541605862828,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.7981318598818261,
+            "quantile_025": 0.7940771370163929,
+            "quantile_975": 0.8021777011883159
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.004009600240006014,
+            "quantile_025": -0.17387092177304433,
+            "quantile_975": 0.17025538138453458
+          }
+        }
+      }
+    },
+    "reciprocal_rank_weighted_jaccard/mean_models": {
+      "observed_cross_subject_spearman": 0.5542593564839122,
+      "independent_brain_null": {
+        "observed": 0.5542593564839122,
+        "null_median": -0.0012030300757518864,
+        "null_95_percentile_interval": [
+          -0.1376011400285007,
+          0.14548931223280578
+        ],
+        "excess_above_null_median": 0.5554623865596641,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "shared_brain_null": {
+        "observed": 0.5542593564839122,
+        "null_median": 0.27723468086702174,
+        "null_95_percentile_interval": [
+          0.12891378534463369,
+          0.428557526438161
+        ],
+        "excess_above_null_median": 0.2770246756168905,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "observed_partial_rank_correlation": 0.501000103310916,
+      "partial_independent_brain_null": {
+        "observed": 0.501000103310916,
+        "null_median": -0.0008694908267384426,
+        "null_95_percentile_interval": [
+          -0.13561009707127092,
+          0.14568550564424
+        ],
+        "excess_above_null_median": 0.5018695941376545,
+        "exploratory_one_sided_p": 0.000999000999000999
+      },
+      "partial_shared_brain_null": {
+        "observed": 0.501000103310916,
+        "null_median": 0.2766918977570658,
+        "null_95_percentile_interval": [
+          0.11986779423139958,
+          0.43156614322375436
+        ],
+        "excess_above_null_median": 0.22430820555385023,
+        "exploratory_one_sided_p": 0.002997002997002997
+      },
+      "subjects": {
+        "sub01": {
+          "in_sample_model_only_rank_r_squared": 0.16093059714207048,
+          "observed_mean_disagreement": 0.7637732606412542,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.7981685827384494,
+            "quantile_025": 0.7949593258914727,
+            "quantile_975": 0.8009882170514636
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": 0.000570764269106714,
+            "quantile_025": -0.170549576239406,
+            "quantile_975": 0.15460440261006522
+          }
+        },
+        "sub02": {
+          "in_sample_model_only_rank_r_squared": 0.15266294379157697,
+          "observed_mean_disagreement": 0.7616380474006291,
+          "independent_brain_null_mean_disagreement": {
+            "median": 0.7981697849619054,
+            "quantile_025": 0.7949557706650735,
+            "quantile_975": 0.8012074502434072
+          },
+          "independent_brain_null_correlation_with_aligned_ranking": {
+            "median": -0.002734568364209097,
+            "quantile_025": -0.155838445961149,
+            "quantile_975": 0.15728748218705463
+          }
+        }
+      }
+    }
+  }
+}

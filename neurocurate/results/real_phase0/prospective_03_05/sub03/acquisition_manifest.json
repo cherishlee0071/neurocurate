@@ -1,0 +1,28 @@
+{
+  "subject": "sub03",
+  "source_api": "https://api.osf.io/v2/files/62f6b7060beb5f05deb0c554/",
+  "source_metadata_sha256": "217eb56aa8e9bc697c211d928de5663bcbf5a6ba7ea7883fc86357f3b83ae3e5",
+  "available_disk_before_bytes": 32025939968,
+  "conservative_cohort_peak_additional_bytes": 8047482606,
+  "files": [
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/sub03/sub-03.zip",
+      "url": "https://osf.io/download/fy4n6/",
+      "bytes": 1071567672,
+      "sha256": "ec12b31410b8161f5b274b4c61890a615e5fdbb5e58e6e9325a0188272daa936",
+      "verified": true,
+      "actual_sha256": "ec12b31410b8161f5b274b4c61890a615e5fdbb5e58e6e9325a0188272daa936"
+    }
+  ],
+  "extracted": [
+    {
+      "path": "/workspace/neurocurate/neurocurate/data/local/real_phase0/sub03/eeg/sub-03/preprocessed_eeg_test.npy",
+      "archive": "sub-03.zip",
+      "member": "sub-03/preprocessed_eeg_test.npy",
+      "bytes": 217601432,
+      "compressed_bytes": 208608501,
+      "sha256": "a84287154735104fce3ea830ebad0897f7b654e7812e2a9102f6917590954129",
+      "crc32_verified": true
+    }
+  ]
+}

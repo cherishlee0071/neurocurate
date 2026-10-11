@@ -1,0 +1,25 @@
+{
+  "subjects": [
+    {
+      "subject": "sub03",
+      "all_30_split_correlations_reproduced": true,
+      "all_split_assignments_disjoint_complete": true,
+      "first_split_both_halves_recomputed_from_numeric_EEG": true
+    },
+    {
+      "subject": "sub04",
+      "all_30_split_correlations_reproduced": true,
+      "all_split_assignments_disjoint_complete": true,
+      "first_split_both_halves_recomputed_from_numeric_EEG": true
+    },
+    {
+      "subject": "sub05",
+      "all_30_split_correlations_reproduced": true,
+      "all_split_assignments_disjoint_complete": true,
+      "first_split_both_halves_recomputed_from_numeric_EEG": true
+    }
+  ],
+  "all_frozen_source_hashes_unchanged": true,
+  "immutable_git_archive_matches": true,
+  "working_branch_head_preserved": true
+}

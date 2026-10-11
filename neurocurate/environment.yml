@@ -1,0 +1,3 @@
+# Conda is not a supported environment for this milestone.
+# Use the existing Python 3.12 venv; see README.md for activation/install commands.
+# This file is intentionally documentation, not a Conda environment specification.
