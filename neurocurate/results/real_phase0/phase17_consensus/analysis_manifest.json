@@ -1,0 +1,24 @@
+{
+  "phase": "1.7",
+  "exploratory": true,
+  "git_commit": "93593bda25399826fd3eefb84de6259c12cfe4ad",
+  "phase16_protocol_sha256": "01c9748c0a35339f99495080f8e516bead53aa861fd715add00d2d362e54e59d",
+  "seed": 20261017,
+  "permutations": 1000,
+  "primary": "row_spearman/mean_models",
+  "subjects": [
+    "sub01",
+    "sub02",
+    "sub03",
+    "sub04",
+    "sub05"
+  ],
+  "budgets": [
+    10,
+    20,
+    40,
+    60,
+    100
+  ],
+  "no_training": true
+}
