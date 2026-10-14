@@ -1,0 +1,49 @@
+{
+  "phase": "P1-A",
+  "exploratory": true,
+  "git_commit": "1d492f1a7d8e271b476a886b11199a1dfd9f803d",
+  "seed": 20261018,
+  "permutations": 10000,
+  "random_baselines": 1000,
+  "images": 200,
+  "image_ids_sha256": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0",
+  "p0_config_sha256": "b9c6e7d1acc4a0520985392e8aa3279dd24964b8c5b3573db72564d17cdfcb65",
+  "p0_artifact_policy": "read-only; disagreement was not recomputed",
+  "models": {
+    "clip": {
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "dinov2": {
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415"
+    }
+  },
+  "conditions": [
+    {
+      "family": "blur",
+      "level": 1
+    },
+    {
+      "family": "blur",
+      "level": 2
+    },
+    {
+      "family": "blur",
+      "level": 4
+    },
+    {
+      "family": "crop",
+      "level": 0.9
+    },
+    {
+      "family": "crop",
+      "level": 0.75
+    }
+  ],
+  "crop_resize": "PIL BICUBIC",
+  "group_definition": "top/bottom 20% population consensus disagreement",
+  "excluded_controls": [
+    "uncertainty",
+    "behavior",
+    "additional models"
+  ]
+}
