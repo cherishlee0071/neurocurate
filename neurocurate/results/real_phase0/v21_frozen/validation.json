@@ -1,0 +1,43 @@
+{
+  "config_sha256": "b9c6e7d1acc4a0520985392e8aa3279dd24964b8c5b3573db72564d17cdfcb65",
+  "image_ids_sha256": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0",
+  "subjects": {
+    "sub01": {
+      "feature_shape": [
+        200,
+        680
+      ],
+      "brain_rdm_valid": true
+    },
+    "sub02": {
+      "feature_shape": [
+        200,
+        680
+      ],
+      "brain_rdm_valid": true
+    },
+    "sub03": {
+      "feature_shape": [
+        200,
+        680
+      ],
+      "brain_rdm_valid": true
+    },
+    "sub04": {
+      "feature_shape": [
+        200,
+        680
+      ],
+      "brain_rdm_valid": true
+    },
+    "sub05": {
+      "feature_shape": [
+        200,
+        680
+      ],
+      "brain_rdm_valid": true
+    }
+  },
+  "clip_rdm_valid": true,
+  "dinov2_rdm_valid": true
+}

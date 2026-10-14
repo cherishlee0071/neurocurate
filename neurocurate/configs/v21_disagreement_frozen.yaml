@@ -1,0 +1,68 @@
+protocol: NeuroCurate v2.1 P0 disagreement freeze
+status: immutable measurement definition; exploratory downstream use only
+dataset:
+  identifier: THINGS-EEG2 official standard preprocessed test split
+  subjects:
+  - sub01
+  - sub02
+  - sub03
+  - sub04
+  - sub05
+  images: 200
+  image_ids_sha256: a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0
+  split: repeated 200-image sanity/test split
+eeg:
+  input: verified numeric EEG exports only
+  channels: 17
+  channel_policy: all supplied posterior/occipital channels in verified order
+  time_window_seconds:
+  - 0.1
+  - 0.5
+  preprocessing: official shared MVNN whitening; inherited and not refit in P0
+  trial_averaging: mean over all 80 repetitions
+  feature_extraction: flatten 17 channels x 40 samples after averaging
+  pca: null
+  seeds:
+    repetition_split: 20261011
+vision_models:
+  clip:
+    name: openai/clip-vit-base-patch32
+    revision: 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268
+    layer: projected image embedding
+    pooling: projected_image_embedding
+    dimension: 512
+    preprocessing: cached pinned CLIPImageProcessor
+    normalize: true
+  dinov2:
+    name: facebook/dinov2-base
+    revision: f9e44c814b77203eaa57a6bdbbd535f21ede1415
+    layer: last hidden CLS
+    pooling: cls
+    dimension: 768
+    preprocessing: cached pinned BitImageProcessor
+    normalize: true
+rdm:
+  metric: correlation distance = 1 - Pearson correlation
+  shape:
+  - 200
+  - 200
+  diagonal: 0
+  symmetry_tolerance: 1.0e-10
+disagreement:
+  primary: row-wise representational disagreement
+  formula: (1 - Spearman(brain_RDM_row_without_self, model_RDM_row_without_self))/2
+  models:
+  - clip
+  - dinov2
+  aggregation: equal-weight mean retained only as consensus descriptive column
+  tie_policy: average ranks for Spearman; image IDs for ordering
+  forbidden_in_freeze:
+  - Jaccard
+  - neighborhood overlap
+  - reciprocal rank
+  - learned scoring
+provenance:
+  created_git_commit: a8b221d9aabf5382038de5a6530680ec6b6abe46
+  phase16_protocol_sha256: 01c9748c0a35339f99495080f8e516bead53aa861fd715add00d2d362e54e59d
+  source_note: P0 reads existing pickle-free numeric exports and pinned cached vision
+    embeddings; no downloads.

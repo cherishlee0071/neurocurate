@@ -12,6 +12,24 @@ and [replication figures](results/real_phase0/prospective_03_05/replication_figu
 investigation; NO-GO for advancing the independent-pool selection experiment.**
 No subjects 06–10 were acquired and no classifier was trained.
 
+## v2.1 P0 disagreement freeze
+
+The v2.1 measurement primitive is frozen in
+`configs/v21_disagreement_frozen.yaml`. It uses the verified five-subject,
+200-image caches, correlation-distance Brain/model RDMs, and row-wise
+Spearman disagreement for CLIP and DINOv2. Compact frozen features, RDMs,
+per-image scores, rankings, validation, and subject correlations are under
+`results/real_phase0/v21_frozen/`. Rebuild them with:
+
+```bash
+PYTHONPATH=src python scripts/freeze_v21.py
+```
+
+This P0 step does not tune the metric or test vulnerability prediction. The
+Jaccard and reciprocal-rank measures remain historical baselines; later v2.1
+diagnostic experiments must use this frozen definition without outcome-based
+retuning.
+
 The protocol and complete code were immutably snapshotted before new-subject
 access in Git commit `ac462a65b49158cf63311c6c2dfb596f7cc86af2`, at
 `refs/neurocurate/phase16-protocol`; the working branch was preserved.
