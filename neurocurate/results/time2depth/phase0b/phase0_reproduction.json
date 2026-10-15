@@ -1,0 +1,58 @@
+{
+  "phase0_config_sha256": "d6c28de39f31319f3c5cf9fdfbb340583f3158ac8949876cb2c701d0d7421ea3",
+  "phase0_output_manifest_sha256": "92cf61060a4ac3a6fe048c089c4a61bcb2ac82a03abb5df2cbc017bfa476d03e",
+  "image_ids_sha256": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0",
+  "original_subject_rho": {
+    "sub01": 0.7999999999999999,
+    "sub02": 0.8999999999999998,
+    "sub03": 0.7,
+    "sub04": 0.8999999999999998,
+    "sub05": 0.9999999999999999
+  },
+  "reproduced_subject_rho": {
+    "sub01": 0.7999999999999999,
+    "sub02": 0.8999999999999998,
+    "sub03": 0.7,
+    "sub04": 0.8999999999999998,
+    "sub05": 0.9999999999999999
+  },
+  "original_cohort_median": 0.8999999999999998,
+  "reproduced_cohort_median": 0.8999999999999998,
+  "original_time_permutation_p": 0.025,
+  "reproduced_time_permutation_p": 0.025,
+  "within_tolerance": true,
+  "model_layer_count": 12,
+  "ordered_ids_unique": true,
+  "input_shapes": [
+    [
+      200,
+      80,
+      17,
+      100
+    ],
+    [
+      200,
+      80,
+      17,
+      100
+    ],
+    [
+      200,
+      80,
+      17,
+      100
+    ],
+    [
+      200,
+      80,
+      17,
+      100
+    ],
+    [
+      200,
+      80,
+      17,
+      100
+    ]
+  ]
+}

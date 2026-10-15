@@ -1,0 +1,448 @@
+{
+  "procedure": "Add zero-mean Gaussian feature noise independently to each 40-repetition half; scale times per-feature SD of the two half feature matrices; recompute both RDMs, layer RSA and temporal statistic. Fixed scales and seeds were declared before outcomes. This is degradation, not independent preprocessing.",
+  "seeds": [
+    20261021,
+    20261022,
+    20261023
+  ],
+  "noise_scales": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "controls": [
+    {
+      "seed": 20261021,
+      "noise_scale": 0.0,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.0,
+      "subject": "sub02",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.0,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.0,
+      "subject": "sub04",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.0,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.8999999999999998
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.25,
+      "subject": "sub01",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.25,
+      "subject": "sub02",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.25,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.25,
+      "subject": "sub04",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.25,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.8999999999999998
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.5,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.5,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.5,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.5,
+      "subject": "sub04",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 0.5,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 1.0,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 1.0,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 1.0,
+      "subject": "sub03",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 1.0,
+      "subject": "sub04",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261021,
+      "noise_scale": 1.0,
+      "subject": "sub05",
+      "order_rho": 0.7999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.0,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.0,
+      "subject": "sub02",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.0,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.0,
+      "subject": "sub04",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.0,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.8999999999999998
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.25,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.25,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.25,
+      "subject": "sub03",
+      "order_rho": 0.7,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.25,
+      "subject": "sub04",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.25,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.5,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.5,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.5,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.5,
+      "subject": "sub04",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 0.5,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 1.0,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 1.0,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 1.0,
+      "subject": "sub03",
+      "order_rho": 0.7,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 1.0,
+      "subject": "sub04",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261022,
+      "noise_scale": 1.0,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.0,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.0,
+      "subject": "sub02",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.0,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.0,
+      "subject": "sub04",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.0,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.8999999999999998
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.25,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.25,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.25,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.25,
+      "subject": "sub04",
+      "order_rho": 0.8999999999999998,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.25,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.5,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.5,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.5,
+      "subject": "sub03",
+      "order_rho": 0.7,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.5,
+      "subject": "sub04",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 0.5,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 1.0,
+      "subject": "sub01",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 1.0,
+      "subject": "sub02",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 1.0,
+      "subject": "sub03",
+      "order_rho": 0.6,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 1.0,
+      "subject": "sub04",
+      "order_rho": 0.7999999999999999,
+      "positive": true
+    },
+    {
+      "seed": 20261023,
+      "noise_scale": 1.0,
+      "subject": "sub05",
+      "order_rho": 0.9999999999999999,
+      "positive": true,
+      "cohort_median": 0.7999999999999999
+    }
+  ]
+}

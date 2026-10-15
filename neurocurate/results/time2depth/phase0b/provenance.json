@@ -1,0 +1,28 @@
+{
+  "git_commit": "5a8495add641d073feb93f406f37f986ffe51201",
+  "phase0_config_sha256": "d6c28de39f31319f3c5cf9fdfbb340583f3158ac8949876cb2c701d0d7421ea3",
+  "phase0_output_manifest_sha256": "92cf61060a4ac3a6fe048c089c4a61bcb2ac82a03abb5df2cbc017bfa476d03e",
+  "phase0b_script_sha256": "6c638d528e06b91b4b86b4372f91adbec30fd8e0c3e6e88c8e90807d12e019a8",
+  "subjects": [
+    "sub01",
+    "sub02",
+    "sub03",
+    "sub04",
+    "sub05"
+  ],
+  "images": 200,
+  "split_seed": 20261011,
+  "noise_control_seeds": [
+    20261021,
+    20261022,
+    20261023
+  ],
+  "noise_scales": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "exploratory": true,
+  "no_downloads": true
+}
