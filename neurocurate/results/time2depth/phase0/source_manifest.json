@@ -1,0 +1,129 @@
+{
+  "config": {
+    "path": "configs/time2depth_phase0.yaml",
+    "sha256": "d6c28de39f31319f3c5cf9fdfbb340583f3158ac8949876cb2c701d0d7421ea3"
+  },
+  "protocol": {
+    "path": "/workspace/attachments/08cceb9a-8203-4b44-863d-c52545791886/Time2Depth_Phase0_Protocol.md",
+    "sha256": "f815656787e383f91e529e65cd2e40680f465c579ef15f14229022942991953c"
+  },
+  "task": {
+    "path": "/workspace/attachments/43c3832a-a46f-4d9f-a1ac-5c2405e3279d/Time2Depth_Phase0_Codex_Prompt.md",
+    "sha256": "cd81022e941e8970c44653c9c3615ed043c82be0eb531acf0cb1557f851aacde"
+  },
+  "image_ids": {
+    "path": "results/real_phase0/sub01/image_ids.npy",
+    "sha256": "a6306566c862c9c02eaaa6b286850597122413a1689e77eb6cb009730706bef0"
+  },
+  "inputs": {
+    "sub01": {
+      "eeg.npy": {
+        "path": "results/real_phase0/sub01/pickle_free/eeg.npy",
+        "sha256": "a46c2917dbbb81707c72cd5feef9a8889874006753a79d78779c81a945f6ed22"
+      },
+      "times.npy": {
+        "path": "results/real_phase0/sub01/pickle_free/times.npy",
+        "sha256": "a35304ac9d65e28dca4ebd0bc7a29ca24344dff2ee528242e8c1fd0d6bef92a5"
+      },
+      "channels.npy": {
+        "path": "results/real_phase0/sub01/pickle_free/channels.npy",
+        "sha256": "3b79d527868d7728f4da89af8ab1c6e420ed8fa87814bb15a7c1e6660de87878"
+      },
+      "export_manifest.json": {
+        "path": "results/real_phase0/sub01/pickle_free/export_manifest.json",
+        "sha256": "a83592aebaa0fdaf61bc2341e6e847c8af6a5aa766512361d43b38a9a0fb8f72"
+      }
+    },
+    "sub02": {
+      "eeg.npy": {
+        "path": "results/real_phase0/sub02/pickle_free/eeg.npy",
+        "sha256": "05454fe06dbf46a72042a7cc95e95536a8e36e9a43b577ad3df9085323b10904"
+      },
+      "times.npy": {
+        "path": "results/real_phase0/sub02/pickle_free/times.npy",
+        "sha256": "a35304ac9d65e28dca4ebd0bc7a29ca24344dff2ee528242e8c1fd0d6bef92a5"
+      },
+      "channels.npy": {
+        "path": "results/real_phase0/sub02/pickle_free/channels.npy",
+        "sha256": "3b79d527868d7728f4da89af8ab1c6e420ed8fa87814bb15a7c1e6660de87878"
+      },
+      "export_manifest.json": {
+        "path": "results/real_phase0/sub02/pickle_free/export_manifest.json",
+        "sha256": "b345c9fb0d5a8dcb00a3cb7f48f857cff18ed532668eceff7ee717d746f6b7b9"
+      }
+    },
+    "sub03": {
+      "eeg.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub03/pickle_free/eeg.npy",
+        "sha256": "4802634c8d8a15cc2ebdfef2415380a11b086adc643576607f575ffc4687b335"
+      },
+      "times.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub03/pickle_free/times.npy",
+        "sha256": "a35304ac9d65e28dca4ebd0bc7a29ca24344dff2ee528242e8c1fd0d6bef92a5"
+      },
+      "channels.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub03/pickle_free/channels.npy",
+        "sha256": "3b79d527868d7728f4da89af8ab1c6e420ed8fa87814bb15a7c1e6660de87878"
+      },
+      "export_manifest.json": {
+        "path": "results/real_phase0/prospective_03_05/sub03/pickle_free/export_manifest.json",
+        "sha256": "1e70a2d83d5ac547d1c61ef8ddbb9c73384c9bde80d6ac108c8979690b5188d0"
+      }
+    },
+    "sub04": {
+      "eeg.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub04/pickle_free/eeg.npy",
+        "sha256": "fae8cc139def9cac852d5f1fd157598100b5100a7d2aae62a94e51da3584ccaa"
+      },
+      "times.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub04/pickle_free/times.npy",
+        "sha256": "a35304ac9d65e28dca4ebd0bc7a29ca24344dff2ee528242e8c1fd0d6bef92a5"
+      },
+      "channels.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub04/pickle_free/channels.npy",
+        "sha256": "3b79d527868d7728f4da89af8ab1c6e420ed8fa87814bb15a7c1e6660de87878"
+      },
+      "export_manifest.json": {
+        "path": "results/real_phase0/prospective_03_05/sub04/pickle_free/export_manifest.json",
+        "sha256": "c90a15e412fa408c2488f92a2feddeac29732d76a5f33b5d4430a8ff588a382e"
+      }
+    },
+    "sub05": {
+      "eeg.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub05/pickle_free/eeg.npy",
+        "sha256": "31013e99cb355f6fcad873cb76a9687ce4d77ac3efa7aa1aab643859254cd747"
+      },
+      "times.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub05/pickle_free/times.npy",
+        "sha256": "a35304ac9d65e28dca4ebd0bc7a29ca24344dff2ee528242e8c1fd0d6bef92a5"
+      },
+      "channels.npy": {
+        "path": "results/real_phase0/prospective_03_05/sub05/pickle_free/channels.npy",
+        "sha256": "3b79d527868d7728f4da89af8ab1c6e420ed8fa87814bb15a7c1e6660de87878"
+      },
+      "export_manifest.json": {
+        "path": "results/real_phase0/prospective_03_05/sub05/pickle_free/export_manifest.json",
+        "sha256": "3e0f309544aae519124a57d9062f68f40324ebf9c5a60d802792cfd40779e147"
+      }
+    }
+  },
+  "dinov2_cache": {
+    "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "path": "/workspace/setup/neurocurate/model_cache",
+    "local_only": true,
+    "files": {
+      "config.json": {
+        "path": "/workspace/setup/neurocurate/model_cache/models--facebook--dinov2-base/snapshots/f9e44c814b77203eaa57a6bdbbd535f21ede1415/config.json",
+        "sha256": "f7ff4cfa73d2f70647dbf6950541ad25d73082d54c2e7e9bded160c7656b2a70"
+      },
+      "model.safetensors": {
+        "path": "/workspace/setup/neurocurate/model_cache/models--facebook--dinov2-base/snapshots/f9e44c814b77203eaa57a6bdbbd535f21ede1415/model.safetensors",
+        "sha256": "d73036b56966966d07975d696bde331762f37297e2f095de8cea0040c3aa0841"
+      },
+      "preprocessor_config.json": {
+        "path": "/workspace/setup/neurocurate/model_cache/models--facebook--dinov2-base/snapshots/f9e44c814b77203eaa57a6bdbbd535f21ede1415/preprocessor_config.json",
+        "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+      }
+    }
+  }
+}

@@ -30,6 +30,15 @@ Jaccard and reciprocal-rank measures remain historical baselines; later v2.1
 diagnostic experiments must use this frozen definition without outcome-based
 retuning.
 
+## Time2Depth Phase 0
+
+The temporal–layer RSA sanity check uses the same five verified subjects and
+200-image ordering with the pinned DINOv2 block representations. Results,
+nulls, reliability controls, figures, and hashes are under
+`results/time2depth/phase0/`. The temporal-order and image-label nulls are
+favorable, but late-window EEG reliability leaves an unresolved SNR confound;
+the decision is **WEAK / INCONCLUSIVE**, so no training Phase 1 was started.
+
 The protocol and complete code were immutably snapshotted before new-subject
 access in Git commit `ac462a65b49158cf63311c6c2dfb596f7cc86af2`, at
 `refs/neurocurate/phase16-protocol`; the working branch was preserved.

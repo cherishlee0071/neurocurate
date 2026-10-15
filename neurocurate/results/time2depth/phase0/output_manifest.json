@@ -1,0 +1,84 @@
+{
+  "files": {
+    "stimulus_label_null.json": {
+      "bytes": 18164,
+      "sha256": "feda82ca5d7032de13eaad3740f01372d6d1a01b5ed7cec37f1fe9bef31a116a"
+    },
+    "eeg_window_schema.json": {
+      "bytes": 4687,
+      "sha256": "6eb5c214249185408a2feb1f3b237fc723c5c05e3e7156d91c2c6b26b14dc39e"
+    },
+    "snr_sensitivity.csv": {
+      "bytes": 2444,
+      "sha256": "48d964b2cbb5123856b57308311f0d91cb744c31fa65be88e5f52a0a0b763246"
+    },
+    "subject_layer_preferences.png": {
+      "bytes": 143291,
+      "sha256": "9cd6b5495f897630426947a354ebdf6c8fa23d7d9b27a67e2cf850f0271d0033"
+    },
+    "git_commit.txt": {
+      "bytes": 41,
+      "sha256": "d665648064aa26ec8009e9890e6040437f364ccbd723f7943eb3988dd6ed2513"
+    },
+    "validation.md": {
+      "bytes": 724,
+      "sha256": "6fb6850282d8f49af0e295bfdc1f3441bfa5d53f6218365e740d9abaf96d0f15"
+    },
+    "window_reliability.csv": {
+      "bytes": 20684,
+      "sha256": "ac18e95b70662395b7b774519b124ea1d2a0e8dd6616fdda005ad317ff7aefc4"
+    },
+    "scientific_summary.md": {
+      "bytes": 2385,
+      "sha256": "386d423fd31c8d44b7b1489fb48478cc1950903545c590abe697903d81124680"
+    },
+    "rsa_matrix_by_subject.npz": {
+      "bytes": 6838,
+      "sha256": "943360e967484285cee80d826dcb6e126a82128cffe32d4c9983e22fb14834a6"
+    },
+    "temporal_order_null.json": {
+      "bytes": 15673,
+      "sha256": "7aa14b2577b8a540eb8bef58cb5b005eba88d84456db15a1b7ea481ce778132c"
+    },
+    "source_manifest.json": {
+      "bytes": 5853,
+      "sha256": "1c9fb6fafb64cc6e11770c95e3471b23ebbee0c20f15c483c75102b596a2ce70"
+    },
+    "model_layer_schema.json": {
+      "bytes": 397,
+      "sha256": "7e59bd20635bb5aed0ffd1b640b34a80d06e04ee859226f9df78ebe1d0449630"
+    },
+    "rsa_layer_centered_heatmap.png": {
+      "bytes": 50703,
+      "sha256": "aec5dfa2f152f45cf48f10ab956dc3b2cbe097443fba9d726063b31f752226b4"
+    },
+    "brain_rdm_by_window.npz": {
+      "bytes": 8444629,
+      "sha256": "71a60078e8118cd097c596e957706de4a13466a1db3d3fb5a1cbcdf8bc37b68b"
+    },
+    "frozen_protocol.yaml": {
+      "bytes": 2782,
+      "sha256": "d6c28de39f31319f3c5cf9fdfbb340583f3158ac8949876cb2c701d0d7421ea3"
+    },
+    "environment.txt": {
+      "bytes": 131,
+      "sha256": "a86a5a37bb4af8d4f182ccba55d64c3665132051a0d94c3e9c1c9c8c0da74258"
+    },
+    "rsa_long.csv": {
+      "bytes": 19914,
+      "sha256": "b8c83f63daa9f22b1a031654b4cff823db257417a26ba200d4221779d04ef53d"
+    },
+    "model_rdm_by_layer.npz": {
+      "bytes": 3307896,
+      "sha256": "82a7bd55e8733538f229caa69ea406d00a0d7eedb60c52f390065bbe8f41abb9"
+    },
+    "rdm_integrity.json": {
+      "bytes": 320,
+      "sha256": "c1eac93c5bdb43f975ebd0275fbf4533806ca3eacf7c0da94ebd8b7c84cc1f9b"
+    },
+    "rsa_raw_heatmap.png": {
+      "bytes": 45425,
+      "sha256": "651831501a0515a6c828000daa41c2df969c26ca0479a846e28e22045d4cbe29"
+    }
+  }
+}

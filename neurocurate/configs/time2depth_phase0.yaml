@@ -1,0 +1,61 @@
+protocol: Time2Depth Phase 0 Temporal-Layer RSA Sanity Check
+status: exploratory frozen analysis plan; not an original preregistration
+version: '0.1'
+subjects: [sub01, sub02, sub03, sub04, sub05]
+dataset:
+  identifier: THINGS-EEG2 official standard preprocessed repeated-test split
+  images: 200
+  repetitions: 80
+  channels: 17
+  samples: 100
+  sampling_rate_hz: 100
+  shared_preprocessing_limitation: official MVNN whitening used training/test partitions and repetitions
+eeg:
+  main_windows_ms: [[50, 100], [100, 150], [150, 200], [200, 300], [300, 500]]
+  baseline_window_ms: [-200, 0]
+  interval_rule: left-inclusive right-exclusive using actual time vector
+  trial_average: mean over all 80 repetitions per image
+  features: flatten selected samples across all 17 supplied channels
+  pca: null
+  additional_whitening: null
+  standardization: null
+  rdm_metric: correlation
+  split_repetitions: [40, 40]
+  split_count: 30
+  split_seed: 20261011
+model:
+  name: facebook/dinov2-base
+  revision: f9e44c814b77203eaa57a6bdbbd535f21ede1415
+  processor: pinned AutoImageProcessor / BitImageProcessor
+  layers: all 12 transformer blocks
+  feature: CLS token after applying the same final LayerNorm to every block output, then L2 normalization
+  dimension: 768
+  precision: float32 inference; saved float64 RDMs
+  rdm_metric: cosine
+  local_files_only: true
+rsa:
+  comparison: Spearman correlation of 19900 unique upper-triangle RDM entries
+  layer_centering: subtract each layer's mean across the five main windows separately per subject
+  softmax_temperature: 0.05
+  normalized_layer_positions: linear from 0 to 1 across the 12 blocks
+  primary_subject_statistic: Spearman correlation of five ordered window indices with soft preferred layer position
+  cohort_statistic: median of five subject statistics
+nulls:
+  time_order: exact all 120 common permutations, one-sided positive tail including identity
+  stimulus_assignment:
+    draws: 1000
+    seed: 2026101501
+    permutation: common image-label permutation applied to both Brain RDM axes for every subject/window
+decision:
+  go:
+    - all integrity checks pass
+    - at least four of five subject ordering correlations are positive
+    - positive cohort median with exact time-order p <= 0.05
+    - stimulus and reliability controls do not indicate an SNR, baseline, or static-layer artifact
+  weak: suggestive direction without all GO conditions, including unresolved short-window reliability
+  no_go: inconsistent signs, unrejected time-order null, or failed essential control
+prohibitions:
+  - no window, temperature, model, layer, or pooling tuning after result inspection
+  - no new EEG or model checkpoint downloads
+  - no classifier or encoder training
+  - no use of the 200 repeated-test images as future training targets

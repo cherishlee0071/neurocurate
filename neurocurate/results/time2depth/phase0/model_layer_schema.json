@@ -1,0 +1,12 @@
+{
+  "checkpoint": "facebook/dinov2-base",
+  "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+  "processor_class": "BitImageProcessor",
+  "hook": "Dinov2Model output_hidden_states[1:]; model.layernorm(block_output)[:,0]",
+  "layers": 12,
+  "feature_dimension": 768,
+  "l2_normalized": true,
+  "smoke_images": 5,
+  "final_layer_vs_frozen_max_abs": 0.0,
+  "final_layer_matches_frozen": true
+}
