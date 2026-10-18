@@ -1,0 +1,32 @@
+project: IASL
+dataset: THINGS-EEG2
+subjects: [sub01, sub02, sub03, sub04, sub05]
+n_images: 50
+n_repetitions: 4
+time_window_seconds: [0.0, 1.0]
+available_export_window_seconds: [0.0, 0.79]
+channels: 17
+sampling_hz: 100
+representations:
+  fixed_control: flatten_then_pca
+  pca_dimensions: [128, 256]
+  tiny_encoder: depthwise_temporal_conv_under_1m_parameters
+sae:
+  width_multipliers: [2, 4]
+  seeds: [0, 1, 2]
+  max_epochs: 50
+  batch_size: 128
+intervention:
+  magnitudes: [0.25, 0.5, 1.0]
+  candidate_groups: 10
+  normalized_metric: (task_damage+reconstruction_damage)/(removed_eeg_energy+epsilon)
+evaluation:
+  strict_loso: true
+  held_out_subject_fits: false
+  test_subject_in_fit: false
+  primary_unit: subspace_or_feature_group
+  feature_identity_secondary_only: true
+stop_rules:
+  require_nonnull_subspace_stability: true
+  require_positive_reliability: true
+  require_normalized_intervention_signal: true

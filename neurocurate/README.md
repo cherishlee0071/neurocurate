@@ -557,3 +557,24 @@ cache deletion occurs. New run directories prevent accidental output overwrite.
 The recommended next step is a test-only export from an existing verified
 single-subject archive on a data-holding machine. See `VALIDATION.md` for the
 concrete transfer requirements and a bounded alternative to full-dataset fetching.
+
+## IASL feasibility pilot
+
+IASL (Intervention-Aware Sparse Latent Alignment) is a separate, low-cost
+feasibility study. It uses only the existing pickle-free THINGS-EEG2 exports;
+the pilot does not download EEG or model weights. Run the smoke test first, then
+the bounded Phase 0A--0D pilot:
+
+```bash
+/workspace/setup/neurocurate/venv/bin/python scripts/run_iasl_pilot.py --smoke-only --epochs 2
+/workspace/setup/neurocurate/venv/bin/python scripts/run_iasl_pilot.py --epochs 20
+```
+
+Configuration is in [`configs/iasl_things_eeg_pilot.yaml`](configs/iasl_things_eeg_pilot.yaml).
+Outputs are written to the ignored local directory `results/iasl/` (data audit,
+SAE feature and subspace stability, intervention raw/energy-normalized damage,
+and the scientific summary). The verified export ends at 790 ms, so the
+requested 0--1000 ms window is recorded as truncated. Individual SAE feature
+identity is diagnostic only; the principal unit is a group/subspace. The
+current pilot decision is **NO-GO** for Phase 1 alignment training because
+split-half reliability is low and feature matching is at its null.
