@@ -1,0 +1,31 @@
+{
+  "git_commit": "900ff56a11e9553f4a45fbce6415a26b99de6b1d",
+  "subjects": [
+    "sub01",
+    "sub02",
+    "sub03",
+    "sub04",
+    "sub05"
+  ],
+  "image_sets": [
+    "Set-A",
+    "Set-B",
+    "Set-C"
+  ],
+  "repetitions_primary": 80,
+  "test_only": true,
+  "requested_window": [
+    0,
+    1
+  ],
+  "available_analyzed_interval": [
+    0,
+    0.79
+  ],
+  "baseline_interval": [
+    -0.2,
+    0
+  ],
+  "status": "SUBSPACE_ONLY",
+  "new_downloads": false
+}

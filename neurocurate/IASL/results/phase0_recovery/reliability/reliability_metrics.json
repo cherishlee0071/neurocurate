@@ -1,0 +1,90 @@
+{
+  "git_commit": "900ff56a11e9553f4a45fbce6415a26b99de6b1d",
+  "dataset": "THINGS-EEG2 official numeric test exports",
+  "subjects": [
+    {
+      "subject": "sub01",
+      "raw_split_half": 0.8364537599761218,
+      "corrected_split_half": 0.9109445369177144,
+      "bootstrap_ci": [
+        0.8306242866216597,
+        0.8413240585909482
+      ],
+      "permutation_p95": 0.7454593526019607,
+      "trial_average_reliability": 0.8364537599761218,
+      "single_trial_to_rest_mean": 0.3289013405727297,
+      "best_time_window": "0_100",
+      "best_channel": 11
+    },
+    {
+      "subject": "sub02",
+      "raw_split_half": 0.7250060777170032,
+      "corrected_split_half": 0.8405837951325115,
+      "bootstrap_ci": [
+        0.7184028362791106,
+        0.7315271745912019
+      ],
+      "permutation_p95": 0.6029386527599647,
+      "trial_average_reliability": 0.7250060777170032,
+      "single_trial_to_rest_mean": 0.2235100634924562,
+      "best_time_window": "100_200",
+      "best_channel": 4
+    },
+    {
+      "subject": "sub03",
+      "raw_split_half": 0.8751939642603916,
+      "corrected_split_half": 0.9334436660322581,
+      "bootstrap_ci": [
+        0.8713867641615736,
+        0.8787245646896849
+      ],
+      "permutation_p95": 0.7724670971723949,
+      "trial_average_reliability": 0.8751939642603916,
+      "single_trial_to_rest_mean": 0.3197274047986324,
+      "best_time_window": "100_200",
+      "best_channel": 4
+    },
+    {
+      "subject": "sub04",
+      "raw_split_half": 0.8120355217488284,
+      "corrected_split_half": 0.8962688777371408,
+      "bootstrap_ci": [
+        0.8062292380663457,
+        0.8181483712522912
+      ],
+      "permutation_p95": 0.6660414129254716,
+      "trial_average_reliability": 0.8120355217488284,
+      "single_trial_to_rest_mean": 0.31479418742415594,
+      "best_time_window": "100_200",
+      "best_channel": 4
+    },
+    {
+      "subject": "sub05",
+      "raw_split_half": 0.7658299978164171,
+      "corrected_split_half": 0.8673881390206578,
+      "bootstrap_ci": [
+        0.7594217056492594,
+        0.7718229856615927
+      ],
+      "permutation_p95": 0.6450625243704307,
+      "trial_average_reliability": 0.7658299978164171,
+      "single_trial_to_rest_mean": 0.2867051287123828,
+      "best_time_window": "0_100",
+      "best_channel": 4
+    }
+  ],
+  "requested_window": [
+    0,
+    1
+  ],
+  "available_analyzed_interval": [
+    0,
+    0.79
+  ],
+  "baseline_interval": [
+    -0.2,
+    0
+  ],
+  "sampling_hz": 100,
+  "notes": "all 80 available repetitions used for the primary split; no data were downloaded"
+}

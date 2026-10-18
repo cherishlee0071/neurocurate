@@ -1,0 +1,86 @@
+{
+  "git_commit": "900ff56a11e9553f4a45fbce6415a26b99de6b1d",
+  "rows": [
+    {
+      "subject": "sub01",
+      "representation": "all_80",
+      "repetitions": 80,
+      "raw_split_half": 0.8364537599761218,
+      "corrected_split_half": 0.9109445369177144,
+      "single_trial_to_rest": 0.3289013405727297
+    },
+    {
+      "subject": "sub01",
+      "representation": "deterministic_4",
+      "repetitions": 4,
+      "raw_split_half": 0.19419817466091202,
+      "corrected_split_half": 0.3252360936090927,
+      "single_trial_to_rest": 0.19127577740047796
+    },
+    {
+      "subject": "sub02",
+      "representation": "all_80",
+      "repetitions": 80,
+      "raw_split_half": 0.7250060777170032,
+      "corrected_split_half": 0.8405837951325115,
+      "single_trial_to_rest": 0.2235100634924562
+    },
+    {
+      "subject": "sub02",
+      "representation": "deterministic_4",
+      "repetitions": 4,
+      "raw_split_half": 0.13954156984194352,
+      "corrected_split_half": 0.244908257030585,
+      "single_trial_to_rest": 0.12160289863835141
+    },
+    {
+      "subject": "sub03",
+      "representation": "all_80",
+      "repetitions": 80,
+      "raw_split_half": 0.8751939642603916,
+      "corrected_split_half": 0.9334436660322581,
+      "single_trial_to_rest": 0.3197274047986324
+    },
+    {
+      "subject": "sub03",
+      "representation": "deterministic_4",
+      "repetitions": 4,
+      "raw_split_half": 0.27400383902259007,
+      "corrected_split_half": 0.4301460178217431,
+      "single_trial_to_rest": 0.19834479133663452
+    },
+    {
+      "subject": "sub04",
+      "representation": "all_80",
+      "repetitions": 80,
+      "raw_split_half": 0.8120355217488284,
+      "corrected_split_half": 0.8962688777371408,
+      "single_trial_to_rest": 0.31479418742415594
+    },
+    {
+      "subject": "sub04",
+      "representation": "deterministic_4",
+      "repetitions": 4,
+      "raw_split_half": 0.1980259871811491,
+      "corrected_split_half": 0.3305871313310774,
+      "single_trial_to_rest": 0.1922788497981751
+    },
+    {
+      "subject": "sub05",
+      "representation": "all_80",
+      "repetitions": 80,
+      "raw_split_half": 0.7658299978164171,
+      "corrected_split_half": 0.8673881390206578,
+      "single_trial_to_rest": 0.2867051287123828
+    },
+    {
+      "subject": "sub05",
+      "representation": "deterministic_4",
+      "repetitions": 4,
+      "raw_split_half": 0.13592882077343707,
+      "corrected_split_half": 0.23932629983080306,
+      "single_trial_to_rest": 0.19043896561055146
+    }
+  ],
+  "warning": "trial-average results cannot be called single-trial generalization"
+}

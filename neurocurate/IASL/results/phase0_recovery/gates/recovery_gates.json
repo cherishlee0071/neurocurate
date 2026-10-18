@@ -1,0 +1,19 @@
+{
+  "Gate_A_data_reliability": {
+    "pass": true,
+    "reason": "corrected reliability and bootstrap lower bounds"
+  },
+  "Gate_B_subspace_reliability": {
+    "pass": true,
+    "reason": "PCA CKA versus row permutation and subject pairs"
+  },
+  "Gate_C_intervention": {
+    "pass": false,
+    "reason": "task labels/selectivity and independent normalized effect unavailable"
+  },
+  "Gate_D_small_loso": {
+    "pass": false,
+    "reason": "requires A, B and C"
+  },
+  "status": "SUBSPACE_ONLY"
+}

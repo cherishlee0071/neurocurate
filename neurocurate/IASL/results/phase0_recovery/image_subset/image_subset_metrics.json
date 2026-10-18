@@ -1,0 +1,146 @@
+{
+  "git_commit": "900ff56a11e9553f4a45fbce6415a26b99de6b1d",
+  "sets": {
+    "Set-A": "first 50 predeclared",
+    "Set-B": "fixed seed 0 draw from remaining 150",
+    "Set-C": "all 200"
+  },
+  "rows": [
+    {
+      "image_set": "Set-A",
+      "subject": "sub01",
+      "n_images": 50,
+      "raw_split_half": 0.8464977456086199,
+      "corrected_split_half": 0.9168684311928121,
+      "median_image_r": 0.8443647091303409,
+      "permutation_p95": 0.7714068323419925
+    },
+    {
+      "image_set": "Set-A",
+      "subject": "sub02",
+      "n_images": 50,
+      "raw_split_half": 0.7228704012851882,
+      "corrected_split_half": 0.8391465785771902,
+      "median_image_r": 0.7253168725855984,
+      "permutation_p95": 0.6259589214353801
+    },
+    {
+      "image_set": "Set-A",
+      "subject": "sub03",
+      "n_images": 50,
+      "raw_split_half": 0.8810826634278562,
+      "corrected_split_half": 0.9367825035634302,
+      "median_image_r": 0.8825073915847421,
+      "permutation_p95": 0.8030189730538787
+    },
+    {
+      "image_set": "Set-A",
+      "subject": "sub04",
+      "n_images": 50,
+      "raw_split_half": 0.8199228164771146,
+      "corrected_split_half": 0.9010522963432774,
+      "median_image_r": 0.8236594575116746,
+      "permutation_p95": 0.7036236183742698
+    },
+    {
+      "image_set": "Set-A",
+      "subject": "sub05",
+      "n_images": 50,
+      "raw_split_half": 0.7942453918376857,
+      "corrected_split_half": 0.8853252687183563,
+      "median_image_r": 0.7936611230179242,
+      "permutation_p95": 0.6858366403860553
+    },
+    {
+      "image_set": "Set-B",
+      "subject": "sub01",
+      "n_images": 50,
+      "raw_split_half": 0.8380191387540201,
+      "corrected_split_half": 0.9118720486470094,
+      "median_image_r": 0.8461046100989355,
+      "permutation_p95": 0.7699651028078527
+    },
+    {
+      "image_set": "Set-B",
+      "subject": "sub02",
+      "n_images": 50,
+      "raw_split_half": 0.7299440348641262,
+      "corrected_split_half": 0.8438932360276703,
+      "median_image_r": 0.7360469233959452,
+      "permutation_p95": 0.6238688395920997
+    },
+    {
+      "image_set": "Set-B",
+      "subject": "sub03",
+      "n_images": 50,
+      "raw_split_half": 0.8780026320288967,
+      "corrected_split_half": 0.9350387662453361,
+      "median_image_r": 0.882687597517378,
+      "permutation_p95": 0.7948784912982503
+    },
+    {
+      "image_set": "Set-B",
+      "subject": "sub04",
+      "n_images": 50,
+      "raw_split_half": 0.8268644724964532,
+      "corrected_split_half": 0.9052280395671864,
+      "median_image_r": 0.8246889929836948,
+      "permutation_p95": 0.7166035458930484
+    },
+    {
+      "image_set": "Set-B",
+      "subject": "sub05",
+      "n_images": 50,
+      "raw_split_half": 0.7837871879879975,
+      "corrected_split_half": 0.8787900185246441,
+      "median_image_r": 0.7886287527187651,
+      "permutation_p95": 0.6834353865695647
+    },
+    {
+      "image_set": "Set-C",
+      "subject": "sub01",
+      "n_images": 200,
+      "raw_split_half": 0.8431998622858987,
+      "corrected_split_half": 0.9149304744849314,
+      "median_image_r": 0.8471377436507386,
+      "permutation_p95": 0.7678650742524893
+    },
+    {
+      "image_set": "Set-C",
+      "subject": "sub02",
+      "n_images": 200,
+      "raw_split_half": 0.7312990249038483,
+      "corrected_split_half": 0.8447980555461385,
+      "median_image_r": 0.7357986797225039,
+      "permutation_p95": 0.6256015044745492
+    },
+    {
+      "image_set": "Set-C",
+      "subject": "sub03",
+      "n_images": 200,
+      "raw_split_half": 0.8804115089598317,
+      "corrected_split_half": 0.9364030211098209,
+      "median_image_r": 0.8831350963226468,
+      "permutation_p95": 0.7957670412399735
+    },
+    {
+      "image_set": "Set-C",
+      "subject": "sub04",
+      "n_images": 200,
+      "raw_split_half": 0.8226870743859399,
+      "corrected_split_half": 0.9027189427599379,
+      "median_image_r": 0.825189647183749,
+      "permutation_p95": 0.702259757610118
+    },
+    {
+      "image_set": "Set-C",
+      "subject": "sub05",
+      "n_images": 200,
+      "raw_split_half": 0.7800702668199635,
+      "corrected_split_half": 0.8764488473969436,
+      "median_image_r": 0.7846800403699115,
+      "permutation_p95": 0.6780054165143461
+    }
+  ],
+  "exploratory_high_reliability_selection": false
+}
