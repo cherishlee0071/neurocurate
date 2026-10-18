@@ -1,0 +1,207 @@
+{
+  "phase": "IASL Phase 0A",
+  "git_commit": "92223e26ea97ad11b8eefdec6b44f823998b426e",
+  "dataset": "THINGS-EEG2 official numeric pickle-free exports",
+  "subjects": [
+    "sub01",
+    "sub02",
+    "sub03",
+    "sub04",
+    "sub05"
+  ],
+  "image_ids": [
+    "00001",
+    "00002",
+    "00003",
+    "00004",
+    "00005",
+    "00006",
+    "00007",
+    "00008",
+    "00009",
+    "00010",
+    "00011",
+    "00012",
+    "00013",
+    "00014",
+    "00015",
+    "00016",
+    "00017",
+    "00018",
+    "00019",
+    "00020",
+    "00021",
+    "00022",
+    "00023",
+    "00024",
+    "00025",
+    "00026",
+    "00027",
+    "00028",
+    "00029",
+    "00030",
+    "00031",
+    "00032",
+    "00033",
+    "00034",
+    "00035",
+    "00036",
+    "00037",
+    "00038",
+    "00039",
+    "00040",
+    "00041",
+    "00042",
+    "00043",
+    "00044",
+    "00045",
+    "00046",
+    "00047",
+    "00048",
+    "00049",
+    "00050"
+  ],
+  "n_images": 50,
+  "n_repetitions": 4,
+  "records": [
+    {
+      "source": "/workspace/neurocurate/neurocurate/results/real_phase0/sub01/pickle_free/eeg.npy",
+      "shape": [
+        200,
+        80,
+        17,
+        100
+      ],
+      "channels": 17,
+      "samples": 80,
+      "time_start": 0.0,
+      "time_end": 0.79,
+      "time_samples": 80,
+      "poststimulus_complete": false,
+      "subject": "sub01",
+      "reliability": {
+        "median_image_split_half_r": 0.05696931108832359,
+        "mean_image_split_half_r": 0.04079495742917061,
+        "fraction_positive": 0.66,
+        "n_images": 50
+      },
+      "nan_rate": 0.0,
+      "variance": 0.611525297164917,
+      "valid_trials": 200
+    },
+    {
+      "source": "/workspace/neurocurate/neurocurate/results/real_phase0/sub02/pickle_free/eeg.npy",
+      "shape": [
+        200,
+        80,
+        17,
+        100
+      ],
+      "channels": 17,
+      "samples": 80,
+      "time_start": 0.0,
+      "time_end": 0.79,
+      "time_samples": 80,
+      "poststimulus_complete": false,
+      "subject": "sub02",
+      "reliability": {
+        "median_image_split_half_r": 0.05796334519982338,
+        "mean_image_split_half_r": 0.0622282549738884,
+        "fraction_positive": 0.7,
+        "n_images": 50
+      },
+      "nan_rate": 0.0,
+      "variance": 0.5663103461265564,
+      "valid_trials": 200
+    },
+    {
+      "source": "/workspace/neurocurate/neurocurate/results/real_phase0/prospective_03_05/sub03/pickle_free/eeg.npy",
+      "shape": [
+        200,
+        80,
+        17,
+        100
+      ],
+      "channels": 17,
+      "samples": 80,
+      "time_start": 0.0,
+      "time_end": 0.79,
+      "time_samples": 80,
+      "poststimulus_complete": false,
+      "subject": "sub03",
+      "reliability": {
+        "median_image_split_half_r": 0.00035810633562505245,
+        "mean_image_split_half_r": 0.011432796716690063,
+        "fraction_positive": 0.5,
+        "n_images": 50
+      },
+      "nan_rate": 0.0,
+      "variance": 0.48561346530914307,
+      "valid_trials": 200
+    },
+    {
+      "source": "/workspace/neurocurate/neurocurate/results/real_phase0/prospective_03_05/sub04/pickle_free/eeg.npy",
+      "shape": [
+        200,
+        80,
+        17,
+        100
+      ],
+      "channels": 17,
+      "samples": 80,
+      "time_start": 0.0,
+      "time_end": 0.79,
+      "time_samples": 80,
+      "poststimulus_complete": false,
+      "subject": "sub04",
+      "reliability": {
+        "median_image_split_half_r": 0.04770287871360779,
+        "mean_image_split_half_r": 0.03463131934404373,
+        "fraction_positive": 0.64,
+        "n_images": 50
+      },
+      "nan_rate": 0.0,
+      "variance": 0.4122832715511322,
+      "valid_trials": 200
+    },
+    {
+      "source": "/workspace/neurocurate/neurocurate/results/real_phase0/prospective_03_05/sub05/pickle_free/eeg.npy",
+      "shape": [
+        200,
+        80,
+        17,
+        100
+      ],
+      "channels": 17,
+      "samples": 80,
+      "time_start": 0.0,
+      "time_end": 0.79,
+      "time_samples": 80,
+      "poststimulus_complete": false,
+      "subject": "sub05",
+      "reliability": {
+        "median_image_split_half_r": 0.03132074698805809,
+        "mean_image_split_half_r": 0.028930479660630226,
+        "fraction_positive": 0.56,
+        "n_images": 50
+      },
+      "nan_rate": 0.0,
+      "variance": 0.7619668841362,
+      "valid_trials": 200
+    }
+  ],
+  "preprocessing": {
+    "poststimulus_requested": [
+      0.0,
+      1.0
+    ],
+    "actual_time_vector": [
+      -0.2,
+      0.79
+    ],
+    "actual_poststimulus_end": 0.79,
+    "channels": 17,
+    "sampling_hz": 100,
+    "note": "official export ends at 0.79 s; no samples beyond available time were invented"
+  }
+}
