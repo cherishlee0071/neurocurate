@@ -1,0 +1,37 @@
+{
+  "audit_date_utc": "2026-10-18",
+  "repository": "/workspace/neurocurate/neurocurate",
+  "decision": "PAYLOAD_FOUND",
+  "scratch_path": {
+    "path": "/workspace/scratch/12d1aaae6a45/repo/neurocurate",
+    "exists": false
+  },
+  "dataset": {
+    "identifier": "nm000232",
+    "release_path": "v1.1.1",
+    "pinned_url": "https://data.nemar.org/nm000232/v1.1.1/derivatives/preprocessed_eeg/sub-01.zip",
+    "source_version_field": null,
+    "source_version_note": "OSF mirror metadata has source_version null; release is identified by pinned NEMAR path and matching published archive pin.",
+    "expected_subject01_bytes": 1071722467,
+    "expected_subject01_sha256": "f25d5ea30ba6811edd7ebd460d7b271edaf527b6920ab2d3d6e7950e9ee9639f"
+  },
+  "archives": [
+    {"subject":"sub-01","path":"data/local/real_phase0/sub-01.zip","bytes":1071722467,"sha256":"f25d5ea30ba6811edd7ebd460d7b271edaf527b6920ab2d3d6e7950e9ee9639f","expected_pin_match":true,"members":[{"name":"sub-01/preprocessed_eeg_test.npy","uncompressed_bytes":217601432,"compressed_bytes":208634917,"crc32":"8ef08aa5"},{"name":"sub-01/preprocessed_eeg_training.npy","uncompressed_bytes":899777433,"compressed_bytes":863086926,"crc32":"78b762a9"}],"manifest":"results/real_phase0/sub01/acquisition_manifest.json"},
+    {"subject":"sub-02","path":"data/local/real_phase0/sub02/sub-02.zip","bytes":1071516660,"sha256":"e1eba2d74009c6dd41becf53d84b8d47532103b41110a5855e7e286bcca6fe41","expected_pin_match":null,"members":[{"name":"sub-02/preprocessed_eeg_test.npy","uncompressed_bytes":217601432,"compressed_bytes":208591064,"crc32":"a1d64ae8"},{"name":"sub-02/preprocessed_eeg_training.npy","uncompressed_bytes":899777433,"compressed_bytes":862924972,"crc32":"cfcfcc5d"}],"manifest":"results/real_phase0/sub02/acquisition_manifest.json"},
+    {"subject":"sub-03","path":"data/local/real_phase0/sub03/sub-03.zip","bytes":1071567672,"sha256":"ec12b31410b8161f5b274b4c61890a615e5fdbb5e58e6e9325a0188272daa936","expected_pin_match":null,"members":[{"name":"sub-03/preprocessed_eeg_test.npy","uncompressed_bytes":217601432,"compressed_bytes":208608501,"crc32":"ffae7cb3"},{"name":"sub-03/preprocessed_eeg_training.npy","uncompressed_bytes":899777433,"compressed_bytes":862958547,"crc32":"fbd24559"}],"manifest":"results/real_phase0/prospective_03_05/sub03/acquisition_manifest.json"},
+    {"subject":"sub-04","path":"data/local/real_phase0/sub04/sub-04.zip","bytes":1071421033,"sha256":"eec31590d21248d9cc8caf3b93f5711b2c24540f080eab4f83f152155f5a6eb5","expected_pin_match":null,"members":[{"name":"sub-04/preprocessed_eeg_test.npy","uncompressed_bytes":217601432,"compressed_bytes":208578856,"crc32":"be406d6a"},{"name":"sub-04/preprocessed_eeg_training.npy","uncompressed_bytes":899777433,"compressed_bytes":862841553,"crc32":"ca447bb0"}],"manifest":"results/real_phase0/prospective_03_05/sub04/acquisition_manifest.json"},
+    {"subject":"sub-05","path":"data/local/real_phase0/sub05/sub-05.zip","bytes":1072655693,"sha256":"d353e154e840ff9c07b2de19db2105626df4bc556313365cff392dd56d8df40e","expected_pin_match":null,"members":[{"name":"sub-05/preprocessed_eeg_test.npy","uncompressed_bytes":217601432,"compressed_bytes":208786039,"crc32":"ccb5b5c1"},{"name":"sub-05/preprocessed_eeg_training.npy","uncompressed_bytes":899777433,"compressed_bytes":863869030,"crc32":"e56b915b"}],"manifest":"results/real_phase0/prospective_03_05/sub05/acquisition_manifest.json"}
+  ],
+  "extracted_test_arrays": [
+    {"subject":"sub-01","path":"data/local/real_phase0/eeg/sub-01/preprocessed_eeg_test.npy","bytes":217601432,"sha256":"08e52b18caf46b8504beb4edaadef025f114eaea25ab1f4eb8c5f9114c56ebff","schema":"(200,80,17,100) float64"},
+    {"subject":"sub-02","path":"data/local/real_phase0/sub02/eeg/sub-02/preprocessed_eeg_test.npy","bytes":217601432,"sha256":"e5ff0774a83beb49366a73c73fb04c9e692d5ab1f80c3d57c9fd1ff6e110d791","schema":"(200,80,17,100) float64"},
+    {"subject":"sub-03","path":"data/local/real_phase0/sub03/eeg/sub-03/preprocessed_eeg_test.npy","bytes":217601432,"sha256":"a84287154735104fce3ea830ebad0897f7b654e7812e2a9102f6917590954129","schema":"(200,80,17,100) float64"},
+    {"subject":"sub-04","path":"data/local/real_phase0/sub04/eeg/sub-04/preprocessed_eeg_test.npy","bytes":217601432,"sha256":"9632bbd3361a3b9cf62cb8ac3535810c51e012aa6cbe6d149a36a8f7d35e629b","schema":"(200,80,17,100) float64"},
+    {"subject":"sub-05","path":"data/local/real_phase0/sub05/eeg/sub-05/preprocessed_eeg_test.npy","bytes":217601432,"sha256":"4822c960746c89bceaf270b697c24c7946cb439b1223f96afda75374a9788d84","schema":"(200,80,17,100) float64"}
+  ],
+  "metadata_and_stimuli": {"image_metadata":{"path":"data/local/real_phase0/image_metadata.npy","bytes":656579,"sha256":"681a75633c59a356a66ca19a277429c1d48a00a98405ff96e53ee0b9f00b397c"},"stimulus_archive":{"path":"data/local/real_phase0/test_images.zip","bytes":8129948,"sha256":"57ed472cd88f68ccf88e9ecbadf3da91ac222d8548684d5680be95bcf47ec14a"},"ordered_ids":"200 unique IDs; all extracted stimulus files present"},
+  "frozen_derived_arrays": ["results/real_phase0/", "results/time2depth/phase0/", "results/time2depth/phase0b/"],
+  "pointer_files_found": 0,
+  "download_performed_this_audit": false,
+  "forbidden_downloads_performed": false
+}
