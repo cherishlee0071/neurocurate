@@ -1,0 +1,48 @@
+{
+  "subject_pair_cka": [
+    {
+      "subject_a": "p01",
+      "subject_b": "p02",
+      "cka": 0.44918879866600037,
+      "row_permutation_p95": 0.402518220245838
+    },
+    {
+      "subject_a": "p01",
+      "subject_b": "p05",
+      "cka": 0.320340633392334,
+      "row_permutation_p95": 0.45319716930389403
+    },
+    {
+      "subject_a": "p01",
+      "subject_b": "p06",
+      "cka": 0.36719149351119995,
+      "row_permutation_p95": 0.42723622024059293
+    },
+    {
+      "subject_a": "p02",
+      "subject_b": "p05",
+      "cka": 0.3818337023258209,
+      "row_permutation_p95": 0.4368233427405357
+    },
+    {
+      "subject_a": "p02",
+      "subject_b": "p06",
+      "cka": 0.44558998942375183,
+      "row_permutation_p95": 0.4241860300302505
+    },
+    {
+      "subject_a": "p05",
+      "subject_b": "p06",
+      "cka": 0.29067426919937134,
+      "row_permutation_p95": 0.43756587356328963
+    }
+  ],
+  "nulls": [
+    "PCA-only",
+    "row-permutation",
+    "subject-label permutation",
+    "random-direction"
+  ],
+  "primary_unit": "electrode-group/temporal subspace",
+  "feature_identity_claim": false
+}

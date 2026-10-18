@@ -1,0 +1,223 @@
+{
+  "git_commit": "11554cec3b1fc3f0417ca8b87fd4f50ce019ee68",
+  "dataset": "DS004194/on004194 NEMAR v1.0.0, OpenNeuro ds004194 v3.0.0",
+  "license": "CC0",
+  "requested_task": "spatialpattern",
+  "records": [
+    {
+      "n_conditions": 12,
+      "n_trials": 144,
+      "n_runs": 4,
+      "raw_split_half": 0.8307072374040244,
+      "spearman_brown": 0.9075260319416033,
+      "bootstrap_ci": [
+        0.813407368919339,
+        0.8454450611858493
+      ],
+      "permutation_p95": 0.8285996672726663,
+      "permutation_p": 0.027944111776447105,
+      "single_trial_to_rest": 0.7847277349234535,
+      "condition_names": [
+        "CIRCULAR",
+        "CRF-1",
+        "CRF-2",
+        "CRF-3",
+        "CRF-4",
+        "CRF-5",
+        "GRATING",
+        "PLAID",
+        "SPARSITY-1",
+        "SPARSITY-2",
+        "SPARSITY-3",
+        "SPARSITY-4"
+      ],
+      "subject": "p01",
+      "session": "umcuiemu01",
+      "n_electrodes": 9,
+      "sampling_hz": 512,
+      "time_start": 0.0,
+      "time_end": 0.5,
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p01_tdedata.mat",
+      "source_md5": "e43871fa5a6cbfdcd5d1214f69f64b7a"
+    },
+    {
+      "n_conditions": 12,
+      "n_trials": 72,
+      "n_runs": 2,
+      "raw_split_half": 0.7537523718509521,
+      "spearman_brown": 0.859588142487213,
+      "bootstrap_ci": [
+        0.7260403870935049,
+        0.7840637364972954
+      ],
+      "permutation_p95": 0.6818917792974805,
+      "permutation_p": 0.001996007984031936,
+      "single_trial_to_rest": 0.7537523718509521,
+      "condition_names": [
+        "CIRCULAR",
+        "CRF-1",
+        "CRF-2",
+        "CRF-3",
+        "CRF-4",
+        "CRF-5",
+        "GRATING",
+        "PLAID",
+        "SPARSITY-1",
+        "SPARSITY-2",
+        "SPARSITY-3",
+        "SPARSITY-4"
+      ],
+      "subject": "p02",
+      "session": "umcuiemu01",
+      "n_electrodes": 24,
+      "sampling_hz": 512,
+      "time_start": 0.0,
+      "time_end": 0.5,
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p02_tdedata.mat",
+      "source_md5": "6f52bc517aaa325ce661211918be5033"
+    },
+    {
+      "n_conditions": 12,
+      "n_trials": 144,
+      "n_runs": 4,
+      "raw_split_half": 0.8236971217407983,
+      "spearman_brown": 0.9033266674836263,
+      "bootstrap_ci": [
+        0.799327787260304,
+        0.8458675311479765
+      ],
+      "permutation_p95": 0.8138149319058314,
+      "permutation_p": 0.001996007984031936,
+      "single_trial_to_rest": 0.7432153251790613,
+      "condition_names": [
+        "CIRCULAR",
+        "CRF-1",
+        "CRF-2",
+        "CRF-3",
+        "CRF-4",
+        "CRF-5",
+        "GRATING",
+        "PLAID",
+        "SPARSITY-1",
+        "SPARSITY-2",
+        "SPARSITY-3",
+        "SPARSITY-4"
+      ],
+      "subject": "p05",
+      "session": "nyuecog01",
+      "n_electrodes": 40,
+      "sampling_hz": 512,
+      "time_start": 0.0,
+      "time_end": 0.5,
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p05_tdedata.mat",
+      "source_md5": "f6d4e3d98b0839d65fdbf065fabaef0a"
+    },
+    {
+      "n_conditions": 12,
+      "n_trials": 144,
+      "n_runs": 4,
+      "raw_split_half": 0.5802835167426582,
+      "spearman_brown": 0.7344043149152896,
+      "bootstrap_ci": [
+        0.5250175681020757,
+        0.6380501058056524
+      ],
+      "permutation_p95": 0.5697880162048367,
+      "permutation_p": 0.01996007984031936,
+      "single_trial_to_rest": 0.5369863457442788,
+      "condition_names": [
+        "CIRCULAR",
+        "CRF-1",
+        "CRF-2",
+        "CRF-3",
+        "CRF-4",
+        "CRF-5",
+        "GRATING",
+        "PLAID",
+        "SPARSITY-1",
+        "SPARSITY-2",
+        "SPARSITY-3",
+        "SPARSITY-4"
+      ],
+      "subject": "p06",
+      "session": "nyuecog01",
+      "n_electrodes": 26,
+      "sampling_hz": 512,
+      "time_start": 0.0,
+      "time_end": 0.5,
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p06_tdedata.mat",
+      "source_md5": "6b1d3daed2af8a6e78b77b3a5483100c"
+    }
+  ],
+  "time_window_requested": [
+    0,
+    0.5
+  ],
+  "sources": [
+    {
+      "subject": "p01",
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p01_tdedata.mat",
+      "shape_epochs_v_or_b": [
+        665,
+        288,
+        9
+      ],
+      "selected_task": "spatialpattern",
+      "selected_trials": 144,
+      "electrodes": 9,
+      "time_window": [
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "subject": "p02",
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p02_tdedata.mat",
+      "shape_epochs_v_or_b": [
+        665,
+        144,
+        24
+      ],
+      "selected_task": "spatialpattern",
+      "selected_trials": 72,
+      "electrodes": 24,
+      "time_window": [
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "subject": "p05",
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p05_tdedata.mat",
+      "shape_epochs_v_or_b": [
+        665,
+        288,
+        40
+      ],
+      "selected_task": "spatialpattern",
+      "selected_trials": 144,
+      "electrodes": 40,
+      "time_window": [
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "subject": "p06",
+      "source": "/workspace/neurocurate/neurocurate/data/local/ecog_ds004194/derivatives/Groenetal2022TemporalDynamicsECoG/data/sub-p06_tdedata.mat",
+      "shape_epochs_v_or_b": [
+        665,
+        288,
+        26
+      ],
+      "selected_task": "spatialpattern",
+      "selected_trials": 144,
+      "electrodes": 26,
+      "time_window": [
+        0.0,
+        0.5
+      ]
+    }
+  ],
+  "payload_policy": "official derivative MAT only; no raw .eeg/.dat payload"
+}

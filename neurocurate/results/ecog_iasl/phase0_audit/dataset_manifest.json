@@ -1,0 +1,88 @@
+{
+  "git_commit": "11554cec3b1fc3f0417ca8b87fd4f50ce019ee68",
+  "dataset": "DS004194 / on004194 Visual ECoG",
+  "source": "NEMAR v1.0.0; OpenNeuro ds004194 v3.0.0",
+  "license": "CC0",
+  "metadata_url": "https://data.nemar.org/on004194/metadata.json",
+  "dataset_api": "https://api.nemar.org/datasets/on004194",
+  "eegdash_api": "https://data.eegdash.org/api/eegdash/records",
+  "record_count_metadata": 209,
+  "vhdr_recordings": 209,
+  "subjects": [
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p05",
+    "p06",
+    "p07",
+    "p08",
+    "p09",
+    "p10",
+    "p11",
+    "p12",
+    "p13",
+    "p14"
+  ],
+  "tasks": {
+    "sixcatloctemporal": [
+      "p11",
+      "p12",
+      "p13",
+      "p14"
+    ],
+    "sixcatlocisidiff": [
+      "p12"
+    ],
+    "prf": [
+      "p01",
+      "p02",
+      "p04",
+      "p05",
+      "p06",
+      "p07",
+      "p08",
+      "p09",
+      "p10",
+      "p11",
+      "p12",
+      "p13",
+      "p14"
+    ],
+    "soc": [
+      "p03",
+      "p04"
+    ],
+    "spatialpattern": [
+      "p01",
+      "p02",
+      "p05",
+      "p06",
+      "p07",
+      "p08",
+      "p09",
+      "p10",
+      "p11"
+    ],
+    "temporalpattern": [
+      "p01",
+      "p02",
+      "p05",
+      "p06",
+      "p07",
+      "p08",
+      "p09",
+      "p10",
+      "p11"
+    ],
+    "sixcatlocdiffisi": [
+      "p13",
+      "p14"
+    ]
+  },
+  "download_policy": "metadata, events.tsv and channels.tsv only; no .eeg/.dat/.mat payload",
+  "raw_payload_downloaded": false,
+  "dataset_size_bytes": 62149898476,
+  "dataset_size_human": "57.9 GB",
+  "source_records_sha256": "ac051353399a6966b6d02cf2bd75c0af33596663fe0b744e7f93f913215a75c3"
+}

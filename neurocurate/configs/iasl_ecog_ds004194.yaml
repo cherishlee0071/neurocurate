@@ -1,0 +1,24 @@
+dataset: DS004194
+nemar_dataset: on004194
+nemar_version: v1.0.0
+openneuro_version: ds004194_v3.0.0
+license: CC0
+task: spatialpattern
+subjects: [p01, p02, p05, p06]
+derivative: Groenetal2022TemporalDynamicsECoG
+analysis_window_seconds: [0.0, 0.5]
+sampling_hz: 512
+representations: [broadband_derivative, pca, tiny_temporal_sae]
+sae:
+  hidden_dimensions: [128, 256]
+  latent_width_multipliers: [2, 4]
+  seeds: [0, 1, 2]
+  max_epochs: 50
+intervention:
+  energy_budgets: [low, medium, high]
+  permutation_count: 100
+  task_readout_available: false
+policy:
+  raw_payload_downloaded: false
+  held_out_subject_fitting: false
+  loso_enabled: false

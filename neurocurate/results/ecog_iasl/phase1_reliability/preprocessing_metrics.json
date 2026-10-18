@@ -1,0 +1,197 @@
+{
+  "variants": [
+    {
+      "variant": "A_current_derivative",
+      "subject": "p01",
+      "raw_split_half": 0.8307072374040244,
+      "corrected": 0.9075260319416033,
+      "single_trial": 0.7847277349234535,
+      "n_electrodes": 9
+    },
+    {
+      "variant": "A_current_derivative",
+      "subject": "p02",
+      "raw_split_half": 0.7537523718509521,
+      "corrected": 0.859588142487213,
+      "single_trial": 0.7537523718509521,
+      "n_electrodes": 24
+    },
+    {
+      "variant": "A_current_derivative",
+      "subject": "p05",
+      "raw_split_half": 0.8236971217407983,
+      "corrected": 0.9033266674836263,
+      "single_trial": 0.7432153251790613,
+      "n_electrodes": 40
+    },
+    {
+      "variant": "A_current_derivative",
+      "subject": "p06",
+      "raw_split_half": 0.5802835167426582,
+      "corrected": 0.7344043149152896,
+      "single_trial": 0.5369863457442788,
+      "n_electrodes": 26
+    },
+    {
+      "variant": "B_common_average_reference_proxy",
+      "subject": "p01",
+      "raw_split_half": 0.8461770833874366,
+      "corrected": 0.9166803022328047,
+      "single_trial": 0.8008439789944705,
+      "n_electrodes": 9
+    },
+    {
+      "variant": "B_common_average_reference_proxy",
+      "subject": "p02",
+      "raw_split_half": 0.7403227515180492,
+      "corrected": 0.850787879285357,
+      "single_trial": 0.7403227515180492,
+      "n_electrodes": 24
+    },
+    {
+      "variant": "B_common_average_reference_proxy",
+      "subject": "p05",
+      "raw_split_half": 0.8269901064821763,
+      "corrected": 0.905303322166889,
+      "single_trial": 0.7463564389474343,
+      "n_electrodes": 40
+    },
+    {
+      "variant": "B_common_average_reference_proxy",
+      "subject": "p06",
+      "raw_split_half": 0.588766395533972,
+      "corrected": 0.7411616927309094,
+      "single_trial": 0.54699718410567,
+      "n_electrodes": 26
+    },
+    {
+      "variant": "C_baseline_corrected",
+      "subject": "p01",
+      "raw_split_half": 0.2888574798007665,
+      "corrected": 0.44823804699557396,
+      "single_trial": 0.28218918414877825,
+      "n_electrodes": 9
+    },
+    {
+      "variant": "C_baseline_corrected",
+      "subject": "p02",
+      "raw_split_half": 0.5979761710918556,
+      "corrected": 0.7484168811895037,
+      "single_trial": 0.5979761710918556,
+      "n_electrodes": 24
+    },
+    {
+      "variant": "C_baseline_corrected",
+      "subject": "p05",
+      "raw_split_half": 0.32294324729146384,
+      "corrected": 0.48821935174111775,
+      "single_trial": 0.27566961677435114,
+      "n_electrodes": 40
+    },
+    {
+      "variant": "C_baseline_corrected",
+      "subject": "p06",
+      "raw_split_half": 0.19380170720223555,
+      "corrected": 0.32467989622233745,
+      "single_trial": 0.15147274641730327,
+      "n_electrodes": 26
+    },
+    {
+      "variant": "D_broadband_high_gamma",
+      "subject": "p01",
+      "raw_split_half": 0.9324210718656315,
+      "corrected": 0.9650288805487278,
+      "single_trial": 0.8929777648218732,
+      "n_electrodes": 9
+    },
+    {
+      "variant": "D_broadband_high_gamma",
+      "subject": "p02",
+      "raw_split_half": 0.861132890918663,
+      "corrected": 0.9253857100914532,
+      "single_trial": 0.8611328909186632,
+      "n_electrodes": 24
+    },
+    {
+      "variant": "D_broadband_high_gamma",
+      "subject": "p05",
+      "raw_split_half": 0.9563118118132884,
+      "corrected": 0.9776680854642402,
+      "single_trial": 0.9330161071725768,
+      "n_electrodes": 40
+    },
+    {
+      "variant": "D_broadband_high_gamma",
+      "subject": "p06",
+      "raw_split_half": 0.8922188345345651,
+      "corrected": 0.9430397988338668,
+      "single_trial": 0.8611770847005215,
+      "n_electrodes": 26
+    },
+    {
+      "variant": "E_visual_response_mask",
+      "subject": "p01",
+      "raw_split_half": 0.8307072374040244,
+      "corrected": 0.9075260319416033,
+      "single_trial": 0.7847277349234535,
+      "n_electrodes": 9
+    },
+    {
+      "variant": "E_visual_response_mask",
+      "subject": "p02",
+      "raw_split_half": 0.7537523718509521,
+      "corrected": 0.859588142487213,
+      "single_trial": 0.7537523718509521,
+      "n_electrodes": 24
+    },
+    {
+      "variant": "E_visual_response_mask",
+      "subject": "p05",
+      "raw_split_half": 0.8236971217407983,
+      "corrected": 0.9033266674836263,
+      "single_trial": 0.7432153251790613,
+      "n_electrodes": 40
+    },
+    {
+      "variant": "E_visual_response_mask",
+      "subject": "p06",
+      "raw_split_half": 0.5802835167426582,
+      "corrected": 0.7344043149152896,
+      "single_trial": 0.5369863457442788,
+      "n_electrodes": 26
+    },
+    {
+      "variant": "F_trial_average",
+      "subject": "p01",
+      "raw_split_half": 0.8307072374040244,
+      "corrected": 0.9075260319416033,
+      "single_trial": 0.7847277349234535,
+      "n_electrodes": 9
+    },
+    {
+      "variant": "F_trial_average",
+      "subject": "p02",
+      "raw_split_half": 0.7537523718509521,
+      "corrected": 0.859588142487213,
+      "single_trial": 0.7537523718509521,
+      "n_electrodes": 24
+    },
+    {
+      "variant": "F_trial_average",
+      "subject": "p05",
+      "raw_split_half": 0.8236971217407983,
+      "corrected": 0.9033266674836263,
+      "single_trial": 0.7432153251790613,
+      "n_electrodes": 40
+    },
+    {
+      "variant": "F_trial_average",
+      "subject": "p06",
+      "raw_split_half": 0.5802835167426582,
+      "corrected": 0.7344043149152896,
+      "single_trial": 0.5369863457442788,
+      "n_electrodes": 26
+    }
+  ],
+  "mask_policy": "visual response electrodes are inherited from the official derivative; no held-out selection was performed"
+}

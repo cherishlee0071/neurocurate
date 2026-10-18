@@ -1,0 +1,56 @@
+{
+  "git_commit": "11554cec3b1fc3f0417ca8b87fd4f50ce019ee68",
+  "pca_input_dim": 514,
+  "pca_dim": 32,
+  "pca_evr": 0.9999966621398926,
+  "sae_replicates": [
+    {
+      "loss": 175.9904327392578,
+      "explained_variance": 0.1810462474822998,
+      "dead_latent_fraction": 0.0,
+      "activation_rate": 0.5218098958333334,
+      "seed": 0,
+      "width": 64
+    },
+    {
+      "loss": 165.09500122070312,
+      "explained_variance": 0.23174703121185303,
+      "dead_latent_fraction": 0.0,
+      "activation_rate": 0.5185546875,
+      "seed": 1,
+      "width": 64
+    },
+    {
+      "loss": 178.38079833984375,
+      "explained_variance": 0.16992294788360596,
+      "dead_latent_fraction": 0.0,
+      "activation_rate": 0.5179036458333334,
+      "seed": 2,
+      "width": 64
+    },
+    {
+      "loss": 140.4137725830078,
+      "explained_variance": 0.34659862518310547,
+      "dead_latent_fraction": 0.0,
+      "activation_rate": 0.5148111979166666,
+      "seed": 0,
+      "width": 128
+    },
+    {
+      "loss": 156.57778930664062,
+      "explained_variance": 0.2713810205459595,
+      "dead_latent_fraction": 0.0,
+      "activation_rate": 0.5056966145833334,
+      "seed": 1,
+      "width": 128
+    },
+    {
+      "loss": 148.33949279785156,
+      "explained_variance": 0.3097171187400818,
+      "dead_latent_fraction": 0.0,
+      "activation_rate": 0.5157877604166666,
+      "seed": 2,
+      "width": 128
+    }
+  ]
+}

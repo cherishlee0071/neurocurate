@@ -1,0 +1,3006 @@
+{
+  "energy_matched_random_direction": [
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.154490625815257
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.196532372522772
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7092345421145847
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.659496296303962
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.4057322502287675
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.283578897552263
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.2948066848579773
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.816254917475423
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2486193419390823
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 6.121250485470901
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7238302448610165
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7092345421145847
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.7274622504622243
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.200195355755627
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.634857186711868
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2732814883688168
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.2464639523246754
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.196532372522772
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.971814331613238
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1082775056902359
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.783211984398703
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 5.2935567327719735
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1327888429428725
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 31.38591459519711
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.816254917475423
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2089771777352312
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.274995254231026
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.748469049653091
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 31.38591459519711
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2653887450537273
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2653887450537273
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.7650261050022067
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.5126990205169015
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.1525551397560574
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 5.2935567327719735
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 8.522484691706591
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.1132426409611553
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.428473759665063
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 8.522484691706591
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.15919427603274
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7909664611574612
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.0389786698154557
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.816254917475423
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2089771777352312
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 8.877553698326091
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 8.877553698326091
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1349645954982586
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.0389786698154557
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.634857186711868
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1082775056902359
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7283225015275623
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7283225015275623
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.2836821118792794
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.659496296303962
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.274995254231026
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4781372325092679
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.196532372522772
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.520241047793374
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1391838317794583
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.5126990205169015
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.634857186711868
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.971814331613238
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.1525551397560574
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.0383578009171401
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.971814331613238
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.274995254231026
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.1132426409611553
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 7.070232105426659
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.783211984398703
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.154490625815257
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1882329460307937
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2653887450537273
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.154490625815257
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 6.121250485470901
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2089771777352312
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1327888429428725
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7092345421145847
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1349645954982586
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.783211984398703
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1327888429428725
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.8729663133744925
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.237010556316258
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 6.121250485470901
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.560816124156647
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.428473759665063
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.154490625815257
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.196532372522772
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.659496296303962
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4781372325092679
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 28.909452725615637
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1327888429428725
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7283225015275623
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4783755568996495
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.4057322502287675
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.8729663133744925
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1082775056902359
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.428473759665063
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.2750027611288868
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2732814883688168
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4783755568996495
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.1025578291437967
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.9586580392065205
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.239534522501955
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.402423174393009
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3684518568116326
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2229753923591973
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9312273334036554
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0210696457980168
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0060970161856486
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.103362483642906
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2229753923591973
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.9382671818740427
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3684518568116326
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.7091638834139364
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.174988432791783
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9982106609880627
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3484788591700176
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0558297887638999
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.335869095090008
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9982106609880627
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3484788591700176
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9880829364473139
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3471512478025207
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0318541748136993
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.002865193395041
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.239534522501955
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9905781478716665
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.003181076497581
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.5820650686508728
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0672610907207112
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.9316157921908057
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.177022420591534
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1730537137258947
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.09247677649015
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.7091638834139364
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.9382671818740427
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.078891367688973
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0548337635370468
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.002865193395041
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.761963110251378
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0619961805183278
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0548337635370468
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.057642240518692
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9917930201526577
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4797806696822817
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0060970161856486
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.761963110251378
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0558297887638999
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1152649493734348
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.9316157921908057
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.09247677649015
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.057642240518692
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.613696939120695
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.177022420591534
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.239534522501955
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0619961805183278
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 8.361600775450288
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3484788591700176
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.064585552879152
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.5266492353685344
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9868404389148715
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.402423174393009
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.239534522501955
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.613696939120695
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.1025578291437967
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0699582491546873
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.003181076497581
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.163875706839688
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.32492385315004
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.5756182703066575
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.613696939120695
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9982106609880627
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.9586580392065205
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2568197234680056
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4797806696822817
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.591179604098289
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1701820065430144
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.591179604098289
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 8.361600775450288
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0672610907207112
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1587812211538064
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.32492385315004
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9868404389148715
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2229753923591973
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.591179604098289
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.002865193395041
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9982106609880627
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.402423174393009
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2547507743463775
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9982106609880627
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2229753923591973
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.591179604098289
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1152649493734348
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1152649493734348
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2568197234680056
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.078891367688973
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.0594039179038766
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0548337635370468
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.9316157921908057
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4797806696822817
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0077121173129129
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.014659728595612
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0360188935385348
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0858848067234312
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5415572872431056
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0366488949967505
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9770378021485765
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1690927346141744
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1563930345429276
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.4798113641957176
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.8557267954101047
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1158783959186198
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1599260179360953
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5133898861472617
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.99386331028796
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.99386331028796
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 3.0325197605837766
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1822988816244269
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.3862079222646373
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0360188935385348
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5133898861472617
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0305230326456918
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9741916504260741
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0305230326456918
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1511014789965968
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9620020096757278
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0366488949967505
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9995429188245788
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.021433813134395
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0228423765092745
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1063596885142692
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1013550089631707
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0985125008561607
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1563930345429276
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0907662085174747
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9889722532665096
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9770378021485765
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0504810893935086
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0360188935385348
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0804798015231858
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5415572872431056
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.014659728595612
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5133898861472617
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.6949570110456933
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9741916504260741
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5415572872431056
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.021433813134395
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0366488949967505
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0186651491918548
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9455018681082636
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9995429188245788
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9710714887896621
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1511014789965968
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0202791370563422
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0393114689631895
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 3.0325197605837766
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0858848067234312
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.8557267954101047
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.8557267954101047
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.287735514685935
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1563930345429276
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0172723981843104
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1690927346141744
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0172723981843104
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0921921799454377
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2258438348060436
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9770378021485765
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9910380375790743
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0305230326456918
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.200055372547913
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5133898861472617
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9710714887896621
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 3.0325197605837766
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0360188935385348
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0124914648970504
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1599260179360953
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0858848067234312
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0504810893935086
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9770378021485765
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0921921799454377
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0186651491918548
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0186651491918548
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0360188935385348
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9455018681082636
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 3.0325197605837766
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.519528386270169
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0504810893935086
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0843175447214193
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1158783959186198
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9910380375790743
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9710714887896621
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2474984753989302
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.8557267954101047
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5133898861472617
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2087641780464815
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0856428225776664
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0328896137569168
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9402864600608137
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1599260179360953
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5133898861472617
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.709892568335856
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2559062635517246
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.774242048386508
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.083541005321498
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.4901344456830983
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4202771939987608
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6461780738451255
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6461780738451255
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.21324582797332
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.0850562922611862
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.389755999503753
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.709892568335856
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.21324582797332
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7882605220248442
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.30669278816004
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 12.920256106455929
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6624681324170005
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.172617701798463
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.30669278816004
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.392503911721889
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.401058507862373
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.30669278816004
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.6413100045902795
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 32.65138996365614
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4202771939987608
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6624681324170005
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 7.0194343203303
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.389755999503753
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.172617701798463
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 32.65138996365614
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.702981818069132
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 18.632779678695954
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1294615807832116
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.109386245978597
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4774948539472006
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 18.632779678695954
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.0362867199133614
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 32.316217458338635
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.8625612036189185
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.401058507862373
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.087555152470425
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.183787226594246
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.172617701798463
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 25.32222595554902
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.709892568335856
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.129527835203956
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.0129514315693893
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.401058507862373
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.0850562922611862
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.919449387115984
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.5071540612636232
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 25.32222595554902
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4542134132430282
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.1706440422196933
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.5927898706955883
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 12.920256106455929
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.4901344456830983
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.071647441753357
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 23.67847117057961
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.401058507862373
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.389755999503753
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.331111078046547
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.281999473698534
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.5071540612636232
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 9.74856349089983
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.6413100045902795
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.0208976133565058
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.5181519133426409
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.331111078046547
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.8758346463477271
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6461780738451255
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6461780738451255
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.237313983664452
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.183787226594246
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1415720326362475
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.172617701798463
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1294615807832116
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 13.481187241379393
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6461780738451255
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.6461780738451255
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.7882605220248442
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.30669278816004
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.774242048386508
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.5071540612636232
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 13.481187241379393
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.183787226594246
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 3.1706440422196933
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.4534358141583814
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.4534358141583814
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 2.61567919847595
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.071647441753357
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1415720326362475
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.1294615807832116
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2267224843906763
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 4.071647441753357
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.2559062635517246
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.3970376071975465
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.30669278816004
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4774948539472006
+    },
+    {
+      "width": 64,
+      "budget": "low",
+      "C_norm": 1.4774948539472006
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9773516873861053
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0151332249407936
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2329823962017172
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.8264190575801051
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2335747409649136
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0326295673868495
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1127030058676621
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4523616466291163
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.098325471117667
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.027875136202948
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1493589526522099
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 2.5397922166175806
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2939593149465973
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2024571707053178
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.055079888080029
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.5358400938872754
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 9.39927562609927
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 6.283894294869906
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.024796593961984
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.5579899027054767
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1127030058676621
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 6.283894294869906
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.791201625549379
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.994727124225769
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2335747409649136
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.5579899027054767
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.8264190575801051
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.962649368578499
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0677297353797868
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.746302815473897
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 6.283894294869906
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.348872752349473
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4931240470121099
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3076564890892215
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.024796593961984
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9881318140171825
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4424894966289055
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1070963137544143
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.098325471117667
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.1794272167975275
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.387634426150384
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0271113747422074
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0218268055626687
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.791201625549379
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0271113747422074
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 5.482994592923362
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 9.22573286678261
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.962649368578499
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0036691333418128
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.027875136202948
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0304312907865445
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 9.39927562609927
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 5.482994592923362
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0151332249407936
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.1794272167975275
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4523616466291163
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4424894966289055
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.9881318140171825
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 4.137579170463196
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.409498837271127
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 9.39927562609927
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.7629297394275827
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.144555823480895
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1330511038811526
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2947746828549613
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 6.283894294869906
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.791201625549379
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2024571707053178
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3280062869810496
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.8264190575801051
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.140655779415178
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2024571707053178
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.348872752349473
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3455476006900988
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 4.137579170463196
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1146392154599403
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0271113747422074
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.348872752349473
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 6.283894294869906
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0304312907865445
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.962649368578499
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2947746828549613
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4931240470121099
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3455476006900988
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4975174712581116
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3076564890892215
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.140655779415178
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.965615624870159
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.1794272167975275
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0218268055626687
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0271113747422074
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0677297353797868
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.0671543654006292
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.1487059583298769
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 9.39927562609927
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 0.994727124225769
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.2024571707053178
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 3.1794272167975275
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.4850921314975627
+    },
+    {
+      "width": 64,
+      "budget": "medium",
+      "C_norm": 1.3076564890892215
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0533103029867323
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.95802898055849
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.4551165969929194
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0276445992619616
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9978312124307678
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 3.254773001589237
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 3.254773001589237
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0943936460522432
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.1581484986877633
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1736165818879845
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0030135560021693
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2358585894084733
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2002490855299028
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1483768076782974
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.083860126224806
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0024163007313447
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0944620507589484
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.403666279854301
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1431085040809728
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.086864178837229
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0030135560021693
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1631374155603673
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0125970407380849
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0030135560021693
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0552425298922796
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0306268656716417
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0552425298922796
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0901787873010258
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0572008951490222
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9865630573098452
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.128111583221169
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.128111583221169
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2398818464774048
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.7930355269566856
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9804016450060501
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0501588008768394
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.4551165969929194
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.104458767461608
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.95802898055849
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0908456333175818
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0943936460522432
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0197326778162683
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0908456333175818
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0188088832581736
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0030135560021693
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0125970407380849
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9865630573098452
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1862527410236436
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1631374155603673
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0167553401293508
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9628882714313963
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0206353113353874
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1862527410236436
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2358585894084733
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0799751357357108
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9978312124307678
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0197326778162683
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9744114386177584
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9628882714313963
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.2398818464774048
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0901787873010258
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9628882714313963
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.4551165969929194
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9804016450060501
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1334045988655348
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0533103029867323
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.95802898055849
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 3.343033057085621
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.065701704057799
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0799751357357108
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.7930355269566856
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.7319553097342084
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5409998641397558
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0533103029867323
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.5409998641397558
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.7930355269566856
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0125970407380849
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1567349671324874
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.048135275361345
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0572008951490222
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0901787873010258
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9865630573098452
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0206353113353874
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.1581484986877633
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1631374155603673
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0206353113353874
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9859247316151086
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0799751357357108
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9804016450060501
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.1334045988655348
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9993755398833071
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9804016450060501
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.403666279854301
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.7319553097342084
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 2.128111583221169
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.00171877133118
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.005734964787627
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 1.0901787873010258
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9859247316151086
+    },
+    {
+      "width": 64,
+      "budget": "high",
+      "C_norm": 0.9993755398833071
+    }
+  ],
+  "n_permutations": 100,
+  "task_readout_available": false
+}

@@ -1,0 +1,28 @@
+{
+  "widths": [
+    {
+      "width": 64,
+      "n_replicates": 3,
+      "feature_cosine_max_mean": 0.40657538175582886,
+      "feature_overlap_gt_0_8": 0.0,
+      "cka_mean": 0.9909450014432272,
+      "principal_angle_deg_mean": 0.02797645330429077,
+      "feature_null_mean": 0.4028219057531773,
+      "feature_null_p95": 0.41371015309689496,
+      "cka_null_mean": 0.21393877655267715,
+      "cka_null_p95": 0.26987489461898806
+    },
+    {
+      "width": 128,
+      "n_replicates": 3,
+      "feature_cosine_max_mean": 0.44437627991040546,
+      "feature_overlap_gt_0_8": 0.0,
+      "cka_mean": 0.9881686568260193,
+      "principal_angle_deg_mean": 0.03426402062177658,
+      "feature_null_mean": 0.44345267784536463,
+      "feature_null_p95": 0.45196139594131446,
+      "cka_null_mean": 0.21837744131684303,
+      "cka_null_p95": 0.28004111647605895
+    }
+  ]
+}
